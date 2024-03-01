@@ -1,0 +1,35 @@
+ipdb
+flake8
+ipykernel
+pytest<=7.0.0
+pytest-env
+tqdm
+numpy
+wandb
+tensorboard
+transformers>=4.14.1
+diffusers
+accelerate
+xformers
+seaborn
+triton
+# protobuf==3.20.1
+# tornado==6.0.3
+# nvidia-cuda-nvcc
+# wordnet requirements 
+robustness
+pandas
+networkx
+numpy 
+scipy
+GPUtil
+dill
+tensorboardX
+tables
+cox
+scikit-learn
+pillow
+
+git+https://github.com/openai/CLIP.git
+git+https://github.com/modestyachts/ImageNetV2_pytorch
+
