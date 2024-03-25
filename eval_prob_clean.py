@@ -24,21 +24,72 @@ INTERPOLATIONS = {
 def _convert_image_to_rgb(image):
     return image.convert("RGB")
 
-
-# function to transform images 
 def get_transform(interpolation=InterpolationMode.BICUBIC, size=512):
-    transform = torch_transforms.Compose([
-        torch_transforms.Resize(size, interpolation=interpolation),
-        torch_transforms.CenterCrop(size),
-        _convert_image_to_rgb,
-        torch_transforms.ToTensor(),
-        torch_transforms.Normalize([0.5], [0.5])
-    ])
-    return transform
+    return torch_transforms.Compose(
+        [
+            torch_transforms.Resize(size, interpolation=interpolation),
+            torch_transforms.CenterCrop(size),
+            _convert_image_to_rgb,
+            torch_transforms.ToTensor(),
+            torch_transforms.Normalize([0.5], [0.5]),
+        ]
+    )
 
 def center_crop_resize(img, interpolation=InterpolationMode.BILINEAR):
     transform = get_transform(interpolation=interpolation)
     return transform(img)
+
+def get_nodemap(prompts_df):
+    prmpt_idxs = list(range(len(prompts_df)))
+    nodes_to_eval = prompts_df.node.tolist()
+    assert len(prmpt_idxs) == len(nodes_to_eval)
+    return dict(zip(prmpt_idxs, nodes_to_eval))
+
+def get_indices(remaining_prmpt_idxs, curr_t_to_eval, t_evaluated, n_trials, visited):
+    ts = []
+    noise_idxs = []
+    text_embed_idxs = []
+    for prompt_i in remaining_prmpt_idxs:
+                    
+        visited.append(prompt_i)
+        for t_idx, t in enumerate(curr_t_to_eval, start=len(t_evaluated)):
+            ts.extend([t] * n_trials)
+            noise_idxs.extend(list(range(n_trials * t_idx, n_trials * (t_idx + 1))))
+            text_embed_idxs.extend([prompt_i] * n_trials)
+
+    return visited, ts, noise_idxs, text_embed_idxs
+
+def current_timesteps_eval(t_to_eval, n_samples, t_evaluated):
+    curr_t_to_eval = t_to_eval[len(t_to_eval) // n_samples // 2::len(t_to_eval) // n_samples][:n_samples]
+    return [t for t in curr_t_to_eval if t not in t_evaluated]
+
+def get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data):
+    for prompt_i in remaining_prmpt_idxs:
+
+        mask = torch.tensor(text_embed_idxs) == prompt_i
+        prompt_ts = torch.tensor(ts)[mask]
+        prompt_pred_errors = pred_errors[mask]
+
+        # store prompt and timestep and pred errors
+        if prompt_i in data:
+            data[prompt_i]['t'] = torch.cat([data[prompt_i]['t'], prompt_ts])
+            data[prompt_i]['pred_errors'] = torch.cat([data[prompt_i]['pred_errors'], prompt_pred_errors])
+        else:
+            data[prompt_i] = dict(t=prompt_ts, pred_errors=prompt_pred_errors)
+    error_dict ={
+        prompt_i: -data[prompt_i]['pred_errors'].mean()
+        for prompt_i in remaining_prmpt_idxs
+    }
+    return dict(sorted(error_dict.items(), key=lambda item: item[1], reverse=True))
+
+def create_mapping(prompts_df):
+    selected_columns = ['index', 'node', 'is_leaf']
+    prmpt_idxs = list(range(len(prompts_df)))
+    records = prompts_df[selected_columns].to_dict(orient='records')
+    nodes = prompts_df['node'].to_list()
+    node_map = dict(zip(nodes, prmpt_idxs))
+    idx_map = dict(zip(prmpt_idxs, records))
+    return idx_map, node_map
 
 """
 Evaluate the probability of adaptive sampling.
@@ -58,174 +109,82 @@ Returns:
 """
 def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, latent_size=64, all_noise=None):
 
-    # initialize scheduler 
     scheduler_config = get_scheduler_config(args)
     T = scheduler_config['num_train_timesteps']
 
     max_n_samples = max(args.n_samples)
     n_trials = args.n_trials
-    k = 0.5
+    k = 0.75
     hier = ClassHierarchy(args.info_dir)
     prompts_df = pd.read_csv(args.prompt_path)
 
-    # initialize noise 
     if all_noise is None:
-        all_noise = torch.randn((max_n_samples * args.n_trials, 4, latent_size, latent_size), device=latent.device)
+        all_noise = torch.randn((max_n_samples * n_trials, 4, latent_size, latent_size), device=latent.device)
     if args.dtype == 'float16':
         all_noise = all_noise.half()
         scheduler.alphas_cumprod = scheduler.alphas_cumprod.half()
 
-    # initialize data structures to store eval results
     data = {}
     visited_idxs = []
     t_evaluated = set()
-    prmpt_idxs = list(range(len(text_embeds)))
+    idx_map, node_map = create_mapping(prompts_df=prompts_df)
 
-    nodes_to_eval = prompts_df.node.tolist()
-    assert len(prmpt_idxs) == len(nodes_to_eval)
-    node_map = dict(zip(prmpt_idxs, nodes_to_eval))
-
-    leaf_nodes = prompts_df[prompts_df['isleaf']==1].index.to_list()
-    remaining_prmpt_idxs = prompts_df[prompts_df['level']==0].index.tolist()
+    remaining_prmpt_idxs = [0, 1]
+    child_nodes = remaining_prmpt_idxs
     start = T // max_n_samples // 2
     t_to_eval = list(range(start, T, T // max_n_samples))[:max_n_samples]
-
-    # Try the classes min number of times and prune to max number of candidates
+    selected_nodes = []
     n_stages = list(zip(args.n_samples, args.to_keep))
+    count=1
+
     for stage in range(len(n_stages)):
         n_samples = n_stages[stage][0]
         n_to_keep = n_stages[stage][1]
 
-        if stage < 1:
-            for level in range(5):
-
+        if stage == 0:
+            while len(child_nodes)>1:
+                print(f"count: {count}")
                 t_evaluated = set()
                 data = {}
-                ts = []
-                noise_idxs = []
-                text_embed_idxs = []
-
-                # select a subset of timesteps to evaulate in this iteration and filter out timesteps previously evaluated
-                curr_t_to_eval = t_to_eval[len(t_to_eval) // n_samples // 2::len(t_to_eval) // n_samples][:n_samples]
-                curr_t_to_eval = [t for t in curr_t_to_eval if t not in t_evaluated]
-
-                # loop over remaining prompts
-                for prompt_i in remaining_prmpt_idxs:
-                    
-                    # append visited nodes to keep track
-                    visited_idxs.append(prompt_i)
-                    for t_idx, t in enumerate(curr_t_to_eval, start=len(t_evaluated)):
-
-                        # repeat current timestep for n trials
-                        ts.extend([t] * n_trials)
-
-                        # range of indices for noise samples
-                        noise_idxs.extend(list(range(n_trials * t_idx, n_trials * (t_idx + 1))))
-
-                        # repeat current prompt and timestep for n trails
-                        text_embed_idxs.extend([prompt_i] * n_trials)
-
+            
+                curr_t_to_eval = current_timesteps_eval(t_to_eval, n_samples, t_evaluated)
+                visited_idxs, ts, noise_idxs, text_embed_idxs = get_indices(remaining_prmpt_idxs, curr_t_to_eval, t_evaluated, n_trials, visited_idxs)
+                
                 t_evaluated.update(curr_t_to_eval)
                 pred_errors = eval_error(unet, scheduler, latent, all_noise, ts, noise_idxs,
                                         text_embeds, text_embed_idxs, args.batch_size, args.dtype, args.loss)
 
-                # match up computed errors to the data
-                for prompt_i in remaining_prmpt_idxs:
-
-                    # select data specific to current prompt and select timesteps
-                    mask = torch.tensor(text_embed_idxs) == prompt_i
-                    prompt_ts = torch.tensor(ts)[mask]
-                    prompt_pred_errors = pred_errors[mask]
-
-                    # store prompt and timestep and pred errors
-                    if prompt_i in data:
-                        data[prompt_i]['t'] = torch.cat([data[prompt_i]['t'], prompt_ts])
-                        data[prompt_i]['pred_errors'] = torch.cat([data[prompt_i]['pred_errors'], prompt_pred_errors])
-                    else:
-                        data[prompt_i] = dict(t=prompt_ts, pred_errors=prompt_pred_errors)
-                error_dict = {
-                    prompt_i: -data[prompt_i]['pred_errors'].mean()
-                    for prompt_i in remaining_prmpt_idxs
-                }
-                # print(f"error_dict: {error_dict}")
-
-                sorted_errors = dict(sorted(error_dict.items(), key=lambda item: item[1], reverse=True))
+                sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
                 best_idxs = list(sorted_errors.keys())[:int(k * len(sorted_errors))+1]
-                print(f"best_idxs: {best_idxs} \n")
+                print(f"\n\n sorted: {sorted_errors}")
 
-                # rejected = list(sorted_errors.keys()) - best_idxs
-                # rejected_idxs += [ hier.traverse([node_map[idx]], depth=1)[1:] for idx in rejected ]
+                child_nodes = []
+                for idx in best_idxs:
+                    if idx_map[idx]['is_leaf'] == 1:
+                        selected_nodes.append(idx)
+                    else:
+                        child_nodes += hier.traverse([idx_map[idx]['node']], depth=1)[1:]
+                    remaining_prmpt_idxs = [node_map[node] for node in child_nodes]     
+                print(f"\n remaining {remaining_prmpt_idxs}") 
+                count+=1    
+            remaining_prmpt_idxs += selected_nodes  
+            continue
+            
+        curr_t_to_eval = current_timesteps_eval(t_to_eval, n_samples, t_evaluated)
+        visited_idxs, ts, noise_idxs, text_embed_idxs = get_indices(remaining_prmpt_idxs, curr_t_to_eval, t_evaluated, n_trials, visited_idxs)
 
-                if level < 4:
-                    nodes = [node_map[idx] for idx in best_idxs]
-                    child_nodes = []
+        t_evaluated.update(curr_t_to_eval)
+        pred_errors = eval_error(unet, scheduler, latent, all_noise, ts, noise_idxs,
+                                text_embeds, text_embed_idxs, args.batch_size, args.dtype, args.loss)
 
-                    for node in nodes:
-                        child_nodes += hier.traverse([node], depth=1)[1:]
-                    remaining_prmpt_idxs = prompts_df[prompts_df['node'].isin(child_nodes)].index.tolist()
-                else:
-                    # select only leaf nodes for last layer
-                    remaining_prmpt_idxs = [idx for idx in remaining_prmpt_idxs if idx in leaf_nodes]
-                    # select leaves that missed the hierarchy -> this is wrong I think
-                    remaining_prmpt_idxs += [idx for idx in leaf_nodes if idx not in visited_idxs]
-                    # select best indices at level 4
-                    remaining_prmpt_idxs += best_idxs
-                # print(f"level: {level} remaining: {remaining_prmpt_idxs} \n")
-        else:
-            # try in stages classses n times and prune to k classes 
-            ts = []
-            noise_idxs = []
-            text_embed_idxs = []
+        sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
+        print(f"\n errors: {sorted_errors}")
+        remaining_prmpt_idxs = list(sorted_errors.keys())[:n_to_keep]
+        print(f"\n nodes_to_keep: {remaining_prmpt_idxs}")
 
-            # select a subset of timesteps to evaulate in this iteration and filter out timesteps previously evaluated
-            curr_t_to_eval = t_to_eval[len(t_to_eval) // n_samples // 2::len(t_to_eval) // n_samples][:n_samples]
-            curr_t_to_eval = [t for t in curr_t_to_eval if t not in t_evaluated]
-
-            # loop over remaining prompts
-            for prompt_i in remaining_prmpt_idxs:
-
-                # generate the noisy sample for the timestep-prompt combination
-                for t_idx, t in enumerate(curr_t_to_eval, start=len(t_evaluated)):
-
-                    # repeat current timestep for n trials
-                    ts.extend([t] * n_trials)
-
-                    # range of indices for noise samples
-                    noise_idxs.extend(list(range(n_trials * t_idx, n_trials * (t_idx + 1))))
-
-                    # repeat current prompt and timestep for n trails
-                    text_embed_idxs.extend([prompt_i] * n_trials)
-
-            t_evaluated.update(curr_t_to_eval)
-            pred_errors = eval_error(unet, scheduler, latent, all_noise, ts, noise_idxs,
-                                    text_embeds, text_embed_idxs, args.batch_size, args.dtype, args.loss)
-
-            for prompt_i in remaining_prmpt_idxs:
-
-                # select data specific to current prompt and select timesteps
-                mask = torch.tensor(text_embed_idxs) == prompt_i
-                prompt_ts = torch.tensor(ts)[mask]
-                prompt_pred_errors = pred_errors[mask]
-
-                # store prompt and timestep and pred errors
-                if prompt_i not in data.keys():
-                    data[prompt_i] = dict(t=prompt_ts, pred_errors=prompt_pred_errors)
-                else:
-                    data[prompt_i]['t'] = torch.cat([data[prompt_i]['t'], prompt_ts])
-                    data[prompt_i]['pred_errors'] = torch.cat([data[prompt_i]['pred_errors'], prompt_pred_errors])
-
-            error_dict = {
-                prompt_i: -data[prompt_i]['pred_errors'].mean()
-                for prompt_i in remaining_prmpt_idxs
-            }
-
-            sorted_errors = dict(sorted(error_dict.items(), key=lambda item: item[1], reverse=True))
-            remaining_prmpt_idxs = list(sorted_errors.keys())
-        remaining_prmpt_idxs = remaining_prmpt_idxs[:n_to_keep]
-        print(f"best_idxs: {remaining_prmpt_idxs} \n")
-
+    assert len(remaining_prmpt_idxs) == 1
     pred_idx = remaining_prmpt_idxs[0]
-    # assert len(remaining_prmpt_idxs) == 1
+    print(f"prd_idx: {pred_idx}")
 
     return pred_idx, data
 
@@ -333,7 +292,7 @@ def main():
     if args.extra is not None:
         run_folder = osp.join(LOG_DIR, args.dataset + '_hierarchy_' + args.extra, name)
     else:
-        run_folder = osp.join(LOG_DIR, args.dataset + '_hierarchy_', name)
+        run_folder = osp.join(LOG_DIR, args.dataset + '_new', name)
     os.makedirs(run_folder, exist_ok=True)
     print(f'Run folder: {run_folder}')
 
@@ -390,7 +349,6 @@ def main():
     # Split the list of indices into subsets for n_workers
     idxs_to_eval = idxs[args.worker_idx::args.n_workers]
 
-
     # Define corectly predicted labels and total labels
     formatstr = get_formatstr(len(target_dataset) - 1)
     correct = 0
@@ -414,7 +372,7 @@ def main():
                 total += 1
             continue
         image, label = target_dataset[i]
-        print(f"label: {label}")
+        print(f"LABEL: {label}")
 
         # disable gradient computation for eval
         with torch.no_grad():
@@ -429,8 +387,7 @@ def main():
         # Evaluateprobability of different classes and compute the prediction errors.
         pred_idx, pred_errors = eval_prob_adaptive(unet, x0, text_embeddings, scheduler, args, latent_size, all_noise)
         pred = prompts_df.classidx[pred_idx]
-        print(f"pred: {pred}, pred_idx: {pred_idx} \n")
-        torch.save(dict(errors=pred_errors, pred=pred, label=label), fname)
+        # torch.save(dict(errors=pred_errors, pred=pred, label=label), fname)
         if pred == label:
             correct += 1
         total += 1

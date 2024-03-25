@@ -1,8 +1,8 @@
 n00001740	entity
 n00021939	non-living thing
-n03051540	apparel, toiletries
-dummy32	garment
+n03051540	clothing, apparel
 n03419014	garment
+n03863923	overgarment
 n04230808	skirt
 n03534580	hoopskirt, crinoline
 n03770439	miniskirt, mini
@@ -10,7 +10,7 @@ n03866082	overskirt
 n04136333	sarong
 n04489008	trouser, pant
 n03594734	jean, blue jean, denim
-n04508163	undergarment, unmentionable
+n04508163	undergarment
 n02892767	brassiere, bra, bandeau
 n03188531	diaper, nappy, napkin
 n04197391	shirt
@@ -21,14 +21,17 @@ n04021028	pullover, slipover
 n04370456	sweatshirt
 n04371563	swimsuit, swimwear, bathing suit, swimming costume, bathing costume
 n02837789	bikini, two-piece
+n03540267	hosiery
 n03710721	maillot, tank suit
 n04371430	swimming trunks, bathing trunks
+n04596852	women's clothing
 n03236735	dress, frock
 n03450230	gown
 n03825080	nightwear, sleepwear, nightclothes
 n03877472	pajama, pyjama, pj's, jammies
 n02730930	apron
 n04350905	suit, suit of clothes
+n04509592	uniform
 n03763968	military uniform
 n03057021	coat
 n03404251	fur coat
@@ -39,6 +42,7 @@ n02669723	academic gown, academic robe, judge's robe
 n04532106	vestment
 n03980874	poncho
 n03045698	cloak
+n04097866	robe
 n02667093	abaya
 n03617480	kimono
 n02671780	accessory, accoutrement, accouterment
@@ -69,6 +73,7 @@ n02834397	bib
 n02887209	brace
 n03814639	neck brace
 n03381126	footwear, legwear
+n04015204	protective garment
 n03623198	knee pad
 n04254777	sock
 n04323819	stocking
@@ -100,23 +105,16 @@ n03476083	hairpiece, false hair, postiche
 n04584207	wig
 n03043958	clip
 n03476684	hair slide
-dummy39	dummy39
 n04187061	sheath
 n03527444	holster
 n04141327	scabbard
-dummy50	dummy50
 n03485794	handkerchief, hankie, hanky, hankey
-dummy51	dummy51
 n03141823	crutch
-dummy52	bag
 n02773037	bag
 n02769748	backpack, back pack, knapsack, packsack, rucksack, haversack
 n03709823	mailbag, postbag
 n03958227	plastic bag
 n04026417	purse
-dummy53	dummy53
-n02910353	buckle
-dummy57	dummy57
 n04507155	umbrella
 n03490324	handwear, hand wear
 n03441112	glove
@@ -275,7 +273,6 @@ n03788365	mosquito net
 n04589890	window screen
 n04201297	shoji
 n04590129	window shade
-dummy79	dummy79
 n03014705	chest
 n03221720	door
 n04239074	sliding door
@@ -298,7 +295,6 @@ n03207743	dishrag, dishcloth
 n04459362	towel
 n02808304	bath towel
 n03887697	paper towel
-dummy56	dummy56
 n03151077	curtain, drape, drapery, mantle, pall
 n04209239	shower curtain
 n04418357	theater curtain, theatre curtain
@@ -355,15 +351,21 @@ n07716906	spaghetti squash
 n07720442	pepper
 n07720615	sweet pepper
 n07720875	bell pepper
+n07713395	cruciferous vegetable
 n07714990	broccoli
 n07715103	cauliflower
 n07713895	cabbage, chou
 n07714571	head cabbage
 n13134947	fruit
+n13135832	seed 
+n11689483	oilseed
+n12156819	grain
+n12157056	kernel
 n12267677	acorn
 n12620546	hip, rose hip, rosehip
 n13133613	ear, spike, capitulum
 n07753113	fig
+n07705931	edible fruit
 n07753275	pineapple, ananas
 n07753592	banana
 n07754684	jackfruit, jak, jack
@@ -372,7 +374,9 @@ n07768694	pomegranate
 n07739125	apple
 n07739506	eating apple, dessert apple
 n07742313	Granny Smith
+n07742704	berry
 n07745940	strawberry
+n07747055	citrus fruit
 n07747607	orange
 n07749582	lemon
 n12768682	buckeye, horse chestnut, conker
@@ -415,13 +419,9 @@ n03089624	confectionery, confectionary, candy store
 n04200800	shoe shop, shoe-shop, shoe store
 n04443257	tobacco shop, tobacconist shop, tobacconist
 n04462240	toyshop
-dummy45	dummy45
 n03661043	library
-dummy46	dummy46
 n03956157	planetarium
-dummy47	dummy47
 n04005630	prison, prison house
-dummy49	dummy49
 n04081281	restaurant, eating house, eating place, eatery
 n04460130	tower
 n02814860	beacon, lighthouse, beacon light, pharos
@@ -449,26 +449,20 @@ n04078574	reservoir
 n04562935	water tower
 n04091097	rig
 n03240683	drilling platform, offshore rig
-dummy67	dummy67
 n03388043	fountain
-dummy72	dummy72
 n04217882	signboard, sign
 n04149813	scoreboard
 n06794110	street sign
 n06874185	traffic light, traffic signal, stoplight
-dummy73	dummy73
 n02898711	bridge, span
 n04311004	steel arch bridge
 n04366367	suspension bridge
 n04532670	viaduct
-dummy74	dummy74
 n03733281	maze, labyrinth
-dummy77	dummy77
 n03743902	memorial, monument
 n02892201	brass, memorial tablet, plaque
 n03743016	megalith, megalithic structure
 n04486054	triumphal arch
-dummy78	dummy78
 n03074380	column, pillar
 n03837869	obelisk
 n04458633	totem pole
@@ -491,20 +485,17 @@ n09332890	lakeside, lakeshore
 n09428293	seashore, coast, seacoast, sea-coast
 n09443453	spring, fountain, outflow, outpouring, natural spring
 n09288635	geyser
-dummy68	dummy68
 n09246464	cliff, drop, drop-off
 n09214060	bar
 n09421951	sandbar, sand bar
 n09359803	mountain, mount
 n09193705	alp
 n09472597	volcano
-dummy69	dummy69
 n09399592	promontory, headland, head, foreland
 n09406793	reef
 n09256479	coral reef
-dummy71	dummy71
 n09468604	valley, vale
-dummy63	paraphernalia
+dummy63	artifact
 n02729837	appliance
 n03251766	dryer, drier
 n03483316	hand blower, blow dryer, blow drier, hair dryer, hair drier
@@ -718,7 +709,7 @@ n03633091	ladle
 n03623556	knife
 n03041632	cleaver, meat cleaver, chopper
 n03733805	measuring cup
-n04381994	tableware
+n04381994	dish
 n02880940	bowl
 n03775546	mixing bowl
 n04263257	soup bowl
@@ -803,11 +794,8 @@ n02231487	walking stick, walkingstick, stick insect
 n02268443	dragonfly, darning needle, devil's darning needle, sewing needle, snake feeder, snake doctor, mosquito hawk, skeeter hawk
 n02268853	damselfly
 n02316707	echinoderm
-dummy11	dummy11
 n02317335	starfish, sea star
-dummy12	dummy12
 n02321529	sea cucumber, holothurian
-dummy13	dummy13
 n02319095	sea urchin
 n01940736	mollusk, mollusc, shellfish
 n01955084	chiton, coat-of-mail shell, sea cradle, polyplacophore
@@ -823,14 +811,12 @@ n01914163	anthozoan, actinozoan
 n01914609	sea anemone, anemone
 n01915811	coral
 n01917289	brain coral
-dummy10	dummy10
 n01910747	jellyfish
 n01922303	worm
-dummy14	dummy14
 n01924916	flatworm, platyhelminth
-dummy15	dummy15
 n01930112	nematode, nematode worm, roundworm
 n01861778	mammal, mammalian
+n01886756	eutherian mammal, placental mammal
 n01871875	monotreme, egg-laying mammal
 n01872401	echidna, spiny anteater, anteater
 n01873310	platypus, duckbill, duckbilled platypus, duck-billed platypus, Ornithorhynchus anatinus
@@ -888,16 +874,22 @@ n02324045	rabbit, coney, cony
 n02325366	wood rabbit, cottontail, cottontail rabbit
 n02328150	Angora, Angora rabbit
 n02370806	ungulate, hoofed mammal
+n02394477	even-toed ungulate
+n02373336	odd-toed ungulate
 n02398521	hippopotamus, hippo, river horse, Hippopotamus amphibius
 n02437616	llama
 n02437136	camel
 n02437312	Arabian camel, dromedary, Camelus dromedarius
+n02355003	swine
 n02395406	hog, pig, grunter, squealer, Sus scrofa
 n02396427	wild boar, boar, Sus scrofa
 n02397096	warthog
+n02374149	equine
 n02391049	zebra
 n02374451	horse, Equus caballus
 n02389026	sorrel
+n02399000	ruminant
+n02401031	bovid
 n02410509	bison
 n02419796	antelope
 n02422106	hartebeest
@@ -912,6 +904,7 @@ n02415435	mountain sheep
 n02415577	bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis
 n02416519	goat, caprine animal
 n02417914	ibex, Capra ibex
+n02402010	bovine
 n02402425	cattle, cows, kine, oxen, Bos taurus
 n02403003	ox
 n02075296	carnivore
@@ -920,12 +913,16 @@ n02132136	brown bear, bruin, Ursus arctos
 n02133161	American black bear, black bear, Ursus americanus, Euarctos americanus
 n02134084	ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus
 n02134418	sloth bear, Melursus ursinus, Ursus ursinus
+n02120997	feline
+n02121620	cat
+n02127808	big cat
 n02128385	leopard, Panthera pardus
 n02128757	snow leopard, ounce, Panthera uncia
 n02128925	jaguar, panther, Panthera onca, Felis onca
 n02129165	lion, king of beasts, Panthera leo
 n02129604	tiger, Panthera tigris
 n02130308	cheetah, chetah, Acinonyx jubatus
+n02441326	musteline mammal
 n02441942	weasel
 n02442845	mink
 n02443114	polecat, fitch, foulmart, foumart, Mustela putorius
@@ -933,8 +930,10 @@ n02443484	black-footed ferret, ferret, Mustela nigripes
 n02444819	otter
 n02445715	skunk, polecat, wood pussy
 n02447366	badger
+n02134971	viverrine mammal
 n02137549	mongoose
 n02138441	meerkat, mierkat
+n02507649	procyonid
 n02509815	lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens
 n02510455	giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca
 n02121808	domestic cat, house cat, Felis domesticus, Felis catus
@@ -943,8 +942,10 @@ n02123159	tiger cat
 n02123394	Persian cat
 n02123597	Siamese cat, Siamese
 n02124075	Egyptian cat
+n02124623	wildcat
 n02125311	cougar, puma, catamount, mountain lion, painter, panther, Felis concolor
 n02127052	lynx, catamount
+n02083346	canine 
 n02117135	hyena, hyaena
 n02114100	wolf
 n02114367	timber wolf, grey wolf, gray wolf, Canis lupus
@@ -973,6 +974,7 @@ n02113023	Pembroke, Pembroke Welsh corgi
 n02113186	Cardigan, Cardigan Welsh corgi
 n02112497	griffon, Brussels griffon, Belgian griffon
 n02112706	Brabancon griffon
+n02111626	spitz dog
 n02111889	Samoyed, Samoyede
 n02112018	Pomeranian
 n02112137	chow, chow chow
@@ -1122,16 +1124,23 @@ n01822602	cuculiform bird
 n01823013	cuckoo
 n01824575	coucal
 n01844917	aquatic bird
+n02000954	wading bird
 n01858441	swan
 n01860187	black swan, Cygnus atratus
+n02021795	sea bird, seabird
 n02016358	gallinule, marsh hen, water hen, swamphen
 n02016956	purple gallinule
 n02017213	European gallinule, Porphyrio porphyrio
+n02051474	pelecaniform seabird
 n02051845	pelican
+n02057731	pelagic bird, oceanic bird
 n02058221	albatross, mollymawk
 n01855672	goose
+n01845132	waterfowl, water bird
+n01845477	anseriform bird
 n01846331	duck
 n01847000	drake
+n01852861	sea duck
 n01854415	merganser, fish duck, sawbill, sheldrake
 n01855032	red-breasted merganser, Mergus serrator
 n02006656	spoonbill
@@ -1156,22 +1165,29 @@ n02027492	red-backed sandpiper, dunlin, Erolia alpina
 n02028035	redshank, Tringa totanus
 n02031934	snipe
 n02033041	dowitcher
+n02022684	shorebird, shore bird
 n02023341	plover
 n02025239	ruddy turnstone, Arenaria interpres
+n02055658	sphenisciform seabird
 n02055803	penguin
 n02056570	king penguin, Aptenodytes patagonica
 n01524359	passerine, passeriform bird
+n01525720	oscine bird
 n01601694	water ouzel, dipper
 n01591697	titmouse, tit
 n01592084	chickadee
 n01558993	robin, American robin, Turdus migratorius
+n01557185	thrush
 n01560105	nightingale, Luscinia megarhynchos
 n01560419	bulbul
 n01530575	brambling, Fringilla montifringilla
+n01529672	finch
 n01531178	goldfinch, Carduelis carduelis
 n01532829	house finch, linnet, Carpodacus mexicanus
 n01534433	junco, snowbird
+n01537134	bunting
 n01537544	indigo bunting, indigo finch, indigo bird, Passerina cyanea
+n01578575	corvine bird
 n01580077	jay
 n01582220	magpie
 n01789386	gallinaceous bird, gallinacean
@@ -1184,11 +1200,8 @@ n01795545	black grouse
 n01796340	ptarmigan
 n01797886	ruffed grouse, partridge, Bonasa umbellus
 n01798484	prairie chicken, prairie grouse, prairie fowl
-dummy0	dummy0
 n01514668	cock
-dummy1	dummy1
 n01514859	hen
-dummy6	dummy6
 n01816887	parrot
 n01817953	African grey, African gray, Psittacus erithacus
 n01818515	macaw
@@ -1229,9 +1242,10 @@ n01699831	dinosaur
 n01700470	ornithischian, ornithischian dinosaur
 n01703569	ceratopsian, horned dinosaur
 n01704323	triceratops
-dummy9	serpentes
+n01661818	diapsid
 n01726692	snake, serpent, ophidian
 n01751748	sea snake
+n01727646	colubrid snake
 n01728572	thunder snake, worm snake, Carphophis amoenus
 n01728920	ringneck snake, ring-necked snake, ring snake
 n01729322	hognose snake, puff adder, sand viper
@@ -1241,15 +1255,19 @@ n01735189	garter snake, grass snake
 n01737021	water snake
 n01739381	vine snake
 n01740131	night snake, Hypsiglena torquata
+n01752165	viper
+n01753959	pit viper
 n01753488	horned viper, cerastes, sand viper, horned asp, Cerastes cornutus
 n01747885	cobra
 n01748264	Indian cobra, Naja naja
+n01745125	elapid snake
 n01749582	mamba
 n01749742	black mamba, Dendroaspis augusticeps
 n01749939	green mamba
 n01754876	rattlesnake, rattler
 n01755581	diamondback, diamondback rattlesnake, Crotalus adamanteus
 n01756291	sidewinder, horned rattlesnake, Crotalus cerastes
+n01741562	constrictor
 n01742172	boa constrictor, Constrictor constrictor
 n01743605	python
 n01744401	rock python, rock snake, Python sebae
@@ -1262,13 +1280,11 @@ n01663401	sea turtle, marine turtle
 n01664065	loggerhead, loggerhead turtle, Caretta caretta
 n01665541	leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea
 n01627424	amphibian
-dummy7	dummy7
 n01639765	frog, toad, toad frog, anuran, batrachian, salientian
 n01644373	tree frog, tree-frog
 n01644900	tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui
 n01640846	true frog, ranid
 n01641577	bullfrog, Rana catesbeiana
-dummy8	dummy8
 n01629276	salamander
 n01630284	newt, triton
 n01630670	common newt, Triturus vulgaris
@@ -1282,10 +1298,13 @@ n01495701	ray
 n01496331	electric ray, crampfish, numbfish, torpedo
 n01498041	stingray
 n01482330	shark
+n01488918	requiem shark
+n01483522	mackerel shark
 n01494475	hammerhead, hammerhead shark
 n01484850	great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias
 n01491361	tiger shark, Galeocerdo cuvieri
 n02514825	bony fish
+n02528163	teleost fish
 n02526121	eel
 n01440764	tench, Tinca tinca
 n01443537	goldfish, Carassius auratus
@@ -1293,7 +1312,9 @@ n02534734	salmon
 n02536864	coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch
 n02640242	sturgeon
 n02641379	gar, garfish, garpike, billfish, Lepisosteus osseus
+n02652668	plectognath
 n02655020	puffer, pufferfish, blowfish, globefish
+n02554730	percoid fish
 n02606384	damselfish, demoiselle
 n02607072	anemone fish
 n02605316	butterfly fish
@@ -1326,3 +1347,195 @@ n00007846	person, individual, someone, somebody, mortal, soul
 n10565667	scuba diver
 n09835506	ballplayer, baseball player
 n10148035	groom, bridegroom
+n15075141	toilet paper
+n09229709	bubble
+n07860988	dough
+n07800740	fodder
+n07802026	hay
+n07565083	menu
+n07248320	book jacket
+dummy101	games
+dummy102	puzzle
+n06785654	crossword puzzle
+dummy103	book
+n06596364	comic book
+dummy104	 computer
+n06359193	 web site
+dummy105	 fabric
+n04599235	 wool
+n04592741	 airplane wing
+n04579432	whistle
+dummy106	container
+dummy107	vessel
+dummy108	basin
+n04553703	sink
+n04548362	wallet
+dummy109	case
+n04532106	vestment
+dummy110	machine
+n04525305	vending machine
+dummy111	jar
+n04522168	vase
+dummy112	keyboard
+n04505470	typewriter keyboard
+n04493381	hot tub
+dummy113	farm machine
+n04428191	threshing machine
+n04399382	teddy bear
+dummy125	plaything
+n04371774	swing
+n04372370	electrical switch
+dummy130	implement
+dummy131	cleaning implement
+n04367480	mop
+n04355933	sunglasses
+n04336792	stretcher
+dummy230	 source of illumination
+dummy99	device
+dummy98	heating device
+n04286575	spotlight
+n04277352	 spindle
+dummy677	 stick
+n04275548	 spider web
+dummy333	 trap
+n04264628	keyboard space bar
+dummy88	  reflector
+n04258138	solar thermal collector
+n04254120	soap dispenser
+dummy91	  dispense
+n04243546	 slot machine
+n04238763	 slide rule
+n04235860	 sleeping bag
+n04204238	shopping basket 
+dummy80	  basket
+n04192698	shield 
+n04125021	 safe 
+dummy700	 box
+dummy711	 strong box 
+n04049303	rain barrel
+n04040759	radiator
+n04019541	hockey puck
+dummy654	 disk
+n03992509	potter's wheel
+n03991062	plant pot 
+dummy190	 wheel
+dummy187	  mechanical device
+n03954731	block plane
+n03950228	drink pitcher
+dummy92	 hand tool
+n03944341	pinwheel
+n03937543	pill bottle
+n03935335	piggy bank 
+dummy119	 savings bank
+n03933933	pier 
+dummy773	 support structure
+n03929660	plectrum
+n03908618	 case 
+n03888257	parachute
+n04077734	rescue equipment
+n03874293	paddle wheel
+n03873416	paddle
+n03871628	product packet / packaging
+n03868863	oxygen mask
+n03837422	oar 
+n03871083	package
+n02895606	breathing device
+n03843555	oil filter
+n03339643	filter 
+n03825788	baby pacifier
+n03133748	covering
+n02954938	cap
+n03803284	 muzzle 
+n04081844	restraint
+n03794056	 mouse trap
+n03792972	tent
+n04191595	shelter
+n03786901	mortar and pestle
+dummy555	 kitchen implement 
+n03764736	milk can
+n02946921	can
+n03733131	may pole
+n03717622	manhole cover
+n03710193	mailbox
+n03658185	letter opener
+n03154446	cutting implement 
+n03154073	cutter
+n03627232	knot
+n03598930	jigsaw puzzle 
+n03323703	fastener
+n03590841	carved pumpkin
+n03640988	lantern
+n03530642	 honeycomb
+n03532672	hook
+n03498962	hatchet
+n02764044	axe
+n03496892	combine harvester
+n03492542	hard disk drive
+n03744840	memory device
+n03706653	magnetic disk
+n03482405	 hamper
+n03467068	 guillotine
+n03575691	execution instrument
+n03459775	 radiator grille
+n03454707	grate
+n03425413	 gas pump
+n04021798	 pump
+n03355925	flagpole
+n04296261	staff
+n03291819	 envelope
+n03250847	 drumstick
+n03208938	 disk brake
+n02891188	 brake system
+n03551084	hydraulic brake
+n03127925	crate 
+n03126707	construction crane
+n03664675	lifting device
+n03065424	spiral or coil
+n02978881	cassette
+n02971356	 cardboard box / carton
+n02974003	car wheel
+n02977058	 automated teller machine
+n02965783	 car mirror
+n03773035	mirror
+n02966193	carousel
+n02948072	candle
+n02909870	bucket
+n02910353	buckle
+n02877765	bottle cap
+n02840245	ring binder 
+n04014297	protective covering
+n02815834	beaker 
+n02808440	bathtub 
+n02795169	barrel
+n02747177	trash can
+n02699494	altar
+n01871265	tusker
+n02906734	broom 
+n02999410	chain
+dummy660	connection
+n03729826	matchstick
+n03920288	petri dish
+n03976657	pole
+n04100174	rod
+n04162706	seat belt
+n04125853	safety belt
+n04332243	strainer
+n04423845	thimble
+n04525038	velvet fabric
+n04191943	shelter
+n02951843	canopy
+n09366317	natural elevation
+n09409512	ridge
+n09366017	natural depression
+n01428580	soft-finned fish
+n01438208	cyproniform fish
+n01439121	cyprinid
+n02552171	spiny-finned fish
+n02638596	ganoid
+n03076708	commodity
+n03093574	consumer goods
+n01905661	invertebrate
+n01466257	chordate
+n01471682	vertebrate, craniate
+n01473806	aquatic vertebrate
+n01767661	anthropod
