@@ -1,0 +1,1523 @@
+index,node,prompt,class_name,is_leaf,classidx
+0,n00021939,a bad photo of a non-living thing.,non-living thing,0,99999
+1,n00004258,a bad photo of a living thing.,living thing,0,99999
+2,dummy63,a bad photo of a artifact.,artifact,0,99999
+3,n03100490,a bad photo of a conveyance.,conveyance,0,99999
+4,n00015388,a bad photo of a animal.,animal,0,99999
+5,dummy44,a bad photo of a structure.,structure,0,99999
+6,dummy65,a bad photo of a person.,person,0,99999
+7,n00021265,a bad photo of a food.,food,0,99999
+8,n07565083,a bad photo of a menu.,menu,1,922
+9,n00017222,a bad photo of a plant.,plant,0,99999
+10,n03405265,a bad photo of a furnishing.,furnishing,0,99999
+11,dummy21,a bad photo of a fungus.,fungus,0,99999
+12,n09229709,a bad photo of a bubble.,bubble,1,971
+13,n01905661,a bad photo of a invertebrate.,invertebrate,0,99999
+14,n04576211,a bad photo of a wheeled vehicle.,wheeled vehicle,0,99999
+15,n07570720,a bad photo of a cooked food.,cooked food,0,99999
+16,dummy654,a bad photo of a  disk., disk,0,99999
+17,dummy103,a bad photo of a book.,book,0,99999
+18,n09287968,a bad photo of a geological formation.,geological formation,0,99999
+19,dummy66,a bad photo of a person.,person,0,99999
+20,n07881800,a bad photo of a beverage.,beverage,0,99999
+21,dummy38,a bad photo of a soft furnishings.,soft furnishings,0,99999
+22,n03125870,a bad photo of a craft.,craft,0,99999
+23,dummy105,a bad photo of a  fabric., fabric,0,99999
+24,n04341686,a bad photo of a man-made structure.,man-made structure,0,99999
+25,dummy54,a bad photo of a sled.,sled,0,99999
+26,n03574816,a bad photo of a instrument.,instrument,0,99999
+27,n03530642,a bad photo of a  honeycomb., honeycomb,1,599
+28,n03065424,a bad photo of a spiral or coil.,spiral or coil,1,506
+29,n12992868,a bad photo of a fungus.,fungus,0,99999
+30,dummy125,a bad photo of a plaything.,plaything,0,99999
+31,n02729837,a bad photo of a appliance.,appliance,0,99999
+32,n13083586,a bad photo of a vascular plant.,vascular plant,0,99999
+33,n03294048,a bad photo of a equipment.,equipment,0,99999
+34,n07705711,a bad photo of a produce.,produce,0,99999
+35,n01466257,a bad photo of a chordate.,chordate,0,99999
+36,n02699494,a bad photo of a altar.,altar,1,406
+37,n04336792,a bad photo of a stretcher.,stretcher,1,830
+38,n07800740,a bad photo of a fodder.,fodder,0,99999
+39,n03405725,a bad photo of a furniture.,furniture,0,99999
+40,n01861778,a bad photo of a mammal.,mammal,0,99999
+41,n03133748,a bad photo of a covering.,covering,0,99999
+42,n03873064,a bad photo of a padding.,padding,0,99999
+43,n03051540,a bad photo of a clothing.,clothing,0,99999
+44,n02796623,a bad photo of a barrier.,barrier,0,99999
+45,n01886756,a bad photo of a eutherian mammal.,eutherian mammal,0,99999
+46,n09366017,a bad photo of a natural depression.,natural depression,0,99999
+47,n04371774,a bad photo of a swing.,swing,1,843
+48,dummy130,a bad photo of a implement.,implement,0,99999
+49,n02898711,a bad photo of a bridge.,bridge,0,99999
+50,n01871265,a bad photo of a tusker.,tusker,1,101
+51,dummy19,a bad photo of a ascomycete.,ascomycete,0,99999
+52,n07860988,a bad photo of a dough.,dough,1,961
+53,n02686568,a bad photo of a aircraft.,aircraft,0,99999
+54,n09406793,a bad photo of a reef.,reef,0,99999
+55,n02970849,a bad photo of a cart.,cart,0,99999
+56,n13134947,a bad photo of a fruit.,fruit,0,99999
+57,n03621049,a bad photo of a kitchen utensil.,kitchen utensil,0,99999
+58,n01874434,a bad photo of a marsupial.,marsupial,0,99999
+59,n04077734,a bad photo of a rescue equipment.,rescue equipment,0,99999
+60,n02954938,a bad photo of a cap.,cap,0,99999
+61,n03743902,a bad photo of a memorial.,memorial,0,99999
+62,n03575691,a bad photo of a execution instrument.,execution instrument,0,99999
+63,n07622061,a bad photo of a baked goods.,baked goods,0,99999
+64,n03074380,a bad photo of a column.,column,0,99999
+65,n01909422,a bad photo of a coelenterate.,coelenterate,0,99999
+66,n01767661,a bad photo of a anthropod.,anthropod,0,99999
+67,n04579432,a bad photo of a whistle.,whistle,1,902
+68,n04019541,a bad photo of a hockey puck.,hockey puck,1,746
+69,dummy660,a bad photo of a connection.,connection,0,99999
+70,n02821943,a bad photo of a bedroom furniture.,bedroom furniture,0,99999
+71,n01471682,a bad photo of a vertebrate.,vertebrate,0,99999
+72,n04285146,a bad photo of a sports equipment.,sports equipment,0,99999
+73,n03151077,a bad photo of a curtain.,curtain,0,99999
+74,n03528263,a bad photo of a home appliance.,home appliance,0,99999
+75,n03388043,a bad photo of a fountain.,fountain,1,562
+76,n02913152,a bad photo of a building.,building,0,99999
+77,n09246464,a bad photo of a cliff.,cliff,1,972
+78,n07707451,a bad photo of a vegetable.,vegetable,0,99999
+79,n09359803,a bad photo of a mountain.,mountain,0,99999
+80,n04191595,a bad photo of a shelter.,shelter,0,99999
+81,dummy99,a bad photo of a device.,device,0,99999
+82,n03717622,a bad photo of a manhole cover.,manhole cover,1,640
+83,n04530566,a bad photo of a vessel.,vessel,0,99999
+84,n04565375,a bad photo of a weapon.,weapon,0,99999
+85,n04599235,a bad photo of a  wool., wool,1,911
+86,n03366823,a bad photo of a floor cover.,floor cover,0,99999
+87,n07810907,a bad photo of a condiment.,condiment,0,99999
+88,n09366317,a bad photo of a natural elevation.,natural elevation,0,99999
+89,n04217882,a bad photo of a signboard.,signboard,0,99999
+90,dummy773,a bad photo of a  support structure., support structure,0,99999
+91,n03739693,a bad photo of a medical instrument.,medical instrument,0,99999
+92,n04379243,a bad photo of a table.,table,0,99999
+93,n01940736,a bad photo of a mollusk.,mollusk,0,99999
+94,n12997654,a bad photo of a basidiomycete.,basidiomycete,0,99999
+95,n03251766,a bad photo of a dryer.,dryer,0,99999
+96,n04525038,a bad photo of a velvet fabric.,velvet fabric,1,885
+97,n04151581,a bad photo of a screen.,screen,0,99999
+98,n02820210,a bad photo of a bedclothes.,bedclothes,0,99999
+99,n04161981,a bad photo of a seat.,seat,0,99999
+100,n04235291,a bad photo of a sled.,sled,0,99999
+101,n09443453,a bad photo of a spring.,spring,0,99999
+102,n03791235,a bad photo of a motor vehicle.,motor vehicle,0,99999
+103,n07884567,a bad photo of a alcohol.,alcohol,0,99999
+104,n02735688,a bad photo of a area.,area,0,99999
+105,n00007846,a bad photo of a person.,person,0,99999
+106,n09214060,a bad photo of a bar.,bar,0,99999
+107,n04264914,a bad photo of a spacecraft.,spacecraft,0,99999
+108,n02316707,a bad photo of a echinoderm.,echinoderm,0,99999
+109,n04091097,a bad photo of a rig.,rig,0,99999
+110,n01871875,a bad photo of a monotreme.,monotreme,0,99999
+111,n04388743,a bad photo of a tank.,tank,0,99999
+112,n04014297,a bad photo of a protective covering.,protective covering,0,99999
+113,n07929519,a bad photo of a coffee.,coffee,0,99999
+114,n03800933,a bad photo of a musical instrument.,musical instrument,0,99999
+115,n04549122,a bad photo of a wall unit.,wall unit,0,99999
+116,n04468005,a bad photo of a train.,train,0,99999
+117,n09433442,a bad photo of a shore.,shore,0,99999
+118,n03733925,a bad photo of a measuring instrument.,measuring instrument,0,99999
+119,n04147495,a bad photo of a scientific instrument.,scientific instrument,0,99999
+120,n03932670,a bad photo of a piece of cloth.,piece of cloth,0,99999
+121,n11669921,a bad photo of a flower.,flower,0,99999
+122,n03638321,a bad photo of a landing.,landing,0,99999
+123,dummy101,a bad photo of a games.,games,0,99999
+124,n01922303,a bad photo of a worm.,worm,0,99999
+125,n03278248,a bad photo of a electronic equipment.,electronic equipment,0,99999
+126,n07557434,a bad photo of a dish.,dish,0,99999
+127,n07609840,a bad photo of a dessert.,dessert,0,99999
+128,n03733281,a bad photo of a maze.,maze,1,646
+129,n03221720,a bad photo of a door.,door,0,99999
+130,n04464852,a bad photo of a tracked vehicle.,tracked vehicle,0,99999
+131,dummy30,a bad photo of a cycles.,cycles,0,99999
+132,n03926148,a bad photo of a photographic equipment.,photographic equipment,0,99999
+133,dummy106,a bad photo of a container.,container,0,99999
+134,n04399382,a bad photo of a teddy bear.,teddy bear,1,850
+135,n06596364,a bad photo of a comic book.,comic book,1,917
+136,n07802026,a bad photo of a hay.,hay,1,958
+137,n07715561,a bad photo of a squash.,squash,0,99999
+138,n02321529,a bad photo of a sea cucumber.,sea cucumber,1,329
+139,n04228054,a bad photo of a ski.,ski,1,795
+140,n04451818,a bad photo of a tool.,tool,0,99999
+141,n03080497,a bad photo of a compass.,compass,0,99999
+142,n04264628,a bad photo of a keyboard space bar.,keyboard space bar,1,810
+143,n03154446,a bad photo of a cutting implement.,cutting implement,0,99999
+144,n07588947,a bad photo of a stew.,stew,0,99999
+145,n02988304,a bad photo of a CD player.,CD player,1,485
+146,n07753275,a bad photo of a pineapple.,pineapple,1,953
+147,n02877765,a bad photo of a bottle cap.,bottle cap,1,455
+148,dummy700,a bad photo of a  box., box,0,99999
+149,n02782093,a bad photo of a balloon.,balloon,1,417
+150,n04118021,a bad photo of a rug.,rug,0,99999
+151,n04447861,a bad photo of a toilet seat.,toilet seat,1,861
+152,n02879718,a bad photo of a bow.,bow,1,456
+153,n02323449,a bad photo of a lagomorph.,lagomorph,0,99999
+154,n03868242,a bad photo of a oxcart.,oxcart,1,690
+155,n04239074,a bad photo of a sliding door.,sliding door,1,799
+156,n03790512,a bad photo of a motorcycle.,motorcycle,0,99999
+157,n03792972,a bad photo of a tent.,tent,1,672
+158,n07582609,a bad photo of a dip.,dip,0,99999
+159,n04460130,a bad photo of a tower.,tower,0,99999
+160,n03788365,a bad photo of a mosquito net.,mosquito net,1,669
+161,n03848348,a bad photo of a opener.,opener,0,99999
+162,n04586932,a bad photo of a wind instrument.,wind instrument,0,99999
+163,n04039381,a bad photo of a racket.,racket,1,752
+164,dummy88,a bad photo of a   reflector.,  reflector,0,99999
+165,n09428293,a bad photo of a seashore.,seashore,1,978
+166,n04008634,a bad photo of a projectile.,projectile,1,744
+167,n03793489,a bad photo of a mouse.,mouse,1,673
+168,n04004767,a bad photo of a printer.,printer,1,742
+169,n03733131,a bad photo of a may pole.,may pole,1,645
+170,n03472232,a bad photo of a gymnastic apparatus.,gymnastic apparatus,0,99999
+171,n04418357,a bad photo of a theater curtain.,theater curtain,1,854
+172,n02691156,a bad photo of a airplane.,airplane,0,99999
+173,n04366367,a bad photo of a suspension bridge.,suspension bridge,1,839
+174,n04347754,a bad photo of a submarine.,submarine,1,833
+175,n04041544,a bad photo of a radio.,radio,1,754
+176,n03953416,a bad photo of a place of worship.,place of worship,0,99999
+177,n03857828,a bad photo of a oscilloscope.,oscilloscope,1,688
+178,n03419014,a bad photo of a garment.,garment,0,99999
+179,n07745940,a bad photo of a strawberry.,strawberry,1,949
+180,n02773037,a bad photo of a bag.,bag,0,99999
+181,n07612996,a bad photo of a pudding.,pudding,0,99999
+182,n07880968,a bad photo of a burrito.,burrito,1,965
+183,n02671780,a bad photo of a accessory.,accessory,0,99999
+184,n03001627,a bad photo of a chair.,chair,0,99999
+185,n02757462,a bad photo of a audio system.,audio system,0,99999
+186,n03837422,a bad photo of a oar.,oar,0,99999
+187,n04392985,a bad photo of a tape player.,tape player,1,848
+188,n02825657,a bad photo of a bell cote.,bell cote,1,442
+189,n01768244,a bad photo of a trilobite.,trilobite,1,69
+190,n04401088,a bad photo of a telephone.,telephone,0,99999
+191,n07754684,a bad photo of a jackfruit.,jackfruit,1,955
+192,n02794156,a bad photo of a barometer.,barometer,1,426
+193,n01873310,a bad photo of a platypus.,platypus,1,103
+194,n03478589,a bad photo of a half track.,half track,1,586
+195,n07683786,a bad photo of a loaf of bread.,loaf of bread,0,99999
+196,n09193705,a bad photo of a alp.,alp,1,970
+197,n03961711,a bad photo of a plate rack.,plate rack,1,729
+198,n04542943,a bad photo of a waffle iron.,waffle iron,1,891
+199,n03327234,a bad photo of a fence.,fence,0,99999
+200,n03160309,a bad photo of a dam.,dam,1,525
+201,n11939491,a bad photo of a daisy.,daisy,1,985
+202,dummy112,a bad photo of a keyboard.,keyboard,0,99999
+203,n04201297,a bad photo of a shoji.,shoji,1,789
+204,n07695965,a bad photo of a sandwich.,sandwich,0,99999
+205,n07734744,a bad photo of a mushroom.,mushroom,1,947
+206,n07749582,a bad photo of a lemon.,lemon,1,951
+207,n02818832,a bad photo of a bed.,bed,0,99999
+208,n10565667,a bad photo of a scuba diver.,scuba diver,1,983
+209,n04015204,a bad photo of a protective garment.,protective garment,0,99999
+210,dummy80,a bad photo of a   basket.,  basket,0,99999
+211,n04437953,a bad photo of a timepiece.,timepiece,0,99999
+212,n02924116,a bad photo of a bus.,bus,0,99999
+213,n09256479,a bad photo of a coral reef.,coral reef,1,973
+214,n07930554,a bad photo of a punch.,punch,0,99999
+215,n04482393,a bad photo of a tricycle.,tricycle,1,870
+216,n07753113,a bad photo of a fig.,fig,1,952
+217,n12985857,a bad photo of a coral fungus.,coral fungus,1,991
+218,n01968315,a bad photo of a cephalopod.,cephalopod,0,99999
+219,n03347037,a bad photo of a fire screen.,fire screen,1,556
+220,dummy187,a bad photo of a   mechanical device.,  mechanical device,0,99999
+221,n03218198,a bad photo of a dogsled.,dogsled,1,537
+222,n01883070,a bad photo of a wombat.,wombat,1,106
+223,n04417809,a bad photo of a theater.,theater,0,99999
+224,n07710616,a bad photo of a potato.,potato,0,99999
+225,n09421951,a bad photo of a sandbar.,sandbar,1,977
+226,n04376876,a bad photo of a syringe.,syringe,1,845
+227,n04009552,a bad photo of a projector.,projector,1,745
+228,dummy555,a bad photo of a  kitchen implement., kitchen implement,0,99999
+229,n02788148,a bad photo of a bannister.,bannister,1,421
+230,n03991062,a bad photo of a plant pot.,plant pot,1,738
+231,n02329401,a bad photo of a rodent.,rodent,0,99999
+232,n03015254,a bad photo of a chest of drawers.,chest of drawers,0,99999
+233,n03291819,a bad photo of a  envelope., envelope,1,549
+234,n01974773,a bad photo of a crustacean.,crustacean,0,99999
+235,n04078574,a bad photo of a reservoir.,reservoir,0,99999
+236,n02159955,a bad photo of a insect.,insect,0,99999
+237,dummy677,a bad photo of a  stick., stick,0,99999
+238,n07747607,a bad photo of a orange.,orange,1,950
+239,n02933112,a bad photo of a cabinet.,cabinet,0,99999
+240,n09468604,a bad photo of a valley.,valley,1,979
+241,n02453611,a bad photo of a edentate.,edentate,0,99999
+242,n03743016,a bad photo of a megalith.,megalith,1,649
+243,n03982430,a bad photo of a pool table.,pool table,1,736
+244,n03753077,a bad photo of a meter.,meter,0,99999
+245,n12768682,a bad photo of a buckeye.,buckeye,1,990
+246,n02958343,a bad photo of a car.,car,0,99999
+247,n02942699,a bad photo of a camera.,camera,0,99999
+248,n07680932,a bad photo of a bun.,bun,0,99999
+249,n03929660,a bad photo of a plectrum.,plectrum,1,714
+250,n02858304,a bad photo of a boat.,boat,0,99999
+251,n03661043,a bad photo of a library.,library,1,624
+252,n02840245,a bad photo of a ring binder.,ring binder,1,446
+253,n01955084,a bad photo of a chiton.,chiton,1,116
+254,n04270147,a bad photo of a spatula.,spatula,1,813
+255,n07920052,a bad photo of a espresso.,espresso,1,967
+256,n02946921,a bad photo of a can.,can,0,99999
+257,n01881171,a bad photo of a phalanger.,phalanger,0,99999
+258,n13044778,a bad photo of a earthstar.,earthstar,1,995
+259,n07718747,a bad photo of a artichoke.,artichoke,1,944
+260,n03761084,a bad photo of a microwave.,microwave,1,651
+261,n03888257,a bad photo of a parachute.,parachute,1,701
+262,dummy119,a bad photo of a  savings bank., savings bank,0,99999
+263,n02778669,a bad photo of a ball.,ball,0,99999
+264,n04296562,a bad photo of a stage.,stage,1,819
+265,n13040303,a bad photo of a stinkhorn.,stinkhorn,1,994
+266,n03290653,a bad photo of a entertainment center.,entertainment center,1,548
+267,n04509592,a bad photo of a uniform.,uniform,0,99999
+268,n03614532,a bad photo of a keyboard instrument.,keyboard instrument,0,99999
+269,n04251144,a bad photo of a snorkel.,snorkel,1,801
+270,n04532670,a bad photo of a viaduct.,viaduct,1,888
+271,n03871083,a bad photo of a package.,package,0,99999
+272,n01942177,a bad photo of a gastropod.,gastropod,0,99999
+273,n03062245,a bad photo of a cocktail shaker.,cocktail shaker,1,503
+274,n04191943,a bad photo of a shelter.,shelter,0,99999
+275,n09288635,a bad photo of a geyser.,geyser,1,974
+276,n02999410,a bad photo of a chain.,chain,1,488
+277,n04442312,a bad photo of a toaster.,toaster,1,859
+278,n12267677,a bad photo of a acorn.,acorn,1,988
+279,n04554684,a bad photo of a washer.,washer,1,897
+280,n01769347,a bad photo of a arachnid.,arachnid,0,99999
+281,n02959942,a bad photo of a car.,car,0,99999
+282,n04081844,a bad photo of a restraint.,restraint,0,99999
+283,n04074963,a bad photo of a remote control.,remote control,1,761
+284,n03538406,a bad photo of a horse cart.,horse cart,1,603
+285,dummy230,a bad photo of a  source of illumination., source of illumination,0,99999
+286,n01877134,a bad photo of a kangaroo.,kangaroo,0,99999
+287,n02950826,a bad photo of a cannon.,cannon,1,471
+288,n03623556,a bad photo of a knife.,knife,0,99999
+289,n02860847,a bad photo of a bobsled.,bobsled,1,450
+290,n07753592,a bad photo of a banana.,banana,1,954
+291,dummy98,a bad photo of a heating device.,heating device,0,99999
+292,dummy110,a bad photo of a machine.,machine,0,99999
+293,n02319095,a bad photo of a sea urchin.,sea urchin,1,328
+294,n13133613,a bad photo of a ear.,ear,1,998
+295,n07715103,a bad photo of a cauliflower.,cauliflower,1,938
+296,n01503061,a bad photo of a bird.,bird,0,99999
+297,n04571292,a bad photo of a weight.,weight,0,99999
+298,n02892201,a bad photo of a brass.,brass,1,458
+299,n06874185,a bad photo of a traffic light.,traffic light,1,920
+300,n04486054,a bad photo of a triumphal arch.,triumphal arch,1,873
+301,n07873807,a bad photo of a pizza.,pizza,1,963
+302,n03837869,a bad photo of a obelisk.,obelisk,1,682
+303,n04330267,a bad photo of a stove.,stove,1,827
+304,n07718472,a bad photo of a cucumber.,cucumber,1,943
+305,n04372370,a bad photo of a electrical switch.,electrical switch,1,844
+306,dummy333,a bad photo of a  trap., trap,0,99999
+307,n03454707,a bad photo of a grate.,grate,0,99999
+308,n13037406,a bad photo of a gyromitra.,gyromitra,1,993
+309,n07760859,a bad photo of a custard apple.,custard apple,1,956
+310,n04459362,a bad photo of a towel.,towel,0,99999
+311,n03201208,a bad photo of a dining table.,dining table,1,532
+312,n03599486,a bad photo of a jinrikisha.,jinrikisha,1,612
+313,n07248320,a bad photo of a book jacket.,book jacket,1,921
+314,n03782006,a bad photo of a monitor.,monitor,1,664
+315,n04509417,a bad photo of a unicycle.,unicycle,1,880
+316,n03915437,a bad photo of a percussion instrument.,percussion instrument,0,99999
+317,n02841315,a bad photo of a binoculars.,binoculars,1,447
+318,n07681926,a bad photo of a cracker.,cracker,0,99999
+319,n04403638,a bad photo of a telescope.,telescope,0,99999
+320,n03633091,a bad photo of a ladle.,ladle,1,618
+321,n04209239,a bad photo of a shower curtain.,shower curtain,1,794
+322,n04238763,a bad photo of a  slide rule., slide rule,1,798
+323,dummy91,a bad photo of a   dispense.,  dispense,0,99999
+324,dummy131,a bad photo of a cleaning implement.,cleaning implement,0,99999
+325,n04005630,a bad photo of a prison.,prison,1,743
+326,n03211117,a bad photo of a display.,display,0,99999
+327,n07583197,a bad photo of a soup.,soup,0,99999
+328,dummy102,a bad photo of a puzzle.,puzzle,0,99999
+329,n03063338,a bad photo of a coffee maker.,coffee maker,0,99999
+330,n04490091,a bad photo of a truck.,truck,0,99999
+331,n03744840,a bad photo of a memory device.,memory device,0,99999
+332,n03151500,a bad photo of a cushion.,cushion,0,99999
+333,n03664675,a bad photo of a lifting device.,lifting device,0,99999
+334,n03339643,a bad photo of a filter.,filter,0,99999
+335,n04447443,a bad photo of a toiletry.,toiletry,0,99999
+336,n03880531,a bad photo of a pan.,pan,0,99999
+337,n02370806,a bad photo of a ungulate.,ungulate,0,99999
+338,n04194289,a bad photo of a ship.,ship,0,99999
+339,dummy109,a bad photo of a case.,case,0,99999
+340,n03316406,a bad photo of a factory.,factory,0,99999
+341,n04517823,a bad photo of a vacuum.,vacuum,1,882
+342,n06794110,a bad photo of a street sign.,street sign,1,919
+343,n02747177,a bad photo of a trash can.,trash can,1,412
+344,n04476259,a bad photo of a tray.,tray,1,868
+345,n03602883,a bad photo of a joystick.,joystick,1,613
+346,n03759954,a bad photo of a microphone.,microphone,1,650
+347,n04335435,a bad photo of a streetcar.,streetcar,1,829
+348,n02979186,a bad photo of a cassette player.,cassette player,1,482
+349,n07768694,a bad photo of a pomegranate.,pomegranate,1,957
+350,dummy107,a bad photo of a vessel.,vessel,0,99999
+351,n03956157,a bad photo of a planetarium.,planetarium,1,727
+352,n04389033,a bad photo of a tank.,tank,1,847
+353,n04265275,a bad photo of a space heater.,space heater,1,811
+354,n02894605,a bad photo of a breakwater.,breakwater,1,460
+355,n02870880,a bad photo of a bookcase.,bookcase,1,453
+356,n04381994,a bad photo of a dish.,dish,0,99999
+357,n04404412,a bad photo of a television.,television,1,851
+358,n03924679,a bad photo of a photocopier.,photocopier,1,713
+359,n03485794,a bad photo of a handkerchief.,handkerchief,1,591
+360,n03207941,a bad photo of a dishwasher.,dishwasher,1,534
+361,n01930112,a bad photo of a nematode.,nematode,1,111
+362,n04552348,a bad photo of a warplane.,warplane,1,895
+363,n03259505,a bad photo of a dwelling.,dwelling,0,99999
+364,n04033995,a bad photo of a quilt.,quilt,1,750
+365,n04311004,a bad photo of a steel arch bridge.,steel arch bridge,1,821
+366,n03733805,a bad photo of a measuring cup.,measuring cup,1,647
+367,n04179913,a bad photo of a sewing machine.,sewing machine,1,786
+368,n03657121,a bad photo of a lens cap.,lens cap,1,622
+369,n03825788,a bad photo of a baby pacifier.,baby pacifier,1,680
+370,n04070727,a bad photo of a refrigerator.,refrigerator,1,760
+371,n03777754,a bad photo of a modem.,modem,1,662
+372,n04256520,a bad photo of a sofa.,sofa,0,99999
+373,n03343853,a bad photo of a firearm.,firearm,0,99999
+374,n02062017,a bad photo of a aquatic mammal.,aquatic mammal,0,99999
+375,n01924916,a bad photo of a flatworm.,flatworm,1,110
+376,n04111531,a bad photo of a rotisserie.,rotisserie,1,766
+377,n09332890,a bad photo of a lakeside.,lakeside,1,975
+378,n03649909,a bad photo of a lawn mower.,lawn mower,1,621
+379,n03320046,a bad photo of a fan.,fan,0,99999
+380,n03868863,a bad photo of a oxygen mask.,oxygen mask,1,691
+381,n02704792,a bad photo of a amphibian.,amphibian,1,408
+382,n03529860,a bad photo of a home theater.,home theater,1,598
+383,n12041446,a bad photo of a orchid.,orchid,0,99999
+384,dummy20,a bad photo of a mushroom.,mushroom,0,99999
+385,n04596852,a bad photo of a women's clothing.,women's clothing,0,99999
+386,n09399592,a bad photo of a promontory.,promontory,1,976
+387,n03240683,a bad photo of a drilling platform.,drilling platform,1,540
+388,n01914163,a bad photo of a anthozoan.,anthozoan,0,99999
+389,n03584829,a bad photo of a iron.,iron,1,606
+390,n09835506,a bad photo of a ballplayer.,ballplayer,1,981
+391,n03179701,a bad photo of a desk.,desk,1,526
+392,n04338517,a bad photo of a stringed instrument.,stringed instrument,0,99999
+393,n04589890,a bad photo of a window screen.,window screen,1,904
+394,n03735637,a bad photo of a measuring stick.,measuring stick,0,99999
+395,n07871810,a bad photo of a meat loaf.,meat loaf,1,962
+396,n02766320,a bad photo of a baby bed.,baby bed,0,99999
+397,n04081281,a bad photo of a restaurant.,restaurant,1,762
+398,n07829412,a bad photo of a sauce.,sauce,0,99999
+399,n07891726,a bad photo of a wine.,wine,0,99999
+400,n10148035,a bad photo of a groom.,groom,1,982
+401,n04149813,a bad photo of a scoreboard.,scoreboard,1,781
+402,n04141975,a bad photo of a scale.,scale,1,778
+403,n03483316,a bad photo of a hand blower.,hand blower,1,589
+404,n11879895,a bad photo of a rapeseed.,rapeseed,1,984
+405,n12144580,a bad photo of a corn.,corn,1,987
+406,n04105068,a bad photo of a roof.,roof,0,99999
+407,n03207743,a bad photo of a dishrag.,dishrag,1,533
+408,n03859280,a bad photo of a outbuilding.,outbuilding,0,99999
+409,n09472597,a bad photo of a volcano.,volcano,1,980
+410,n03101156,a bad photo of a cooker.,cooker,0,99999
+411,n07875152,a bad photo of a potpie.,potpie,1,964
+412,n02666196,a bad photo of a abacus.,abacus,1,398
+413,n03760671,a bad photo of a microscope.,microscope,0,99999
+414,n01627424,a bad photo of a amphibian.,amphibian,0,99999
+415,n01661091,a bad photo of a reptile.,reptile,0,99999
+416,n04423845,a bad photo of a thimble.,thimble,1,855
+417,n07739125,a bad photo of a apple.,apple,0,99999
+418,n03773504,a bad photo of a missile.,missile,1,657
+419,n04131690,a bad photo of a saltshaker.,saltshaker,1,773
+420,n03216828,a bad photo of a dock.,dock,1,536
+421,n03684823,a bad photo of a locomotive.,locomotive,0,99999
+422,n03933933,a bad photo of a pier.,pier,1,718
+423,n04266014,a bad photo of a space shuttle.,space shuttle,1,812
+424,n04550184,a bad photo of a wardrobe.,wardrobe,1,894
+425,n01784675,a bad photo of a centipede.,centipede,1,79
+426,n04590129,a bad photo of a window shade.,window shade,1,905
+427,n07720442,a bad photo of a pepper.,pepper,0,99999
+428,n02834778,a bad photo of a bicycle.,bicycle,0,99999
+429,n04100174,a bad photo of a rod.,rod,0,99999
+430,n04317175,a bad photo of a stethoscope.,stethoscope,1,823
+431,n04187061,a bad photo of a sheath.,sheath,0,99999
+432,n03484083,a bad photo of a handcart.,handcart,0,99999
+433,n03427296,a bad photo of a gate.,gate,0,99999
+434,n03899768,a bad photo of a patio.,patio,1,706
+435,n03990474,a bad photo of a pot.,pot,0,99999
+436,n04485082,a bad photo of a tripod.,tripod,1,872
+437,n04252077,a bad photo of a snowmobile.,snowmobile,1,802
+438,n02692877,a bad photo of a airship.,airship,1,405
+439,n07730033,a bad photo of a cardoon.,cardoon,1,946
+440,n03467068,a bad photo of a  guillotine., guillotine,1,583
+441,n01473806,a bad photo of a aquatic vertebrate.,aquatic vertebrate,0,99999
+442,n03748162,a bad photo of a mercantile establishment.,mercantile establishment,0,99999
+443,n04458633,a bad photo of a totem pole.,totem pole,1,863
+444,n02978881,a bad photo of a cassette.,cassette,1,481
+445,n01910747,a bad photo of a jellyfish.,jellyfish,1,107
+446,n03727837,a bad photo of a mat.,mat,0,99999
+447,n02317335,a bad photo of a starfish.,starfish,1,327
+448,n03903868,a bad photo of a pedestal.,pedestal,1,708
+449,n01872401,a bad photo of a echidna.,echidna,1,102
+450,n02075296,a bad photo of a carnivore.,carnivore,0,99999
+451,n03896233,a bad photo of a passenger train.,passenger train,0,99999
+452,n07713895,a bad photo of a cabbage.,cabbage,0,99999
+453,n02469914,a bad photo of a primate.,primate,0,99999
+454,n07714990,a bad photo of a broccoli.,broccoli,1,937
+455,n12620546,a bad photo of a hip.,hip,1,989
+456,n02503127,a bad photo of a proboscidean.,proboscidean,0,99999
+457,n07611358,a bad photo of a frozen dessert.,frozen dessert,0,99999
+458,n03958227,a bad photo of a plastic bag.,plastic bag,1,728
+459,n02939185,a bad photo of a caldron.,caldron,1,469
+460,n04555897,a bad photo of a watch.,watch,0,99999
+461,n03825080,a bad photo of a nightwear.,nightwear,0,99999
+462,n01514668,a bad photo of a cock.,cock,1,7
+463,n04487394,a bad photo of a trombone.,trombone,1,875
+464,n03603722,a bad photo of a jug.,jug,0,99999
+465,n03838899,a bad photo of a oboe.,oboe,1,683
+466,n02454379,a bad photo of a armadillo.,armadillo,1,363
+467,n02226429,a bad photo of a grasshopper.,grasshopper,1,311
+468,n03970156,a bad photo of a plunger.,plunger,1,731
+469,n01976957,a bad photo of a crab.,crab,0,99999
+470,n03769881,a bad photo of a minibus.,minibus,1,654
+471,n03388549,a bad photo of a four-poster.,four-poster,1,564
+472,n02083346,a bad photo of a canine.,canine,0,99999
+473,n04409515,a bad photo of a tennis ball.,tennis ball,1,852
+474,n01914609,a bad photo of a sea anemone.,sea anemone,1,108
+475,dummy34,a bad photo of a facial accessories.,facial accessories,0,99999
+476,n02760429,a bad photo of a automatic firearm.,automatic firearm,0,99999
+477,n02917067,a bad photo of a bullet train.,bullet train,1,466
+478,n04134632,a bad photo of a sandglass.,sandglass,0,99999
+479,n04204238,a bad photo of a shopping basket.,shopping basket,1,790
+480,n03482405,a bad photo of a  hamper., hamper,1,588
+481,n03940256,a bad photo of a pin.,pin,0,99999
+482,n03947888,a bad photo of a pirate.,pirate,1,724
+483,n04370048,a bad photo of a sweater.,sweater,0,99999
+484,n03272562,a bad photo of a electric locomotive.,electric locomotive,1,547
+485,n01639765,a bad photo of a frog.,frog,0,99999
+486,n02980441,a bad photo of a castle.,castle,1,483
+487,n03220513,a bad photo of a dome.,dome,1,538
+488,n03721384,a bad photo of a marimba.,marimba,1,642
+489,n03895866,a bad photo of a passenger car.,passenger car,1,705
+490,n02206856,a bad photo of a bee.,bee,1,309
+491,n03445777,a bad photo of a golf ball.,golf ball,1,574
+492,n02977058,a bad photo of a  automated teller machine., automated teller machine,1,480
+493,n07714571,a bad photo of a head cabbage.,head cabbage,1,936
+494,n07715721,a bad photo of a summer squash.,summer squash,0,99999
+495,n06785654,a bad photo of a crossword puzzle.,crossword puzzle,1,918
+496,n07932039,a bad photo of a eggnog.,eggnog,1,969
+497,n02274259,a bad photo of a butterfly.,butterfly,0,99999
+498,n02777292,a bad photo of a balance beam.,balance beam,1,416
+499,n02229544,a bad photo of a cricket.,cricket,1,312
+500,n04540053,a bad photo of a volleyball.,volleyball,1,890
+501,n03877845,a bad photo of a palace.,palace,1,698
+502,n02776631,a bad photo of a bakery.,bakery,1,415
+503,n02503517,a bad photo of a elephant.,elephant,0,99999
+504,n01915811,a bad photo of a coral.,coral,0,99999
+505,n03670208,a bad photo of a limousine.,limousine,1,627
+506,n02073250,a bad photo of a sea cow.,sea cow,0,99999
+507,n07613480,a bad photo of a trifle.,trifle,1,927
+508,n03976467,a bad photo of a Polaroid camera.,Polaroid camera,1,732
+509,n03002210,a bad photo of a chair of state.,chair of state,0,99999
+510,n07739506,a bad photo of a eating apple.,eating apple,0,99999
+511,n02129604,a bad photo of a tiger.,tiger,1,292
+512,n03447447,a bad photo of a gondola.,gondola,1,576
+513,n04097866,a bad photo of a robe.,robe,0,99999
+514,n03017168,a bad photo of a chime.,chime,1,494
+515,n03763968,a bad photo of a military uniform.,military uniform,1,652
+516,n03769722,a bad photo of a minibike.,minibike,0,99999
+517,n07836838,a bad photo of a chocolate sauce.,chocolate sauce,1,960
+518,n03709823,a bad photo of a mailbag.,mailbag,1,636
+519,n03841143,a bad photo of a odometer.,odometer,1,685
+520,n04252225,a bad photo of a snowplow.,snowplow,1,803
+521,n03447721,a bad photo of a gong.,gong,1,577
+522,n04505470,a bad photo of a typewriter keyboard.,typewriter keyboard,1,878
+523,n03527444,a bad photo of a holster.,holster,1,597
+524,n04435653,a bad photo of a tile roof.,tile roof,1,858
+525,n03372029,a bad photo of a flute.,flute,1,558
+526,n03770679,a bad photo of a minivan.,minivan,1,656
+527,dummy104,a bad photo of a  computer., computer,0,99999
+528,n03764736,a bad photo of a milk can.,milk can,1,653
+529,n02971356,a bad photo of a  cardboard box / carton., cardboard box / carton,1,478
+530,n03843555,a bad photo of a oil filter.,oil filter,1,686
+531,n03871628,a bad photo of a product packet / packaging.,product packet / packaging,1,692
+532,n03666591,a bad photo of a lighter.,lighter,1,626
+533,n02268853,a bad photo of a damselfly.,damselfly,1,320
+534,n03742115,a bad photo of a medicine chest.,medicine chest,1,648
+535,n03906997,a bad photo of a pen.,pen,0,99999
+536,n02876657,a bad photo of a bottle.,bottle,0,99999
+537,n01770393,a bad photo of a scorpion.,scorpion,1,71
+538,n02992529,a bad photo of a cellular telephone.,cellular telephone,1,487
+539,n07697100,a bad photo of a hamburger.,hamburger,0,99999
+540,n03014705,a bad photo of a chest.,chest,1,492
+541,n02507649,a bad photo of a procyonid.,procyonid,0,99999
+542,n02795169,a bad photo of a barrel.,barrel,1,427
+543,n04489008,a bad photo of a trouser.,trouser,0,99999
+544,n04258138,a bad photo of a solar thermal collector.,solar thermal collector,1,807
+545,n03863923,a bad photo of a overgarment.,overgarment,0,99999
+546,n03467517,a bad photo of a guitar.,guitar,0,99999
+547,n03697007,a bad photo of a lumbermill.,lumbermill,1,634
+548,n02346627,a bad photo of a porcupine.,porcupine,1,334
+549,n01517565,a bad photo of a ratite.,ratite,0,99999
+550,n03042490,a bad photo of a cliff dwelling.,cliff dwelling,1,500
+551,n04146614,a bad photo of a school bus.,school bus,1,779
+552,n02000954,a bad photo of a wading bird.,wading bird,0,99999
+553,n02690373,a bad photo of a airliner.,airliner,1,404
+554,n03400231,a bad photo of a frying pan.,frying pan,1,567
+555,n03797390,a bad photo of a mug.,mug,0,99999
+556,n04026417,a bad photo of a purse.,purse,1,748
+557,n02236044,a bad photo of a mantis.,mantis,1,315
+558,n04141327,a bad photo of a scabbard.,scabbard,1,777
+559,n04465501,a bad photo of a tractor.,tractor,1,866
+560,n02512053,a bad photo of a fish.,fish,0,99999
+561,n04613696,a bad photo of a yurt.,yurt,1,915
+562,n03376595,a bad photo of a folding chair.,folding chair,1,559
+563,n02484322,a bad photo of a monkey.,monkey,0,99999
+564,n03494278,a bad photo of a harmonica.,harmonica,1,593
+565,n02787622,a bad photo of a banjo.,banjo,1,420
+566,n04141076,a bad photo of a sax.,sax,1,776
+567,n04462240,a bad photo of a toyshop.,toyshop,1,865
+568,n03967562,a bad photo of a plow.,plow,1,730
+569,n02129165,a bad photo of a lion.,lion,1,291
+570,n03223299,a bad photo of a doormat.,doormat,1,539
+571,n02219486,a bad photo of a ant.,ant,1,310
+572,n01990800,a bad photo of a isopod.,isopod,1,126
+573,n02730930,a bad photo of a apron.,apron,1,411
+574,n02804610,a bad photo of a bassoon.,bassoon,1,432
+575,n02128757,a bad photo of a snow leopard.,snow leopard,1,289
+576,n02259212,a bad photo of a leafhopper.,leafhopper,1,317
+577,n04286575,a bad photo of a spotlight.,spotlight,1,818
+578,n03803284,a bad photo of a  muzzle., muzzle,1,676
+579,n03085013,a bad photo of a computer keyboard.,computer keyboard,1,508
+580,n03495258,a bad photo of a harp.,harp,1,594
+581,n03948459,a bad photo of a pistol.,pistol,0,99999
+582,n02441326,a bad photo of a musteline mammal.,musteline mammal,0,99999
+583,n03794056,a bad photo of a  mouse trap., mouse trap,1,674
+584,n04596742,a bad photo of a wok.,wok,1,909
+585,n07930864,a bad photo of a cup.,cup,1,968
+586,n04438304,a bad photo of a timer.,timer,0,99999
+587,n04118538,a bad photo of a rugby ball.,rugby ball,1,768
+588,n07583066,a bad photo of a guacamole.,guacamole,1,924
+589,n04606251,a bad photo of a wreck.,wreck,1,913
+590,n07717070,a bad photo of a winter squash.,winter squash,0,99999
+591,n02364673,a bad photo of a guinea pig.,guinea pig,1,338
+592,n02264363,a bad photo of a lacewing.,lacewing,1,318
+593,n02231487,a bad photo of a walking stick.,walking stick,1,313
+594,n03481172,a bad photo of a hammer.,hammer,1,587
+595,n07892512,a bad photo of a red wine.,red wine,1,966
+596,n03691459,a bad photo of a loudspeaker.,loudspeaker,1,632
+597,n04311174,a bad photo of a steel drum.,steel drum,1,822
+598,n01776192,a bad photo of a acarine.,acarine,0,99999
+599,n01968897,a bad photo of a chambered nautilus.,chambered nautilus,1,117
+600,n04040759,a bad photo of a radiator.,radiator,1,753
+601,n03781244,a bad photo of a monastery.,monastery,1,663
+602,n04525305,a bad photo of a vending machine.,vending machine,1,886
+603,n03598930,a bad photo of a jigsaw puzzle.,jigsaw puzzle,1,611
+604,n02076196,a bad photo of a seal.,seal,0,99999
+605,n04355338,a bad photo of a sundial.,sundial,1,835
+606,n03950228,a bad photo of a drink pitcher.,drink pitcher,1,725
+607,n03110669,a bad photo of a cornet.,cornet,1,513
+608,n03995372,a bad photo of a power drill.,power drill,1,740
+609,n02808304,a bad photo of a bath towel.,bath towel,1,434
+610,n02891188,a bad photo of a  brake system., brake system,0,99999
+611,n01816887,a bad photo of a parrot.,parrot,0,99999
+612,n04099969,a bad photo of a rocking chair.,rocking chair,1,765
+613,n03134739,a bad photo of a croquet ball.,croquet ball,1,522
+614,n03791053,a bad photo of a motor scooter.,motor scooter,1,670
+615,n01985128,a bad photo of a crayfish.,crayfish,1,124
+616,n01674216,a bad photo of a saurian.,saurian,0,99999
+617,n04467665,a bad photo of a trailer truck.,trailer truck,1,867
+618,n02965300,a bad photo of a cargo ship.,cargo ship,0,99999
+619,n02808440,a bad photo of a bathtub.,bathtub,1,435
+620,n04592741,a bad photo of a  airplane wing., airplane wing,1,908
+621,n04197391,a bad photo of a shirt.,shirt,0,99999
+622,n12056217,a bad photo of a lady's slipper.,lady's slipper,0,99999
+623,n03345487,a bad photo of a fire engine.,fire engine,1,555
+624,n04275548,a bad photo of a  spider web., spider web,1,815
+625,n03344393,a bad photo of a fireboat.,fireboat,1,554
+626,n02906734,a bad photo of a broom.,broom,1,462
+627,n03127925,a bad photo of a crate.,crate,1,519
+628,dummy92,a bad photo of a  hand tool., hand tool,0,99999
+629,n03297495,a bad photo of a espresso maker.,espresso maker,1,550
+630,n12998815,a bad photo of a agaric.,agaric,1,992
+631,n03816005,a bad photo of a neckwear.,neckwear,0,99999
+632,n03720891,a bad photo of a maraca.,maraca,1,641
+633,n04523525,a bad photo of a vault.,vault,1,884
+634,dummy113,a bad photo of a farm machine.,farm machine,0,99999
+635,n01986214,a bad photo of a hermit crab.,hermit crab,1,125
+636,n07695742,a bad photo of a pretzel.,pretzel,1,932
+637,n04443257,a bad photo of a tobacco shop.,tobacco shop,1,860
+638,n02909870,a bad photo of a bucket.,bucket,1,463
+639,n04367480,a bad photo of a mop.,mop,1,840
+640,n02062744,a bad photo of a whale.,whale,0,99999
+641,n03776460,a bad photo of a mobile home.,mobile home,1,660
+642,n03188531,a bad photo of a diaper.,diaper,1,529
+643,n03323703,a bad photo of a fastener.,fastener,0,99999
+644,n01844917,a bad photo of a aquatic bird.,aquatic bird,0,99999
+645,n03484931,a bad photo of a hand glass.,hand glass,0,99999
+646,n03259280,a bad photo of a Dutch oven.,Dutch oven,1,544
+647,n01629276,a bad photo of a salamander.,salamander,0,99999
+648,n03028079,a bad photo of a church.,church,1,497
+649,n04612504,a bad photo of a yawl.,yawl,1,914
+650,n07697537,a bad photo of a hotdog.,hotdog,1,934
+651,n03935335,a bad photo of a piggy bank.,piggy bank,1,719
+652,n02394477,a bad photo of a even-toed ungulate.,even-toed ungulate,0,99999
+653,n03154073,a bad photo of a cutter.,cutter,0,99999
+654,n02785648,a bad photo of a bandage.,bandage,0,99999
+655,n04021798,a bad photo of a  pump., pump,0,99999
+656,n03461385,a bad photo of a grocery store.,grocery store,1,582
+657,n04065272,a bad photo of a recreational vehicle.,recreational vehicle,1,757
+658,n02793495,a bad photo of a barn.,barn,1,425
+659,n02672831,a bad photo of a accordion.,accordion,1,401
+660,n01770081,a bad photo of a harvestman.,harvestman,1,70
+661,n02790996,a bad photo of a barbell.,barbell,1,422
+662,n04069434,a bad photo of a reflex camera.,reflex camera,1,759
+663,n02363005,a bad photo of a beaver.,beaver,1,337
+664,n04332243,a bad photo of a strainer.,strainer,1,828
+665,n03337140,a bad photo of a file.,file,1,553
+666,n04128499,a bad photo of a sailboat.,sailboat,0,99999
+667,n07684084,a bad photo of a French loaf.,French loaf,1,930
+668,n03976657,a bad photo of a pole.,pole,1,733
+669,n01950731,a bad photo of a sea slug.,sea slug,1,115
+670,n01825930,a bad photo of a coraciiform bird.,coraciiform bird,0,99999
+671,n02701002,a bad photo of a ambulance.,ambulance,1,407
+672,n04552696,a bad photo of a warship.,warship,0,99999
+673,n02164464,a bad photo of a beetle.,beetle,0,99999
+674,n13052670,a bad photo of a hen-of-the-woods.,hen-of-the-woods,1,996
+675,n03100240,a bad photo of a convertible.,convertible,1,511
+676,n04501370,a bad photo of a turnstile.,turnstile,1,877
+677,n04285008,a bad photo of a sports car.,sports car,1,817
+678,n02966193,a bad photo of a carousel.,carousel,1,476
+679,n04371563,a bad photo of a swimsuit.,swimsuit,0,99999
+680,n02120997,a bad photo of a feline.,feline,0,99999
+681,n03636649,a bad photo of a lamp.,lamp,0,99999
+682,n02835271,a bad photo of a bicycle-built-for-two.,bicycle-built-for-two,1,444
+683,n04536866,a bad photo of a violin.,violin,1,889
+684,n02802426,a bad photo of a basketball.,basketball,1,430
+685,n04230808,a bad photo of a skirt.,skirt,0,99999
+686,n04210390,a bad photo of a shrine.,shrine,0,99999
+687,n03786901,a bad photo of a mortar and pestle.,mortar and pestle,1,666
+688,n03796401,a bad photo of a moving van.,moving van,1,675
+689,n01604330,a bad photo of a bird of prey.,bird of prey,0,99999
+690,n02877962,a bad photo of a bottle opener.,bottle opener,0,99999
+691,n02256656,a bad photo of a cicada.,cicada,1,316
+692,n03938244,a bad photo of a pillow.,pillow,1,721
+693,n02373336,a bad photo of a odd-toed ungulate.,odd-toed ungulate,0,99999
+694,n07693725,a bad photo of a bagel.,bagel,1,931
+695,n02342885,a bad photo of a hamster.,hamster,1,333
+696,n03445924,a bad photo of a golfcart.,golfcart,1,575
+697,n04277352,a bad photo of a  spindle., spindle,1,816
+698,n04548362,a bad photo of a wallet.,wallet,1,893
+699,n01514859,a bad photo of a hen.,hen,1,8
+700,n03016953,a bad photo of a chiffonier.,chiffonier,1,493
+701,n04254680,a bad photo of a soccer ball.,soccer ball,1,805
+702,n03113152,a bad photo of a cosmetic.,cosmetic,0,99999
+703,n02880940,a bad photo of a bowl.,bowl,0,99999
+704,n03381126,a bad photo of a footwear.,footwear,0,99999
+705,n07590611,a bad photo of a hot pot.,hot pot,1,926
+706,n01772222,a bad photo of a spider.,spider,0,99999
+707,n03710193,a bad photo of a mailbox.,mailbox,1,637
+708,n03131574,a bad photo of a crib.,crib,1,520
+709,n04461696,a bad photo of a tow truck.,tow truck,1,864
+710,n03126707,a bad photo of a construction crane.,construction crane,1,517
+711,n04284002,a bad photo of a spoon.,spoon,0,99999
+712,n03438257,a bad photo of a glass.,glass,0,99999
+713,n01696633,a bad photo of a crocodilian reptile.,crocodilian reptile,0,99999
+714,n04456115,a bad photo of a torch.,torch,1,862
+715,n02951358,a bad photo of a canoe.,canoe,1,472
+716,n02927161,a bad photo of a butcher shop.,butcher shop,1,467
+717,n03133878,a bad photo of a Crock Pot.,Crock Pot,1,521
+718,n04553703,a bad photo of a sink.,sink,1,896
+719,n03930630,a bad photo of a pickup.,pickup,1,717
+720,n04487081,a bad photo of a trolleybus.,trolleybus,1,874
+721,n02799071,a bad photo of a baseball.,baseball,1,429
+722,n01524359,a bad photo of a passerine.,passerine,0,99999
+723,n03773035,a bad photo of a mirror.,mirror,0,99999
+724,n03788195,a bad photo of a mosque.,mosque,1,668
+725,n03250847,a bad photo of a  drumstick., drumstick,1,542
+726,n02233338,a bad photo of a cockroach.,cockroach,1,314
+727,n03876231,a bad photo of a paintbrush.,paintbrush,1,696
+728,n03854065,a bad photo of a organ.,organ,1,687
+729,n01943899,a bad photo of a conch.,conch,1,112
+730,n04350905,a bad photo of a suit.,suit,1,834
+731,n03873416,a bad photo of a paddle.,paddle,1,693
+732,n01945685,a bad photo of a slug.,slug,1,114
+733,n02791270,a bad photo of a barbershop.,barbershop,1,424
+734,n13054560,a bad photo of a bolete.,bolete,1,997
+735,n03249569,a bad photo of a drum.,drum,1,541
+736,n04326547,a bad photo of a stone wall.,stone wall,1,825
+737,n04153751,a bad photo of a screw.,screw,1,783
+738,n03888605,a bad photo of a parallel bars.,parallel bars,1,702
+739,n03457902,a bad photo of a greenhouse.,greenhouse,1,580
+740,n01877812,a bad photo of a wallaby.,wallaby,1,104
+741,n03459775,a bad photo of a  radiator grille., radiator grille,1,581
+742,n03902125,a bad photo of a pay-phone.,pay-phone,1,707
+743,n04398044,a bad photo of a teapot.,teapot,1,849
+744,n03584254,a bad photo of a iPod.,iPod,1,605
+745,n03977966,a bad photo of a police van.,police van,1,734
+746,n03417042,a bad photo of a garbage truck.,garbage truck,1,569
+747,n04310018,a bad photo of a steam locomotive.,steam locomotive,1,820
+748,n03490324,a bad photo of a handwear.,handwear,0,99999
+749,n03623198,a bad photo of a knee pad.,knee pad,1,615
+750,n07579787,a bad photo of a plate.,plate,1,923
+751,n02128385,a bad photo of a leopard.,leopard,1,288
+752,n02871525,a bad photo of a bookshop.,bookshop,1,454
+753,n02797295,a bad photo of a barrow.,barrow,1,428
+754,n03682487,a bad photo of a lock.,lock,0,99999
+755,n02930766,a bad photo of a cab.,cab,1,468
+756,n03063689,a bad photo of a coffeepot.,coffeepot,1,505
+757,n03535780,a bad photo of a horizontal bar.,horizontal bar,1,602
+758,n03236735,a bad photo of a dress.,dress,0,99999
+759,n03930313,a bad photo of a picket fence.,picket fence,1,716
+760,n04185071,a bad photo of a sharpener.,sharpener,0,99999
+761,n03908618,a bad photo of a  case., case,1,709
+762,n04204347,a bad photo of a shopping cart.,shopping cart,1,791
+763,dummy35,a bad photo of a armor.,armor,0,99999
+764,n02190166,a bad photo of a fly.,fly,1,308
+765,n04067472,a bad photo of a reel.,reel,1,758
+766,n02361337,a bad photo of a marmot.,marmot,1,336
+767,n01789386,a bad photo of a gallinaceous bird.,gallinaceous bird,0,99999
+768,n15075141,a bad photo of a toilet paper.,toilet paper,1,999
+769,n03000134,a bad photo of a chainlink fence.,chainlink fence,1,489
+770,n04049303,a bad photo of a rain barrel.,rain barrel,1,756
+771,n01882714,a bad photo of a koala.,koala,1,105
+772,n04208210,a bad photo of a shovel.,shovel,1,792
+773,n02791124,a bad photo of a barber chair.,barber chair,1,423
+774,n03255030,a bad photo of a dumbbell.,dumbbell,1,543
+775,n02130308,a bad photo of a cheetah.,cheetah,1,293
+776,n02470325,a bad photo of a ape.,ape,0,99999
+777,n07615774,a bad photo of a ice lolly.,ice lolly,1,929
+778,n03384352,a bad photo of a forklift.,forklift,1,561
+779,n02268443,a bad photo of a dragonfly.,dragonfly,1,319
+780,n03294833,a bad photo of a eraser.,eraser,0,99999
+781,n03041632,a bad photo of a cleaver.,cleaver,1,499
+782,n01982650,a bad photo of a lobster.,lobster,0,99999
+783,n02814860,a bad photo of a beacon.,beacon,1,437
+784,n03532672,a bad photo of a hook.,hook,1,600
+785,n01662622,a bad photo of a chelonian.,chelonian,0,99999
+786,n04118776,a bad photo of a rule.,rule,1,769
+787,n04493381,a bad photo of a hot tub.,hot tub,1,876
+788,n04254120,a bad photo of a soap dispenser.,soap dispenser,1,804
+789,n02355227,a bad photo of a squirrel.,squirrel,0,99999
+790,n03662601,a bad photo of a lifeboat.,lifeboat,1,625
+791,n03100346,a bad photo of a convertible.,convertible,0,99999
+792,n03187595,a bad photo of a dial telephone.,dial telephone,1,528
+793,n01831712,a bad photo of a apodiform bird.,apodiform bird,0,99999
+794,n04200800,a bad photo of a shoe shop.,shoe shop,1,788
+795,n03804744,a bad photo of a nail.,nail,1,677
+796,n03887697,a bad photo of a paper towel.,paper towel,1,700
+797,n03018349,a bad photo of a china cabinet.,china cabinet,1,495
+798,n02951843,a bad photo of a canopy.,canopy,0,99999
+799,n04417672,a bad photo of a thatch.,thatch,1,853
+800,n03945615,a bad photo of a pipe.,pipe,0,99999
+801,n02804414,a bad photo of a bassinet.,bassinet,1,431
+802,n01822602,a bad photo of a cuculiform bird.,cuculiform bird,0,99999
+803,n02326432,a bad photo of a hare.,hare,1,331
+804,n03046257,a bad photo of a clock.,clock,0,99999
+805,n03502509,a bad photo of a headdress.,headdress,0,99999
+806,n03706653,a bad photo of a magnetic disk.,magnetic disk,0,99999
+807,n04046974,a bad photo of a rail fence.,rail fence,0,99999
+808,n03393912,a bad photo of a freight car.,freight car,1,565
+809,n07720615,a bad photo of a sweet pepper.,sweet pepper,0,99999
+810,dummy711,a bad photo of a  strong box., strong box,0,99999
+811,n02131653,a bad photo of a bear.,bear,0,99999
+812,n03032252,a bad photo of a cinema.,cinema,1,498
+813,n04090263,a bad photo of a rifle.,rifle,1,764
+814,n03792782,a bad photo of a mountain bike.,mountain bike,1,671
+815,n04243546,a bad photo of a  slot machine., slot machine,1,800
+816,n04273569,a bad photo of a speedboat.,speedboat,1,814
+817,n04152593,a bad photo of a screen.,screen,1,782
+818,n02456962,a bad photo of a sloth.,sloth,0,99999
+819,n02828884,a bad photo of a bench.,bench,0,99999
+820,n04044716,a bad photo of a radio telescope.,radio telescope,1,755
+821,n07614500,a bad photo of a ice cream.,ice cream,1,928
+822,n04562935,a bad photo of a water tower.,water tower,1,900
+823,dummy190,a bad photo of a  wheel., wheel,0,99999
+824,n03896103,a bad photo of a passenger ship.,passenger ship,0,99999
+825,n01838038,a bad photo of a piciform bird.,piciform bird,0,99999
+826,n03840681,a bad photo of a ocarina.,ocarina,1,684
+827,n03998194,a bad photo of a prayer rug.,prayer rug,1,741
+828,n03777568,a bad photo of a Model T.,Model T,1,661
+829,dummy111,a bad photo of a jar.,jar,0,99999
+830,n03271574,a bad photo of a electric fan.,electric fan,1,545
+831,n03125729,a bad photo of a cradle.,cradle,1,516
+832,n04187547,a bad photo of a shed.,shed,0,99999
+833,n02966687,a bad photo of a carpenter's kit.,carpenter's kit,1,477
+834,n01944390,a bad photo of a snail.,snail,1,113
+835,n02128925,a bad photo of a jaguar.,jaguar,1,290
+836,n03000684,a bad photo of a chain saw.,chain saw,1,491
+837,n07711569,a bad photo of a mashed potato.,mashed potato,1,935
+838,n02814533,a bad photo of a beach wagon.,beach wagon,1,436
+839,n04037443,a bad photo of a racer.,racer,1,751
+840,n03942813,a bad photo of a ping-pong ball.,ping-pong ball,1,722
+841,n07584110,a bad photo of a consomme.,consomme,1,925
+842,n02114100,a bad photo of a wolf.,wolf,0,99999
+843,n01661818,a bad photo of a diapsid.,diapsid,0,99999
+844,n02769748,a bad photo of a backpack.,backpack,1,414
+845,n03394916,a bad photo of a French horn.,French horn,1,566
+846,n03928116,a bad photo of a piano.,piano,0,99999
+847,n03089624,a bad photo of a confectionery.,confectionery,1,509
+848,n02951585,a bad photo of a can opener.,can opener,1,473
+849,n04125853,a bad photo of a safety belt.,safety belt,0,99999
+850,n04023962,a bad photo of a punching bag.,punching bag,1,747
+851,n03444034,a bad photo of a go-kart.,go-kart,1,573
+852,n02324045,a bad photo of a rabbit.,rabbit,0,99999
+853,n03706229,a bad photo of a magnetic compass.,magnetic compass,1,635
+854,n04296261,a bad photo of a staff.,staff,0,99999
+855,n02992211,a bad photo of a cello.,cello,1,486
+856,n03920288,a bad photo of a petri dish.,petri dish,1,712
+857,n04508163,a bad photo of a undergarment.,undergarment,0,99999
+858,n02843684,a bad photo of a birdhouse.,birdhouse,1,448
+859,n07838233,a bad photo of a spaghetti sauce.,spaghetti sauce,0,99999
+860,n02496913,a bad photo of a lemur.,lemur,0,99999
+861,n03729826,a bad photo of a matchstick.,matchstick,1,644
+862,n03594945,a bad photo of a jeep.,jeep,1,609
+863,n04147183,a bad photo of a schooner.,schooner,1,780
+864,n02134971,a bad photo of a viverrine mammal.,viverrine mammal,0,99999
+865,n04154565,a bad photo of a screwdriver.,screwdriver,1,784
+866,n02667093,a bad photo of a abaya.,abaya,1,399
+867,n02887209,a bad photo of a brace.,brace,0,99999
+868,n02764044,a bad photo of a axe.,axe,0,99999
+869,n02134418,a bad photo of a sloth bear.,sloth bear,1,297
+870,n03595614,a bad photo of a jersey.,jersey,1,610
+871,n03425413,a bad photo of a  gas pump., gas pump,1,571
+872,n04557648,a bad photo of a water bottle.,water bottle,1,898
+873,n01843383,a bad photo of a toucan.,toucan,1,96
+874,n02168699,a bad photo of a long-horned beetle.,long-horned beetle,1,303
+875,n04579145,a bad photo of a whiskey jug.,whiskey jug,1,901
+876,n04346328,a bad photo of a stupa.,stupa,1,832
+877,n03775546,a bad photo of a mixing bowl.,mixing bowl,1,659
+878,n02355003,a bad photo of a swine.,swine,0,99999
+879,n01818515,a bad photo of a macaw.,macaw,1,88
+880,n02823750,a bad photo of a beer glass.,beer glass,1,441
+881,n02708093,a bad photo of a analog clock.,analog clock,1,409
+882,n02281787,a bad photo of a lycaenid.,lycaenid,1,326
+883,n02954340,a bad photo of a cap.,cap,0,99999
+884,n03441112,a bad photo of a glove.,glove,0,99999
+885,n02965783,a bad photo of a  car mirror., car mirror,1,475
+886,n03057021,a bad photo of a coat.,coat,0,99999
+887,n02486261,a bad photo of a patas.,patas,1,371
+888,n03877472,a bad photo of a pajama.,pajama,1,697
+889,n03095699,a bad photo of a container ship.,container ship,1,510
+890,n02021795,a bad photo of a sea bird.,sea bird,0,99999
+891,n02071294,a bad photo of a killer whale.,killer whale,1,148
+892,n02356798,a bad photo of a fox squirrel.,fox squirrel,1,335
+893,n03594734,a bad photo of a jean.,jean,1,608
+894,n01773157,a bad photo of a black and gold garden spider.,black and gold garden spider,1,72
+895,n02018795,a bad photo of a bustard.,bustard,1,138
+896,n01773797,a bad photo of a garden spider.,garden spider,1,74
+897,n02481823,a bad photo of a chimpanzee.,chimpanzee,1,367
+898,n02483708,a bad photo of a siamang.,siamang,1,369
+899,n03954731,a bad photo of a block plane.,block plane,1,726
+900,n01828970,a bad photo of a bee eater.,bee eater,1,92
+901,n01632777,a bad photo of a axolotl.,axolotl,1,29
+902,n01726692,a bad photo of a snake.,snake,0,99999
+903,n02137549,a bad photo of a mongoose.,mongoose,1,298
+904,n03597469,a bad photo of a jewelry.,jewelry,0,99999
+905,n01802721,a bad photo of a phasianid.,phasianid,0,99999
+906,n02084071,a bad photo of a dog.,dog,0,99999
+907,n03544143,a bad photo of a hourglass.,hourglass,1,604
+908,n03141823,a bad photo of a crutch.,crutch,1,523
+909,n04483307,a bad photo of a trimaran.,trimaran,1,871
+910,n03785016,a bad photo of a moped.,moped,1,665
+911,n07716358,a bad photo of a zucchini.,zucchini,1,939
+912,n07716906,a bad photo of a spaghetti squash.,spaghetti squash,1,940
+913,n03075370,a bad photo of a combination lock.,combination lock,1,507
+914,n04086273,a bad photo of a revolver.,revolver,1,763
+915,n03476991,a bad photo of a hair spray.,hair spray,1,585
+916,n03673027,a bad photo of a liner.,liner,1,628
+917,n03714235,a bad photo of a makeup.,makeup,0,99999
+918,n02008041,a bad photo of a heron.,heron,0,99999
+919,n03196217,a bad photo of a digital clock.,digital clock,1,530
+920,n02834397,a bad photo of a bib.,bib,1,443
+921,n02074367,a bad photo of a dugong.,dugong,1,149
+922,n02490219,a bad photo of a marmoset.,marmoset,1,377
+923,n01605630,a bad photo of a hawk.,hawk,0,99999
+924,n02727426,a bad photo of a apiary.,apiary,1,410
+925,n04192698,a bad photo of a shield.,shield,1,787
+926,n01978287,a bad photo of a Dungeness crab.,Dungeness crab,1,118
+927,n03314378,a bad photo of a face mask.,face mask,0,99999
+928,n02910353,a bad photo of a buckle.,buckle,1,464
+929,n06359193,a bad photo of a  web site., web site,1,916
+930,n02066245,a bad photo of a grey whale.,grey whale,1,147
+931,n02132136,a bad photo of a brown bear.,brown bear,1,294
+932,n01629819,a bad photo of a European fire salamander.,European fire salamander,1,25
+933,n02837789,a bad photo of a bikini.,bikini,1,445
+934,n01775062,a bad photo of a wolf spider.,wolf spider,1,77
+935,n03992509,a bad photo of a potter's wheel.,potter's wheel,1,739
+936,n02169497,a bad photo of a leaf beetle.,leaf beetle,1,304
+937,n07717556,a bad photo of a butternut squash.,butternut squash,1,942
+938,n04597913,a bad photo of a wooden spoon.,wooden spoon,1,910
+939,n03640988,a bad photo of a lantern.,lantern,0,99999
+940,n02114367,a bad photo of a timber wolf.,timber wolf,1,269
+941,n02484975,a bad photo of a guenon.,guenon,1,370
+942,n02492660,a bad photo of a howler monkey.,howler monkey,1,379
+943,n02480855,a bad photo of a gorilla.,gorilla,1,366
+944,n02504013,a bad photo of a Indian elephant.,Indian elephant,1,385
+945,n02504458,a bad photo of a African elephant.,African elephant,1,386
+946,n01534433,a bad photo of a junco.,junco,1,13
+947,n01632458,a bad photo of a spotted salamander.,spotted salamander,1,28
+948,n01532829,a bad photo of a house finch.,house finch,1,12
+949,n01843065,a bad photo of a jacamar.,jacamar,1,95
+950,n02118333,a bad photo of a fox.,fox,0,99999
+951,n01531178,a bad photo of a goldfinch.,goldfinch,1,11
+952,n07720875,a bad photo of a bell pepper.,bell pepper,1,945
+953,n04127249,a bad photo of a safety pin.,safety pin,1,772
+954,n02687172,a bad photo of a aircraft carrier.,aircraft carrier,1,403
+955,n02398521,a bad photo of a hippopotamus.,hippopotamus,1,344
+956,n02013706,a bad photo of a limpkin.,limpkin,1,135
+957,n02437136,a bad photo of a camel.,camel,0,99999
+958,n01981276,a bad photo of a king crab.,king crab,1,121
+959,n02133161,a bad photo of a American black bear.,American black bear,1,295
+960,n03891332,a bad photo of a parking meter.,parking meter,1,704
+961,n01774750,a bad photo of a tarantula.,tarantula,1,76
+962,n02115335,a bad photo of a wild dog.,wild dog,0,99999
+963,n02486410,a bad photo of a baboon.,baboon,1,372
+964,n07697313,a bad photo of a cheeseburger.,cheeseburger,1,933
+965,n02488702,a bad photo of a colobus.,colobus,1,375
+966,n03983396,a bad photo of a pop bottle.,pop bottle,1,737
+967,n01858441,a bad photo of a swan.,swan,0,99999
+968,n02165456,a bad photo of a ladybug.,ladybug,1,301
+969,n02489166,a bad photo of a proboscis monkey.,proboscis monkey,1,376
+970,n01820348,a bad photo of a lory.,lory,0,99999
+971,n01795088,a bad photo of a grouse.,grouse,0,99999
+972,n01917289,a bad photo of a brain coral.,brain coral,1,109
+973,n02374149,a bad photo of a equine.,equine,0,99999
+974,n02037110,a bad photo of a oystercatcher.,oystercatcher,1,143
+975,n03874599,a bad photo of a padlock.,padlock,1,695
+976,n01984695,a bad photo of a spiny lobster.,spiny lobster,1,123
+977,n01630284,a bad photo of a newt.,newt,0,99999
+978,n02279637,a bad photo of a danaid.,danaid,0,99999
+979,n02014941,a bad photo of a rail.,rail,0,99999
+980,n03513137,a bad photo of a helmet.,helmet,0,99999
+981,n01640846,a bad photo of a true frog.,true frog,0,99999
+982,n02823428,a bad photo of a beer bottle.,beer bottle,1,440
+983,n03937543,a bad photo of a pill bottle.,pill bottle,1,720
+984,n03866082,a bad photo of a overskirt.,overskirt,1,689
+985,n01530575,a bad photo of a brambling.,brambling,1,10
+986,n04033901,a bad photo of a quill.,quill,1,749
+987,n03047690,a bad photo of a clog.,clog,1,502
+988,n02442845,a bad photo of a mink.,mink,1,357
+989,n02443484,a bad photo of a black-footed ferret.,black-footed ferret,1,359
+990,n02007558,a bad photo of a flamingo.,flamingo,1,130
+991,n03617480,a bad photo of a kimono.,kimono,1,614
+992,n02492035,a bad photo of a capuchin.,capuchin,1,378
+993,n01644373,a bad photo of a tree frog.,tree frog,1,31
+994,n04428191,a bad photo of a threshing machine.,threshing machine,1,856
+995,n02280458,a bad photo of a pierid.,pierid,0,99999
+996,n04429376,a bad photo of a throne.,throne,1,857
+997,n01983048,a bad photo of a true lobster.,true lobster,0,99999
+998,n03388183,a bad photo of a fountain pen.,fountain pen,1,563
+999,n01819115,a bad photo of a cockatoo.,cockatoo,0,99999
+1000,n03916031,a bad photo of a perfume.,perfume,1,711
+1001,n03770439,a bad photo of a miniskirt.,miniskirt,1,655
+1002,n02399000,a bad photo of a ruminant.,ruminant,0,99999
+1003,n01616318,a bad photo of a vulture.,vulture,1,23
+1004,n02497673,a bad photo of a Madagascar cat.,Madagascar cat,1,383
+1005,n02494079,a bad photo of a squirrel monkey.,squirrel monkey,1,382
+1006,n04507155,a bad photo of a umbrella.,umbrella,1,879
+1007,n02114855,a bad photo of a coyote.,coyote,1,272
+1008,n01845132,a bad photo of a waterfowl.,waterfowl,0,99999
+1009,n02444819,a bad photo of a otter.,otter,1,360
+1010,n02165105,a bad photo of a tiger beetle.,tiger beetle,1,300
+1011,n02510455,a bad photo of a giant panda.,giant panda,1,388
+1012,n02480495,a bad photo of a orangutan.,orangutan,1,365
+1013,n02277742,a bad photo of a ringlet.,ringlet,1,322
+1014,n02457408,a bad photo of a three-toed sloth.,three-toed sloth,1,364
+1015,n02680110,a bad photo of a adhesive bandage.,adhesive bandage,0,99999
+1016,n04199027,a bad photo of a shoe.,shoe,0,99999
+1017,n02022684,a bad photo of a shorebird.,shorebird,0,99999
+1018,n01621127,a bad photo of a owl.,owl,0,99999
+1019,n03692522,a bad photo of a loupe.,loupe,1,633
+1020,n01558993,a bad photo of a robin.,robin,1,15
+1021,n03450230,a bad photo of a gown.,gown,1,578
+1022,n02487347,a bad photo of a macaque.,macaque,1,373
+1023,n07831146,a bad photo of a carbonara.,carbonara,1,959
+1024,n04371430,a bad photo of a swimming trunks.,swimming trunks,1,842
+1025,n02117135,a bad photo of a hyena.,hyena,1,276
+1026,n01776313,a bad photo of a tick.,tick,1,78
+1027,n03272010,a bad photo of a electric guitar.,electric guitar,1,546
+1028,n02443114,a bad photo of a polecat.,polecat,1,358
+1029,n04522168,a bad photo of a vase.,vase,1,883
+1030,n02077923,a bad photo of a sea lion.,sea lion,1,150
+1031,n03551084,a bad photo of a hydraulic brake.,hydraulic brake,0,99999
+1032,n04143897,a bad photo of a scarf.,scarf,0,99999
+1033,n01978455,a bad photo of a rock crab.,rock crab,1,119
+1034,n02445715,a bad photo of a skunk.,skunk,1,361
+1035,n04021028,a bad photo of a pullover.,pullover,0,99999
+1036,n02274822,a bad photo of a nymphalid.,nymphalid,0,99999
+1037,n02974003,a bad photo of a car wheel.,car wheel,1,479
+1038,n02006656,a bad photo of a spoonbill.,spoonbill,1,129
+1039,n02447366,a bad photo of a badger.,badger,1,362
+1040,n02981792,a bad photo of a catamaran.,catamaran,1,484
+1041,n03109150,a bad photo of a corkscrew.,corkscrew,1,512
+1042,n02441942,a bad photo of a weasel.,weasel,1,356
+1043,n01817953,a bad photo of a African grey.,African grey,1,87
+1044,n03196324,a bad photo of a digital computer.,digital computer,0,99999
+1045,n04162706,a bad photo of a seat belt.,seat belt,1,785
+1046,n02488291,a bad photo of a langur.,langur,1,374
+1047,n01662784,a bad photo of a turtle.,turtle,0,99999
+1048,n03637318,a bad photo of a lampshade.,lampshade,1,619
+1049,n03534580,a bad photo of a hoopskirt.,hoopskirt,1,601
+1050,n01518878,a bad photo of a ostrich.,ostrich,1,9
+1051,n02012849,a bad photo of a crane.,crane,1,134
+1052,n02002075,a bad photo of a stork.,stork,0,99999
+1053,n02138441,a bad photo of a meerkat.,meerkat,1,299
+1054,n03063599,a bad photo of a coffee mug.,coffee mug,1,504
+1055,n03944341,a bad photo of a pinwheel.,pinwheel,1,723
+1056,n12057211,a bad photo of a yellow lady's slipper.,yellow lady's slipper,1,986
+1057,n02134084,a bad photo of a ice bear.,ice bear,1,296
+1058,n01773549,a bad photo of a barn spider.,barn spider,1,73
+1059,n03815615,a bad photo of a necktie.,necktie,0,99999
+1060,n02892767,a bad photo of a brassiere.,brassiere,1,459
+1061,n02859443,a bad photo of a boathouse.,boathouse,1,449
+1062,n03627232,a bad photo of a knot.,knot,1,616
+1063,n03043958,a bad photo of a clip.,clip,0,99999
+1064,n04560804,a bad photo of a water jug.,water jug,1,899
+1065,n02177972,a bad photo of a weevil.,weevil,1,307
+1066,n03496892,a bad photo of a combine harvester.,combine harvester,1,595
+1067,n01829413,a bad photo of a hornbill.,hornbill,1,93
+1068,n03908714,a bad photo of a pencil sharpener.,pencil sharpener,1,710
+1069,n02114548,a bad photo of a white wolf.,white wolf,1,270
+1070,n04125021,a bad photo of a  safe., safe,1,771
+1071,n02114712,a bad photo of a red wolf.,red wolf,1,271
+1072,n07742313,a bad photo of a Granny Smith.,Granny Smith,1,948
+1073,n01560105,a bad photo of a nightingale.,nightingale,0,99999
+1074,n02815834,a bad photo of a beaker.,beaker,1,438
+1075,n07717410,a bad photo of a acorn squash.,acorn squash,1,941
+1076,n03874293,a bad photo of a paddle wheel.,paddle wheel,1,694
+1077,n03540267,a bad photo of a hosiery.,hosiery,0,99999
+1078,n03492542,a bad photo of a hard disk drive.,hard disk drive,1,592
+1079,n02325366,a bad photo of a wood rabbit.,wood rabbit,1,330
+1080,n01833805,a bad photo of a hummingbird.,hummingbird,1,94
+1081,n02493509,a bad photo of a titi.,titi,1,380
+1082,n02500267,a bad photo of a indri.,indri,1,384
+1083,n04515003,a bad photo of a upright.,upright,1,881
+1084,n04328186,a bad photo of a stopwatch.,stopwatch,1,826
+1085,n04548280,a bad photo of a wall clock.,wall clock,1,892
+1086,n02483362,a bad photo of a gibbon.,gibbon,1,368
+1087,n02514825,a bad photo of a bony fish.,bony fish,0,99999
+1088,n03497657,a bad photo of a hat.,hat,0,99999
+1089,n04263257,a bad photo of a soup bowl.,soup bowl,1,809
+1090,n01697178,a bad photo of a crocodile.,crocodile,0,99999
+1091,n02281406,a bad photo of a sulphur butterfly.,sulphur butterfly,1,325
+1092,n04272054,a bad photo of a spectacles.,spectacles,0,99999
+1093,n03476083,a bad photo of a hairpiece.,hairpiece,0,99999
+1094,n02493793,a bad photo of a spider monkey.,spider monkey,1,381
+1095,n04136333,a bad photo of a sarong.,sarong,1,775
+1096,n01695681,a bad photo of a archosaur.,archosaur,0,99999
+1097,n03452741,a bad photo of a grand piano.,grand piano,1,579
+1098,n02783161,a bad photo of a ballpoint.,ballpoint,1,418
+1099,n04591713,a bad photo of a wine bottle.,wine bottle,1,907
+1100,n02948072,a bad photo of a candle.,candle,1,470
+1101,n01613294,a bad photo of a eagle.,eagle,0,99999
+1102,n04344873,a bad photo of a studio couch.,studio couch,1,831
+1103,n02749479,a bad photo of a assault rifle.,assault rifle,1,413
+1104,n03891251,a bad photo of a park bench.,park bench,1,703
+1105,n02437616,a bad photo of a llama.,llama,1,355
+1106,n04116512,a bad photo of a rubber eraser.,rubber eraser,1,767
+1107,n01525720,a bad photo of a oscine bird.,oscine bird,0,99999
+1108,n01480516,a bad photo of a cartilaginous fish.,cartilaginous fish,0,99999
+1109,n02872752,a bad photo of a boot.,boot,0,99999
+1110,n03443371,a bad photo of a goblet.,goblet,1,572
+1111,n02171869,a bad photo of a scarabaeid beetle.,scarabaeid beetle,0,99999
+1112,n01774384,a bad photo of a black widow.,black widow,1,75
+1113,n03197337,a bad photo of a digital watch.,digital watch,1,531
+1114,n01644900,a bad photo of a tailed frog.,tailed frog,1,32
+1115,n03355925,a bad photo of a flagpole.,flagpole,1,557
+1116,n01698434,a bad photo of a alligator.,alligator,0,99999
+1117,n04380533,a bad photo of a table lamp.,table lamp,1,846
+1118,n03128519,a bad photo of a cream.,cream,0,99999
+1119,n04604644,a bad photo of a worm fence.,worm fence,1,912
+1120,n01674464,a bad photo of a lizard.,lizard,0,99999
+1121,n02328150,a bad photo of a Angora.,Angora,1,332
+1122,n03658185,a bad photo of a letter opener.,letter opener,1,623
+1123,n02963159,a bad photo of a cardigan.,cardigan,1,474
+1124,n02509815,a bad photo of a lesser panda.,lesser panda,1,387
+1125,n03884397,a bad photo of a panpipe.,panpipe,1,699
+1126,n02676566,a bad photo of a acoustic guitar.,acoustic guitar,1,402
+1127,n02016358,a bad photo of a gallinule.,gallinule,0,99999
+1128,n02121620,a bad photo of a cat.,cat,0,99999
+1129,n01980166,a bad photo of a fiddler crab.,fiddler crab,1,120
+1130,n02862048,a bad photo of a body armor.,body armor,0,99999
+1131,n01823013,a bad photo of a cuckoo.,cuckoo,0,99999
+1132,n03710721,a bad photo of a maillot.,maillot,1,639
+1133,n02167151,a bad photo of a ground beetle.,ground beetle,1,302
+1134,n04259630,a bad photo of a sombrero.,sombrero,1,808
+1135,n03787032,a bad photo of a mortarboard.,mortarboard,1,667
+1136,n02086079,a bad photo of a Pekinese.,Pekinese,1,154
+1137,n02107574,a bad photo of a Greater Swiss Mountain dog.,Greater Swiss Mountain dog,1,238
+1138,n03000247,a bad photo of a chain mail.,chain mail,1,490
+1139,n02098413,a bad photo of a Lhasa.,Lhasa,1,204
+1140,n01751748,a bad photo of a sea snake.,sea snake,1,65
+1141,n02174001,a bad photo of a rhinoceros beetle.,rhinoceros beetle,1,306
+1142,n01806143,a bad photo of a peacock.,peacock,1,84
+1143,n01495701,a bad photo of a ray.,ray,0,99999
+1144,n02112497,a bad photo of a griffon.,griffon,0,99999
+1145,n01692864,a bad photo of a lacertid lizard.,lacertid lizard,0,99999
+1146,n02026059,a bad photo of a sandpiper.,sandpiper,0,99999
+1147,n02097298,a bad photo of a Scotch terrier.,Scotch terrier,1,199
+1148,n04133789,a bad photo of a sandal.,sandal,1,774
+1149,n02087394,a bad photo of a Rhodesian ridgeback.,Rhodesian ridgeback,1,159
+1150,n02099267,a bad photo of a flat-coated retriever.,flat-coated retriever,1,205
+1151,n02105641,a bad photo of a Old English sheepdog.,Old English sheepdog,1,229
+1152,n02099429,a bad photo of a curly-coated retriever.,curly-coated retriever,1,206
+1153,n03404251,a bad photo of a fur coat.,fur coat,1,568
+1154,n02009229,a bad photo of a little blue heron.,little blue heron,1,131
+1155,n01727646,a bad photo of a colubrid snake.,colubrid snake,0,99999
+1156,n02120505,a bad photo of a grey fox.,grey fox,1,280
+1157,n02085936,a bad photo of a Maltese dog.,Maltese dog,1,153
+1158,n02106166,a bad photo of a Border collie.,Border collie,1,232
+1159,n02091134,a bad photo of a whippet.,whippet,1,172
+1160,n03476684,a bad photo of a hair slide.,hair slide,1,584
+1161,n02091831,a bad photo of a Saluki.,Saluki,1,176
+1162,n02120079,a bad photo of a Arctic fox.,Arctic fox,1,279
+1163,n02101556,a bad photo of a clumber.,clumber,1,216
+1164,n02280649,a bad photo of a cabbage butterfly.,cabbage butterfly,1,324
+1165,n02391049,a bad photo of a zebra.,zebra,1,340
+1166,n02086240,a bad photo of a Shih-Tzu.,Shih-Tzu,1,155
+1167,n02093859,a bad photo of a Kerry blue terrier.,Kerry blue terrier,1,183
+1168,n02097474,a bad photo of a Tibetan terrier.,Tibetan terrier,1,200
+1169,n02105855,a bad photo of a Shetland sheepdog.,Shetland sheepdog,1,230
+1170,n01631663,a bad photo of a eft.,eft,1,27
+1171,n02018027,a bad photo of a coot.,coot,0,99999
+1172,n01745125,a bad photo of a elapid snake.,elapid snake,0,99999
+1173,n01676755,a bad photo of a iguanid.,iguanid,0,99999
+1174,n01685439,a bad photo of a teiid lizard.,teiid lizard,0,99999
+1175,n02023341,a bad photo of a plover.,plover,0,99999
+1176,n02089867,a bad photo of a Walker hound.,Walker hound,1,166
+1177,n02786058,a bad photo of a Band Aid.,Band Aid,1,419
+1178,n02094114,a bad photo of a Norfolk terrier.,Norfolk terrier,1,185
+1179,n02116738,a bad photo of a African hunting dog.,African hunting dog,1,275
+1180,n02090379,a bad photo of a redbone.,redbone,1,168
+1181,n03814639,a bad photo of a neck brace.,neck brace,1,678
+1182,n01687665,a bad photo of a agamid.,agamid,0,99999
+1183,n03045698,a bad photo of a cloak.,cloak,1,501
+1184,n04209133,a bad photo of a shower cap.,shower cap,1,793
+1185,n01630670,a bad photo of a common newt.,common newt,1,26
+1186,n04357314,a bad photo of a sunscreen.,sunscreen,1,838
+1187,n02057731,a bad photo of a pelagic bird.,pelagic bird,0,99999
+1188,n04049405,a bad photo of a raincoat.,raincoat,0,99999
+1189,n02055658,a bad photo of a sphenisciform seabird.,sphenisciform seabird,0,99999
+1190,n03676483,a bad photo of a lipstick.,lipstick,1,629
+1191,n02089973,a bad photo of a English foxhound.,English foxhound,1,167
+1192,n02091032,a bad photo of a Italian greyhound.,Italian greyhound,1,171
+1193,n02112826,a bad photo of a corgi.,corgi,0,99999
+1194,n02121808,a bad photo of a domestic cat.,domestic cat,0,99999
+1195,n03180011,a bad photo of a desktop computer.,desktop computer,1,527
+1196,n02087046,a bad photo of a toy terrier.,toy terrier,1,158
+1197,n02093754,a bad photo of a Border terrier.,Border terrier,1,182
+1198,n02088466,a bad photo of a bloodhound.,bloodhound,1,163
+1199,n02107908,a bad photo of a Appenzeller.,Appenzeller,1,240
+1200,n02108254,a bad photo of a mastiff.,mastiff,0,99999
+1201,n02107142,a bad photo of a Doberman.,Doberman,1,236
+1202,n02093056,a bad photo of a bullterrier.,bullterrier,0,99999
+1203,n02096756,a bad photo of a schnauzer.,schnauzer,0,99999
+1204,n01806567,a bad photo of a quail.,quail,1,85
+1205,n02807133,a bad photo of a bathing cap.,bathing cap,1,433
+1206,n04584207,a bad photo of a wig.,wig,1,903
+1207,n02113978,a bad photo of a Mexican hairless.,Mexican hairless,1,268
+1208,n02091635,a bad photo of a otterhound.,otterhound,1,175
+1209,n02514041,a bad photo of a barracouta.,barracouta,1,389
+1210,n02172182,a bad photo of a dung beetle.,dung beetle,1,305
+1211,n02089078,a bad photo of a black-and-tan coonhound.,black-and-tan coonhound,1,165
+1212,n02002724,a bad photo of a black stork.,black stork,1,128
+1213,n01667778,a bad photo of a terrapin.,terrapin,1,36
+1214,n02916936,a bad photo of a bulletproof vest.,bulletproof vest,1,465
+1215,n03424325,a bad photo of a gasmask.,gasmask,1,570
+1216,n02110185,a bad photo of a Siberian husky.,Siberian husky,1,250
+1217,n02111626,a bad photo of a spitz dog.,spitz dog,0,99999
+1218,n02104029,a bad photo of a kuvasz.,kuvasz,1,222
+1219,n01578575,a bad photo of a corvine bird.,corvine bird,0,99999
+1220,n01824575,a bad photo of a coucal.,coucal,1,91
+1221,n04120489,a bad photo of a running shoe.,running shoe,1,770
+1222,n02817516,a bad photo of a bearskin.,bearskin,1,439
+1223,n02090622,a bad photo of a borzoi.,borzoi,1,169
+1224,n02115913,a bad photo of a dhole.,dhole,1,274
+1225,n02105412,a bad photo of a kelpie.,kelpie,1,227
+1226,n02108089,a bad photo of a boxer.,boxer,1,242
+1227,n01698640,a bad photo of a American alligator.,American alligator,1,50
+1228,n01614925,a bad photo of a bald eagle.,bald eagle,1,22
+1229,n04325704,a bad photo of a stole.,stole,1,824
+1230,n03590841,a bad photo of a carved pumpkin.,carved pumpkin,1,607
+1231,n03775071,a bad photo of a mitten.,mitten,1,658
+1232,n02865351,a bad photo of a bolo tie.,bolo tie,1,451
+1233,n02374451,a bad photo of a horse.,horse,0,99999
+1234,n02528163,a bad photo of a teleost fish.,teleost fish,0,99999
+1235,n02002556,a bad photo of a white stork.,white stork,1,127
+1236,n02106662,a bad photo of a German shepherd.,German shepherd,1,235
+1237,n02401031,a bad photo of a bovid.,bovid,0,99999
+1238,n02119022,a bad photo of a red fox.,red fox,1,277
+1239,n01741562,a bad photo of a constrictor.,constrictor,0,99999
+1240,n02107683,a bad photo of a Bernese mountain dog.,Bernese mountain dog,1,239
+1241,n02124623,a bad photo of a wildcat.,wildcat,0,99999
+1242,n02395406,a bad photo of a hog.,hog,1,341
+1243,n02092339,a bad photo of a Weimaraner.,Weimaraner,1,178
+1244,n02095412,a bad photo of a wirehair.,wirehair,0,99999
+1245,n04532106,a bad photo of a vestment.,vestment,1,887
+1246,n03379051,a bad photo of a football helmet.,football helmet,1,560
+1247,n02096177,a bad photo of a cairn.,cairn,1,192
+1248,n02107312,a bad photo of a miniature pinscher.,miniature pinscher,1,237
+1249,n02276258,a bad photo of a admiral.,admiral,1,321
+1250,n02093991,a bad photo of a Irish terrier.,Irish terrier,1,184
+1251,n03724870,a bad photo of a mask.,mask,1,643
+1252,n01752165,a bad photo of a viper.,viper,0,99999
+1253,n02102605,a bad photo of a water spaniel.,water spaniel,0,99999
+1254,n01622779,a bad photo of a great grey owl.,great grey owl,1,24
+1255,n01591697,a bad photo of a titmouse.,titmouse,0,99999
+1256,n01694709,a bad photo of a monitor.,monitor,0,99999
+1257,n03124043,a bad photo of a cowboy boot.,cowboy boot,1,514
+1258,n01753488,a bad photo of a horned viper.,horned viper,1,66
+1259,n02031934,a bad photo of a snipe.,snipe,0,99999
+1260,n01983481,a bad photo of a American lobster.,American lobster,1,122
+1261,n02085782,a bad photo of a Japanese spaniel.,Japanese spaniel,1,152
+1262,n02869837,a bad photo of a bonnet.,bonnet,1,452
+1263,n03325584,a bad photo of a feather boa.,feather boa,1,552
+1264,n02669723,a bad photo of a academic gown.,academic gown,1,400
+1265,n02097658,a bad photo of a silky terrier.,silky terrier,1,201
+1266,n02108672,a bad photo of a bulldog.,bulldog,0,99999
+1267,n02397096,a bad photo of a warthog.,warthog,1,343
+1268,n03980874,a bad photo of a poncho.,poncho,1,735
+1269,n03127747,a bad photo of a crash helmet.,crash helmet,1,518
+1270,n02110341,a bad photo of a dalmatian.,dalmatian,1,251
+1271,n02098105,a bad photo of a soft-coated wheaten terrier.,soft-coated wheaten terrier,1,202
+1272,n02100583,a bad photo of a vizsla.,vizsla,1,211
+1273,n02094433,a bad photo of a Yorkshire terrier.,Yorkshire terrier,1,187
+1274,n02110063,a bad photo of a malamute.,malamute,1,249
+1275,n02008796,a bad photo of a egret.,egret,0,99999
+1276,n01845477,a bad photo of a anseriform bird.,anseriform bird,0,99999
+1277,n01560419,a bad photo of a bulbul.,bulbul,1,16
+1278,n01601694,a bad photo of a water ouzel.,water ouzel,1,20
+1279,n02092002,a bad photo of a Scottish deerhound.,Scottish deerhound,1,177
+1280,n03929855,a bad photo of a pickelhaube.,pickelhaube,1,715
+1281,n03124170,a bad photo of a cowboy hat.,cowboy hat,1,515
+1282,n02106382,a bad photo of a Bouvier des Flandres.,Bouvier des Flandres,1,233
+1283,n02090721,a bad photo of a Irish wolfhound.,Irish wolfhound,1,170
+1284,n02115641,a bad photo of a dingo.,dingo,1,273
+1285,n01667114,a bad photo of a mud turtle.,mud turtle,1,35
+1286,n02101388,a bad photo of a Brittany spaniel.,Brittany spaniel,1,215
+1287,n03208938,a bad photo of a  disk brake., disk brake,1,535
+1288,n02101861,a bad photo of a springer spaniel.,springer spaniel,0,99999
+1289,n01820546,a bad photo of a lorikeet.,lorikeet,1,90
+1290,n01699831,a bad photo of a dinosaur.,dinosaur,0,99999
+1291,n02088632,a bad photo of a bluetick.,bluetick,1,164
+1292,n03814906,a bad photo of a necklace.,necklace,1,679
+1293,n03485407,a bad photo of a hand-held computer.,hand-held computer,1,590
+1294,n02437312,a bad photo of a Arabian camel.,Arabian camel,1,354
+1295,n02100735,a bad photo of a English setter.,English setter,1,212
+1296,n02100236,a bad photo of a German short-haired pointer.,German short-haired pointer,1,210
+1297,n02119789,a bad photo of a kit fox.,kit fox,1,278
+1298,n02102480,a bad photo of a Sussex spaniel.,Sussex spaniel,1,220
+1299,n02110806,a bad photo of a basenji.,basenji,1,253
+1300,n04254777,a bad photo of a sock.,sock,1,806
+1301,n01807496,a bad photo of a partridge.,partridge,1,86
+1302,n02109047,a bad photo of a Great Dane.,Great Dane,1,246
+1303,n02098286,a bad photo of a West Highland white terrier.,West Highland white terrier,1,203
+1304,n02099849,a bad photo of a Chesapeake Bay retriever.,Chesapeake Bay retriever,1,209
+1305,n01860187,a bad photo of a black swan.,black swan,1,100
+1306,n04355933,a bad photo of a sunglasses.,sunglasses,1,836
+1307,n02051474,a bad photo of a pelecaniform seabird.,pelecaniform seabird,0,99999
+1308,n02096051,a bad photo of a Airedale.,Airedale,1,191
+1309,n02108000,a bad photo of a EntleBucher.,EntleBucher,1,241
+1310,n03498962,a bad photo of a hatchet.,hatchet,1,596
+1311,n02642644,a bad photo of a scorpaenid.,scorpaenid,0,99999
+1312,n03832673,a bad photo of a notebook.,notebook,1,681
+1313,n02895154,a bad photo of a breastplate.,breastplate,1,461
+1314,n02088238,a bad photo of a basset.,basset,1,161
+1315,n02105251,a bad photo of a briard.,briard,1,226
+1316,n03680355,a bad photo of a Loafer.,Loafer,1,630
+1317,n01608432,a bad photo of a kite.,kite,1,21
+1318,n02109525,a bad photo of a Saint Bernard.,Saint Bernard,1,247
+1319,n02104882,a bad photo of a Belgian sheepdog.,Belgian sheepdog,0,99999
+1320,n02093647,a bad photo of a Bedlington terrier.,Bedlington terrier,1,181
+1321,n01674990,a bad photo of a gecko.,gecko,0,99999
+1322,n01482330,a bad photo of a shark.,shark,0,99999
+1323,n02106550,a bad photo of a Rottweiler.,Rottweiler,1,234
+1324,n02099712,a bad photo of a Labrador retriever.,Labrador retriever,1,208
+1325,n01796340,a bad photo of a ptarmigan.,ptarmigan,1,81
+1326,n02883205,a bad photo of a bow tie.,bow tie,1,457
+1327,n02096585,a bad photo of a Boston bull.,Boston bull,1,195
+1328,n02091244,a bad photo of a Ibizan hound.,Ibizan hound,1,173
+1329,n02110958,a bad photo of a pug.,pug,1,254
+1330,n01798484,a bad photo of a prairie chicken.,prairie chicken,1,83
+1331,n01663401,a bad photo of a sea turtle.,sea turtle,0,99999
+1332,n02102318,a bad photo of a cocker spaniel.,cocker spaniel,1,219
+1333,n01641577,a bad photo of a bullfrog.,bullfrog,1,30
+1334,n02099601,a bad photo of a golden retriever.,golden retriever,1,207
+1335,n01795545,a bad photo of a black grouse.,black grouse,1,80
+1336,n02108422,a bad photo of a bull mastiff.,bull mastiff,1,243
+1337,n01747885,a bad photo of a cobra.,cobra,0,99999
+1338,n03314780,a bad photo of a face powder.,face powder,1,551
+1339,n03642806,a bad photo of a laptop.,laptop,1,620
+1340,n01691951,a bad photo of a venomous lizard.,venomous lizard,0,99999
+1341,n04323819,a bad photo of a stocking.,stocking,0,99999
+1342,n02094258,a bad photo of a Norwich terrier.,Norwich terrier,1,186
+1343,n02104365,a bad photo of a schipperke.,schipperke,1,223
+1344,n01669191,a bad photo of a box turtle.,box turtle,1,37
+1345,n04434932,a bad photo of a tights.,tights,0,99999
+1346,n02091467,a bad photo of a Norwegian elkhound.,Norwegian elkhound,1,174
+1347,n01697457,a bad photo of a African crocodile.,African crocodile,1,49
+1348,n03630383,a bad photo of a lab coat.,lab coat,1,617
+1349,n02534734,a bad photo of a salmon.,salmon,0,99999
+1350,n02106030,a bad photo of a collie.,collie,1,231
+1351,n02096437,a bad photo of a Dandie Dinmont.,Dandie Dinmont,1,194
+1352,n01819313,a bad photo of a sulphur-crested cockatoo.,sulphur-crested cockatoo,1,89
+1353,n02113335,a bad photo of a poodle.,poodle,0,99999
+1354,n03146219,a bad photo of a cuirass.,cuirass,1,524
+1355,n01689411,a bad photo of a anguid lizard.,anguid lizard,0,99999
+1356,n02111129,a bad photo of a Leonberg.,Leonberg,1,255
+1357,n02396427,a bad photo of a wild boar.,wild boar,1,342
+1358,n04591157,a bad photo of a Windsor tie.,Windsor tie,1,906
+1359,n02105505,a bad photo of a komondor.,komondor,1,228
+1360,n02111500,a bad photo of a Great Pyrenees.,Great Pyrenees,1,257
+1361,n02101006,a bad photo of a Gordon setter.,Gordon setter,1,214
+1362,n02011460,a bad photo of a bittern.,bittern,1,133
+1363,n02100877,a bad photo of a Irish setter.,Irish setter,1,213
+1364,n02085620,a bad photo of a Chihuahua.,Chihuahua,1,151
+1365,n02111277,a bad photo of a Newfoundland.,Newfoundland,1,256
+1366,n01797886,a bad photo of a ruffed grouse.,ruffed grouse,1,82
+1367,n02109961,a bad photo of a Eskimo dog.,Eskimo dog,1,248
+1368,n03690938,a bad photo of a lotion.,lotion,1,631
+1369,n02112350,a bad photo of a keeshond.,keeshond,1,261
+1370,n01529672,a bad photo of a finch.,finch,0,99999
+1371,n02016956,a bad photo of a purple gallinule.,purple gallinule,0,99999
+1372,n02088364,a bad photo of a beagle.,beagle,1,162
+1373,n02095050,a bad photo of a fox terrier.,fox terrier,0,99999
+1374,n04356056,a bad photo of a sunglasses.,sunglasses,1,837
+1375,n04370456,a bad photo of a sweatshirt.,sweatshirt,1,841
+1376,n01693783,a bad photo of a chameleon.,chameleon,0,99999
+1377,n02110627,a bad photo of a affenpinscher.,affenpinscher,1,252
+1378,n02088094,a bad photo of a Afghan hound.,Afghan hound,1,160
+1379,n02279972,a bad photo of a monarch.,monarch,1,323
+1380,n02096294,a bad photo of a Australian terrier.,Australian terrier,1,193
+1381,n04229816,a bad photo of a ski mask.,ski mask,1,796
+1382,n02086346,a bad photo of a toy spaniel.,toy spaniel,0,99999
+1383,n01664065,a bad photo of a loggerhead.,loggerhead,1,33
+1384,n02018207,a bad photo of a American coot.,American coot,1,137
+1385,n01700470,a bad photo of a ornithischian.,ornithischian,0,99999
+1386,n02086910,a bad photo of a papillon.,papillon,1,157
+1387,n01488918,a bad photo of a requiem shark.,requiem shark,0,99999
+1388,n01734418,a bad photo of a king snake.,king snake,1,56
+1389,n01735189,a bad photo of a garter snake.,garter snake,1,57
+1390,n02123045,a bad photo of a tabby.,tabby,1,281
+1391,n02102177,a bad photo of a Welsh springer spaniel.,Welsh springer spaniel,1,218
+1392,n01687978,a bad photo of a agama.,agama,1,42
+1393,n02058221,a bad photo of a albatross.,albatross,1,146
+1394,n02113624,a bad photo of a toy poodle.,toy poodle,1,265
+1395,n02113799,a bad photo of a standard poodle.,standard poodle,1,267
+1396,n02112018,a bad photo of a Pomeranian.,Pomeranian,1,259
+1397,n02017213,a bad photo of a European gallinule.,European gallinule,1,136
+1398,n01855672,a bad photo of a goose.,goose,1,99
+1399,n02028035,a bad photo of a redshank.,redshank,1,141
+1400,n02123394,a bad photo of a Persian cat.,Persian cat,1,283
+1401,n01675722,a bad photo of a banded gecko.,banded gecko,1,38
+1402,n02113186,a bad photo of a Cardigan.,Cardigan,1,264
+1403,n03710637,a bad photo of a maillot.,maillot,1,638
+1404,n01739381,a bad photo of a vine snake.,vine snake,1,59
+1405,n02419796,a bad photo of a antelope.,antelope,0,99999
+1406,n01728920,a bad photo of a ringneck snake.,ringneck snake,1,53
+1407,n01498041,a bad photo of a stingray.,stingray,1,6
+1408,n02095727,a bad photo of a Welsh terrier.,Welsh terrier,0,99999
+1409,n01580077,a bad photo of a jay.,jay,1,17
+1410,n02033041,a bad photo of a dowitcher.,dowitcher,1,142
+1411,n02086646,a bad photo of a Blenheim spaniel.,Blenheim spaniel,1,156
+1412,n02123159,a bad photo of a tiger cat.,tiger cat,1,282
+1413,n02108915,a bad photo of a French bulldog.,French bulldog,1,245
+1414,n02407959,a bad photo of a Old World buffalo.,Old World buffalo,0,99999
+1415,n01665541,a bad photo of a leatherback turtle.,leatherback turtle,1,34
+1416,n01728572,a bad photo of a thunder snake.,thunder snake,1,52
+1417,n02093256,a bad photo of a Staffordshire bullterrier.,Staffordshire bullterrier,1,179
+1418,n02095314,a bad photo of a wire-haired fox terrier.,wire-haired fox terrier,1,188
+1419,n02097130,a bad photo of a giant schnauzer.,giant schnauzer,1,197
+1420,n01846331,a bad photo of a duck.,duck,0,99999
+1421,n01749582,a bad photo of a mamba.,mamba,0,99999
+1422,n04479046,a bad photo of a trench coat.,trench coat,1,869
+1423,n02102040,a bad photo of a English springer.,English springer,1,217
+1424,n01483522,a bad photo of a mackerel shark.,mackerel shark,0,99999
+1425,n02123597,a bad photo of a Siamese cat.,Siamese cat,1,284
+1426,n02113712,a bad photo of a miniature poodle.,miniature poodle,1,266
+1427,n01494475,a bad photo of a hammerhead.,hammerhead,1,4
+1428,n02410509,a bad photo of a bison.,bison,1,347
+1429,n02102973,a bad photo of a Irish water spaniel.,Irish water spaniel,1,221
+1430,n02124075,a bad photo of a Egyptian cat.,Egyptian cat,1,285
+1431,n02536864,a bad photo of a coho.,coho,1,391
+1432,n01428580,a bad photo of a soft-finned fish.,soft-finned fish,0,99999
+1433,n01689811,a bad photo of a alligator lizard.,alligator lizard,1,44
+1434,n02105056,a bad photo of a groenendael.,groenendael,1,224
+1435,n01740131,a bad photo of a night snake.,night snake,1,60
+1436,n01496331,a bad photo of a electric ray.,electric ray,1,5
+1437,n02113023,a bad photo of a Pembroke.,Pembroke,1,263
+1438,n02414578,a bad photo of a wild sheep.,wild sheep,0,99999
+1439,n01537134,a bad photo of a bunting.,bunting,0,99999
+1440,n02643566,a bad photo of a lionfish.,lionfish,1,396
+1441,n01743605,a bad photo of a python.,python,0,99999
+1442,n02411705,a bad photo of a sheep.,sheep,0,99999
+1443,n01592084,a bad photo of a chickadee.,chickadee,1,19
+1444,n02111889,a bad photo of a Samoyed.,Samoyed,1,258
+1445,n01748264,a bad photo of a Indian cobra.,Indian cobra,1,63
+1446,n01692333,a bad photo of a Gila monster.,Gila monster,1,45
+1447,n02402010,a bad photo of a bovine.,bovine,0,99999
+1448,n02389026,a bad photo of a sorrel.,sorrel,1,339
+1449,n02108551,a bad photo of a Tibetan mastiff.,Tibetan mastiff,1,244
+1450,n01685808,a bad photo of a whiptail.,whiptail,1,41
+1451,n02125311,a bad photo of a cougar.,cougar,1,286
+1452,n01737021,a bad photo of a water snake.,water snake,1,58
+1453,n03026506,a bad photo of a Christmas stocking.,Christmas stocking,1,496
+1454,n02112706,a bad photo of a Brabancon griffon.,Brabancon griffon,1,262
+1455,n02416519,a bad photo of a goat.,goat,0,99999
+1456,n01682714,a bad photo of a American chameleon.,American chameleon,1,40
+1457,n02095570,a bad photo of a Lakeland terrier.,Lakeland terrier,1,189
+1458,n02127052,a bad photo of a lynx.,lynx,1,287
+1459,n01693334,a bad photo of a green lizard.,green lizard,1,46
+1460,n01742172,a bad photo of a boa constrictor.,boa constrictor,1,61
+1461,n02051845,a bad photo of a pelican.,pelican,1,144
+1462,n01753959,a bad photo of a pit viper.,pit viper,0,99999
+1463,n01677366,a bad photo of a common iguana.,common iguana,1,39
+1464,n02638596,a bad photo of a ganoid.,ganoid,0,99999
+1465,n01729977,a bad photo of a green snake.,green snake,1,55
+1466,n02552171,a bad photo of a spiny-finned fish.,spiny-finned fish,0,99999
+1467,n01694178,a bad photo of a African chameleon.,African chameleon,1,47
+1468,n01729322,a bad photo of a hognose snake.,hognose snake,1,54
+1469,n01695060,a bad photo of a Komodo dragon.,Komodo dragon,1,48
+1470,n02112137,a bad photo of a chow.,chow,1,260
+1471,n02025239,a bad photo of a ruddy turnstone.,ruddy turnstone,1,139
+1472,n02009912,a bad photo of a American egret.,American egret,1,132
+1473,n01582220,a bad photo of a magpie.,magpie,1,18
+1474,n01688243,a bad photo of a frilled lizard.,frilled lizard,1,43
+1475,n02055803,a bad photo of a penguin.,penguin,0,99999
+1476,n02093428,a bad photo of a American Staffordshire terrier.,American Staffordshire terrier,1,180
+1477,n02097047,a bad photo of a miniature schnauzer.,miniature schnauzer,1,196
+1478,n02105162,a bad photo of a malinois.,malinois,1,225
+1479,n02027492,a bad photo of a red-backed sandpiper.,red-backed sandpiper,1,140
+1480,n02097209,a bad photo of a standard schnauzer.,standard schnauzer,1,198
+1481,n01703569,a bad photo of a ceratopsian.,ceratopsian,0,99999
+1482,n01749742,a bad photo of a black mamba.,black mamba,0,99999
+1483,n02056570,a bad photo of a king penguin.,king penguin,1,145
+1484,n01744401,a bad photo of a rock python.,rock python,1,62
+1485,n02554730,a bad photo of a percoid fish.,percoid fish,0,99999
+1486,n02095889,a bad photo of a Sealyham terrier.,Sealyham terrier,1,190
+1487,n01852861,a bad photo of a sea duck.,sea duck,0,99999
+1488,n02402425,a bad photo of a cattle.,cattle,0,99999
+1489,n02526121,a bad photo of a eel.,eel,1,390
+1490,n02417914,a bad photo of a ibex.,ibex,1,350
+1491,n02422699,a bad photo of a impala.,impala,1,352
+1492,n01491361,a bad photo of a tiger shark.,tiger shark,1,3
+1493,n02423022,a bad photo of a gazelle.,gazelle,1,353
+1494,n02640242,a bad photo of a sturgeon.,sturgeon,1,394
+1495,n02641379,a bad photo of a gar.,gar,1,395
+1496,n01537544,a bad photo of a indigo bunting.,indigo bunting,1,14
+1497,n02415435,a bad photo of a mountain sheep.,mountain sheep,0,99999
+1498,n02422106,a bad photo of a hartebeest.,hartebeest,1,351
+1499,n02412080,a bad photo of a ram.,ram,1,348
+1500,n01484850,a bad photo of a great white shark.,great white shark,1,2
+1501,n01847000,a bad photo of a drake.,drake,1,97
+1502,n01438208,a bad photo of a cyproniform fish.,cyproniform fish,0,99999
+1503,n02408429,a bad photo of a water buffalo.,water buffalo,1,346
+1504,n02652668,a bad photo of a plectognath.,plectognath,0,99999
+1505,n01754876,a bad photo of a rattlesnake.,rattlesnake,0,99999
+1506,n01755581,a bad photo of a diamondback.,diamondback,1,67
+1507,n02415577,a bad photo of a bighorn.,bighorn,1,349
+1508,n02403003,a bad photo of a ox.,ox,1,345
+1509,n01854415,a bad photo of a merganser.,merganser,0,99999
+1510,n01704323,a bad photo of a triceratops.,triceratops,1,51
+1511,n01439121,a bad photo of a cyprinid.,cyprinid,0,99999
+1512,n01756291,a bad photo of a sidewinder.,sidewinder,1,68
+1513,n02605316,a bad photo of a butterfly fish.,butterfly fish,0,99999
+1514,n02655020,a bad photo of a puffer.,puffer,1,397
+1515,n02606384,a bad photo of a damselfish.,damselfish,0,99999
+1516,n01749939,a bad photo of a green mamba.,green mamba,1,64
+1517,n01443537,a bad photo of a goldfish.,goldfish,1,1
+1518,n02607072,a bad photo of a anemone fish.,anemone fish,1,393
+1519,n01855032,a bad photo of a red-breasted merganser.,red-breasted merganser,1,98
+1520,n01440764,a bad photo of a tench.,tench,1,0
+1521,n02606052,a bad photo of a rock beauty.,rock beauty,1,392

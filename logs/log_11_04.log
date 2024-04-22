@@ -1,0 +1,931 @@
+Started run at: 1712837272.13 seconds
+Run folder: data/imagenet_07_04/v2-0_1trials_50_25_10_1keep_50_100_500_1000samples
+Setting up dataset and prompts
+
+Loading pretrained models...
+
+Loading noise...
+
+Tokenizing text prompts and creating embeddings...
+
+Load subset to evaluate
+
+Evaluating predictions: 
+Skipping 0
+Skipping 16
+Skipping 32
+Skipping 48
+Skipping 64
+Skipping 80
+Skipping 96
+Skipping 112
+Skipping 128
+Skipping 144
+Skipping 160
+Skipping 176
+Skipping 192
+Skipping 208
+Skipping 224
+Skipping 240
+Skipping 256
+Skipping 272
+Skipping 288
+Skipping 304
+Skipping 320
+Skipping 336
+Skipping 352
+Skipping 368
+Skipping 384
+Skipping 400
+Skipping 416
+Skipping 432
+Skipping 448
+Skipping 464
+Skipping 480
+Skipping 496
+Skipping 512
+Skipping 528
+Skipping 544
+Skipping 560
+Skipping 576
+Skipping 592
+Skipping 608
+Skipping 624
+Skipping 640
+Skipping 656
+Skipping 672
+Skipping 688
+Skipping 704
+Skipping 720
+Skipping 736
+Skipping 752
+Skipping 768
+Skipping 784
+Skipping 800
+Skipping 816
+Skipping 832
+Skipping 848
+Skipping 864
+Skipping 880
+Skipping 896
+Skipping 912
+Skipping 928
+Skipping 944
+Skipping 960
+Skipping 976
+Skipping 992
+Skipping 1008
+Skipping 1024
+Skipping 1040
+Skipping 1056
+Skipping 1072
+Skipping 1088
+Skipping 1104
+Skipping 1120
+Skipping 1136
+Skipping 1152
+Skipping 1168
+Skipping 1184
+Skipping 1200
+Skipping 1216
+Skipping 1232
+Skipping 1248
+Skipping 1264
+Skipping 1280
+Skipping 1296
+Skipping 1312
+Skipping 1328
+Skipping 1344
+Skipping 1360
+Skipping 1376
+Skipping 1392
+Skipping 1408
+Skipping 1424
+Skipping 1440
+Skipping 1456
+Skipping 1472
+Skipping 1488
+Skipping 1504
+Skipping 1520
+Skipping 1536
+Skipping 1552
+Skipping 1568
+Skipping 1584
+Skipping 1600
+Skipping 1616
+Skipping 1632
+Skipping 1648
+Skipping 1664
+Skipping 1680
+Skipping 1696
+Skipping 1712
+Skipping 1728
+Skipping 1744
+Skipping 1760
+Skipping 1776
+Skipping 1792
+Skipping 1808
+Skipping 1824
+Skipping 1840
+Skipping 1856
+Skipping 1872
+Skipping 1888
+Skipping 1904
+Skipping 1920
+Skipping 1936
+Skipping 1952
+Skipping 1968
+Skipping 1984
+Skipping 2000
+Skipping 2016
+Skipping 2032
+Skipping 2048
+Skipping 2064
+Skipping 2080
+Skipping 2096
+Skipping 2112
+Skipping 2128
+Skipping 2144
+Skipping 2160
+Skipping 2176
+Skipping 2192
+Skipping 2208
+Skipping 2224
+Skipping 2240
+Skipping 2256
+Skipping 2272
+Skipping 2288
+Skipping 2304
+Skipping 2320
+Skipping 2336
+Skipping 2352
+Skipping 2368
+Skipping 2384
+Skipping 2400
+Skipping 2416
+Skipping 2432
+Skipping 2448
+Skipping 2464
+Skipping 2480
+Skipping 2496
+Skipping 2512
+Skipping 2528
+Skipping 2544
+Skipping 2560
+Skipping 2576
+Skipping 2592
+Skipping 2608
+Skipping 2624
+Skipping 2640
+Skipping 2656
+Skipping 2672
+Skipping 2688
+Skipping 2704
+Skipping 2720
+Skipping 2736
+Skipping 2752
+Skipping 2768
+Skipping 2784
+Skipping 2800
+Skipping 2816
+Skipping 2832
+Skipping 2848
+Skipping 2864
+Skipping 2880
+Skipping 2896
+Skipping 2912
+Skipping 2928
+Skipping 2944
+Skipping 2960
+Skipping 2976
+Skipping 2992
+Skipping 3008
+Skipping 3024
+Skipping 3040
+Skipping 3056
+Skipping 3072
+Skipping 3088
+Skipping 3104
+Skipping 3120
+Skipping 3136
+Skipping 3152
+Skipping 3168
+Skipping 3184
+Skipping 3200
+Skipping 3216
+Skipping 3232
+Skipping 3248
+Skipping 3264
+Skipping 3280
+Skipping 3296
+Skipping 3312
+Skipping 3328
+Skipping 3344
+Skipping 3360
+Skipping 3376
+Skipping 3392
+Skipping 3408
+Skipping 3424
+Skipping 3440
+Skipping 3456
+Skipping 3472
+Skipping 3488
+Skipping 3504
+Skipping 3520
+Skipping 3536
+Skipping 3552
+Skipping 3568
+Skipping 3584
+Skipping 3600
+Skipping 3616
+Skipping 3632
+Skipping 3648
+Skipping 3664
+Skipping 3680
+Skipping 3696
+Skipping 3712
+Skipping 3728
+Skipping 3744
+Skipping 3760
+Skipping 3776
+Skipping 3792
+Skipping 3808
+Skipping 3824
+Skipping 3840
+Skipping 3856
+Skipping 3872
+Skipping 3888
+Skipping 3904
+Skipping 3920
+Skipping 3936
+Skipping 3952
+Skipping 3968
+Skipping 3984
+Skipping 4000
+Skipping 4016
+Skipping 4032
+Skipping 4048
+Skipping 4064
+Skipping 4080
+Skipping 4096
+Skipping 4112
+Skipping 4128
+Skipping 4144
+Skipping 4160
+Skipping 4176
+Skipping 4192
+Skipping 4208
+Skipping 4224
+Skipping 4240
+Skipping 4256
+Skipping 4272
+Skipping 4288
+Skipping 4304
+Skipping 4320
+Skipping 4336
+Skipping 4352
+Skipping 4368
+Skipping 4384
+Skipping 4400
+Skipping 4416
+Skipping 4432
+Skipping 4448
+Skipping 4464
+Skipping 4480
+Skipping 4496
+Skipping 4512
+Skipping 4528
+Skipping 4544
+Skipping 4560
+Skipping 4576
+Skipping 4592
+Skipping 4608
+Skipping 4624
+Skipping 4640
+Skipping 4656
+Skipping 4672
+Skipping 4688
+Skipping 4704
+Skipping 4720
+Skipping 4736
+Skipping 4752
+Skipping 4768
+Skipping 4784
+Skipping 4800
+Skipping 4816
+Skipping 4832
+Skipping 4848
+Skipping 4864
+LABEL: 97
+Pred: 98 
+
+Inference time: 1634.52 seconds 
+LABEL: 97
+Pred: 98 
+
+Inference time: 1946.54 seconds 
+LABEL: 98
+Pred: 98 
+
+Inference time: 1391.16 seconds 
+LABEL: 98
+Pred: 98 
+
+Inference time: 2109.92 seconds 
+LABEL: 98
+Pred: 98 
+
+Inference time: 1971.44 seconds 
+LABEL: 99
+Pred: 99 
+
+Inference time: 1501.18 seconds 
+LABEL: 99
+Pred: 99 
+
+Inference time: 1582.38 seconds 
+LABEL: 99
+Pred: 127 
+
+Inference time: 1390.05 seconds 
+LABEL: 100
+Pred: 100 
+
+Inference time: 2058.64 seconds 
+LABEL: 100
+Pred: 100 
+
+Inference time: 1790.43 seconds 
+LABEL: 100
+Pred: 100 
+
+Inference time: 953.62 seconds 
+LABEL: 101
+Pred: 386 
+
+Inference time: 2048.06 seconds 
+LABEL: 101
+Pred: 385 
+
+Inference time: 1659.56 seconds 
+LABEL: 101
+Pred: 101 
+
+Inference time: 1607.10 seconds 
+LABEL: 102
+Pred: 102 
+
+Inference time: 1426.64 seconds 
+LABEL: 102
+Pred: 102 
+
+Inference time: 1423.65 seconds 
+LABEL: 102
+Pred: 102 
+
+Inference time: 1991.40 seconds 
+LABEL: 103
+Pred: 103 
+
+Inference time: 1738.03 seconds 
+LABEL: 103
+Pred: 501 
+
+Inference time: 2056.67 seconds 
+LABEL: 103
+Pred: 103 
+
+Inference time: 2017.41 seconds 
+LABEL: 104
+Pred: 104 
+
+Inference time: 1433.94 seconds 
+LABEL: 104
+Pred: 104 
+
+Inference time: 1365.34 seconds 
+LABEL: 104
+Pred: 104 
+
+Inference time: 1993.60 seconds 
+LABEL: 104
+Pred: 104 
+
+Inference time: 1154.42 seconds 
+LABEL: 105
+Pred: 105 
+
+Inference time: 2112.21 seconds 
+LABEL: 105
+Pred: 105 
+
+Inference time: 1519.73 seconds 
+LABEL: 105
+Pred: 345 
+
+Inference time: 1929.12 seconds 
+LABEL: 106
+Pred: 106 
+
+Inference time: 1787.01 seconds 
+LABEL: 106
+Pred: 106 
+
+Inference time: 2015.52 seconds 
+LABEL: 106
+Pred: 106 
+
+Inference time: 2044.39 seconds 
+LABEL: 107
+Pred: 978 
+
+Inference time: 808.80 seconds 
+LABEL: 107
+Pred: 838 
+
+Inference time: 1407.12 seconds 
+LABEL: 107
+Pred: 107 
+
+Inference time: 2035.04 seconds 
+LABEL: 108
+Pred: 393 
+
+Inference time: 1820.81 seconds 
+LABEL: 108
+Pred: 107 
+
+Inference time: 1628.58 seconds 
+LABEL: 108
+Pred: 108 
+
+Inference time: 1891.67 seconds 
+LABEL: 109
+Pred: 109 
+
+Inference time: 1575.78 seconds 
+LABEL: 109
+Pred: 392 
+
+Inference time: 1902.78 seconds 
+LABEL: 109
+Pred: 109 
+
+Inference time: 1846.47 seconds 
+LABEL: 110
+Pred: 313 
+
+Inference time: 1797.63 seconds 
+LABEL: 110
+Pred: 5 
+
+Inference time: 1962.09 seconds 
+LABEL: 110
+Pred: 392 
+
+Inference time: 1488.39 seconds 
+LABEL: 111
+Pred: 676 
+
+Inference time: 1835.79 seconds 
+LABEL: 111
+Pred: 501 
+
+Inference time: 1660.36 seconds 
+LABEL: 111
+Pred: 111 
+
+Inference time: 1754.33 seconds 
+LABEL: 112
+Pred: 112 
+
+Inference time: 1609.22 seconds 
+LABEL: 112
+Pred: 119 
+
+Inference time: 2017.89 seconds 
+LABEL: 112
+Pred: 112 
+
+Inference time: 1882.67 seconds 
+LABEL: 112
+Pred: 883 
+
+Inference time: 1401.09 seconds 
+LABEL: 113
+Pred: 113 
+
+Inference time: 1822.07 seconds 
+LABEL: 113
+Pred: 113 
+
+Inference time: 1167.88 seconds 
+LABEL: 113
+Pred: 111 
+
+Inference time: 1729.84 seconds 
+LABEL: 114
+Pred: 326 
+
+Inference time: 1465.40 seconds 
+LABEL: 114
+Pred: 304 
+
+Inference time: 1978.99 seconds 
+LABEL: 114
+Pred: 114 
+
+Inference time: 1756.22 seconds 
+LABEL: 115
+Pred: 326 
+
+Inference time: 1677.80 seconds 
+LABEL: 115
+Pred: 115 
+
+Inference time: 1397.52 seconds 
+LABEL: 115
+Pred: 110 
+
+Inference time: 1580.12 seconds 
+LABEL: 116
+Pred: 79 
+
+Inference time: 1930.00 seconds 
+LABEL: 116
+Pred: 69 
+
+Inference time: 1258.61 seconds 
+LABEL: 116
+Pred: 501 
+
+Inference time: 1022.31 seconds 
+LABEL: 117
+Pred: 596 
+
+Inference time: 1106.39 seconds 
+LABEL: 117
+Pred: 117 
+
+Inference time: 1535.63 seconds 
+LABEL: 117
+Pred: 125 
+
+Inference time: 1915.42 seconds 
+LABEL: 118
+Pred: 118 
+
+Inference time: 1506.54 seconds 
+LABEL: 118
+Pred: 118 
+
+Inference time: 2267.00 seconds 
+LABEL: 118
+Pred: 118 
+
+Inference time: 1505.91 seconds 
+LABEL: 119
+Pred: 119 
+
+Inference time: 1851.31 seconds 
+LABEL: 119
+Pred: 119 
+
+Inference time: 1819.23 seconds 
+LABEL: 119
+Pred: 119 
+
+Inference time: 1856.89 seconds 
+LABEL: 120
+Pred: 119 
+
+Inference time: 1780.91 seconds 
+LABEL: 120
+Pred: 119 
+
+Inference time: 1957.99 seconds 
+LABEL: 120
+Pred: 125 
+
+Inference time: 1960.37 seconds 
+LABEL: 120
+Pred: 119 
+
+Inference time: 1774.82 seconds 
+LABEL: 121
+Pred: 121 
+
+Inference time: 1736.12 seconds 
+LABEL: 121
+Pred: 121 
+
+Inference time: 1711.59 seconds 
+LABEL: 121
+Pred: 121 
+
+Inference time: 1668.12 seconds 
+LABEL: 122
+Pred: 122 
+
+Inference time: 1754.15 seconds 
+LABEL: 122
+Pred: 122 
+
+Inference time: 1773.63 seconds 
+LABEL: 122
+Pred: 122 
+
+Inference time: 1894.31 seconds 
+LABEL: 123
+Pred: 122 
+
+Inference time: 2272.01 seconds 
+LABEL: 123
+Pred: 123 
+
+Inference time: 1914.14 seconds 
+LABEL: 123
+Pred: 125 
+
+Inference time: 2002.90 seconds 
+LABEL: 124
+Pred: 124 
+
+Inference time: 1896.92 seconds 
+LABEL: 124
+Pred: 67 
+
+Inference time: 2102.02 seconds 
+LABEL: 124
+Pred: 311 
+
+Inference time: 2117.55 seconds 
+LABEL: 125
+Pred: 125 
+
+Inference time: 1604.50 seconds 
+LABEL: 125
+Pred: 125 
+
+Inference time: 1466.59 seconds 
+LABEL: 125
+Pred: 122 
+
+Inference time: 1940.12 seconds 
+LABEL: 126
+Pred: 326 
+
+Inference time: 1873.64 seconds 
+LABEL: 126
+Pred: 304 
+
+Inference time: 1444.50 seconds 
+LABEL: 126
+Pred: 126 
+
+Inference time: 1889.65 seconds 
+LABEL: 127
+Pred: 143 
+
+Inference time: 1415.72 seconds 
+LABEL: 127
+Pred: 127 
+
+Inference time: 1750.59 seconds 
+LABEL: 127
+Pred: 127 
+
+Inference time: 1748.65 seconds 
+LABEL: 128
+Pred: 127 
+
+Inference time: 2065.42 seconds 
+LABEL: 128
+Pred: 501 
+
+Inference time: 1117.25 seconds 
+LABEL: 128
+Pred: 128 
+
+Inference time: 1555.37 seconds 
+LABEL: 128
+Pred: 128 
+
+Inference time: 1432.79 seconds 
+LABEL: 129
+Pred: 129 
+
+Inference time: 2283.03 seconds 
+LABEL: 129
+Pred: 144 
+
+Inference time: 1211.69 seconds 
+LABEL: 129
+Pred: 129 
+
+Inference time: 1438.58 seconds 
+LABEL: 130
+Pred: 130 
+
+Inference time: 1659.30 seconds 
+LABEL: 130
+Pred: 501 
+
+Inference time: 1319.28 seconds 
+LABEL: 130
+Pred: 144 
+
+Inference time: 1363.53 seconds 
+LABEL: 131
+Pred: 131 
+
+Inference time: 1403.51 seconds 
+LABEL: 131
+Pred: 131 
+
+Inference time: 1647.37 seconds 
+LABEL: 131
+Pred: 131 
+
+Inference time: 2012.70 seconds 
+LABEL: 132
+Pred: 146 
+
+Inference time: 1526.64 seconds 
+LABEL: 132
+Pred: 132 
+
+Inference time: 1398.59 seconds 
+LABEL: 132
+Pred: 132 
+
+Inference time: 1820.51 seconds 
+LABEL: 133
+Pred: 98 
+
+Inference time: 2128.11 seconds 
+LABEL: 133
+Pred: 133 
+
+Inference time: 1865.49 seconds 
+LABEL: 133
+Pred: 133 
+
+Inference time: 1380.98 seconds 
+LABEL: 134
+Pred: 100 
+
+Inference time: 1589.40 seconds 
+LABEL: 134
+Pred: 9 
+
+Inference time: 1771.32 seconds 
+LABEL: 134
+Pred: 131 
+
+Inference time: 1455.55 seconds 
+LABEL: 135
+Pred: 135 
+
+Inference time: 1877.93 seconds 
+LABEL: 135
+Pred: 135 
+
+Inference time: 1945.24 seconds 
+LABEL: 135
+Pred: 135 
+
+Inference time: 1103.08 seconds 
+LABEL: 136
+Pred: 7 
+
+Inference time: 1431.80 seconds 
+LABEL: 136
+Pred: 136 
+
+Inference time: 1536.90 seconds 
+LABEL: 136
+Pred: 136 
+
+Inference time: 1331.72 seconds 
+LABEL: 136
+Pred: 136 
+
+Inference time: 1432.95 seconds 
+LABEL: 137
+Pred: 137 
+
+Inference time: 1947.06 seconds 
+LABEL: 137
+Pred: 321 
+
+Inference time: 1637.97 seconds 
+LABEL: 137
+Pred: 137 
+
+Inference time: 1599.00 seconds 
+LABEL: 138
+Pred: 138 
+
+Inference time: 2077.99 seconds 
+LABEL: 138
+Pred: 138 
+
+Inference time: 2009.30 seconds 
+LABEL: 138
+Pred: 321 
+
+Inference time: 1850.47 seconds 
+LABEL: 139
+Pred: 143 
+
+Inference time: 1172.30 seconds 
+LABEL: 139
+Pred: 139 
+
+Inference time: 1286.26 seconds 
+LABEL: 139
+Pred: 139 
+
+Inference time: 1740.57 seconds 
+LABEL: 140
+Pred: 141 
+
+Inference time: 1992.24 seconds 
+LABEL: 140
+Pred: 139 
+
+Inference time: 1616.81 seconds 
+LABEL: 140
+Pred: 140 
+
+Inference time: 1827.26 seconds 
+LABEL: 141
+Pred: 141 
+
+Inference time: 1850.40 seconds 
+LABEL: 141
+Pred: 141 
+
+Inference time: 1472.16 seconds 
+LABEL: 141
+Pred: 501 
+
+Inference time: 1613.72 seconds 
+LABEL: 142
+Pred: 142 
+
+Inference time: 1586.50 seconds 
+LABEL: 142
+Pred: 142 
+
+Inference time: 1911.81 seconds 
+LABEL: 142
+Pred: 142 
+
+Inference time: 1657.60 seconds 
+LABEL: 143
+Pred: 143 
+
+Inference time: 1358.99 seconds 
+LABEL: 143
+Pred: 143 
+
+Inference time: 1499.29 seconds 
+LABEL: 143
+Pred: 143 
+
+Inference time: 1093.41 seconds 
+LABEL: 144
+Pred: 144 
+
+Inference time: 1558.87 seconds 
+LABEL: 144
+Pred: 144 
+
+Inference time: 1444.58 seconds 
+LABEL: 144
+Pred: 100 
+
+Inference time: 1585.26 seconds 
+LABEL: 144
+Pred: 146 
+
+Inference time: 1444.95 seconds 
+LABEL: 145
+Pred: 145 
+
+Inference time: 2181.28 seconds 
+LABEL: 145
+Pred: 145 
+
+Inference time: 1883.73 seconds 
+LABEL: 145
+Pred: 145 
+
+Inference time: 1834.22 seconds 
+LABEL: 146
+Pred: 98 
+
+Inference time: 1511.70 seconds 
+LABEL: 146

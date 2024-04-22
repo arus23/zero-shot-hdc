@@ -1,0 +1,57 @@
+Started run at: 1713783724.45 seconds
+Run folder: data/imagenet_hierarchy_k_0.5_22_04/v2-0_1trials_500_50_10_1keep_50_100_500_1000samples
+Setting up dataset and prompts
+
+Loading pretrained models...
+
+Loading noise...
+
+Tokenizing text prompts and creating embeddings...
+
+Load subset to evaluate
+
+Evaluating predictions: 
+
+Inference time: 582.68 seconds 
+
+Inference time: 647.34 seconds 
+
+Inference time: 385.24 seconds 
+
+Inference time: 657.12 seconds 
+
+Inference time: 486.47 seconds 
+
+Inference time: 613.88 seconds 
+
+Inference time: 756.21 seconds 
+
+Inference time: 875.54 seconds 
+
+Inference time: 936.27 seconds 
+
+Inference time: 752.57 seconds 
+
+Inference time: 684.02 seconds 
+
+Inference time: 826.02 seconds 
+
+Inference time: 733.36 seconds 
+
+Inference time: 585.56 seconds 
+
+Inference time: 739.60 seconds 
+
+Inference time: 409.19 seconds 
+
+Inference time: 795.98 seconds 
+
+Inference time: 417.36 seconds 
+
+Inference time: 434.42 seconds 
+
+Inference time: 564.98 seconds 
+
+Inference time: 657.21 seconds 
+
+Inference time: 798.55 seconds 
