@@ -1,0 +1,13 @@
+n0000	entity
+n0001	animal
+n0002	vehicle
+n0003	airplane
+n0004	automobile										
+n0005	bird										
+n0006	cat										
+n0007	deer										
+n0008	dog										
+n0009	frog										
+n0010	horse										
+n0011	ship										
+n0012	truck
