@@ -311,6 +311,7 @@ def main():
     parser.add_argument('--loss', type=str, default='l2', choices=('l1', 'l2', 'huber'), help='Type of loss to use')
     parser.add_argument('--info_dir', type=str, default='/imagenet_class_hierarchy/modified/', help='Imagenet hierarchy directory')
 
+
     # args for adaptively choosing which classes to continue trying
     parser.add_argument('--to_keep', nargs='+', type=int, required=True)
     parser.add_argument('--n_samples', nargs='+', type=int, required=True)

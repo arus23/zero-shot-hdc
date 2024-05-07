@@ -140,11 +140,13 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, latent_size=6
     t_evaluated = set()
     remaining_prmpt_idxs = [0, 1]
     selected_nodes = []
-    n_stages = list(zip(args.n_samples, args.to_keep))
+   
+    to_keep = [1, 0.75, 0.5, 0.25]
+    n_stages = list(zip(args.n_samples, to_keep))
 
     for stage in range(len(n_stages)):
         n_samples = n_stages[stage][0]
-        n_to_keep = n_stages[stage][1]
+        keep = n_stages[stage][1]
 
         if stage == 0:
             while len(child_nodes)>1:
@@ -160,6 +162,7 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, latent_size=6
 
                 sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
                 best_idxs = list(sorted_errors.keys())[:int(args.k * len(sorted_errors))+1]
+                print(f"\n best_idxs: {best_idxs}")
 
                 child_nodes = []
                 for idx in best_idxs:
@@ -168,9 +171,11 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, latent_size=6
                     else:
                         child_nodes += hier.traverse([idx_map[idx]['node']], depth=1)[1:]
                         remaining_prmpt_idxs = [node_map[node] for node in child_nodes]        
-            remaining_prmpt_idxs += selected_nodes  
+            remaining_prmpt_idxs += selected_nodes 
+            n_to_keep = int(len(remaining_prmpt_idxs)*keep)+1
+            print(f"rem: {remaining_prmpt_idxs}") 
             continue
-            
+        
         curr_t_to_eval = current_timesteps_eval(t_to_eval, n_samples, t_evaluated)
         visited_idxs, ts, noise_idxs, text_embed_idxs = get_indices(remaining_prmpt_idxs, curr_t_to_eval, t_evaluated, args.n_trials, visited_idxs)
 
@@ -179,9 +184,12 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, latent_size=6
                                 text_embeds, text_embed_idxs, args.batch_size, args.dtype, args.loss)
 
         sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
+        n_to_keep = int(len(remaining_prmpt_idxs)*keep)+1
+        print(f"\n idxs: {len(remaining_prmpt_idxs)}, n_to_keep: {n_to_keep} \n")
         remaining_prmpt_idxs = list(sorted_errors.keys())[:n_to_keep]
+        print(f"\n idxs: {remaining_prmpt_idxs}")
 
-    assert len(remaining_prmpt_idxs) == 1
+    # assert len(remaining_prmpt_idxs) == 1
     pred_idx = remaining_prmpt_idxs[0]
 
     return pred_idx, data
@@ -253,7 +261,7 @@ def main():
 
     # run args
     parser.add_argument('--version', type=str, default='2-0', help='Stable Diffusion model version')
-    parser.add_argument('--img_size', type=int, default=512, choices=(256, 512), help='Number of trials per timestep')
+    parser.add_argument('--img_size', type=int, default=512, choices=(128, 256, 512), help='Number of trials per timestep')
     parser.add_argument('--batch_size', '-b', type=int, default=32)
     parser.add_argument('--n_trials', type=int, default=1, help='Number of trials per timestep')
     parser.add_argument('--prompt_path', type=str, required=True, help='Path to csv file with prompts to use')
@@ -267,7 +275,7 @@ def main():
     parser.add_argument('--worker_idx', type=int, default=0, help='Index of worker to use')
     parser.add_argument('--load_stats', action='store_true', help='Load saved stats to compute acc')
     parser.add_argument('--loss', type=str, default='l2', choices=('l1', 'l2', 'huber'), help='Type of loss to use')
-    parser.add_argument('--info_dir', type=str, default='/imagenet_class_hierarchy/modified/', help='Imagenet hierarchy directory')
+    parser.add_argument('--info_dir', type=str, default='/netscratch/shanbhag/zero-shot-diffusion-classifier/imagenet_class_hierarchy/modified/', help='Imagenet hierarchy directory')
     parser.add_argument('--k', type=float, default=0.5, help='percentage of prompts to consider')
     parser.add_argument('--root_wnid', type=str, default='n00001740', help='root_wnid of the tree')
 
@@ -291,7 +299,7 @@ def main():
     if args.img_size != 512:
         name += f'_{args.img_size}'
     if args.extra is not None:
-        run_folder = osp.join(LOG_DIR, args.dataset + '_hierarchy_k_' +str(args.k) + "_" +args.extra, name)
+        run_folder = osp.join(LOG_DIR, args.dataset + "_hierarchy_" +args.extra, name)
     else:
         run_folder = osp.join(LOG_DIR, args.dataset , name)
     os.makedirs(run_folder, exist_ok=True)
@@ -373,6 +381,7 @@ def main():
                 total += 1
             continue
         image, label = target_dataset[i]
+        print(f"label: {label}")
 
         # disable gradient computation for eval
         with torch.no_grad():
@@ -387,11 +396,11 @@ def main():
         # Evaluateprobability of different classes and compute the prediction errors.
         start_time = time.time()
         pred_idx, pred_errors = eval_prob_adaptive(unet, x0, text_embeddings, scheduler, args, latent_size, all_noise)
+        pred = prompts_df.classidx[pred_idx]
         end_time = time.time()
         inf_time = end_time - start_time
-        pred = prompts_df.classidx[pred_idx]
 
-        print(f"\nInference time: {inf_time:.2f} seconds ")
+        # print(f"\nInference time: {inf_time:.2f} seconds ")
         torch.save(dict(errors=pred_errors, pred=pred, label=label, inf_time=inf_time), fname)
         if pred == label:
             correct += 1

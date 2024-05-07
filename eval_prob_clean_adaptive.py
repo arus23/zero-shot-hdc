@@ -127,7 +127,7 @@ Returns:
 """
 def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, latent_size=64, all_noise=None):
 
-    hier = ClassHierarchy(args.info_dir)
+    hier = ClassHierarchy(args.info_dir, args.root_wnid)
 
     prompts_df = pd.read_csv(args.prompt_path)
     idx_map, node_map, child_nodes = create_mapping(prompts_df=prompts_df)
@@ -141,7 +141,7 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, latent_size=6
     remaining_prmpt_idxs = [0, 1]
     selected_nodes = []
    
-    to_keep = [0.75, 0.5, 0.2, 0.1]
+    to_keep = [1, 0.75, 0.75, 0.01]
     n_stages = list(zip(args.n_samples, to_keep))
 
     for stage in range(len(n_stages)):
@@ -162,6 +162,7 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, latent_size=6
 
                 sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
                 best_idxs = list(sorted_errors.keys())[:int(args.k * len(sorted_errors))+1]
+                print(f"\n best_idxs: {best_idxs}")
 
                 child_nodes = []
                 for idx in best_idxs:
@@ -170,11 +171,11 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, latent_size=6
                     else:
                         child_nodes += hier.traverse([idx_map[idx]['node']], depth=1)[1:]
                         remaining_prmpt_idxs = [node_map[node] for node in child_nodes]        
-            remaining_prmpt_idxs += selected_nodes  
+            remaining_prmpt_idxs += selected_nodes 
+            n_to_keep = int(len(remaining_prmpt_idxs)*keep)+1
+            print(f"rem: {remaining_prmpt_idxs}") 
             continue
         
-        n_to_keep = np.floor(len(remaining_prmpt_idxs)*keep).astype(int)
-        print(f"idxs: {len(remaining_prmpt_idxs)}, n_to_keep: {n_to_keep} \n")
         curr_t_to_eval = current_timesteps_eval(t_to_eval, n_samples, t_evaluated)
         visited_idxs, ts, noise_idxs, text_embed_idxs = get_indices(remaining_prmpt_idxs, curr_t_to_eval, t_evaluated, args.n_trials, visited_idxs)
 
@@ -183,7 +184,10 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, latent_size=6
                                 text_embeds, text_embed_idxs, args.batch_size, args.dtype, args.loss)
 
         sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
+        n_to_keep = int(len(remaining_prmpt_idxs)*keep)+1
+        print(f"\n idxs: {len(remaining_prmpt_idxs)}, n_to_keep: {n_to_keep} \n")
         remaining_prmpt_idxs = list(sorted_errors.keys())[:n_to_keep]
+        print(f"\n idxs: {remaining_prmpt_idxs}")
 
     assert len(remaining_prmpt_idxs) == 1
     pred_idx = remaining_prmpt_idxs[0]
@@ -257,7 +261,7 @@ def main():
 
     # run args
     parser.add_argument('--version', type=str, default='2-0', help='Stable Diffusion model version')
-    parser.add_argument('--img_size', type=int, default=512, choices=(256, 512), help='Number of trials per timestep')
+    parser.add_argument('--img_size', type=int, default=512, choices=(128, 256, 512), help='Number of trials per timestep')
     parser.add_argument('--batch_size', '-b', type=int, default=32)
     parser.add_argument('--n_trials', type=int, default=1, help='Number of trials per timestep')
     parser.add_argument('--prompt_path', type=str, required=True, help='Path to csv file with prompts to use')
@@ -377,6 +381,7 @@ def main():
                 total += 1
             continue
         image, label = target_dataset[i]
+        print(f"label: {label}")
 
         # disable gradient computation for eval
         with torch.no_grad():
@@ -391,11 +396,11 @@ def main():
         # Evaluateprobability of different classes and compute the prediction errors.
         start_time = time.time()
         pred_idx, pred_errors = eval_prob_adaptive(unet, x0, text_embeddings, scheduler, args, latent_size, all_noise)
+        pred = prompts_df.classidx[pred_idx]
         end_time = time.time()
         inf_time = end_time - start_time
-        pred = prompts_df.classidx[pred_idx]
 
-        print(f"\nInference time: {inf_time:.2f} seconds ")
+        # print(f"\nInference time: {inf_time:.2f} seconds ")
         torch.save(dict(errors=pred_errors, pred=pred, label=label, inf_time=inf_time), fname)
         if pred == label:
             correct += 1
