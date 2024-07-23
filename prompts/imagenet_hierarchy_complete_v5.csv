@@ -1,0 +1,1364 @@
+index,node,prompt,class_name,is_leaf,classidx
+0,n00021939,a photo of a non-living thing.,non-living thing,0,99999
+1,n00004258,a photo of a living thing.,living thing,0,99999
+2,n03154073,a photo of a cutter.,cutter,0,99999
+3,n04105068,a photo of a roof.,roof,0,99999
+4,n04285146,a photo of a sports equipment.,sports equipment,0,99999
+5,dummy677,a photo of a stick.,stick,0,99999
+6,n04081844,a photo of a restraint.,restraint,0,99999
+7,n04296562,a photo of a stage.,stage,1,819
+8,n00015388,a photo of a animal.,animal,0,99999
+9,n03278248,a photo of a electronic equipment.,electronic equipment,0,99999
+10,n03603722,a photo of a jug.,jug,0,99999
+11,n03717622,a photo of a manhole cover.,manhole cover,1,640
+12,n04116512,a photo of a rubber pencil eraser.,rubber pencil eraser,1,767
+13,n03899768,a photo of a patio or terrace.,patio or terrace,1,706
+14,n00007846,a photo of a person.,person,0,99999
+15,n03405265,a photo of a furnishing.,furnishing,0,99999
+16,n03438257,a photo of a drinking glass.,drinking glass,0,99999
+17,n04021798,a photo of a pump.,pump,0,99999
+18,dummy21,a photo of a fungus.,fungus,0,99999
+19,n02841315,a photo of a binoculars or field glasses.,binoculars or field glasses,1,447
+20,n03666591,a photo of a lighter or igniter.,lighter or igniter,1,626
+21,n03871083,a photo of a package.,package,0,99999
+22,dummy119,a photo of a savings bank.,savings bank,0,99999
+23,n02747177,a photo of a trash can.,trash can,1,412
+24,n02913152,a photo of a building.,building,0,99999
+25,n04493381,a photo of a hot tub.,hot tub,1,876
+26,dummy700,a photo of a box.,box,0,99999
+27,n03991062,a photo of a plant pot.,plant pot,1,738
+28,n04553703,a photo of a sink.,sink,1,896
+29,n03074380,a photo of a column or pillar.,column or pillar,0,99999
+30,n03906997,a photo of a pen.,pen,0,99999
+31,n02876657,a photo of a bottle.,bottle,0,99999
+32,n04507155,a photo of a umbrella.,umbrella,1,879
+33,n06359193,a photo of a web site.,web site,1,916
+34,n04437953,a photo of a timepiece or clock.,timepiece or clock,0,99999
+35,n02808440,a photo of a bathtub.,bathtub,1,435
+36,dummy654,a photo of a disk.,disk,0,99999
+37,n03216828,a photo of a dock or docking facility.,dock or docking facility,1,536
+38,n03837422,a photo of a oar.,oar,0,99999
+39,dummy80,a photo of a   basket.,  basket,0,99999
+40,n03792972,a photo of a tent.,tent,1,672
+41,n07579787,a photo of a plate.,plate,1,923
+42,n04217882,a photo of a signboard.,signboard,0,99999
+43,n04091097,a photo of a rig.,rig,0,99999
+44,n02773037,a photo of a bag.,bag,0,99999
+45,n03527444,a photo of a gun holster.,gun holster,1,597
+46,n03743902,a photo of a memorial monument.,memorial monument,0,99999
+47,n03706653,a photo of a magnetic disk.,magnetic disk,0,99999
+48,n04067472,a photo of a fishing casting reel.,fishing casting reel,1,758
+49,n04399382,a photo of a teddy bear.,teddy bear,1,850
+50,n03682487,a photo of a lock.,lock,0,99999
+51,dummy101,a photo of a games.,games,0,99999
+52,n04044716,a photo of a radio telescope.,radio telescope,1,755
+53,n07248320,a photo of a book jacket or cover.,book jacket or cover,1,921
+54,n03773035,a photo of a mirror.,mirror,0,99999
+55,n03467068,a photo of a guillotine.,guillotine,1,583
+56,n02840245,a photo of a ring binder.,ring binder,1,446
+57,dummy230,a photo of a source of illumination or lighting.,source of illumination or lighting,0,99999
+58,n03794056,a photo of a mouse trap.,mouse trap,1,674
+59,n04579432,a photo of a whistle.,whistle,1,902
+60,n09229709,a photo of a bubble.,bubble,1,971
+61,dummy666,a photo of a medical equipment.,medical equipment,0,99999
+62,n03764736,a photo of a milk can.,milk can,1,653
+63,n03489162,a photo of a hand tools.,hand tools,0,99999
+64,n02699494,a photo of a altar.,altar,1,406
+65,dummy131,a photo of a cleaning equipment.,cleaning equipment,0,99999
+66,n02795169,a photo of a barrel.,barrel,1,427
+67,n04565375,a photo of a weapon.,weapon,0,99999
+68,n02796623,a photo of a barrier.,barrier,0,99999
+69,n03733925,a photo of a measuring instrument.,measuring instrument,0,99999
+70,n03621049,a photo of a kitchen utensil.,kitchen utensil,0,99999
+71,n07565083,a photo of a menu.,menu,1,922
+72,n04100174,a photo of a rod.,rod,0,99999
+73,dummy103,a photo of a book.,book,0,99999
+74,n03876231,a photo of a paintbrush.,paintbrush,1,696
+75,n03692522,a photo of a jeweler's loupe magnifying glass.,jeweler's loupe magnifying glass,1,633
+76,n03804744,a photo of a nail.,nail,1,677
+77,n03733281,a photo of a maze (labyrinth).,maze (labyrinth),1,646
+78,n04153751,a photo of a screw.,screw,1,783
+79,n03940256,a photo of a pin.,pin,0,99999
+80,n00021265,a photo of a food.,food,0,99999
+81,n02825657,a photo of a bell cote or bell tower.,bell cote or bell tower,1,442
+82,n04264628,a photo of a keyboard space bar.,keyboard space bar,1,810
+83,n03100490,a photo of a transport vehicle.,transport vehicle,0,99999
+84,n00017222,a photo of a plant life.,plant life,0,99999
+85,n04254120,a photo of a soap dispenser.,soap dispenser,1,804
+86,n04275548,a photo of a spider web.,spider web,1,815
+87,n02909870,a photo of a bucket.,bucket,1,463
+88,n04078574,a photo of a reservoir.,reservoir,0,99999
+89,n04077734,a photo of a rescue equipment.,rescue equipment,0,99999
+90,n04258138,a photo of a solar thermal collector.,solar thermal collector,1,807
+91,n03530642,a photo of a honeycomb.,honeycomb,1,599
+92,n03739693,a photo of a medical instrument.,medical instrument,0,99999
+93,n03868863,a photo of a oxygen mask.,oxygen mask,1,691
+94,n04049303,a photo of a rain water barrel.,rain water barrel,1,756
+95,n04141327,a photo of a scabbard.,scabbard,1,777
+96,n09287968,a photo of a geological formation.,geological formation,0,99999
+97,n02880940,a photo of a bowl.,bowl,0,99999
+98,n03950228,a photo of a drink pitcher.,drink pitcher,1,725
+99,dummy98,a photo of a heating device.,heating device,0,99999
+100,n03920288,a photo of a petri dish.,petri dish,1,712
+101,n04332243,a photo of a strainer.,strainer,1,828
+102,n03843555,a photo of a oil filter.,oil filter,1,686
+103,dummy190,a photo of a wheel.,wheel,0,99999
+104,n02898711,a photo of a bridge.,bridge,0,99999
+105,n02954938,a photo of a cap.,cap,0,99999
+106,n02729837,a photo of a electric appliance.,electric appliance,0,99999
+107,n02666196,a photo of a abacus.,abacus,1,398
+108,n03126707,a photo of a construction crane.,construction crane,1,517
+109,dummy111,a photo of a jar.,jar,0,99999
+110,n03797390,a photo of a mug.,mug,0,99999
+111,dummy773,a photo of a support structure.,support structure,0,99999
+112,n03291819,a photo of a envelope.,envelope,1,549
+113,n02966193,a photo of a carousel.,carousel,1,476
+114,n03388043,a photo of a fountain.,fountain,1,562
+115,n04423845,a photo of a sewing thimble.,sewing thimble,1,855
+116,n04456115,a photo of a torch.,torch,1,862
+117,n03908714,a photo of a pencil sharpener.,pencil sharpener,1,710
+118,n03051540,a photo of a clothing (apparel).,clothing (apparel),0,99999
+119,n03532672,a photo of a hook.,hook,1,600
+120,dummy105,a photo of a fabric.,fabric,0,99999
+121,n02978881,a photo of a cassette.,cassette,1,481
+122,n04548362,a photo of a wallet.,wallet,1,893
+123,dummy660,a photo of a connection.,connection,0,99999
+124,dummy555,a photo of a kitchen implement.,kitchen implement,0,99999
+125,n03926148,a photo of a photographic equipment.,photographic equipment,0,99999
+126,n03929660,a photo of a plectrum.,plectrum,1,714
+127,n03065424,a photo of a spiral or coil.,spiral or coil,1,506
+128,n03800933,a photo of a musical instrument.,musical instrument,0,99999
+129,n04371774,a photo of a swing.,swing,1,843
+130,n04284002,a photo of a spoon.,spoon,0,99999
+131,n04179913,a photo of a sewing machine.,sewing machine,1,786
+132,n03743016,a photo of a megalithic structure.,megalithic structure,1,649
+133,n03636649,a photo of a lamp.,lamp,0,99999
+134,n02892201,a photo of a brass memorial plaque structure.,brass memorial plaque structure,1,458
+135,n03483316,a photo of a hair dryer or hair drier.,hair dryer or hair drier,1,589
+136,n07714990,a photo of a broccoli.,broccoli,1,937
+137,n03127925,a photo of a crate.,crate,1,519
+138,n03046257,a photo of a clock.,clock,0,99999
+139,n02730930,a photo of a apron.,apron,1,411
+140,n02942699,a photo of a photographic camera.,photographic camera,0,99999
+141,n04376876,a photo of a syringe.,syringe,1,845
+142,n03953416,a photo of a place of worship or house of prayer.,place of worship or house of prayer,0,99999
+143,n06794110,a photo of a street sign.,street sign,1,919
+144,n03316406,a photo of a factory or mill.,factory or mill,0,99999
+145,n04238763,a photo of a slide rule.,slide rule,1,798
+146,n03874293,a photo of a paddle wheel.,paddle wheel,1,694
+147,n07715561,a photo of a squash.,squash,0,99999
+148,n03042490,a photo of a cliff dwelling.,cliff dwelling,1,500
+149,n02894605,a photo of a breakwater or jetty.,breakwater or jetty,1,460
+150,n03990474,a photo of a cooking pot.,cooking pot,0,99999
+151,n04127249,a photo of a safety pin.,safety pin,1,772
+152,n02159955,a photo of a insect.,insect,0,99999
+153,n02974003,a photo of a car wheel.,car wheel,1,479
+154,n04404412,a photo of a television.,television,1,851
+155,n02778669,a photo of a ball.,ball,0,99999
+156,n03932670,a photo of a piece of cloth.,piece of cloth,0,99999
+157,n04522168,a photo of a vase.,vase,1,883
+158,n10148035,a photo of a groom.,groom,1,982
+159,n04447443,a photo of a toiletry or toilet articles.,toiletry or toilet articles,0,99999
+160,n02319095,a photo of a sea urchin.,sea urchin,1,328
+161,n03657121,a photo of a lens cap.,lens cap,1,622
+162,n04187547,a photo of a shed.,shed,0,99999
+163,n04040759,a photo of a radiator.,radiator,1,753
+164,n03661043,a photo of a library.,library,1,624
+165,n03786901,a photo of a mortar and pestle.,mortar and pestle,1,666
+166,n04296261,a photo of a staff.,staff,0,99999
+167,n04330267,a photo of a stove.,stove,1,827
+168,n07734744,a photo of a mushroom.,mushroom,1,947
+169,n03933933,a photo of a pier.,pier,1,718
+170,n03761084,a photo of a microwave oven.,microwave oven,1,651
+171,n04523525,a photo of a vault.,vault,1,884
+172,n09399592,a photo of a promontory or headland.,promontory or headland,1,976
+173,n03759954,a photo of a microphone.,microphone,1,650
+174,n04154565,a photo of a screwdriver.,screwdriver,1,784
+175,n02823428,a photo of a beer bottle.,beer bottle,1,440
+176,n03908618,a photo of a case.,case,1,709
+177,n09246464,a photo of a cliff.,cliff,1,972
+178,n03995372,a photo of a power drill.,power drill,1,740
+179,n04311004,a photo of a steel arch bridge.,steel arch bridge,1,821
+180,n04435653,a photo of a tile roof.,tile roof,1,858
+181,n03220513,a photo of a dome.,dome,1,538
+182,n03777754,a photo of a modem.,modem,1,662
+183,n03529860,a photo of a home theater.,home theater,1,598
+184,n01922303,a photo of a worm.,worm,0,99999
+185,n03207941,a photo of a dishwasher or dishwashing machine.,dishwasher or dishwashing machine,1,534
+186,n03250847,a photo of a drumstick.,drumstick,1,542
+187,n01661091,a photo of a reptile.,reptile,0,99999
+188,n04277352,a photo of a spindle.,spindle,1,816
+189,n03837869,a photo of a obelisk pillar monument.,obelisk pillar monument,1,682
+190,n04509592,a photo of a uniform.,uniform,0,99999
+191,n04263257,a photo of a soup bowl.,soup bowl,1,809
+192,n03141823,a photo of a crutch.,crutch,1,523
+193,n03915437,a photo of a percussion instrument.,percussion instrument,0,99999
+194,n01768244,a photo of a trilobite.,trilobite,1,69
+195,n03075370,a photo of a combination lock.,combination lock,1,507
+196,n02950826,a photo of a cannon.,cannon,1,471
+197,n03983396,a photo of a pop bottle.,pop bottle,1,737
+198,n06874185,a photo of a traffic light or traffic signal.,traffic light or traffic signal,1,920
+199,n03958227,a photo of a plastic bag.,plastic bag,1,728
+200,n03776460,a photo of a mobile home.,mobile home,1,660
+201,n02788148,a photo of a bannister (balustrade) handrail.,bannister (balustrade) handrail,1,421
+202,n03735637,a photo of a measuring stick.,measuring stick,0,99999
+203,n03710193,a photo of a mailbox.,mailbox,1,637
+204,n02843684,a photo of a birdhouse.,birdhouse,1,448
+205,n03419014,a photo of a garment or clothing.,garment or clothing,0,99999
+206,n03782006,a photo of a monitor.,monitor,1,664
+207,n03290653,a photo of a entertainment center.,entertainment center,1,548
+208,n09359803,a photo of a mountain.,mountain,0,99999
+209,dummy104,a photo of a computer.,computer,0,99999
+210,n04005630,a photo of a prison.,prison,1,743
+211,n02879718,a photo of a bow.,bow,1,456
+212,n02757462,a photo of a audio or sound system.,audio or sound system,0,99999
+213,n03992509,a photo of a potter's wheel.,potter's wheel,1,739
+214,n03323703,a photo of a fastener.,fastener,0,99999
+215,n04033901,a photo of a quill pen.,quill pen,1,749
+216,n02764044,a photo of a axe.,axe,0,99999
+217,n03405725,a photo of a piece of furniture.,piece of furniture,0,99999
+218,n04125021,a photo of a safe.,safe,1,771
+219,n04586932,a photo of a wind instrument.,wind instrument,0,99999
+220,n07570720,a photo of a cooked food.,cooked food,0,99999
+221,n07715103,a photo of a cauliflower.,cauliflower,1,938
+222,n03211117,a photo of a video display.,video display,0,99999
+223,n02769748,a photo of a backpack or rucksack.,backpack or rucksack,1,414
+224,n03874599,a photo of a padlock.,padlock,1,695
+225,n01784675,a photo of a centipede.,centipede,1,79
+226,n04458633,a photo of a totem pole pillar monument.,totem pole pillar monument,1,863
+227,n04438304,a photo of a timer.,timer,0,99999
+228,n04286575,a photo of a spotlight.,spotlight,1,818
+229,n03014705,a photo of a chest.,chest,1,492
+230,n03877845,a photo of a palace.,palace,1,698
+231,n03633091,a photo of a ladle.,ladle,1,618
+232,n04599235,a photo of a wool.,wool,1,911
+233,n03937543,a photo of a pill bottle.,pill bottle,1,720
+234,n09835506,a photo of a ballplayer.,ballplayer,1,981
+235,n02980441,a photo of a castle.,castle,1,483
+236,n02891188,a photo of a brake system.,brake system,0,99999
+237,n04579145,a photo of a whiskey jug.,whiskey jug,1,901
+238,n03781244,a photo of a monastery.,monastery,1,663
+239,n04141975,a photo of a scale.,scale,1,778
+240,n04228054,a photo of a ski.,ski,1,795
+241,n03976657,a photo of a pole.,pole,1,733
+242,n04557648,a photo of a water bottle.,water bottle,1,898
+243,n04204238,a photo of a shopping basket.,shopping basket,1,790
+244,n03125870,a photo of a craft vehicle.,craft vehicle,0,99999
+245,n03388183,a photo of a fountain pen.,fountain pen,1,563
+246,dummy110,a photo of a machine.,machine,0,99999
+247,n03967562,a photo of a plow.,plow,1,730
+248,n04367480,a photo of a mop.,mop,1,840
+249,n03729826,a photo of a matchstick.,matchstick,1,644
+250,n04009552,a photo of a projector.,projector,1,745
+251,n03773504,a photo of a missile.,missile,1,657
+252,n09406793,a photo of a reef.,reef,0,99999
+253,n04366367,a photo of a suspension bridge.,suspension bridge,1,839
+254,n04525038,a photo of a velvet fabric.,velvet fabric,1,885
+255,n03492542,a photo of a hard disk drive.,hard disk drive,1,592
+256,n04004767,a photo of a printer.,printer,1,742
+257,n03481172,a photo of a hammer.,hammer,1,587
+258,n03015254,a photo of a chest of drawers.,chest of drawers,0,99999
+259,n03240683,a photo of a drilling offshore rig.,drilling offshore rig,1,540
+260,n03658185,a photo of a letter opener.,letter opener,1,623
+261,n01627424,a photo of a amphibian.,amphibian,0,99999
+262,n03709823,a photo of a mailbag.,mailbag,1,636
+263,n03320046,a photo of a fan.,fan,0,99999
+264,n04442312,a photo of a toaster.,toaster,1,859
+265,n03803284,a photo of a muzzle.,muzzle,1,676
+266,n04251144,a photo of a snorkel.,snorkel,1,801
+267,n04550184,a photo of a wardrobe or closet.,wardrobe or closet,1,894
+268,n04591713,a photo of a wine bottle.,wine bottle,1,907
+269,n04576211,a photo of a wheeled vehicle.,wheeled vehicle,0,99999
+270,n04134632,a photo of a sandglass.,sandglass,0,99999
+271,n04460130,a photo of a tower.,tower,0,99999
+272,n02965783,a photo of a car mirror.,car mirror,1,475
+273,n03793489,a photo of a computer mouse.,computer mouse,1,673
+274,n13134947,a photo of a fruit.,fruit,0,99999
+275,n07718747,a photo of a artichoke.,artichoke,1,944
+276,n04417809,a photo of a theater.,theater,0,99999
+277,n01769347,a photo of a arachnid.,arachnid,0,99999
+278,n04039381,a photo of a racket or racquet.,racket or racquet,1,752
+279,n03880531,a photo of a cooking pan.,cooking pan,0,99999
+280,n04336792,a photo of a stretcher.,stretcher,1,830
+281,n04562935,a photo of a water tower.,water tower,1,900
+282,n02906734,a photo of a broom.,broom,1,462
+283,n03649909,a photo of a lawn mower.,lawn mower,1,621
+284,n03816005,a photo of a neckwear.,neckwear,0,99999
+285,n03888257,a photo of a parachute.,parachute,1,701
+286,n04070727,a photo of a refrigerator.,refrigerator,1,760
+287,n03848348,a photo of a opener.,opener,0,99999
+288,n03063599,a photo of a coffee mug.,coffee mug,1,504
+289,n03381126,a photo of a footwear.,footwear,0,99999
+290,n03956157,a photo of a planetarium.,planetarium,1,727
+291,n03482405,a photo of a hamper basket.,hamper basket,1,588
+292,n04532670,a photo of a viaduct.,viaduct,1,888
+293,n02933112,a photo of a storage cabinet.,storage cabinet,0,99999
+294,n02815834,a photo of a beaker.,beaker,1,438
+295,n03924679,a photo of a photocopier.,photocopier,1,713
+296,n03490324,a photo of a handwear.,handwear,0,99999
+297,n03871628,a photo of a product packet / packaging.,product packet / packaging,1,692
+298,n06596364,a photo of a comic book.,comic book,1,917
+299,n03314378,a photo of a face mask.,face mask,0,99999
+300,n09214060,a photo of a bar.,bar,0,99999
+301,n01910747,a photo of a jellyfish.,jellyfish,1,107
+302,n03873416,a photo of a paddle.,paddle,1,693
+303,n03454707,a photo of a grate.,grate,0,99999
+304,n11669921,a photo of a flower.,flower,0,99999
+305,n09468604,a photo of a valley.,valley,1,979
+306,n03343853,a photo of a firearm.,firearm,0,99999
+307,n03427296,a photo of a gate.,gate,0,99999
+308,n04372370,a photo of a electrical switch.,electrical switch,1,844
+309,n02823750,a photo of a beer glass.,beer glass,1,441
+310,n04019541,a photo of a hockey puck.,hockey puck,1,746
+311,n03753077,a photo of a meter.,meter,0,99999
+312,n04596852,a photo of a women's clothing.,women's clothing,0,99999
+313,n09433442,a photo of a shore.,shore,0,99999
+314,n04517823,a photo of a vacuum cleaner.,vacuum cleaner,1,882
+315,n09443453,a photo of a natural spring fountain.,natural spring fountain,0,99999
+316,n04613696,a photo of a yurt.,yurt,1,915
+317,n04270147,a photo of a spatula.,spatula,1,813
+318,n02979186,a photo of a cassette player.,cassette player,1,482
+319,n03063338,a photo of a coffee maker.,coffee maker,0,99999
+320,n03062245,a photo of a cocktail shaker.,cocktail shaker,1,503
+321,n02877765,a photo of a bottle cap.,bottle cap,1,455
+322,n07881800,a photo of a beverage or drink.,beverage or drink,0,99999
+323,n03903868,a photo of a pedestal.,pedestal,1,708
+324,n04026417,a photo of a purse.,purse,1,748
+325,n04149813,a photo of a scoreboard.,scoreboard,1,781
+326,n02512053,a photo of a fish.,fish,0,99999
+327,n04125853,a photo of a safety belt.,safety belt,0,99999
+328,n03584829,a photo of a clothes iron.,clothes iron,1,606
+329,n03623198,a photo of a knee pad.,knee pad,1,615
+330,n04571292,a photo of a exercising weights.,exercising weights,0,99999
+331,n07800740,a photo of a animal fodder.,animal fodder,0,99999
+332,n04554684,a photo of a washer or washing machine.,washer or washing machine,1,897
+333,n02793495,a photo of a barn.,barn,1,425
+334,n04486054,a photo of a triumphal arch.,triumphal arch,1,873
+335,n04317175,a photo of a stethoscope.,stethoscope,1,823
+336,n03080497,a photo of a compass.,compass,0,99999
+337,n06785654,a photo of a crossword puzzle.,crossword puzzle,1,918
+338,n04272054,a photo of a spectacles or glasses.,spectacles or glasses,0,99999
+339,n01914609,a photo of a sea anemone.,sea anemone,1,108
+340,dummy35,a photo of a armor.,armor,0,99999
+341,n04417672,a photo of a thatched roof.,thatched roof,1,853
+342,dummy112,a photo of a keyboard.,keyboard,0,99999
+343,n03944341,a photo of a pinwheel.,pinwheel,1,723
+344,n03733131,a photo of a may pole.,may pole,1,645
+345,n03160309,a photo of a dam.,dam,1,525
+346,n03733805,a photo of a measuring cup.,measuring cup,1,647
+347,n03935335,a photo of a piggy bank.,piggy bank,1,719
+348,n03472232,a photo of a gymnastic apparatus.,gymnastic apparatus,0,99999
+349,n04560804,a photo of a water jug.,water jug,1,899
+350,n03970156,a photo of a plunger.,plunger,1,731
+351,n04131690,a photo of a saltshaker.,saltshaker,1,773
+352,n03623556,a photo of a knife.,knife,0,99999
+353,n02971356,a photo of a cardboard box / carton.,cardboard box / carton,1,478
+354,n03000684,a photo of a chain saw.,chain saw,1,491
+355,n04111531,a photo of a rotisserie.,rotisserie,1,766
+356,n02321529,a photo of a sea cucumber.,sea cucumber,1,329
+357,dummy54,a photo of a sled.,sled,0,99999
+358,n04008634,a photo of a projectile.,projectile,1,744
+359,n04074963,a photo of a remote control.,remote control,1,761
+360,n02870880,a photo of a bookcase.,bookcase,1,453
+361,n07713895,a photo of a cabbage.,cabbage,0,99999
+362,n01915811,a photo of a coral.,coral,0,99999
+363,n01974773,a photo of a crustacean.,crustacean,0,99999
+364,n04081281,a photo of a restaurant.,restaurant,1,762
+365,n02999410,a photo of a chain.,chain,1,488
+366,n04476259,a photo of a tray.,tray,1,868
+367,n03857828,a photo of a cathode-ray oscilloscope.,cathode-ray oscilloscope,1,688
+368,n03954731,a photo of a block plane.,block plane,1,726
+369,n03327234,a photo of a fence.,fence,0,99999
+370,n03748162,a photo of a retail store or shop.,retail store or shop,0,99999
+371,n07730033,a photo of a cardoon.,cardoon,1,946
+372,n10565667,a photo of a scuba diver.,scuba diver,1,983
+373,n04208210,a photo of a shovel.,shovel,1,792
+374,n04041544,a photo of a wireless radio.,wireless radio,1,754
+375,n04265275,a photo of a space heater.,space heater,1,811
+376,n04485082,a photo of a camera tripod stand.,camera tripod stand,1,872
+377,n04355338,a photo of a sundial.,sundial,1,835
+378,n02317335,a photo of a starfish.,starfish,1,327
+379,n04401088,a photo of a telephone.,telephone,0,99999
+380,n01503061,a photo of a bird.,bird,0,99999
+381,n03443371,a photo of a goblet.,goblet,1,572
+382,n04392985,a photo of a tape player.,tape player,1,848
+383,n02783161,a photo of a ballpoint pen.,ballpoint pen,1,418
+384,n03425413,a photo of a gas pump.,gas pump,1,571
+385,n02794156,a photo of a barometer.,barometer,1,426
+386,n03775546,a photo of a mixing bowl.,mixing bowl,1,659
+387,n04338517,a photo of a stringed instrument.,stringed instrument,0,99999
+388,n12992868,a photo of a fungus.,fungus,0,99999
+389,n03457902,a photo of a greenhouse.,greenhouse,1,580
+390,n03961711,a photo of a plate rack.,plate rack,1,729
+391,n03101156,a photo of a cooker.,cooker,0,99999
+392,n02988304,a photo of a CD player.,CD player,1,485
+393,n03614532,a photo of a keyboard instrument.,keyboard instrument,0,99999
+394,n01940736,a photo of a mollusk or shellfish.,mollusk or shellfish,0,99999
+395,n04555897,a photo of a watch.,watch,0,99999
+396,n03502509,a photo of a headdress or headgear.,headdress or headgear,0,99999
+397,n01861778,a photo of a mammal.,mammal,0,99999
+398,n03825788,a photo of a baby pacifier.,baby pacifier,1,680
+399,n07720875,a photo of a bell pepper.,bell pepper,1,945
+400,n02966687,a photo of a carpenter's tool kit.,carpenter's tool kit,1,477
+401,n04597913,a photo of a wooden spoon.,wooden spoon,1,910
+402,n04542943,a photo of a waffle iron.,waffle iron,1,891
+403,n07718472,a photo of a cucumber.,cucumber,1,943
+404,n03602883,a photo of a joystick.,joystick,1,613
+405,n04118538,a photo of a rugby ball.,rugby ball,1,768
+406,n03000134,a photo of a chain-link fence.,chain-link fence,1,489
+407,n02268443,a photo of a dragonfly or devil's darning needle.,dragonfly or devil's darning needle,1,319
+408,n04584207,a photo of a wig.,wig,1,903
+409,n03017168,a photo of a chime.,chime,1,494
+410,n03584254,a photo of a iPod.,iPod,1,605
+411,n02120997,a photo of a feline.,feline,0,99999
+412,n02872752,a photo of a boot.,boot,0,99999
+413,n03372029,a photo of a flute.,flute,1,558
+414,n01726692,a photo of a snake.,snake,0,99999
+415,n07749582,a photo of a lemon.,lemon,1,951
+416,n03461385,a photo of a grocery store.,grocery store,1,582
+417,n01495701,a photo of a ray fish.,ray fish,0,99999
+418,n01629276,a photo of a salamander.,salamander,0,99999
+419,n03706229,a photo of a magnetic compass.,magnetic compass,1,635
+420,n03627232,a photo of a knot.,knot,1,616
+421,n02062017,a photo of a aquatic mammal.,aquatic mammal,0,99999
+422,n04197391,a photo of a shirt.,shirt,0,99999
+423,n02927161,a photo of a butcher shop.,butcher shop,1,467
+424,n04069434,a photo of a reflex camera.,reflex camera,1,759
+425,n03891332,a photo of a parking meter.,parking meter,1,704
+426,n04328186,a photo of a stopwatch.,stopwatch,1,826
+427,n07609840,a photo of a dessert or sweet.,dessert or sweet,0,99999
+428,n03825080,a photo of a nightwear (sleepwear).,nightwear (sleepwear),0,99999
+429,n03840681,a photo of a ocarina.,ocarina,1,684
+430,n03724870,a photo of a mask.,mask,1,643
+431,dummy30,a photo of a cycles.,cycles,0,99999
+432,dummy20,a photo of a mushroom.,mushroom,0,99999
+433,n02760429,a photo of a automatic firearm or gun.,automatic firearm or gun,0,99999
+434,n04380533,a photo of a table lamp.,table lamp,1,846
+435,n04462240,a photo of a toyshop.,toyshop,1,865
+436,n01518878,a photo of a ostrich.,ostrich,1,9
+437,n03424325,a photo of a gasmask.,gasmask,1,570
+438,n02727426,a photo of a apiary.,apiary,1,410
+439,n02954340,a photo of a cap.,cap,0,99999
+440,n02114100,a photo of a wolf.,wolf,0,99999
+441,n03445777,a photo of a golf ball.,golf ball,1,574
+442,n07860988,a photo of a dough.,dough,1,961
+443,n03494278,a photo of a harmonica or mouth organ.,harmonica or mouth organ,1,593
+444,n03720891,a photo of a maraca.,maraca,1,641
+445,n03018349,a photo of a china cabinet.,china cabinet,1,495
+446,n02236044,a photo of a praying mantis.,praying mantis,1,315
+447,n01945685,a photo of a slug.,slug,1,114
+448,n01955084,a photo of a chiton or coat-of-mail shell.,chiton or coat-of-mail shell,1,116
+449,n03742115,a photo of a medicine chest.,medicine chest,1,648
+450,n03394916,a photo of a French horn.,French horn,1,566
+451,n04210390,a photo of a shrine.,shrine,0,99999
+452,dummy113,a photo of a farming machine.,farming machine,0,99999
+453,n02274259,a photo of a butterfly.,butterfly,0,99999
+454,n02640242,a photo of a sturgeon fish.,sturgeon fish,1,394
+455,n04118776,a photo of a ruler measuring stick.,ruler measuring stick,1,769
+456,n03513137,a photo of a helmet.,helmet,0,99999
+457,n03841143,a photo of a odometer.,odometer,1,685
+458,n04356056,a photo of a sunglasses or shades.,sunglasses or shades,1,837
+459,n01986214,a photo of a hermit crab.,hermit crab,1,125
+460,n03540267,a photo of a hosiery.,hosiery,0,99999
+461,n03551084,a photo of a hydraulic brake.,hydraulic brake,0,99999
+462,n01592084,a photo of a chickadee.,chickadee,1,19
+463,n03063689,a photo of a coffeepot.,coffeepot,1,505
+464,n02785648,a photo of a bandage.,bandage,0,99999
+465,n12041446,a photo of a orchid.,orchid,0,99999
+466,n12144580,a photo of a corn.,corn,1,987
+467,n02834397,a photo of a baby's bib.,baby's bib,1,443
+468,n01662784,a photo of a turtle.,turtle,0,99999
+469,n09472597,a photo of a volcano.,volcano,1,980
+470,n02326432,a photo of a hare.,hare,1,331
+471,n03976467,a photo of a Polaroid camera.,Polaroid camera,1,732
+472,n03640988,a photo of a lantern.,lantern,0,99999
+473,n04501370,a photo of a turnstile.,turnstile,1,877
+474,n04254680,a photo of a soccer ball.,soccer ball,1,805
+475,n09256479,a photo of a coral reef.,coral reef,1,973
+476,n02129604,a photo of a tiger.,tiger,1,292
+477,n01968897,a photo of a chambered nautilus.,chambered nautilus,1,117
+478,n01770393,a photo of a scorpion.,scorpion,1,71
+479,n04398044,a photo of a teapot.,teapot,1,849
+480,n04033995,a photo of a quilt or comforter.,quilt or comforter,1,750
+481,n04489008,a photo of a trouser (pant).,trouser (pant),0,99999
+482,n07714571,a photo of a head cabbage.,head cabbage,1,936
+483,n01696633,a photo of a crocodilian reptile.,crocodilian reptile,0,99999
+484,n04447861,a photo of a toilet seat.,toilet seat,1,861
+485,n02134971,a photo of a viverrine mammal.,viverrine mammal,0,99999
+486,n02469914,a photo of a primate.,primate,0,99999
+487,n02268853,a photo of a damselfly.,damselfly,1,320
+488,n01443537,a photo of a goldfish.,goldfish,1,1
+489,n02686568,a photo of a aircraft.,aircraft,0,99999
+490,n03788195,a photo of a mosque.,mosque,1,668
+491,n02219486,a photo of a ant.,ant,1,310
+492,n03355925,a photo of a flagpole.,flagpole,1,557
+493,n15075141,a photo of a toilet paper.,toilet paper,1,999
+494,n02948072,a photo of a candle.,candle,1,470
+495,n04548280,a photo of a wall clock.,wall clock,1,892
+496,n03637318,a photo of a lampshade.,lampshade,1,619
+497,n03249569,a photo of a drum.,drum,1,541
+498,n03188531,a photo of a diaper (nappy).,diaper (nappy),1,529
+499,n01871265,a photo of a tusker animal.,tusker animal,1,101
+500,n03498962,a photo of a hatchet.,hatchet,1,596
+501,n01843383,a photo of a toucan.,toucan,1,96
+502,n02790996,a photo of a barbells.,barbells,1,422
+503,n03763968,a photo of a military uniform.,military uniform,1,652
+504,n07754684,a photo of a jackfruit.,jackfruit,1,955
+505,n04443257,a photo of a tobacco shop.,tobacco shop,1,860
+506,n03495258,a photo of a harp.,harp,1,594
+507,n09288635,a photo of a geyser.,geyser,1,974
+508,n01529672,a photo of a finch.,finch,0,99999
+509,n01872401,a photo of a echidna or spiny anteater.,echidna or spiny anteater,1,102
+510,n04143897,a photo of a scarf.,scarf,0,99999
+511,n02877962,a photo of a bottle opener.,bottle opener,0,99999
+512,n03948459,a photo of a pistol or handgun.,pistol or handgun,0,99999
+513,n02802426,a photo of a basketball.,basketball,1,430
+514,n07753275,a photo of a pineapple.,pineapple,1,953
+515,n02804610,a photo of a bassoon.,bassoon,1,432
+516,n01560105,a photo of a nightingale.,nightingale,0,99999
+517,n04152593,a photo of a CRT screen.,CRT screen,1,782
+518,n01843065,a photo of a jacamar.,jacamar,1,95
+519,n02190166,a photo of a fly.,fly,1,308
+520,n07745940,a photo of a strawberry.,strawberry,1,949
+521,n03497657,a photo of a hat.,hat,0,99999
+522,n01482330,a photo of a shark.,shark,0,99999
+523,n02130308,a photo of a cheetah.,cheetah,1,293
+524,n01990800,a photo of a isopod.,isopod,1,126
+525,n07884567,a photo of a alcohol or alcoholic beverage.,alcohol or alcoholic beverage,0,99999
+526,n02977058,a photo of a automated teller machine or ATM machine.,automated teller machine or ATM machine,1,480
+527,n03221720,a photo of a door.,door,0,99999
+528,n07717070,a photo of a winter squash.,winter squash,0,99999
+529,n04162706,a photo of a seat belt.,seat belt,1,785
+530,n03271574,a photo of a electric fan.,electric fan,1,545
+531,n03902125,a photo of a pay-phone.,pay-phone,1,707
+532,n07557434,a photo of a dish of food.,dish of food,0,99999
+533,n01772222,a photo of a spider.,spider,0,99999
+534,n04090263,a photo of a rifle.,rifle,1,764
+535,n02655020,a photo of a pufferfish.,pufferfish,1,397
+536,n02264363,a photo of a lacewing fly.,lacewing fly,1,318
+537,n03297495,a photo of a espresso maker.,espresso maker,1,550
+538,n02129165,a photo of a lion.,lion,1,291
+539,n02324045,a photo of a rabbit.,rabbit,0,99999
+540,n03888605,a photo of a parallel bars.,parallel bars,1,702
+541,n02128385,a photo of a leopard.,leopard,1,288
+542,n02514041,a photo of a barracouta (snoek) fish.,barracouta (snoek) fish,1,389
+543,n13037406,a photo of a gyromitra mushroom.,gyromitra mushroom,1,993
+544,n07753113,a photo of a fig.,fig,1,952
+545,n04243546,a photo of a slot machine.,slot machine,1,800
+546,n03236735,a photo of a dress (frock).,dress (frock),0,99999
+547,n01578575,a photo of a corvine bird.,corvine bird,0,99999
+548,n01440764,a photo of a tench.,tench,1,0
+549,n07747607,a photo of a orange.,orange,1,950
+550,n01874434,a photo of a marsupial or pouched mammal.,marsupial or pouched mammal,0,99999
+551,n02441326,a photo of a musteline mammal.,musteline mammal,0,99999
+552,n04311174,a photo of a steel drum.,steel drum,1,822
+553,n01530575,a photo of a brambling.,brambling,1,10
+554,n04530566,a photo of a vessel or watercraft.,vessel or watercraft,0,99999
+555,n04097866,a photo of a robe.,robe,0,99999
+556,n07768694,a photo of a pomegranate.,pomegranate,1,957
+557,n01531178,a photo of a goldfinch.,goldfinch,1,11
+558,n03110669,a photo of a horn or trumpet.,horn or trumpet,1,513
+559,n03028079,a photo of a church.,church,1,497
+560,n09332890,a photo of a lakeside.,lakeside,1,975
+561,n03207743,a photo of a dishrag.,dishrag,1,533
+562,n02083346,a photo of a canine.,canine,0,99999
+563,n03197337,a photo of a digital watch.,digital watch,1,531
+564,n02871525,a photo of a bookshop or bookstore.,bookshop or bookstore,1,454
+565,n04371563,a photo of a swimsuit (bathing suit).,swimsuit (bathing suit),0,99999
+566,n02607072,a photo of a anemone (clown) fish.,anemone (clown) fish,1,393
+567,n02503517,a photo of a elephant.,elephant,0,99999
+568,n02643566,a photo of a lionfish.,lionfish,1,396
+569,n02233338,a photo of a cockroach.,cockroach,1,314
+570,n02970849,a photo of a cart.,cart,0,99999
+571,n02128757,a photo of a snow leopard.,snow leopard,1,289
+572,n07742313,a photo of a Granny Smith apple.,Granny Smith apple,1,948
+573,n01534433,a photo of a junco or snowbird.,junco or snowbird,1,13
+574,n03032252,a photo of a cinema.,cinema,1,498
+575,n01514859,a photo of a hen.,hen,1,8
+576,n01776313,a photo of a tick.,tick,1,78
+577,n07622061,a photo of a baked goods.,baked goods,0,99999
+578,n03196217,a photo of a digital clock.,digital clock,1,530
+579,n02862048,a photo of a body armor.,body armor,0,99999
+580,n02606052,a photo of a rock beauty fish.,rock beauty fish,1,392
+581,n02329401,a photo of a rodent.,rodent,0,99999
+582,n04409515,a photo of a tennis ball.,tennis ball,1,852
+583,n13044778,a photo of a earthstar fungus.,earthstar fungus,1,995
+584,n02456962,a photo of a tree sloth.,tree sloth,0,99999
+585,n04199027,a photo of a shoe.,shoe,0,99999
+586,n04379243,a photo of a table.,table,0,99999
+587,n01674464,a photo of a lizard.,lizard,0,99999
+588,n01833805,a photo of a hummingbird.,hummingbird,1,94
+589,n01982650,a photo of a lobster.,lobster,0,99999
+590,n04505470,a photo of a typewriter keyboard.,typewriter keyboard,1,878
+591,n03134739,a photo of a croquet ball.,croquet ball,1,522
+592,n03187595,a photo of a dial telephone.,dial telephone,1,528
+593,n01924916,a photo of a flatworm.,flatworm,1,110
+594,n02206856,a photo of a bee.,bee,1,309
+595,n04487394,a photo of a trombone.,trombone,1,875
+596,n02259212,a photo of a leafhopper.,leafhopper,1,317
+597,n04200800,a photo of a shoe shop.,shoe shop,1,788
+598,n01828970,a photo of a bee eater.,bee eater,1,92
+599,n01930112,a photo of a nematode worm.,nematode worm,1,111
+600,n01558993,a photo of a American robin.,American robin,1,15
+601,n03791235,a photo of a automotive vehicle.,automotive vehicle,0,99999
+602,n07810907,a photo of a condiment.,condiment,0,99999
+603,n04468005,a photo of a train.,train,0,99999
+604,n04266014,a photo of a space craft or space shuttle.,space craft or space shuttle,1,812
+605,n02787622,a photo of a banjo.,banjo,1,420
+606,n03337140,a photo of a file cabinet.,file cabinet,1,553
+607,n13133613,a photo of a ear of corn.,ear of corn,1,998
+608,n02992529,a photo of a cellular telephone.,cellular telephone,1,487
+609,n03476684,a photo of a hair clip.,hair clip,1,584
+610,n07715721,a photo of a summer squash.,summer squash,0,99999
+611,n02708093,a photo of a analog clock.,analog clock,1,409
+612,n03255030,a photo of a dumbbells.,dumbbells,1,543
+613,n03721384,a photo of a marimba.,marimba,1,642
+614,n02507649,a photo of a procyonid.,procyonid,0,99999
+615,n03441112,a photo of a glove.,glove,0,99999
+616,n03814639,a photo of a neck brace.,neck brace,1,678
+617,n02672831,a photo of a piano accordion.,piano accordion,1,401
+618,n04118021,a photo of a rug or carpet.,rug or carpet,0,99999
+619,n03047690,a photo of a clog.,clog,1,502
+620,n04464852,a photo of a tracked vehicle.,tracked vehicle,0,99999
+621,n02226429,a photo of a grasshopper.,grasshopper,1,311
+622,n01770081,a photo of a harvestman spider.,harvestman spider,1,70
+623,n03133878,a photo of a Crock Pot.,Crock Pot,1,521
+624,n01604330,a photo of a bird of prey.,bird of prey,0,99999
+625,n03535780,a photo of a horizontal bar.,horizontal bar,1,602
+626,n04023962,a photo of a punching bag.,punching bag,1,747
+627,n07929519,a photo of a coffee.,coffee,0,99999
+628,n04256520,a photo of a sofa or couch.,sofa or couch,0,99999
+629,n02821943,a photo of a bedroom furniture.,bedroom furniture,0,99999
+630,n02229544,a photo of a cricket insect.,cricket insect,1,312
+631,n04235291,a photo of a sled.,sled,0,99999
+632,n02641379,a photo of a garfish.,garfish,1,395
+633,n03727837,a photo of a mat.,mat,0,99999
+634,n03016953,a photo of a chiffonier or commode.,chiffonier or commode,1,493
+635,n01943899,a photo of a conch.,conch,1,112
+636,n02910353,a photo of a buckle.,buckle,1,464
+637,n02939185,a photo of a cooking cauldron.,cooking cauldron,1,469
+638,n01950731,a photo of a sea slug.,sea slug,1,115
+639,n02231487,a photo of a walking stick insect.,walking stick insect,1,313
+640,n03447721,a photo of a gong.,gong,1,577
+641,n04230808,a photo of a skirt.,skirt,0,99999
+642,n02370806,a photo of a hoofed mammal.,hoofed mammal,0,99999
+643,n02859443,a photo of a boathouse.,boathouse,1,449
+644,n04596742,a photo of a wok.,wok,1,909
+645,n01639765,a photo of a frog or toad.,frog or toad,0,99999
+646,n04229816,a photo of a ski mask.,ski mask,1,796
+647,n01699831,a photo of a dinosaur.,dinosaur,0,99999
+648,n02164464,a photo of a beetle.,beetle,0,99999
+649,n07760859,a photo of a custard apple.,custard apple,1,956
+650,n03691459,a photo of a loudspeaker.,loudspeaker,1,632
+651,n03400231,a photo of a frying pan or skillet.,frying pan or skillet,1,567
+652,n02791270,a photo of a barbershop.,barbershop,1,424
+653,n09421951,a photo of a sandbar.,sandbar,1,977
+654,n03928116,a photo of a piano or pianoforte.,piano or pianoforte,0,99999
+655,n04350905,a photo of a suit.,suit,1,834
+656,n03815615,a photo of a necktie.,necktie,0,99999
+657,n02992211,a photo of a cello.,cello,1,486
+658,n03838899,a photo of a oboe.,oboe,1,683
+659,n02256656,a photo of a cicada.,cicada,1,316
+660,n02799071,a photo of a baseball.,baseball,1,429
+661,n04355933,a photo of a sunglasses.,sunglasses,1,836
+662,n03113152,a photo of a cosmetic.,cosmetic,0,99999
+663,n02777292,a photo of a balance beam.,balance beam,1,416
+664,n02534734,a photo of a salmon fish.,salmon fish,0,99999
+665,n03467517,a photo of a guitar.,guitar,0,99999
+666,n01816887,a photo of a parrot bird.,parrot bird,0,99999
+667,n03544143,a photo of a hourglass.,hourglass,1,604
+668,n01823013,a photo of a cuckoo.,cuckoo,0,99999
+669,n03945615,a photo of a pipe.,pipe,0,99999
+670,n01844917,a photo of a aquatic bird.,aquatic bird,0,99999
+671,n11879895,a photo of a rapeseed.,rapeseed,1,984
+672,n03196324,a photo of a digital computer.,digital computer,0,99999
+673,n12985857,a photo of a coral fungus.,coral fungus,1,991
+674,n03259280,a photo of a Dutch oven.,Dutch oven,1,544
+675,n01985128,a photo of a crayfish.,crayfish,1,124
+676,n03041632,a photo of a meat cleaver.,meat cleaver,1,499
+677,n02814860,a photo of a beacon or lighthouse.,beacon or lighthouse,1,437
+678,n12620546,a photo of a rose hip.,rose hip,1,989
+679,n01873310,a photo of a duck-billed platypus.,duck-billed platypus,1,103
+680,n02951585,a photo of a can opener.,can opener,1,473
+681,n11939491,a photo of a daisy.,daisy,1,985
+682,n02128925,a photo of a jaguar panther.,jaguar panther,1,290
+683,n01917289,a photo of a brain coral.,brain coral,1,109
+684,n02454379,a photo of a armadillo.,armadillo,1,363
+685,n07802026,a photo of a hay.,hay,1,958
+686,n01789386,a photo of a gallinaceous bird.,gallinaceous bird,0,99999
+687,n03930313,a photo of a picket fence.,picket fence,1,716
+688,n04192698,a photo of a shield.,shield,1,787
+689,n02131653,a photo of a bear.,bear,0,99999
+690,n07753592,a photo of a banana.,banana,1,954
+691,n04370048,a photo of a sweater.,sweater,0,99999
+692,n01829413,a photo of a hornbill.,hornbill,1,93
+693,n09428293,a photo of a seashore.,seashore,1,978
+694,n04459362,a photo of a towel.,towel,0,99999
+695,n04508163,a photo of a undergarments.,undergarments,0,99999
+696,n03854065,a photo of a pipe organ.,pipe organ,1,687
+697,n04326547,a photo of a stone wall.,stone wall,1,825
+698,n03697007,a photo of a lumbermill.,lumbermill,1,634
+699,n04151581,a photo of a screen.,screen,0,99999
+700,n03942813,a photo of a ping-pong ball.,ping-pong ball,1,722
+701,n01944390,a photo of a snail.,snail,1,113
+702,n13040303,a photo of a stinkhorn fungus.,stinkhorn fungus,1,994
+703,n09193705,a photo of a alp mountain.,alp mountain,1,970
+704,n03001627,a photo of a chair.,chair,0,99999
+705,n04525305,a photo of a vending machine.,vending machine,1,886
+706,n12267677,a photo of a acorn.,acorn,1,988
+707,n03459775,a photo of a radiator grille.,radiator grille,1,581
+708,n03485794,a photo of a handkerchief or hanky.,handkerchief or hanky,1,591
+709,n03597469,a photo of a jewelry or jewellery.,jewelry or jewellery,0,99999
+710,n02776631,a photo of a bakery.,bakery,1,415
+711,n03085013,a photo of a computer keyboard.,computer keyboard,1,508
+712,n01976957,a photo of a crab.,crab,0,99999
+713,n03938244,a photo of a pillow or cushion.,pillow or cushion,1,721
+714,n12768682,a photo of a buckeye or horse chestnut.,buckeye or horse chestnut,1,990
+715,n04046974,a photo of a rail fence.,rail fence,0,99999
+716,n04141076,a photo of a saxophone.,saxophone,1,776
+717,n04540053,a photo of a volleyball.,volleyball,1,890
+718,n01601694,a photo of a American dipper bird.,American dipper bird,1,20
+719,n03151077,a photo of a curtains or drapes.,curtains or drapes,0,99999
+720,n04536866,a photo of a violin.,violin,1,889
+721,n02526121,a photo of a eel.,eel,1,390
+722,n03089624,a photo of a confectionery or candy store.,confectionery or candy store,1,509
+723,n01514668,a photo of a rooster.,rooster,1,7
+724,n03057021,a photo of a coat.,coat,0,99999
+725,n07880968,a photo of a burrito.,burrito,1,965
+726,n03124170,a photo of a cowboy hat.,cowboy hat,1,515
+727,n02444819,a photo of a otter.,otter,1,360
+728,n02496913,a photo of a lemur.,lemur,0,99999
+729,n02470325,a photo of a ape.,ape,0,99999
+730,n02076196,a photo of a seal.,seal,0,99999
+731,n03594734,a photo of a jeans (denim).,jeans (denim),1,608
+732,n03180011,a photo of a desktop computer.,desktop computer,1,527
+733,n04209133,a photo of a shower cap.,shower cap,1,793
+734,n02782093,a photo of a balloon vehicle.,balloon vehicle,1,417
+735,n02869837,a photo of a poke bonnet.,poke bonnet,1,452
+736,n02834778,a photo of a bicycle.,bicycle,0,99999
+737,n01630284,a photo of a newt.,newt,0,99999
+738,n02165105,a photo of a tiger beetle.,tiger beetle,1,300
+739,n01582220,a photo of a magpie.,magpie,1,18
+740,n03590841,a photo of a carved pumpkin.,carved pumpkin,1,607
+741,n02814533,a photo of a beach wagon.,beach wagon,1,436
+742,n04201297,a photo of a shoji screen or room divider.,shoji screen or room divider,1,789
+743,n03179701,a photo of a desk.,desk,1,526
+744,n02509815,a photo of a lesser red panda.,lesser red panda,1,387
+745,n02401031,a photo of a bovid.,bovid,0,99999
+746,n04086273,a photo of a revolver.,revolver,1,763
+747,n02137549,a photo of a mongoose.,mongoose,1,298
+748,n03998194,a photo of a prayer rug or mat.,prayer rug or mat,1,741
+749,n03770439,a photo of a miniskirt.,miniskirt,1,655
+750,n02504013,a photo of a Indian elephant.,Indian elephant,1,385
+751,n04136333,a photo of a sarong.,sarong,1,775
+752,n01580077,a photo of a jay.,jay,1,17
+753,n02281406,a photo of a sulphur butterfly.,sulphur butterfly,1,325
+754,n07836838,a photo of a chocolate sauce.,chocolate sauce,1,960
+755,n02437136,a photo of a camel.,camel,0,99999
+756,n03534580,a photo of a hoopskirt.,hoopskirt,1,601
+757,n01807496,a photo of a partridge.,partridge,1,86
+758,n02808304,a photo of a bath towel.,bath towel,1,434
+759,n03775071,a photo of a mitten.,mitten,1,658
+760,n02692877,a photo of a airship.,airship,1,405
+761,n03201208,a photo of a dining table.,dining table,1,532
+762,n07930554,a photo of a punch drink.,punch drink,0,99999
+763,n04389033,a photo of a army tank.,army tank,1,847
+764,n02117135,a photo of a hyena.,hyena,1,276
+765,n03982430,a photo of a pool table or billiard table (snooker).,pool table or billiard table (snooker),1,736
+766,n01753488,a photo of a Saharan horned viper.,Saharan horned viper,1,66
+767,n01697178,a photo of a crocodile.,crocodile,0,99999
+768,n03404251,a photo of a fur coat.,fur coat,1,568
+769,n01484850,a photo of a great white shark.,great white shark,1,2
+770,n04133789,a photo of a sandal.,sandal,1,774
+771,n03325584,a photo of a feather boa accessory.,feather boa accessory,1,552
+772,n01629819,a photo of a fire salamander.,fire salamander,1,25
+773,n03710721,a photo of a maillot.,maillot,1,639
+774,n07838233,a photo of a spaghetti sauce.,spaghetti sauce,0,99999
+775,n07711569,a photo of a mashed potato.,mashed potato,1,935
+776,n04428191,a photo of a threshing machine.,threshing machine,1,856
+777,n04347754,a photo of a submarine.,submarine,1,833
+778,n02858304,a photo of a boat.,boat,0,99999
+779,n02536864,a photo of a coho silver salmon.,coho silver salmon,1,391
+780,n03379051,a photo of a football helmet.,football helmet,1,560
+781,n03884397,a photo of a panpipe.,panpipe,1,699
+782,n02171869,a photo of a scarabaeid beetle.,scarabaeid beetle,0,99999
+783,n01741562,a photo of a constrictor.,constrictor,0,99999
+784,n02355003,a photo of a swine.,swine,0,99999
+785,n01640846,a photo of a true frog.,true frog,0,99999
+786,n01774750,a photo of a tarantula.,tarantula,1,76
+787,n02786058,a photo of a Band Aid bandage.,Band Aid bandage,1,419
+788,n07871810,a photo of a meat loaf.,meat loaf,1,962
+789,n04239074,a photo of a sliding door.,sliding door,1,799
+790,n03127747,a photo of a crash helmet.,crash helmet,1,518
+791,n04335435,a photo of a tram.,tram,1,829
+792,n04254777,a photo of a sock.,sock,1,806
+793,n02017213,a photo of a common European gallinule bird.,common European gallinule bird,1,136
+794,n01978287,a photo of a Dungeness crab.,Dungeness crab,1,118
+795,n07716358,a photo of a zucchini or courgette.,zucchini or courgette,1,939
+796,n07875152,a photo of a potpie.,potpie,1,964
+797,n02114712,a photo of a red maned wolf.,red maned wolf,1,271
+798,n01752165,a photo of a viper.,viper,0,99999
+799,n02959942,a photo of a railroad car.,railroad car,0,99999
+800,n02865351,a photo of a bolo tie.,bolo tie,1,451
+801,n01983481,a photo of a American lobster.,American lobster,1,122
+802,n07891726,a photo of a wine.,wine,0,99999
+803,n01820546,a photo of a lorikeet.,lorikeet,1,90
+804,n02398521,a photo of a hippopotamus.,hippopotamus,1,344
+805,n03128519,a photo of a cream or ointment.,cream or ointment,0,99999
+806,n01685439,a photo of a teiid lizard.,teiid lizard,0,99999
+807,n01751748,a photo of a sea snake.,sea snake,1,65
+808,n04552348,a photo of a warplane or military plane.,warplane or military plane,1,895
+809,n01692333,a photo of a Gila monster.,Gila monster,1,45
+810,n04325704,a photo of a stole scraf.,stole scraf,1,824
+811,n07583197,a photo of a soup.,soup,0,99999
+812,n02169497,a photo of a leaf beetle.,leaf beetle,1,304
+813,n02177972,a photo of a weevil.,weevil,1,307
+814,n03376595,a photo of a folding chair.,folding chair,1,559
+815,n03814906,a photo of a necklace.,necklace,1,679
+816,n01663401,a photo of a sea turtle.,sea turtle,0,99999
+817,n03476991,a photo of a hair spray.,hair spray,1,585
+818,n03538406,a photo of a horse cart.,horse cart,1,603
+819,n04099969,a photo of a rocking chair.,rocking chair,1,765
+820,n04049405,a photo of a raincoat.,raincoat,0,99999
+821,n02958343,a photo of a car.,car,0,99999
+822,n01614925,a photo of a bald eagle.,bald eagle,1,22
+823,n01881171,a photo of a phalanger or opossum or possum.,phalanger or opossum or possum,0,99999
+824,n07680932,a photo of a bun or roll.,bun or roll,0,99999
+825,n03714235,a photo of a makeup.,makeup,0,99999
+826,n03223299,a photo of a doormat.,doormat,1,539
+827,n03877472,a photo of a pajamas or pyjamas.,pajamas or pyjamas,1,697
+828,n01773797,a photo of a European garden spider.,European garden spider,1,74
+829,n07873807,a photo of a pizza.,pizza,1,963
+830,n02443484,a photo of a black-footed ferret.,black-footed ferret,1,359
+831,n02115335,a photo of a wild dog.,wild dog,0,99999
+832,n03684823,a photo of a railway locomotive.,railway locomotive,0,99999
+833,n02281787,a photo of a gossamer-winged butterfly.,gossamer-winged butterfly,1,326
+834,n01644373,a photo of a tree frog.,tree frog,1,31
+835,n02134418,a photo of a sloth bear.,sloth bear,1,297
+836,n04604644,a photo of a snake-rail fence or split-rail fence.,snake-rail fence or split-rail fence,1,912
+837,n02837789,a photo of a bikini.,bikini,1,445
+838,n04515003,a photo of a upright piano.,upright piano,1,881
+839,n02114548,a photo of a Arctic white wolf.,Arctic white wolf,1,270
+840,n02817516,a photo of a military hat (bearskin or shako).,military hat (bearskin or shako),1,439
+841,n01491361,a photo of a tiger shark.,tiger shark,1,3
+842,n02138441,a photo of a meerkat.,meerkat,1,299
+843,n02346627,a photo of a porcupine.,porcupine,1,334
+844,n01978455,a photo of a rock crab.,rock crab,1,119
+845,n02391049,a photo of a zebra.,zebra,1,340
+846,n02000954,a photo of a wading bird.,wading bird,0,99999
+847,n02073250,a photo of a sea cow.,sea cow,0,99999
+848,n07611358,a photo of a frozen dessert.,frozen dessert,0,99999
+849,n04434932,a photo of a tights or leotards.,tights or leotards,0,99999
+850,n01608432,a photo of a kite bird.,kite bird,1,21
+851,n02279972,a photo of a monarch milkweed butterfly.,monarch milkweed butterfly,1,323
+852,n03484083,a photo of a handcart.,handcart,0,99999
+853,n01818515,a photo of a macaw.,macaw,1,88
+854,n01819313,a photo of a sulphur-crested cockatoo.,sulphur-crested cockatoo,1,89
+855,n02280458,a photo of a pierid butterfly.,pierid butterfly,0,99999
+856,n01984695,a photo of a spiny rock lobster or crawfish.,spiny rock lobster or crawfish,1,123
+857,n01981276,a photo of a Alaskan red king crab.,Alaskan red king crab,1,121
+858,n01667778,a photo of a terrapin.,terrapin,1,36
+859,n01883070,a photo of a wombat.,wombat,1,106
+860,n02442845,a photo of a mink.,mink,1,357
+861,n03916031,a photo of a perfume.,perfume,1,711
+862,n03868242,a photo of a oxcart.,oxcart,1,690
+863,n03272010,a photo of a electric guitar.,electric guitar,1,546
+864,n07920052,a photo of a espresso.,espresso,1,967
+865,n03866082,a photo of a overskirt.,overskirt,1,689
+866,n03929855,a photo of a pickelhaube.,pickelhaube,1,715
+867,n03680355,a photo of a Loafer show.,Loafer show,1,630
+868,n03788365,a photo of a mosquito net.,mosquito net,1,669
+869,n02276258,a photo of a red admiral butterfly.,red admiral butterfly,1,321
+870,n01774384,a photo of a southern black widow spider.,southern black widow spider,1,75
+871,n01632777,a photo of a axolotl.,axolotl,1,29
+872,n03218198,a photo of a dogsled.,dogsled,1,537
+873,n01669191,a photo of a box turtle.,box turtle,1,37
+874,n02364673,a photo of a guinea pig.,guinea pig,1,338
+875,n13054560,a photo of a bolete mushroom.,bolete mushroom,1,997
+876,n12056217,a photo of a lady's slipper orchid.,lady's slipper orchid,0,99999
+877,n02883205,a photo of a bow tie.,bow tie,1,457
+878,n01632458,a photo of a spotted salamander.,spotted salamander,1,28
+879,n07588947,a photo of a stew.,stew,0,99999
+880,n04252077,a photo of a snowmobile.,snowmobile,1,802
+881,n03832673,a photo of a notebook computer.,notebook computer,1,681
+882,n04532106,a photo of a vestment.,vestment,1,887
+883,n02277742,a photo of a ringlet butterfly.,ringlet butterfly,1,322
+884,n03617480,a photo of a kimono.,kimono,1,614
+885,n02691156,a photo of a airplane or aeroplane.,airplane or aeroplane,0,99999
+886,n07583066,a photo of a guacamole.,guacamole,1,924
+887,n03896233,a photo of a passenger train.,passenger train,0,99999
+888,n13052670,a photo of a hen-of-the-woods mushroom.,hen-of-the-woods mushroom,1,996
+889,n07683786,a photo of a loaf of bread.,loaf of bread,0,99999
+890,n03887697,a photo of a paper towel.,paper towel,1,700
+891,n02818832,a photo of a bed.,bed,0,99999
+892,n07717410,a photo of a acorn squash.,acorn squash,1,941
+893,n02328150,a photo of a Angora rabbit.,Angora rabbit,1,332
+894,n02510455,a photo of a giant panda bear.,giant panda bear,1,388
+895,n02374451,a photo of a horse.,horse,0,99999
+896,n02701002,a photo of a ambulance.,ambulance,1,407
+897,n02676566,a photo of a acoustic guitar.,acoustic guitar,1,402
+898,n04589890,a photo of a window screen.,window screen,1,904
+899,n01860187,a photo of a black swan.,black swan,1,100
+900,n01496331,a photo of a electric ray.,electric ray,1,5
+901,n01622779,a photo of a great grey owl.,great grey owl,1,24
+902,n01498041,a photo of a stingray.,stingray,1,6
+903,n02325366,a photo of a cottontail wood rabbit.,cottontail wood rabbit,1,330
+904,n01693783,a photo of a chameleon.,chameleon,0,99999
+905,n01773157,a photo of a black and gold garden spider.,black and gold garden spider,1,72
+906,n04591157,a photo of a Windsor tie.,Windsor tie,1,906
+907,n03485407,a photo of a hand-held computer.,hand-held computer,1,590
+908,n01773549,a photo of a barn spider.,barn spider,1,73
+909,n03045698,a photo of a cloak.,cloak,1,501
+910,n03980874,a photo of a poncho.,poncho,1,735
+911,n02504458,a photo of a African bush elephant.,African bush elephant,1,386
+912,n03595614,a photo of a T-shirt.,T-shirt,1,610
+913,n02484322,a photo of a monkey.,monkey,0,99999
+914,n01727646,a photo of a colubrid snake.,colubrid snake,0,99999
+915,n02167151,a photo of a ground beetle.,ground beetle,1,302
+916,n02892767,a photo of a bra.,bra,1,459
+917,n04259630,a photo of a sombrero.,sombrero,1,808
+918,n01693334,a photo of a green alligator lizard.,green alligator lizard,1,46
+919,n02749479,a photo of a assault rifle.,assault rifle,1,413
+920,n01616318,a photo of a vulture.,vulture,1,23
+921,n02447366,a photo of a badger.,badger,1,362
+922,n04490091,a photo of a truck or motortruck.,truck or motortruck,0,99999
+923,n02118333,a photo of a fox.,fox,0,99999
+924,n01537544,a photo of a indigo bunting bird.,indigo bunting bird,1,14
+925,n02132136,a photo of a brown bear.,brown bear,1,294
+926,n01747885,a photo of a cobra.,cobra,0,99999
+927,n02807133,a photo of a swimming cap.,swimming cap,1,433
+928,n01806567,a photo of a quail.,quail,1,85
+929,n02168699,a photo of a long-horned beetle.,long-horned beetle,1,303
+930,n01494475,a photo of a hammerhead shark.,hammerhead shark,1,4
+931,n02121620,a photo of a cat.,cat,0,99999
+932,n03478589,a photo of a half track.,half track,1,586
+933,n02342885,a photo of a hamster.,hamster,1,333
+934,n01698434,a photo of a alligator.,alligator,0,99999
+935,n01877134,a photo of a kangaroo.,kangaroo,0,99999
+936,n01676755,a photo of a iguanid lizard.,iguanid lizard,0,99999
+937,n01687665,a photo of a agamid lizard.,agamid lizard,0,99999
+938,n02924116,a photo of a bus.,bus,0,99999
+939,n02114855,a photo of a coyote prairie wolf.,coyote prairie wolf,1,272
+940,n02437616,a photo of a llama.,llama,1,355
+941,n02165456,a photo of a ladybug.,ladybug,1,301
+942,n03100346,a photo of a convertible sofa bed.,convertible sofa bed,0,99999
+943,n04209239,a photo of a shower curtain.,shower curtain,1,794
+944,n02791124,a photo of a barber chair.,barber chair,1,423
+945,n04371430,a photo of a swimming trunks.,swimming trunks,1,842
+946,n04194289,a photo of a ship.,ship,0,99999
+947,n03208938,a photo of a disk brake.,disk brake,1,535
+948,n02457408,a photo of a three-toed sloth.,three-toed sloth,1,364
+949,n04418357,a photo of a theater or front curtain.,theater or front curtain,1,854
+950,n03452741,a photo of a grand piano.,grand piano,1,579
+951,n03002210,a photo of a chair of state.,chair of state,0,99999
+952,n07681926,a photo of a cracker.,cracker,0,99999
+953,n03146219,a photo of a cuirass breastplate.,cuirass breastplate,1,524
+954,n02895154,a photo of a breastplate.,breastplate,1,461
+955,n04482393,a photo of a tricycle.,tricycle,1,870
+956,n02766320,a photo of a baby bed.,baby bed,0,99999
+957,n01845132,a photo of a water bird.,water bird,0,99999
+958,n02355227,a photo of a squirrel.,squirrel,0,99999
+959,n01532829,a photo of a house finch.,house finch,1,12
+960,n02441942,a photo of a weasel.,weasel,1,356
+961,n03109150,a photo of a corkscrew.,corkscrew,1,512
+962,n01644900,a photo of a tailed frog or bell toad.,tailed frog or bell toad,1,32
+963,n02916936,a photo of a bulletproof vest.,bulletproof vest,1,465
+964,n01560419,a photo of a bulbul.,bulbul,1,16
+965,n04120489,a photo of a running shoe.,running shoe,1,770
+966,n03347037,a photo of a fire screen.,fire screen,1,556
+967,n03642806,a photo of a laptop computer.,laptop computer,1,620
+968,n03026506,a photo of a Christmas stocking.,Christmas stocking,1,496
+969,n01824575,a photo of a coucal.,coucal,1,91
+970,n02445715,a photo of a skunk.,skunk,1,361
+971,n03787032,a photo of a graduation cap or mortarboard.,graduation cap or mortarboard,1,667
+972,n02361337,a photo of a marmot.,marmot,1,336
+973,n07612996,a photo of a pudding.,pudding,0,99999
+974,n01689811,a photo of a alligator lizard.,alligator lizard,1,44
+975,n02133161,a photo of a American black bear.,American black bear,1,295
+976,n03790512,a photo of a motorcycle.,motorcycle,0,99999
+977,n03450230,a photo of a gown.,gown,1,578
+978,n02134084,a photo of a polar bear.,polar bear,1,296
+979,n04346328,a photo of a stupa.,stupa,1,832
+980,n04509417,a photo of a unicycle or monocycle.,unicycle or monocycle,1,880
+981,n07695965,a photo of a sandwich.,sandwich,0,99999
+982,n03630383,a photo of a lab coat.,lab coat,1,617
+983,n01980166,a photo of a fiddler crab.,fiddler crab,1,120
+984,n02443114,a photo of a European polecat.,European polecat,1,358
+985,n02021795,a photo of a sea bird.,sea bird,0,99999
+986,n01667114,a photo of a mud turtle.,mud turtle,1,35
+987,n01806143,a photo of a peafowl.,peafowl,1,84
+988,n01795088,a photo of a grouse bird.,grouse bird,0,99999
+989,n03891251,a photo of a park bench.,park bench,1,703
+990,n02704792,a photo of a amphibious vehicle.,amphibious vehicle,1,408
+991,n04590129,a photo of a window shade.,window shade,1,905
+992,n01674990,a photo of a gecko.,gecko,0,99999
+993,n12998815,a photo of a agaric mushroom.,agaric mushroom,1,992
+994,n02037110,a photo of a oystercatcher wading bird.,oystercatcher wading bird,1,143
+995,n02114367,a photo of a timber grey wolf.,timber grey wolf,1,269
+996,n03599486,a photo of a jinrikisha or rickshaw.,jinrikisha or rickshaw,1,612
+997,n02669723,a photo of a academic gown.,academic gown,1,400
+998,n01694709,a photo of a monitor lizard.,monitor lizard,0,99999
+999,n02062744,a photo of a whale.,whale,0,99999
+1000,n02963159,a photo of a cardigan.,cardigan,1,474
+1001,n02667093,a photo of a abaya.,abaya,1,399
+1002,n03000247,a photo of a chain mail or armor.,chain mail or armor,1,490
+1003,n02363005,a photo of a beaver.,beaver,1,337
+1004,n01749582,a photo of a mamba.,mamba,0,99999
+1005,n03124043,a photo of a cowboy boot.,cowboy boot,1,514
+1006,n02860847,a photo of a bobsled.,bobsled,1,450
+1007,n01704323,a photo of a triceratops.,triceratops,1,51
+1008,n04021028,a photo of a pullover.,pullover,0,99999
+1009,n02084071,a photo of a dog.,dog,0,99999
+1010,n01817953,a photo of a African grey parrot.,African grey parrot,1,87
+1011,n01775062,a photo of a wolf spider.,wolf spider,1,77
+1012,n07717556,a photo of a butternut squash.,butternut squash,1,942
+1013,n03496892,a photo of a combine harvester.,combine harvester,1,595
+1014,n07716906,a photo of a spaghetti squash.,spaghetti squash,1,940
+1015,n02797295,a photo of a wheelbarrow.,wheelbarrow,1,428
+1016,n02086079,a photo of a Pekingese dog.,Pekingese dog,1,154
+1017,n02111500,a photo of a Great Pyrenees dog.,Great Pyrenees dog,1,257
+1018,n02481823,a photo of a chimpanzee or chimp.,chimpanzee or chimp,1,367
+1019,n02089078,a photo of a black-and-tan Coonhound.,black-and-tan Coonhound,1,165
+1020,n02486410,a photo of a baboon.,baboon,1,372
+1021,n02488702,a photo of a black-and-white colobus monkey.,black-and-white colobus monkey,1,375
+1022,n03445924,a photo of a golfcart.,golfcart,1,575
+1023,n02095050,a photo of a fox Terrier.,fox Terrier,0,99999
+1024,n02106030,a photo of a collie.,collie,1,231
+1025,n02487347,a photo of a macaque monkey.,macaque monkey,1,373
+1026,n02492035,a photo of a white-headed capuchin monkey.,white-headed capuchin monkey,1,378
+1027,n03791053,a photo of a motor scooter.,motor scooter,1,670
+1028,n07584110,a photo of a consomme.,consomme,1,925
+1029,n02110341,a photo of a dalmatian.,dalmatian,1,251
+1030,n02091244,a photo of a Ibizan hound.,Ibizan hound,1,173
+1031,n02104029,a photo of a Hungarian kuvasz dog.,Hungarian kuvasz dog,1,222
+1032,n03100240,a photo of a convertible car.,convertible car,1,511
+1033,n01675722,a photo of a banded gecko.,banded gecko,1,38
+1034,n02056570,a photo of a king penguin.,king penguin,1,145
+1035,n07930864,a photo of a teacup.,teacup,1,968
+1036,n02096437,a photo of a Dandie Dinmont Terrier.,Dandie Dinmont Terrier,1,194
+1037,n02089973,a photo of a English foxhound.,English foxhound,1,167
+1038,n07614500,a photo of a ice cream.,ice cream,1,928
+1039,n02098105,a photo of a soft-coated wheaten Terrier.,soft-coated wheaten Terrier,1,202
+1040,n04273569,a photo of a speedboat.,speedboat,1,814
+1041,n02110063,a photo of a Alaskan Malamute dog.,Alaskan Malamute dog,1,249
+1042,n02007558,a photo of a flamingo.,flamingo,1,130
+1043,n02107683,a photo of a Bernese mountain dog.,Bernese mountain dog,1,239
+1044,n02088466,a photo of a bloodhound.,bloodhound,1,163
+1045,n12057211,a photo of a yellow lady's slipper.,yellow lady's slipper,1,986
+1046,n02051845,a photo of a pelican.,pelican,1,144
+1047,n04612504,a photo of a yawl.,yawl,1,914
+1048,n02093754,a photo of a Border Terrier.,Border Terrier,1,182
+1049,n02088364,a photo of a beagle.,beagle,1,162
+1050,n02088238,a photo of a Basset hound.,Basset hound,1,161
+1051,n02088094,a photo of a Afghan hound.,Afghan hound,1,160
+1052,n01729977,a photo of a smooth green grass snake.,smooth green grass snake,1,55
+1053,n02091831,a photo of a Saluki or gazelle hound.,Saluki or gazelle hound,1,176
+1054,n02095412,a photo of a wire-haired Terrier.,wire-haired Terrier,0,99999
+1055,n02012849,a photo of a crane bird.,crane bird,1,134
+1056,n07932039,a photo of a eggnog.,eggnog,1,969
+1057,n02174001,a photo of a rhinoceros beetle.,rhinoceros beetle,1,306
+1058,n02097474,a photo of a Tibetan Terrier.,Tibetan Terrier,1,200
+1059,n01729322,a photo of a eastern hog-nosed snake.,eastern hog-nosed snake,1,54
+1060,n01677366,a photo of a green iguana.,green iguana,1,39
+1061,n01734418,a photo of a king snake.,king snake,1,56
+1062,n03792782,a photo of a all-terrain mountain bike.,all-terrain mountain bike,1,671
+1063,n02102480,a photo of a Sussex spaniel.,Sussex spaniel,1,220
+1064,n02483708,a photo of a siamang.,siamang,1,369
+1065,n02110806,a photo of a Basenji hunting dog.,Basenji hunting dog,1,253
+1066,n04344873,a photo of a studio couch.,studio couch,1,831
+1067,n04429376,a photo of a throne.,throne,1,857
+1068,n01664065,a photo of a loggerhead sea turtle.,loggerhead sea turtle,1,33
+1069,n02414578,a photo of a wild sheep.,wild sheep,0,99999
+1070,n02097658,a photo of a Sydney silky Terrier.,Sydney silky Terrier,1,201
+1071,n07697537,a photo of a hotdog.,hotdog,1,934
+1072,n02113335,a photo of a Poodle dog.,Poodle dog,0,99999
+1073,n04467665,a photo of a trailer truck.,trailer truck,1,867
+1074,n02087046,a photo of a toy Terrier.,toy Terrier,1,158
+1075,n02105855,a photo of a Shetland sheepdog.,Shetland sheepdog,1,230
+1076,n04147183,a photo of a schooner.,schooner,1,780
+1077,n02407959,a photo of a Old World buffalo.,Old World buffalo,0,99999
+1078,n02107574,a photo of a Greater Swiss Mountain dog.,Greater Swiss Mountain dog,1,238
+1079,n02917067,a photo of a bullet train.,bullet train,1,466
+1080,n01796340,a photo of a ptarmigan bird.,ptarmigan bird,1,81
+1081,n07693725,a photo of a bagel.,bagel,1,931
+1082,n02101006,a photo of a Gordon setter.,Gordon setter,1,214
+1083,n01665541,a photo of a leatherback sea turtle.,leatherback sea turtle,1,34
+1084,n03769881,a photo of a minibus.,minibus,1,654
+1085,n02098413,a photo of a Lhasa Apso.,Lhasa Apso,1,204
+1086,n03777568,a photo of a Model T.,Model T,1,661
+1087,n03344393,a photo of a fireboat.,fireboat,1,554
+1088,n04146614,a photo of a school bus.,school bus,1,779
+1089,n02100877,a photo of a Irish red setter.,Irish red setter,1,213
+1090,n02109961,a photo of a Eskimo husky dog.,Eskimo husky dog,1,248
+1091,n02110958,a photo of a Pug dog.,Pug dog,1,254
+1092,n02172182,a photo of a dung beetle.,dung beetle,1,305
+1093,n02091635,a photo of a otterhound.,otterhound,1,175
+1094,n02419796,a photo of a antelope.,antelope,0,99999
+1095,n01687978,a photo of a agama lizard.,agama lizard,1,42
+1096,n04479046,a photo of a trench coat.,trench coat,1,869
+1097,n03769722,a photo of a minibike.,minibike,0,99999
+1098,n02113978,a photo of a Mexican hairless dog (xoloitzcuintli).,Mexican hairless dog (xoloitzcuintli),1,268
+1099,n03930630,a photo of a pickup truck.,pickup truck,1,717
+1100,n02093859,a photo of a Kerry blue Terrier.,Kerry blue Terrier,1,183
+1101,n02120505,a photo of a grey fox.,grey fox,1,280
+1102,n02106166,a photo of a Border collie dog.,Border collie dog,1,232
+1103,n02086346,a photo of a toy spaniel.,toy spaniel,0,99999
+1104,n02116738,a photo of a African hunting dog.,African hunting dog,1,275
+1105,n07892512,a photo of a red wine.,red wine,1,966
+1106,n02105641,a photo of a Old English sheepdog.,Old English sheepdog,1,229
+1107,n03977966,a photo of a police van.,police van,1,734
+1108,n02093056,a photo of a bull Terrier.,bull Terrier,0,99999
+1109,n04592741,a photo of a airplane wing.,airplane wing,1,908
+1110,n02480495,a photo of a orangutan.,orangutan,1,365
+1111,n02951358,a photo of a canoe.,canoe,1,472
+1112,n03447447,a photo of a gondola.,gondola,1,576
+1113,n02493509,a photo of a titi monkey.,titi monkey,1,380
+1114,n02090721,a photo of a Irish wolfhound.,Irish wolfhound,1,170
+1115,n02480855,a photo of a gorilla.,gorilla,1,366
+1116,n04487081,a photo of a trolleybus.,trolleybus,1,874
+1117,n02096756,a photo of a schnauzer.,schnauzer,0,99999
+1118,n03393912,a photo of a freight car.,freight car,1,565
+1119,n02099429,a photo of a curly-coated retriever.,curly-coated retriever,1,206
+1120,n02096294,a photo of a Australian Terrier.,Australian Terrier,1,193
+1121,n02111626,a photo of a Spitz dog.,Spitz dog,0,99999
+1122,n02108254,a photo of a Mastiff.,Mastiff,0,99999
+1123,n02105505,a photo of a Hunagrian Komondor sheepdog.,Hunagrian Komondor sheepdog,1,228
+1124,n02416519,a photo of a goat.,goat,0,99999
+1125,n02121808,a photo of a domestic cat.,domestic cat,0,99999
+1126,n01737021,a photo of a water snake.,water snake,1,58
+1127,n01697457,a photo of a African Nile crocodile.,African Nile crocodile,1,49
+1128,n01753959,a photo of a pit viper.,pit viper,0,99999
+1129,n02093991,a photo of a Irish Terrier.,Irish Terrier,1,184
+1130,n01742172,a photo of a boa constrictor.,boa constrictor,1,61
+1131,n01739381,a photo of a vine snake.,vine snake,1,59
+1132,n02085620,a photo of a Chihuahua.,Chihuahua,1,151
+1133,n04461696,a photo of a tow truck.,tow truck,1,864
+1134,n04357314,a photo of a sunscreen or sunblock.,sunscreen or sunblock,1,838
+1135,n07831146,a photo of a carbonara pasta dish.,carbonara pasta dish,1,959
+1136,n03670208,a photo of a limousine.,limousine,1,627
+1137,n02096585,a photo of a Boston bull Terrier.,Boston bull Terrier,1,195
+1138,n02109525,a photo of a Saint Bernard dog.,Saint Bernard dog,1,247
+1139,n02107312,a photo of a Miniature pinscher dog.,Miniature pinscher dog,1,237
+1140,n02492660,a photo of a howler monkey.,howler monkey,1,379
+1141,n03384352,a photo of a forklift.,forklift,1,561
+1142,n03594945,a photo of a jeep or landrover.,jeep or landrover,1,609
+1143,n02115641,a photo of a dingo dog.,dingo dog,1,273
+1144,n02099849,a photo of a Chesapeake Bay retriever.,Chesapeake Bay retriever,1,209
+1145,n04252225,a photo of a snowplow.,snowplow,1,803
+1146,n01695060,a photo of a Komodo dragon lizard.,Komodo dragon lizard,1,48
+1147,n01630670,a photo of a smooth newt.,smooth newt,1,26
+1148,n02074367,a photo of a dugong.,dugong,1,149
+1149,n02099267,a photo of a flat-coated retriever.,flat-coated retriever,1,205
+1150,n02058221,a photo of a albatross.,albatross,1,146
+1151,n02100236,a photo of a German short-haired pointer.,German short-haired pointer,1,210
+1152,n02112350,a photo of a Keeshond Spitz dog.,Keeshond Spitz dog,1,261
+1153,n03690938,a photo of a lotion.,lotion,1,631
+1154,n02097298,a photo of a Scottish Terrier.,Scottish Terrier,1,199
+1155,n02108089,a photo of a Boxer dog.,Boxer dog,1,242
+1156,n02104882,a photo of a Belgian sheepdog.,Belgian sheepdog,0,99999
+1157,n01631663,a photo of a eft.,eft,1,27
+1158,n03314780,a photo of a face powder.,face powder,1,551
+1159,n03710637,a photo of a maillot.,maillot,1,638
+1160,n03131574,a photo of a crib or baby cot.,crib or baby cot,1,520
+1161,n02402010,a photo of a bovine animal.,bovine animal,0,99999
+1162,n02488291,a photo of a langur.,langur,1,374
+1163,n02120079,a photo of a Arctic white fox.,Arctic white fox,1,279
+1164,n02280649,a photo of a small white (cabbage) butterfly.,small white (cabbage) butterfly,1,324
+1165,n02111129,a photo of a Leonberger dog.,Leonberger dog,1,255
+1166,n01749939,a photo of a green mamba.,green mamba,1,64
+1167,n02102318,a photo of a English cocker spaniel.,English cocker spaniel,1,219
+1168,n03676483,a photo of a lipstick.,lipstick,1,629
+1169,n02086240,a photo of a Shih-Tzu.,Shih-Tzu,1,155
+1170,n02087394,a photo of a Rhodesian ridgeback.,Rhodesian ridgeback,1,159
+1171,n02106382,a photo of a Bouvier des Flandres dog.,Bouvier des Flandres dog,1,233
+1172,n02110185,a photo of a Siberian husky dog.,Siberian husky dog,1,250
+1173,n02112826,a photo of a Welsh corgi.,Welsh corgi,0,99999
+1174,n02107142,a photo of a Doberman.,Doberman,1,236
+1175,n02486261,a photo of a patas hussar monkey.,patas hussar monkey,1,371
+1176,n02804414,a photo of a bassinet.,bassinet,1,431
+1177,n07697100,a photo of a hamburger or beefburger.,hamburger or beefburger,0,99999
+1178,n02093647,a photo of a Bedlington Terrier.,Bedlington Terrier,1,181
+1179,n01694178,a photo of a African chameleon.,African chameleon,1,47
+1180,n04552696,a photo of a warship.,warship,0,99999
+1181,n02088632,a photo of a bluetick Coonhound.,bluetick Coonhound,1,164
+1182,n01748264,a photo of a Indian cobra.,Indian cobra,1,63
+1183,n02102605,a photo of a water spaniel.,water spaniel,0,99999
+1184,n03896103,a photo of a passenger ship.,passenger ship,0,99999
+1185,n01728920,a photo of a ring-necked snake.,ring-necked snake,1,53
+1186,n04065272,a photo of a recreational vehicle.,recreational vehicle,1,757
+1187,n02085782,a photo of a Japanese Chin spaniel.,Japanese Chin spaniel,1,152
+1188,n07684084,a photo of a French bread loaf.,French bread loaf,1,930
+1189,n02101556,a photo of a Clumber spaniel.,Clumber spaniel,1,216
+1190,n02106550,a photo of a Rottweiler.,Rottweiler,1,234
+1191,n02094258,a photo of a Norwich Terrier.,Norwich Terrier,1,186
+1192,n02112497,a photo of a Belgian Brussels griffon dog.,Belgian Brussels griffon dog,0,99999
+1193,n02484975,a photo of a guenon monkey.,guenon monkey,1,370
+1194,n02006656,a photo of a spoonbill bird.,spoonbill bird,1,129
+1195,n02022684,a photo of a shorebird.,shorebird,0,99999
+1196,n02124623,a photo of a wildcat.,wildcat,0,99999
+1197,n03125729,a photo of a cradle.,cradle,1,516
+1198,n02108422,a photo of a Bull Mastiff dog.,Bull Mastiff dog,1,243
+1199,n02494079,a photo of a common squirrel monkey.,common squirrel monkey,1,382
+1200,n01846331,a photo of a duck.,duck,0,99999
+1201,n02098286,a photo of a West Highland white Terrier.,West Highland white Terrier,1,203
+1202,n04285008,a photo of a sports car.,sports car,1,817
+1203,n02395406,a photo of a pig (hog).,pig (hog),1,341
+1204,n02489166,a photo of a proboscis monkey.,proboscis monkey,1,376
+1205,n03388549,a photo of a four-poster bed.,four-poster bed,1,564
+1206,n02437312,a photo of a Arabian camel.,Arabian camel,1,354
+1207,n01740131,a photo of a night snake.,night snake,1,60
+1208,n02013706,a photo of a limpkin bird.,limpkin bird,1,135
+1209,n02100583,a photo of a Hungarian vizsla pointer.,Hungarian vizsla pointer,1,211
+1210,n02092002,a photo of a Scottish deerhound.,Scottish deerhound,1,177
+1211,n04204347,a photo of a shopping cart.,shopping cart,1,791
+1212,n01728572,a photo of a worm snake.,worm snake,1,52
+1213,n02965300,a photo of a cargo ship.,cargo ship,0,99999
+1214,n04465501,a photo of a tractor.,tractor,1,866
+1215,n02071294,a photo of a killer whale or orca.,killer whale or orca,1,148
+1216,n02090622,a photo of a borzoi Russian hunting Wolfhound.,borzoi Russian hunting Wolfhound,1,169
+1217,n01682714,a photo of a Carolina anole chameleon.,Carolina anole chameleon,1,40
+1218,n03895866,a photo of a passenger car.,passenger car,1,705
+1219,n01855672,a photo of a goose.,goose,1,99
+1220,n02091467,a photo of a Norwegian elkhound.,Norwegian elkhound,1,174
+1221,n02106662,a photo of a German shepherd dog.,German shepherd dog,1,235
+1222,n02490219,a photo of a marmoset monkey.,marmoset monkey,1,377
+1223,n02389026,a photo of a common sorrel horse.,common sorrel horse,1,339
+1224,n02105412,a photo of a Australian Kelpie.,Australian Kelpie,1,227
+1225,n02111277,a photo of a Newfoundland dog.,Newfoundland dog,1,256
+1226,n03345487,a photo of a fire engine or fire truck.,fire engine or fire truck,1,555
+1227,n02096051,a photo of a Airedale.,Airedale,1,191
+1228,n02110627,a photo of a Affenpinscher monkey dog.,Affenpinscher monkey dog,1,252
+1229,n01688243,a photo of a frilled-necked lizard.,frilled-necked lizard,1,43
+1230,n02493793,a photo of a Geoffroy's spider monkey.,Geoffroy's spider monkey,1,381
+1231,n01798484,a photo of a prairie grouse chicken.,prairie grouse chicken,1,83
+1232,n02109047,a photo of a Great Dane dog.,Great Dane dog,1,246
+1233,n02090379,a photo of a redbone Coonhound.,redbone Coonhound,1,168
+1234,n02099601,a photo of a golden retriever.,golden retriever,1,207
+1235,n02356798,a photo of a eastern fox squirrel.,eastern fox squirrel,1,335
+1236,n02002075,a photo of a stork.,stork,0,99999
+1237,n04370456,a photo of a sweatshirt.,sweatshirt,1,841
+1238,n04037443,a photo of a race car or racing car.,race car or racing car,1,751
+1239,n02105251,a photo of a Briard Berger de Brie French dog.,Briard Berger de Brie French dog,1,226
+1240,n02500267,a photo of a indri or indris lemur (babakato).,indri or indris lemur (babakato),1,384
+1241,n07590611,a photo of a hot pot.,hot pot,1,926
+1242,n02930766,a photo of a cab or taxi.,cab or taxi,1,468
+1243,n02085936,a photo of a Maltese dog.,Maltese dog,1,153
+1244,n02094114,a photo of a Norfolk Terrier.,Norfolk Terrier,1,185
+1245,n02104365,a photo of a Schipperke dog.,Schipperke dog,1,223
+1246,n02077923,a photo of a sea lion.,sea lion,1,150
+1247,n02066245,a photo of a grey whale.,grey whale,1,147
+1248,n04606251,a photo of a wreck.,wreck,1,913
+1249,n07613480,a photo of a trifle pudding.,trifle pudding,1,927
+1250,n01877812,a photo of a wallaby.,wallaby,1,104
+1251,n01882714,a photo of a koala bear.,koala bear,1,105
+1252,n02101388,a photo of a Brittany spaniel.,Brittany spaniel,1,215
+1253,n02101861,a photo of a springer spaniel.,springer spaniel,0,99999
+1254,n02115913,a photo of a dhole dog.,dhole dog,1,274
+1255,n02091134,a photo of a whippet.,whippet,1,172
+1256,n02018795,a photo of a bustard bird.,bustard bird,1,138
+1257,n02089867,a photo of a Treeing Walker Coonhound or Walker foxhound.,Treeing Walker Coonhound or Walker foxhound,1,166
+1258,n01685808,a photo of a desert grassland whiptail lizard..,desert grassland whiptail lizard.,1,41
+1259,n03796401,a photo of a moving van.,moving van,1,675
+1260,n02008041,a photo of a heron.,heron,0,99999
+1261,n03662601,a photo of a lifeboat.,lifeboat,1,625
+1262,n02099712,a photo of a Labrador retriever.,Labrador retriever,1,208
+1263,n02835271,a photo of a bicycle-built-for-two or tandem bicycle.,bicycle-built-for-two or tandem bicycle,1,444
+1264,n02100735,a photo of a English setter.,English setter,1,212
+1265,n02108000,a photo of a EntleBucher Sennenhund.,EntleBucher Sennenhund,1,241
+1266,n02411705,a photo of a sheep.,sheep,0,99999
+1267,n07615774,a photo of a ice lolly or popsicle.,ice lolly or popsicle,1,929
+1268,n02410509,a photo of a bison.,bison,1,347
+1269,n07695742,a photo of a pretzel.,pretzel,1,932
+1270,n02091032,a photo of a Italian greyhound.,Italian greyhound,1,171
+1271,n02397096,a photo of a warthog.,warthog,1,343
+1272,n03947888,a photo of a pirate ship.,pirate ship,1,724
+1273,n02108672,a photo of a English bulldog.,English bulldog,0,99999
+1274,n02396427,a photo of a wild boar.,wild boar,1,342
+1275,n03444034,a photo of a go-kart.,go-kart,1,573
+1276,n02497673,a photo of a Madagascar ring-tailed lemur.,Madagascar ring-tailed lemur,1,383
+1277,n04128499,a photo of a sailboat.,sailboat,0,99999
+1278,n04310018,a photo of a steam locomotive.,steam locomotive,1,820
+1279,n02096177,a photo of a cairn Terrier.,cairn Terrier,1,192
+1280,n01743605,a photo of a python.,python,0,99999
+1281,n02119789,a photo of a kit fox.,kit fox,1,278
+1282,n03272562,a photo of a electric locomotive.,electric locomotive,1,547
+1283,n02094433,a photo of a Yorkshire Terrier.,Yorkshire Terrier,1,187
+1284,n01641577,a photo of a American bullfrog.,American bullfrog,1,30
+1285,n03770679,a photo of a minivan.,minivan,1,656
+1286,n03417042,a photo of a garbage truck.,garbage truck,1,569
+1287,n02483362,a photo of a gibbon.,gibbon,1,368
+1288,n02690373,a photo of a airliner.,airliner,1,404
+1289,n01795545,a photo of a black grouse bird.,black grouse bird,1,80
+1290,n01797886,a photo of a ruffed grouse.,ruffed grouse,1,82
+1291,n02119022,a photo of a red fox.,red fox,1,277
+1292,n02018207,a photo of a American coot.,American coot,1,137
+1293,n01698640,a photo of a American alligator.,American alligator,1,50
+1294,n02107908,a photo of a Appenzeller Sennenhund.,Appenzeller Sennenhund,1,240
+1295,n02092339,a photo of a Weimaraner hound.,Weimaraner hound,1,178
+1296,n01735189,a photo of a garter snake.,garter snake,1,57
+1297,n02112018,a photo of a Pomeranian.,Pomeranian,1,259
+1298,n02112706,a photo of a Brabancon griffon dog.,Brabancon griffon dog,1,262
+1299,n02417914,a photo of a Alpine ibex.,Alpine ibex,1,350
+1300,n02123159,a photo of a tiger cat.,tiger cat,1,282
+1301,n02687172,a photo of a aircraft carrier.,aircraft carrier,1,403
+1302,n02097209,a photo of a standard schnauzer.,standard schnauzer,1,198
+1303,n02009229,a photo of a little blue heron.,little blue heron,1,131
+1304,n02123597,a photo of a Siamese cat.,Siamese cat,1,284
+1305,n02102040,a photo of a English springer.,English springer,1,217
+1306,n02108915,a photo of a French bulldog.,French bulldog,1,245
+1307,n02105056,a photo of a Groenendael dog.,Groenendael dog,1,224
+1308,n03673027,a photo of a ocean liner.,ocean liner,1,628
+1309,n02102973,a photo of a Irish water spaniel.,Irish water spaniel,1,221
+1310,n03095699,a photo of a container ship.,container ship,1,510
+1311,n02011460,a photo of a bittern bird.,bittern bird,1,133
+1312,n01855032,a photo of a red-breasted merganser.,red-breasted merganser,1,98
+1313,n02127052,a photo of a lynx.,lynx,1,287
+1314,n02108551,a photo of a Tibetan Mastiff.,Tibetan Mastiff,1,244
+1315,n02097047,a photo of a miniature schnauzer.,miniature schnauzer,1,196
+1316,n02086646,a photo of a Blenheim cavelier King Charles spaniel.,Blenheim cavelier King Charles spaniel,1,156
+1317,n04483307,a photo of a trimaran.,trimaran,1,871
+1318,n02124075,a photo of a Egyptian Mau cat.,Egyptian Mau cat,1,285
+1319,n02422106,a photo of a hartebeest.,hartebeest,1,351
+1320,n07697313,a photo of a cheeseburger.,cheeseburger,1,933
+1321,n02086910,a photo of a Papillon Continental Toy Spaniel.,Papillon Continental Toy Spaniel,1,157
+1322,n02102177,a photo of a Welsh springer spaniel.,Welsh springer spaniel,1,218
+1323,n02095727,a photo of a Welsh Terrier.,Welsh Terrier,0,99999
+1324,n02009912,a photo of a American great white egret.,American great white egret,1,132
+1325,n01744401,a photo of a African rock python.,African rock python,1,62
+1326,n02095570,a photo of a Lakeland Terrier.,Lakeland Terrier,1,189
+1327,n01755581,a photo of a eastern diamondback rattlesnake.,eastern diamondback rattlesnake,1,67
+1328,n02105162,a photo of a Belgian Malinois dog.,Belgian Malinois dog,1,225
+1329,n02113799,a photo of a Standard poodle.,Standard poodle,1,267
+1330,n02002724,a photo of a black stork.,black stork,1,128
+1331,n02025239,a photo of a ruddy turnstone bird.,ruddy turnstone bird,1,139
+1332,n02033041,a photo of a dowitcher wading bird.,dowitcher wading bird,1,142
+1333,n02111889,a photo of a Samoyed dog.,Samoyed dog,1,258
+1334,n02981792,a photo of a catamaran.,catamaran,1,484
+1335,n02113186,a photo of a Cardigan Welsh corgi.,Cardigan Welsh corgi,1,264
+1336,n02002556,a photo of a white stork.,white stork,1,127
+1337,n03785016,a photo of a moped.,moped,1,665
+1338,n01847000,a photo of a drake duck.,drake duck,1,97
+1339,n02093256,a photo of a Staffordshire bull Terrier.,Staffordshire bull Terrier,1,179
+1340,n02097130,a photo of a giant schnauzer.,giant schnauzer,1,197
+1341,n02113023,a photo of a Pembroke Welsh corgi.,Pembroke Welsh corgi,1,263
+1342,n02422699,a photo of a impala (antelope).,impala (antelope),1,352
+1343,n02113712,a photo of a Miniature poodle.,Miniature poodle,1,266
+1344,n02408429,a photo of a Asiatic water buffalo.,Asiatic water buffalo,1,346
+1345,n02123045,a photo of a tabby cat.,tabby cat,1,281
+1346,n02123394,a photo of a Persian cat.,Persian cat,1,283
+1347,n02113624,a photo of a Toy poodle.,Toy poodle,1,265
+1348,n02125311,a photo of a cougar or puma.,cougar or puma,1,286
+1349,n01756291,a photo of a sidewinder horned rattlesnake.,sidewinder horned rattlesnake,1,68
+1350,n02093428,a photo of a American Staffordshire pit bull Terrier.,American Staffordshire pit bull Terrier,1,180
+1351,n02415435,a photo of a mountain sheep.,mountain sheep,0,99999
+1352,n02112137,a photo of a Chow Chow dog.,Chow Chow dog,1,260
+1353,n02095314,a photo of a wire-haired fox Terrier.,wire-haired fox Terrier,1,188
+1354,n02412080,a photo of a ram (adult male sheep).,ram (adult male sheep),1,348
+1355,n02423022,a photo of a gazelle.,gazelle,1,353
+1356,n02402425,a photo of a cattle.,cattle,0,99999
+1357,n02026059,a photo of a sandpiper wading bird.,sandpiper wading bird,0,99999
+1358,n02403003,a photo of a ox.,ox,1,345
+1359,n02027492,a photo of a red-backed sandpiper dunlin bird.,red-backed sandpiper dunlin bird,1,140
+1360,n02415577,a photo of a bighorn Rocky Mountain bighorn.,bighorn Rocky Mountain bighorn,1,349
+1361,n02028035,a photo of a common redshank wading bird.,common redshank wading bird,1,141
+1362,n02095889,a photo of a Sealyham Terrier.,Sealyham Terrier,1,190
