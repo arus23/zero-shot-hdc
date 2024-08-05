@@ -155,6 +155,7 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
 
                 sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
                 best_idxs = list(sorted_errors.keys())[:int(0.5 * len(sorted_errors))]
+                print(f"\n best_idxs: {best_idxs}")
 
                 child_nodes = []
                 for idx in best_idxs:
@@ -164,6 +165,7 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
                         child_nodes += hier.traverse([idx_map[idx]['node']], depth=1)[1:]
                         remaining_prmpt_idxs = [node_map[node] for node in child_nodes]        
             remaining_prmpt_idxs = selected_nodes
+            print(f"\n selected_nodes: {remaining_prmpt_idxs}")
 
             continue
 
@@ -176,6 +178,7 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
 
         sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
         remaining_prmpt_idxs = list(sorted_errors.keys())[:n_to_keep]
+        print(f"\n selected_nodes: {remaining_prmpt_idxs}")
 
     assert len(remaining_prmpt_idxs) == 1
     pred_idx = remaining_prmpt_idxs[0]
@@ -396,11 +399,11 @@ def main():
         start_time = time.time()
         pred_idx, pred_errors = eval_prob_adaptive(unet, x0, text_embeddings, scheduler, args, idx_map, node_map, child_nodes, hier, remaining_prmpt_idxs, latent_size, all_noise)
         pred = prompts_df.classidx[pred_idx]
-        # print(f"prediction: {prompts_df.class_name[pred_idx]}")
+        print(f"prediction: {prompts_df.class_name[pred_idx]}")
         end_time = time.time()
         inf_time = end_time - start_time
 
-        # print(f"\nInference time: {inf_time:.2f} seconds ")
+        print(f"\nInference time: {inf_time:.2f} seconds \n\n\n")
         torch.save(dict(errors=pred_errors, pred=pred, label=label, inf_time=inf_time), fname)
         if pred == label:
             correct += 1

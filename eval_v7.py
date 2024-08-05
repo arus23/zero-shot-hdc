@@ -14,6 +14,7 @@ import torchvision.transforms as torch_transforms
 from torchvision.transforms.functional import InterpolationMode
 from robustness.tools.breeds_helpers import ClassHierarchy
 
+# this is an experimental version only. not an official version. In this version, take 1 std dev from min error instead of k values.
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 INTERPOLATIONS = {
@@ -90,7 +91,7 @@ def create_mapping(prompts_df):
     nodes = prompts_df['node'].to_list()
     node_map = dict(zip(nodes, prmpt_idxs))
     idx_map = dict(zip(prmpt_idxs, records))
-    child_nodes = nodes[0]
+    child_nodes = nodes[:2]
     return idx_map, node_map, child_nodes
 
 def get_scheduler_and_noise(all_noise, args, scheduler, latent_size, latent):
@@ -125,12 +126,7 @@ Returns:
     pred_idx: The predicted index of most promising prompt.
     data: The evaluated data dictionary of all prompts.
 """
-def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, latent_size=64, all_noise=None):
-
-    hier = ClassHierarchy(args.info_dir, args.root_wnid)
-
-    prompts_df = pd.read_csv(args.prompt_path)
-    idx_map, node_map, child_nodes = create_mapping(prompts_df=prompts_df)
+def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node_map, child_nodes,  hier, remaining_prmpt_idxs, latent_size=64, all_noise=None):
 
     scheduler, T, all_noise = get_scheduler_and_noise(all_noise, args, scheduler, latent_size, latent)
     t_to_eval = get_ts_to_eval(T, args)
@@ -138,30 +134,36 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, latent_size=6
     data = {}
     visited_idxs = []
     t_evaluated = set()
-    remaining_prmpt_idxs = [0, 1]
     selected_nodes = []
-   
-    to_keep = [1, 0.75, 0.75, 0.01]
-    n_stages = list(zip(args.n_samples, to_keep))
+
+    n_stages = list(zip(args.n_samples, args.to_keep))
 
     for stage in range(len(n_stages)):
         n_samples = n_stages[stage][0]
-        keep = n_stages[stage][1]
+        n_to_keep = n_stages[stage][1]
 
         if stage == 0:
             while len(child_nodes)>1:
                 t_evaluated = set()
-                data = {}
-            
+                data = {} 
+
                 curr_t_to_eval = current_timesteps_eval(t_to_eval, n_samples, t_evaluated)
                 visited_idxs, ts, noise_idxs, text_embed_idxs = get_indices(remaining_prmpt_idxs, curr_t_to_eval, t_evaluated, args.n_trials, visited_idxs)
-                
+
                 t_evaluated.update(curr_t_to_eval)
                 pred_errors = eval_error(unet, scheduler, latent, all_noise, ts, noise_idxs,
                                         text_embeds, text_embed_idxs, args.batch_size, args.dtype, args.loss)
 
                 sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
-                best_idxs = list(sorted_errors.keys())[:int(args.k * len(sorted_errors))+1]
+                print(f"\n sorted: {sorted_errors}")
+                min_err = max(sorted_errors.values())
+                sd_err = np.std(list(sorted_errors.values()))
+                thresh_err = min_err - 2*sd_err
+                best_idxs = list()
+                for k,v in sorted_errors.items():
+                    if v >= thresh_err:
+                        best_idxs.append(k) 
+                # best_idxs = list(sorted_errors.keys())[:int(0.5 * len(sorted_errors))]
                 print(f"\n best_idxs: {best_idxs}")
 
                 child_nodes = []
@@ -171,11 +173,11 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, latent_size=6
                     else:
                         child_nodes += hier.traverse([idx_map[idx]['node']], depth=1)[1:]
                         remaining_prmpt_idxs = [node_map[node] for node in child_nodes]        
-            remaining_prmpt_idxs += selected_nodes 
-            n_to_keep = int(len(remaining_prmpt_idxs)*keep)+1
-            print(f"rem: {remaining_prmpt_idxs}") 
+            remaining_prmpt_idxs = selected_nodes
+            print(f"\nround 1 selected_nodes: {remaining_prmpt_idxs}")
+
             continue
-        
+
         curr_t_to_eval = current_timesteps_eval(t_to_eval, n_samples, t_evaluated)
         visited_idxs, ts, noise_idxs, text_embed_idxs = get_indices(remaining_prmpt_idxs, curr_t_to_eval, t_evaluated, args.n_trials, visited_idxs)
 
@@ -184,14 +186,12 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, latent_size=6
                                 text_embeds, text_embed_idxs, args.batch_size, args.dtype, args.loss)
 
         sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
-        n_to_keep = int(len(remaining_prmpt_idxs)*keep)+1
-        print(f"\n idxs: {len(remaining_prmpt_idxs)}, n_to_keep: {n_to_keep} \n")
         remaining_prmpt_idxs = list(sorted_errors.keys())[:n_to_keep]
-        print(f"\n idxs: {remaining_prmpt_idxs}")
+        print(f"\n final selected_nodes: {remaining_prmpt_idxs}")
 
     assert len(remaining_prmpt_idxs) == 1
     pred_idx = remaining_prmpt_idxs[0]
-
+    
     return pred_idx, data
 
 """
@@ -276,7 +276,7 @@ def main():
     parser.add_argument('--load_stats', action='store_true', help='Load saved stats to compute acc')
     parser.add_argument('--loss', type=str, default='l2', choices=('l1', 'l2', 'huber'), help='Type of loss to use')
     parser.add_argument('--info_dir', type=str, default='/imagenet_class_hierarchy/modified/', help='Imagenet hierarchy directory')
-    parser.add_argument('--k', type=float, default=0.75, help='percentage of prompts to consider')
+    parser.add_argument('--k', type=float, default=0.5, help='percentage of prompts to consider')
     parser.add_argument('--root_wnid', type=str, default='n00001740', help='root_wnid of the tree')
 
     # args for adaptively choosing which classes to continue trying
@@ -299,7 +299,7 @@ def main():
     if args.img_size != 512:
         name += f'_{args.img_size}'
     if args.extra is not None:
-        run_folder = osp.join(LOG_DIR, args.dataset + '_hierarchy_k_' +str(args.k) + "_" +args.extra, name)
+        run_folder = osp.join(LOG_DIR, args.dataset + "_" +args.extra, name)
     else:
         run_folder = osp.join(LOG_DIR, args.dataset , name)
     os.makedirs(run_folder, exist_ok=True)
@@ -307,13 +307,22 @@ def main():
 
     # set up dataset and prompts
     print("Setting up dataset and prompts")
+
     interpolation = INTERPOLATIONS[args.interpolation]
     transform = get_transform(interpolation, args.img_size)
     latent_size = args.img_size // 8
     target_dataset = get_target_dataset(args.dataset, train=args.split == 'train', transform=transform)
     prompts_df = pd.read_csv(args.prompt_path)
+    hier = ClassHierarchy(args.info_dir, args.root_wnid)
+    idx_map, node_map, child_nodes = create_mapping(prompts_df)
+    parent_nodes = hier.traverse([args.root_wnid], depth=1)[1:]
+    remaining_prmpt_nodes = []
+    for node in parent_nodes:
+        remaining_prmpt_nodes += hier.traverse([node], depth=1)[1:] 
+    print(f"rem_nodes: {remaining_prmpt_nodes}")
 
     # load pretrained models, get the components from models.py
+
     print("\nLoading pretrained models...")
     vae, tokenizer, text_encoder, unet, scheduler = get_sd_model(args)
     vae = vae.to(device)
@@ -381,7 +390,7 @@ def main():
                 total += 1
             continue
         image, label = target_dataset[i]
-        print(f"label: {label}")
+        print(f"\nlabel: {label}")
 
         # disable gradient computation for eval
         with torch.no_grad():
@@ -394,13 +403,16 @@ def main():
             x0 *= 0.18215
 
         # Evaluateprobability of different classes and compute the prediction errors.
+
+        remaining_prmpt_idxs = [node_map[node] for node in remaining_prmpt_nodes]       
         start_time = time.time()
-        pred_idx, pred_errors = eval_prob_adaptive(unet, x0, text_embeddings, scheduler, args, latent_size, all_noise)
+        pred_idx, pred_errors = eval_prob_adaptive(unet, x0, text_embeddings, scheduler, args, idx_map, node_map, child_nodes, hier, remaining_prmpt_idxs, latent_size, all_noise)
         pred = prompts_df.classidx[pred_idx]
+        print(f"prediction: {prompts_df.class_name[pred_idx]}")
         end_time = time.time()
         inf_time = end_time - start_time
 
-        # print(f"\nInference time: {inf_time:.2f} seconds ")
+        print(f"\nInference time: {inf_time:.2f} seconds \n\n\n")
         torch.save(dict(errors=pred_errors, pred=pred, label=label, inf_time=inf_time), fname)
         if pred == label:
             correct += 1

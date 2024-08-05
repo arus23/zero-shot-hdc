@@ -1,0 +1,12 @@
+Run folder: data/imagenet__test4b/v2-1_1trials_250_50_10_1keep_50_100_500_1000samples
+Setting up dataset and prompts
+
+Loading pretrained models
+
+Loading noise
+
+Tokenizing text prompts and creating embeddings
+
+Load subset to evaluate
+
+Evaluating predictions: 

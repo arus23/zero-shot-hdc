@@ -1,0 +1,105 @@
+Run folder: data/imagenet__test1b/v2-0_1trials_500_50_10_1keep_50_100_500_1000samples
+Setting up dataset and prompts
+
+Loading pretrained models
+
+Loading noise
+
+Tokenizing text prompts and creating embeddings
+
+Load subset to evaluate
+
+Evaluating predictions: 
+Skipping 0
+Skipping 16
+Skipping 32
+Skipping 48
+Skipping 64
+Skipping 80
+Skipping 96
+Skipping 112
+Skipping 128
+Skipping 144
+Skipping 160
+Skipping 176
+Skipping 192
+Skipping 208
+Skipping 224
+Skipping 240
+Skipping 256
+Skipping 272
+Skipping 288
+Skipping 304
+Skipping 320
+Skipping 336
+Skipping 352
+Skipping 368
+Skipping 384
+Skipping 400
+Skipping 416
+Skipping 432
+Skipping 448
+Skipping 464
+Skipping 480
+Skipping 496
+Skipping 512
+Skipping 528
+Skipping 544
+Skipping 560
+Skipping 576
+Skipping 592
+Skipping 608
+Skipping 624
+Skipping 640
+Skipping 656
+Skipping 672
+Skipping 688
+Skipping 704
+Skipping 720
+Skipping 736
+Skipping 752
+Skipping 768
+Skipping 784
+Skipping 800
+Skipping 816
+Skipping 832
+Skipping 848
+Skipping 864
+Skipping 880
+Skipping 896
+Skipping 912
+Skipping 928
+Skipping 944
+Skipping 960
+Skipping 976
+Skipping 992
+Skipping 1008
+Skipping 1024
+Skipping 1040
+Skipping 1056
+Skipping 1072
+Skipping 1088
+Skipping 1104
+Skipping 1120
+Skipping 1136
+Skipping 1152
+Skipping 1168
+Skipping 1184
+Skipping 1200
+Skipping 1216
+Skipping 1232
+Skipping 1248
+Skipping 1264
+Skipping 1280
+Skipping 1296
+Skipping 1312
+Skipping 1328
+Skipping 1344
+Skipping 1360
+Skipping 1376
+Skipping 1392
+Skipping 1408
+Skipping 1424
+Skipping 1440
+Skipping 1456
+Skipping 1472

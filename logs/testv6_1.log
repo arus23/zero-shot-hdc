@@ -1,0 +1,1366 @@
+Started run at: 1717061209.27 seconds
+Run folder: data/imagenet__testv6_1/v2-0_1trials_150_50_10_1keep_50_100_500_1000samples
+Setting up dataset and prompts
+
+Loading pretrained models...
+
+Loading noise...
+
+Tokenizing text prompts and creating embeddings...
+
+Load subset to evaluate
+
+Evaluating predictions: 
+
+label: 0
+prediction: sturgeon
+
+Inference time: 894.10 seconds 
+
+label: 0
+prediction: sturgeon
+
+Inference time: 954.17 seconds 
+
+label: 0
+prediction: tench
+
+Inference time: 885.52 seconds 
+
+label: 0
+prediction: tench
+
+Inference time: 1140.82 seconds 
+
+label: 1
+prediction: goldfish
+
+Inference time: 829.66 seconds 
+
+label: 1
+prediction: goldfish
+
+Inference time: 939.78 seconds 
+
+label: 1
+prediction: goldfish
+
+Inference time: 1038.25 seconds 
+
+label: 2
+prediction: hammerhead shark
+
+Inference time: 1197.00 seconds 
+
+label: 2
+prediction: great white shark
+
+Inference time: 918.09 seconds 
+
+label: 2
+prediction: great white shark
+
+Inference time: 1178.94 seconds 
+
+label: 3
+prediction: tiger shark
+
+Inference time: 956.11 seconds 
+
+label: 3
+prediction: hammerhead shark
+
+Inference time: 1040.35 seconds 
+
+label: 3
+prediction: tiger shark
+
+Inference time: 1093.07 seconds 
+
+label: 4
+prediction: great white shark
+
+Inference time: 852.48 seconds 
+
+label: 4
+prediction: hammerhead shark
+
+Inference time: 1085.69 seconds 
+
+label: 4
+prediction: flatworm
+
+Inference time: 803.67 seconds 
+
+label: 5
+prediction: stingray
+
+Inference time: 1079.24 seconds 
+
+label: 5
+prediction: electric ray
+
+Inference time: 1099.20 seconds 
+
+label: 5
+prediction: brain coral
+
+Inference time: 988.60 seconds 
+
+label: 6
+prediction: stingray
+
+Inference time: 858.91 seconds 
+
+label: 6
+prediction: tiger shark
+
+Inference time: 869.10 seconds 
+
+label: 6
+prediction: electric ray
+
+Inference time: 946.63 seconds 
+
+label: 7
+prediction: hen
+
+Inference time: 923.90 seconds 
+
+label: 7
+prediction: dhole dog
+
+Inference time: 1077.11 seconds 
+
+label: 7
+prediction: clog
+
+Inference time: 795.89 seconds 
+
+label: 8
+prediction: hen
+
+Inference time: 1003.48 seconds 
+
+label: 8
+prediction: hen
+
+Inference time: 1044.32 seconds 
+
+label: 8
+prediction: hen
+
+Inference time: 957.83 seconds 
+
+label: 8
+prediction: hen
+
+Inference time: 800.80 seconds 
+
+label: 9
+prediction: ostrich
+
+Inference time: 1008.48 seconds 
+
+label: 9
+prediction: sunglasses
+
+Inference time: 938.34 seconds 
+
+label: 9
+prediction: ostrich
+
+Inference time: 921.70 seconds 
+
+label: 10
+prediction: quill pen
+
+Inference time: 921.65 seconds 
+
+label: 10
+prediction: junco or snowbird
+
+Inference time: 1110.42 seconds 
+
+label: 10
+prediction: brambling
+
+Inference time: 1155.90 seconds 
+
+label: 11
+prediction: goldfinch
+
+Inference time: 996.20 seconds 
+
+label: 11
+prediction: goldfinch
+
+Inference time: 1064.54 seconds 
+
+label: 11
+prediction: goldfinch
+
+Inference time: 1076.95 seconds 
+
+label: 12
+prediction: house finch
+
+Inference time: 862.31 seconds 
+
+label: 12
+prediction: house finch
+
+Inference time: 939.51 seconds 
+
+label: 12
+prediction: house finch
+
+Inference time: 1033.40 seconds 
+
+label: 13
+prediction: junco or snowbird
+
+Inference time: 1164.00 seconds 
+
+label: 13
+prediction: junco or snowbird
+
+Inference time: 1064.37 seconds 
+
+label: 13
+prediction: junco or snowbird
+
+Inference time: 930.03 seconds 
+
+label: 14
+prediction: indigo bunting bird
+
+Inference time: 812.98 seconds 
+
+label: 14
+prediction: indigo bunting bird
+
+Inference time: 1139.95 seconds 
+
+label: 14
+prediction: indigo bunting bird
+
+Inference time: 916.77 seconds 
+
+label: 15
+prediction: American robin
+
+Inference time: 922.34 seconds 
+
+label: 15
+prediction: American robin
+
+Inference time: 1128.73 seconds 
+
+label: 15
+prediction: American robin
+
+Inference time: 1253.01 seconds 
+
+label: 16
+prediction: jacamar
+
+Inference time: 1030.36 seconds 
+
+label: 16
+prediction: bulbul
+
+Inference time: 1043.43 seconds 
+
+label: 16
+prediction: bulbul
+
+Inference time: 989.37 seconds 
+
+label: 16
+prediction: coucal
+
+Inference time: 908.56 seconds 
+
+label: 17
+prediction: jay
+
+Inference time: 944.86 seconds 
+
+label: 17
+prediction: jay
+
+Inference time: 962.34 seconds 
+
+label: 17
+prediction: jay
+
+Inference time: 958.07 seconds 
+
+label: 18
+prediction: magpie
+
+Inference time: 1026.79 seconds 
+
+label: 18
+prediction: magpie
+
+Inference time: 905.09 seconds 
+
+label: 18
+prediction: magpie
+
+Inference time: 1103.15 seconds 
+
+label: 19
+prediction: chickadee
+
+Inference time: 971.63 seconds 
+
+label: 19
+prediction: chickadee
+
+Inference time: 987.84 seconds 
+
+label: 19
+prediction: chickadee
+
+Inference time: 1086.07 seconds 
+
+label: 20
+prediction: otter
+
+Inference time: 857.69 seconds 
+
+label: 20
+prediction: American dipper bird
+
+Inference time: 1024.29 seconds 
+
+label: 20
+prediction: American dipper bird
+
+Inference time: 1075.43 seconds 
+
+label: 21
+prediction: kite bird
+
+Inference time: 970.06 seconds 
+
+label: 21
+prediction: American bald eagle
+
+Inference time: 812.91 seconds 
+
+label: 21
+prediction: kite bird
+
+Inference time: 968.32 seconds 
+
+label: 22
+prediction: American bald eagle
+
+Inference time: 951.65 seconds 
+
+label: 22
+prediction: American bald eagle
+
+Inference time: 974.01 seconds 
+
+label: 22
+prediction: American bald eagle
+
+Inference time: 923.33 seconds 
+
+label: 23
+prediction: vulture
+
+Inference time: 865.33 seconds 
+
+label: 23
+prediction: vulture
+
+Inference time: 864.46 seconds 
+
+label: 23
+prediction: vulture
+
+Inference time: 870.60 seconds 
+
+label: 24
+prediction: great grey owl
+
+Inference time: 937.25 seconds 
+
+label: 24
+prediction: great grey owl
+
+Inference time: 979.11 seconds 
+
+label: 24
+prediction: great grey owl
+
+Inference time: 971.59 seconds 
+
+label: 24
+prediction: great grey owl
+
+Inference time: 919.95 seconds 
+
+label: 25
+prediction: fire salamander
+
+Inference time: 846.64 seconds 
+
+label: 25
+prediction: fire salamander
+
+Inference time: 945.73 seconds 
+
+label: 25
+prediction: Gila monster
+
+Inference time: 954.96 seconds 
+
+label: 26
+prediction: spotted salamander
+
+Inference time: 956.70 seconds 
+
+label: 26
+prediction: fire salamander
+
+Inference time: 875.08 seconds 
+
+label: 26
+prediction: smooth newt
+
+Inference time: 860.50 seconds 
+
+label: 27
+prediction: smooth newt
+
+Inference time: 919.36 seconds 
+
+label: 27
+prediction: newt
+
+Inference time: 927.15 seconds 
+
+label: 27
+prediction: smooth newt
+
+Inference time: 821.32 seconds 
+
+label: 28
+prediction: spotted salamander
+
+Inference time: 813.57 seconds 
+
+label: 28
+prediction: green iguana
+
+Inference time: 880.95 seconds 
+
+label: 28
+prediction: spotted salamander
+
+Inference time: 912.19 seconds 
+
+label: 29
+prediction: axolotl or mud puppy
+
+Inference time: 948.11 seconds 
+
+label: 29
+prediction: axolotl or mud puppy
+
+Inference time: 888.27 seconds 
+
+label: 29
+prediction: axolotl or mud puppy
+
+Inference time: 994.59 seconds 
+
+label: 30
+prediction: American bullfrog
+
+Inference time: 948.21 seconds 
+
+label: 30
+prediction: common redshank wading bird
+
+Inference time: 1094.05 seconds 
+
+label: 30
+prediction: American bullfrog
+
+Inference time: 935.45 seconds 
+
+label: 31
+prediction: tree frog
+
+Inference time: 917.97 seconds 
+
+label: 31
+prediction: tailed frog or bell toad
+
+Inference time: 825.22 seconds 
+
+label: 31
+prediction: tree frog
+
+Inference time: 1056.39 seconds 
+
+label: 32
+prediction: slug
+
+Inference time: 895.10 seconds 
+
+label: 32
+prediction: tailed frog or bell toad
+
+Inference time: 772.57 seconds 
+
+label: 32
+prediction: slug
+
+Inference time: 864.13 seconds 
+
+label: 32
+prediction: fire salamander
+
+Inference time: 793.04 seconds 
+
+label: 33
+prediction: loggerhead sea turtle
+
+Inference time: 763.80 seconds 
+
+label: 33
+prediction: loggerhead sea turtle
+
+Inference time: 850.18 seconds 
+
+label: 33
+prediction: loggerhead sea turtle
+
+Inference time: 917.40 seconds 
+
+label: 34
+prediction: leatherback sea turtle
+
+Inference time: 1037.97 seconds 
+
+label: 34
+prediction: leatherback sea turtle
+
+Inference time: 968.21 seconds 
+
+label: 34
+prediction: leatherback sea turtle
+
+Inference time: 1083.01 seconds 
+
+label: 35
+prediction: mud turtle
+
+Inference time: 889.43 seconds 
+
+label: 35
+prediction: mud turtle
+
+Inference time: 929.93 seconds 
+
+label: 35
+prediction: mud turtle
+
+Inference time: 924.48 seconds 
+
+label: 36
+prediction: box turtle
+
+Inference time: 817.71 seconds 
+
+label: 36
+prediction: box turtle
+
+Inference time: 874.12 seconds 
+
+label: 36
+prediction: mud turtle
+
+Inference time: 1077.92 seconds 
+
+label: 37
+prediction: box turtle
+
+Inference time: 964.25 seconds 
+
+label: 37
+prediction: box turtle
+
+Inference time: 1003.55 seconds 
+
+label: 37
+prediction: box turtle
+
+Inference time: 1134.92 seconds 
+
+label: 38
+prediction: banded gecko
+
+Inference time: 1122.44 seconds 
+Skipping 1920
+
+label: 38
+prediction: frilled-necked lizard
+
+Inference time: 1080.08 seconds 
+
+label: 39
+prediction: green iguana
+
+Inference time: 845.06 seconds 
+
+label: 39
+prediction: green iguana
+
+Inference time: 938.94 seconds 
+
+label: 39
+prediction: green iguana
+
+Inference time: 917.90 seconds 
+
+label: 40
+prediction: green alligator lizard
+
+Inference time: 873.57 seconds 
+
+label: 40
+prediction: Carolina anole chameleon
+
+Inference time: 893.78 seconds 
+
+label: 40
+prediction: Carolina anole chameleon
+
+Inference time: 978.32 seconds 
+
+label: 40
+prediction: Carolina anole chameleon
+
+Inference time: 864.11 seconds 
+
+label: 41
+prediction: desert grassland whiptail lizard
+
+Inference time: 860.96 seconds 
+
+label: 41
+prediction: vine snake
+
+Inference time: 890.07 seconds 
+
+label: 41
+prediction: desert grassland whiptail lizard
+
+Inference time: 946.88 seconds 
+
+label: 42
+prediction: desert grassland whiptail lizard
+
+Inference time: 841.54 seconds 
+
+label: 42
+prediction: agama lizard
+
+Inference time: 948.83 seconds 
+
+label: 42
+prediction: agama lizard
+
+Inference time: 863.28 seconds 
+
+label: 43
+prediction: agama lizard
+
+Inference time: 978.38 seconds 
+
+label: 43
+prediction: frilled-necked lizard
+
+Inference time: 980.20 seconds 
+
+label: 43
+prediction: frilled-necked lizard
+
+Inference time: 1050.71 seconds 
+
+label: 44
+prediction: worm snake
+
+Inference time: 915.46 seconds 
+
+label: 44
+prediction: alligator lizard
+
+Inference time: 923.20 seconds 
+
+label: 44
+prediction: Indian cobra
+
+Inference time: 995.09 seconds 
+
+label: 45
+prediction: Gila monster
+
+Inference time: 1042.18 seconds 
+
+label: 45
+prediction: Gila monster
+
+Inference time: 879.54 seconds 
+
+label: 45
+prediction: Gila monster
+
+Inference time: 962.61 seconds 
+
+label: 46
+prediction: Carolina anole chameleon
+
+Inference time: 828.55 seconds 
+
+label: 46
+prediction: Carolina anole chameleon
+
+Inference time: 1174.30 seconds 
+
+label: 46
+prediction: green alligator lizard
+
+Inference time: 836.55 seconds 
+
+label: 47
+prediction: Carolina anole chameleon
+
+Inference time: 1161.36 seconds 
+
+label: 47
+prediction: Carolina anole chameleon
+
+Inference time: 893.62 seconds 
+
+label: 47
+prediction: Carolina anole chameleon
+
+Inference time: 961.94 seconds 
+
+label: 48
+prediction: Komodo dragon lizard
+
+Inference time: 925.32 seconds 
+
+label: 48
+prediction: Komodo dragon lizard
+
+Inference time: 945.36 seconds 
+
+label: 48
+prediction: Komodo dragon lizard
+
+Inference time: 1068.04 seconds 
+
+label: 48
+prediction: Komodo dragon lizard
+
+Inference time: 963.51 seconds 
+
+label: 49
+prediction: American bullfrog
+
+Inference time: 1077.10 seconds 
+
+label: 49
+prediction: common redshank wading bird
+
+Inference time: 1104.11 seconds 
+
+label: 49
+prediction: water snake
+
+Inference time: 918.62 seconds 
+
+label: 50
+prediction: American alligator
+
+Inference time: 889.40 seconds 
+
+label: 50
+prediction: American alligator
+
+Inference time: 1004.78 seconds 
+
+label: 50
+prediction: American alligator
+
+Inference time: 830.71 seconds 
+
+label: 51
+prediction: triceratops
+
+Inference time: 1203.64 seconds 
+
+label: 51
+prediction: triceratops
+
+Inference time: 886.34 seconds 
+
+label: 51
+prediction: triceratops
+
+Inference time: 1073.31 seconds 
+
+label: 52
+prediction: ring-necked snake
+
+Inference time: 881.15 seconds 
+
+label: 52
+prediction: water snake
+
+Inference time: 842.08 seconds 
+
+label: 52
+prediction: ring-necked snake
+
+Inference time: 907.55 seconds 
+
+label: 53
+prediction: worm snake
+
+Inference time: 1058.84 seconds 
+
+label: 53
+prediction: sea snake
+
+Inference time: 938.39 seconds 
+
+label: 53
+prediction: garter snake
+
+Inference time: 828.10 seconds 
+
+label: 54
+prediction: king snake
+
+Inference time: 998.75 seconds 
+
+label: 54
+prediction: garter snake
+
+Inference time: 919.42 seconds 
+
+label: 54
+prediction: worm snake
+
+Inference time: 886.70 seconds 
+
+label: 55
+prediction: smooth green grass snake
+
+Inference time: 877.51 seconds 
+
+label: 55
+prediction: green mamba
+
+Inference time: 972.08 seconds 
+
+label: 55
+prediction: night snake
+
+Inference time: 909.32 seconds 
+
+label: 56
+prediction: smooth green grass snake
+
+Inference time: 857.32 seconds 
+
+label: 56
+prediction: king snake
+
+Inference time: 936.57 seconds 
+
+label: 56
+prediction: ring-necked snake
+
+Inference time: 1107.13 seconds 
+
+label: 56
+prediction: vine snake
+
+Inference time: 1048.87 seconds 
+
+label: 57
+prediction: garter snake
+
+Inference time: 971.68 seconds 
+
+label: 57
+prediction: vine snake
+
+Inference time: 812.34 seconds 
+
+label: 57
+prediction: garter snake
+
+Inference time: 1011.58 seconds 
+
+label: 58
+prediction: water snake
+
+Inference time: 953.57 seconds 
+
+label: 58
+prediction: jellyfish
+
+Inference time: 889.62 seconds 
+
+label: 58
+prediction: water snake
+
+Inference time: 939.27 seconds 
+
+label: 59
+prediction: green mamba
+
+Inference time: 1127.55 seconds 
+
+label: 59
+prediction: green mamba
+
+Inference time: 972.97 seconds 
+
+label: 59
+prediction: green mamba
+
+Inference time: 890.96 seconds 
+
+label: 60
+prediction: African rock python
+
+Inference time: 920.70 seconds 
+
+label: 60
+prediction: vine snake
+
+Inference time: 901.71 seconds 
+
+label: 60
+prediction: eastern diamondback rattlesnake
+
+Inference time: 1031.07 seconds 
+
+label: 61
+prediction: African rock python
+
+Inference time: 810.28 seconds 
+
+label: 61
+prediction: vine snake
+
+Inference time: 894.71 seconds 
+
+label: 61
+prediction: African rock python
+
+Inference time: 917.64 seconds 
+
+label: 62
+prediction: African rock python
+
+Inference time: 1046.11 seconds 
+
+label: 62
+prediction: African rock python
+
+Inference time: 1059.85 seconds 
+
+label: 62
+prediction: night snake
+
+Inference time: 803.06 seconds 
+
+label: 63
+prediction: ring-necked snake
+
+Inference time: 909.71 seconds 
+
+label: 63
+prediction: mouse trap
+
+Inference time: 917.78 seconds 
+
+label: 63
+prediction: ring-necked snake
+
+Inference time: 967.70 seconds 
+
+label: 64
+prediction: green mamba
+
+Inference time: 943.28 seconds 
+
+label: 64
+prediction: agama lizard
+
+Inference time: 912.73 seconds 
+
+label: 64
+prediction: green mamba
+
+Inference time: 1133.52 seconds 
+
+label: 64
+prediction: vine snake
+
+Inference time: 978.85 seconds 
+
+label: 65
+prediction: scuba diver
+
+Inference time: 997.63 seconds 
+
+label: 65
+prediction: sea snake
+
+Inference time: 1063.02 seconds 
+
+label: 65
+prediction: sea snake
+
+Inference time: 905.78 seconds 
+
+label: 66
+prediction: sidewinder horned rattlesnake
+
+Inference time: 848.52 seconds 
+
+label: 66
+prediction: sidewinder horned rattlesnake
+
+Inference time: 973.35 seconds 
+
+label: 66
+prediction: Saharan horned viper
+
+Inference time: 873.83 seconds 
+
+label: 67
+prediction: eastern hog-nosed snake or puff adder
+
+Inference time: 1095.75 seconds 
+
+label: 67
+prediction: eastern diamondback rattlesnake
+
+Inference time: 1120.92 seconds 
+
+label: 67
+prediction: sidewinder horned rattlesnake
+
+Inference time: 958.56 seconds 
+
+label: 68
+prediction: sidewinder horned rattlesnake
+
+Inference time: 888.26 seconds 
+
+label: 68
+prediction: eastern diamondback rattlesnake
+
+Inference time: 761.85 seconds 
+
+label: 68
+prediction: sidewinder horned rattlesnake
+
+Inference time: 1032.17 seconds 
+
+label: 69
+prediction: torch
+
+Inference time: 660.49 seconds 
+
+label: 69
+prediction: trilobite
+
+Inference time: 739.51 seconds 
+
+label: 69
+prediction: cloak
+
+Inference time: 1132.10 seconds 
+
+label: 70
+prediction: harvestman spider
+
+Inference time: 857.15 seconds 
+
+label: 70
+prediction: harvestman spider
+
+Inference time: 1071.18 seconds 
+
+label: 70
+prediction: walking stick
+
+Inference time: 899.16 seconds 
+
+label: 71
+prediction: centipede
+
+Inference time: 811.22 seconds 
+
+label: 71
+prediction: centipede
+
+Inference time: 853.83 seconds 
+
+label: 71
+prediction: mouse trap
+
+Inference time: 828.40 seconds 
+
+label: 72
+prediction: black and gold garden spider
+
+Inference time: 924.16 seconds 
+
+label: 72
+prediction: black and gold garden spider
+
+Inference time: 890.80 seconds 
+
+label: 72
+prediction: black and gold garden spider
+
+Inference time: 939.14 seconds 
+
+label: 72
+prediction: European garden spider
+
+Inference time: 983.86 seconds 
+
+label: 73
+prediction: barn spider
+
+Inference time: 892.64 seconds 
+
+label: 73
+prediction: spider web
+
+Inference time: 942.09 seconds 
+
+label: 73
+prediction: wolf spider
+
+Inference time: 1182.66 seconds 
+
+label: 74
+prediction: black and gold garden spider
+
+Inference time: 1106.56 seconds 
+
+label: 74
+prediction: European garden spider
+
+Inference time: 916.20 seconds 
+
+label: 74
+prediction: leaf beetle
+
+Inference time: 847.58 seconds 
+
+label: 75
+prediction: southern black widow spider
+
+Inference time: 857.48 seconds 
+
+label: 75
+prediction: barn spider
+
+Inference time: 921.26 seconds 
+
+label: 75
+prediction: southern black widow spider
+
+Inference time: 880.42 seconds 
+
+label: 76
+prediction: tarantula
+
+Inference time: 930.18 seconds 
+
+label: 76
+prediction: walking stick
+
+Inference time: 850.83 seconds 
+
+label: 76
+prediction: tarantula
+
+Inference time: 852.26 seconds 
+
+label: 77
+prediction: wolf spider
+
+Inference time: 872.91 seconds 
+
+label: 77
+prediction: tick
+
+Inference time: 943.51 seconds 
+
+label: 77
+prediction: barn spider
+
+Inference time: 861.74 seconds 
+
+label: 78
+prediction: tick
+
+Inference time: 856.63 seconds 
+
+label: 78
+prediction: long-horned beetle
+
+Inference time: 938.97 seconds 
+
+label: 78
+prediction: tick
+
+Inference time: 940.38 seconds 
+
+label: 79
+prediction: centipede
+
+Inference time: 990.41 seconds 
+
+label: 79
+prediction: centipede
+
+Inference time: 835.83 seconds 
+
+label: 79
+prediction: centipede
+
+Inference time: 950.05 seconds 
+
+label: 80
+prediction: hen
+
+Inference time: 1030.39 seconds 
+
+label: 80
+prediction: hen
+
+Inference time: 909.78 seconds 
+
+label: 80
+prediction: hen
+
+Inference time: 1145.62 seconds 
+
+label: 80
+prediction: rooster
+
+Inference time: 964.25 seconds 
+
+label: 81
+prediction: mongoose
+
+Inference time: 1207.44 seconds 
+
+label: 81
+prediction: bustard bird
+
+Inference time: 961.98 seconds 
+
+label: 81
+prediction: hen
+
+Inference time: 1094.36 seconds 
+
+label: 82
+prediction: bustard bird
+
+Inference time: 1022.40 seconds 
+
+label: 82
+prediction: bustard bird
+
+Inference time: 878.95 seconds 
+
+label: 82
+prediction: hen
+
+Inference time: 1034.89 seconds 
+
+label: 83
+prediction: bustard bird
+
+Inference time: 1202.36 seconds 
+
+label: 83
+prediction: kite bird
+
+Inference time: 920.08 seconds 
+
+label: 83
+prediction: common redshank wading bird
+
+Inference time: 1141.43 seconds 
+
+label: 84
+prediction: bustard bird
+
+Inference time: 1033.97 seconds 
+
+label: 84
+prediction: hen
+
+Inference time: 910.80 seconds 
+
+label: 84
+prediction: sea urchin
+
+Inference time: 812.57 seconds 
+
+label: 85
+prediction: coucal
+
+Inference time: 1092.48 seconds 
+
+label: 85
+prediction: bittern bird
+
+Inference time: 1118.53 seconds 
+
+label: 85
+prediction: crane bird
+
+Inference time: 1008.73 seconds 
+
+label: 86
+prediction: bustard bird
+
+Inference time: 961.76 seconds 
+
+label: 86
+prediction: bustard bird
+
+Inference time: 943.01 seconds 
+
+label: 86

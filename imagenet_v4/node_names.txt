@@ -1203,7 +1203,7 @@ n01494475	hammerhead shark
 n01484850	great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias
 n01491361	tiger shark, Galeocerdo cuvieri
 n02526121	eel
-n01440764	tench, Tinca tinca
+n01440764	tench fish, Tinca tinca
 n01443537	goldfish, Carassius auratus
 n02534734	salmon fish
 n02536864	coho silver salmon, Oncorhynchus kisutch

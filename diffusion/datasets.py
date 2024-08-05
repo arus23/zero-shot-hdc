@@ -15,7 +15,7 @@ def get_target_dataset(name: str, train=False, transform=None, target_transform=
     If the dataset doesn't have a class_to_idx attribute, we add it.
     Also add a file-to-class map for evaluation
     """
-
+    idxs = []
     if name == "cifar10":
         dataset = datasets.CIFAR10(root=DATASET_ROOT, train=train, transform=transform,
                                    target_transform=target_transform, download=True)
@@ -77,6 +77,7 @@ def get_target_dataset(name: str, train=False, transform=None, target_transform=
         dataset.class_to_idx = None  # {cls: i for i, cls in enumerate(base.classnames)}
         dataset.classes = base.classnames
         dataset.file_to_class = None
+
     elif name == 'objectnet':
         base = ObjectNetBase(transform, DATASET_ROOT)
         dataset = base.get_test_dataset()

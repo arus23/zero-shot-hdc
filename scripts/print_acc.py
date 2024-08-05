@@ -4,8 +4,25 @@ import os.path as osp
 import torch
 from tqdm import tqdm
 
+def measure_class_accuracy():
+    # For all images, how many belong to the correct parent class?
+    return
+
 
 def mean_per_class_acc(correct, labels):
+    """
+    Calculate the mean per-class accuracy given the correct predictions and labels.
+
+    Args:
+        correct (Tensor): Tensor of correct predictions.
+        labels (Tensor): Tensor of class labels.
+
+    Returns:
+        float: Mean per-class accuracy.
+
+    Raises:
+        ZeroDivisionError: If there are no instances of a class in the labels.
+    """
     total_acc = 0
     for cls in torch.unique(labels):
         mask = labels == cls
@@ -38,10 +55,11 @@ def main():
     # top 1
     correct = (preds == labels).sum().item()
     print(f'Top 1 acc: {correct / len(preds) * 100:.2f}%')
-    # mean per class accuracy
+
     print(f'Mean per class acc: {mean_per_class_acc(preds == labels, labels) * 100:.2f}%')
-    # mean time/img
-    print(f'Mean inference time: {inf.sum() / len(preds) :.2f}%')
+
+    print(f'Mean inference time: {inf.sum() / len(preds) :.2f} sec')
+
     # mean per class time
     # print(f'Mean per class time: {mean_per_class_time(preds == labels, labels) * 100:.2f}%')
 
