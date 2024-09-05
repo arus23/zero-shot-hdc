@@ -14,7 +14,7 @@ import torchvision.transforms as torch_transforms
 from torchvision.transforms.functional import InterpolationMode
 from robustness.tools.breeds_helpers import ClassHierarchy
 
-# this is an experimental version only. not an official version. In this version, take 1 std dev from min error instead of k values.
+# This version aims to make the evaluation dataset agnostic. Experiments are tested with cifar 10.
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 INTERPOLATIONS = {
@@ -156,7 +156,13 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
                                         text_embeds, text_embed_idxs, args.batch_size, args.dtype, args.loss)
 
                 sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
-                best_idxs = list(sorted_errors.keys())[:int(args.k * len(sorted_errors))]
+                print(f"\n sorted: {sorted_errors}")
+
+                min_err = max(sorted_errors.values())
+                sd_err = np.std(list(sorted_errors.values()))
+                thresh_err = min_err - 2*sd_err
+                best_idxs = [idx for idx, err in sorted_errors.items() if err >= thresh_err]
+                print(f"\n best_idxs: {best_idxs}")
 
                 child_nodes = []
                 for idx in best_idxs:
@@ -164,9 +170,9 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
                         selected_nodes.append(idx)
                     else:
                         child_nodes += hier.traverse([idx_map[idx]['node']], depth=1)[1:]
-                        remaining_prmpt_idxs = [node_map[node] for node in child_nodes]        
+                        remaining_prmpt_idxs = [node_map[node] for node in child_nodes]
             remaining_prmpt_idxs = selected_nodes
-            # print(f"\nround 1 selected_nodes: {remaining_prmpt_idxs}")
+            print(f"\nSelected_nodes after traversal: {remaining_prmpt_idxs}")
 
             continue
 
@@ -178,14 +184,19 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
                                 text_embeds, text_embed_idxs, args.batch_size, args.dtype, args.loss)
 
         sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
-        if n_to_keep == 1:
-            topn = list(sorted_errors.keys())[:5]
-        remaining_prmpt_idxs = list(sorted_errors.keys())[:n_to_keep]
-        print(f"\n final selected_nodes: {remaining_prmpt_idxs}")
+        print(f"\nsorted: {sorted_errors}")
 
-    assert len(remaining_prmpt_idxs) == 1
+        min_err = max(sorted_errors.values())
+        mean_err = np.mean(sorted_errors.values())
+        best_idxs = [k for k, v in sorted_errors.items() if v <= min_err and v >=mean_err]
+        remaining_prmpt_idxs = best_idxs
+        if len(remaining_prmpt_idxs) >= 5:
+                topn = remaining_prmpt_idxs
+        print(f"\nSelected_nodes: {remaining_prmpt_idxs}")
+
+    # assert len(remaining_prmpt_idxs) == 1
     pred_idx = remaining_prmpt_idxs[0]
-    
+
     return pred_idx, data, topn
 
 """
@@ -250,7 +261,7 @@ def main():
     # dataset args
     parser.add_argument('--dataset', type=str, default='pets',
                         choices=['pets', 'flowers', 'stl10', 'mnist', 'cifar10', 'food', 'caltech101', 'imagenet',
-                                 'objectnet', 'aircraft'], help='Dataset to use')
+                                 'objectnet', 'aircraft', 'cifar100'], help='Dataset to use')
     parser.add_argument('--split', type=str, default='train', choices=['train', 'test'], help='Name of split')
 
     # run args
@@ -307,12 +318,16 @@ def main():
     latent_size = args.img_size // 8
     target_dataset = get_target_dataset(args.dataset, train=args.split == 'train', transform=transform)
     prompts_df = pd.read_csv(args.prompt_path)
+    
     hier = ClassHierarchy(args.info_dir, args.root_wnid)
     idx_map, node_map, child_nodes = create_mapping(prompts_df)
     parent_nodes = hier.traverse([args.root_wnid], depth=1)[1:]
     remaining_prmpt_nodes = []
-    for node in parent_nodes:
-        remaining_prmpt_nodes += hier.traverse([node], depth=1)[1:] 
+    if args.dataset == "imagenet":
+        for node in parent_nodes:
+            remaining_prmpt_nodes += hier.traverse([node], depth=1)[1:] 
+    else:
+        remaining_prmpt_nodes = parent_nodes
     print(f"rem_nodes: {remaining_prmpt_nodes}")
 
     # load pretrained models, get the components from models.py
@@ -373,7 +388,6 @@ def main():
     for i in pbar:
         if total > 0:
             pbar.set_description(f'Acc: {100 * correct / total:.2f}%')
-
 
         # save eval results for the current data point    
         fname = osp.join(run_folder, formatstr.format(i) + '.pt')

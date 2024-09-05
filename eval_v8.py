@@ -137,7 +137,7 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
     selected_nodes = []
 
     n_stages = list(zip(args.n_samples, args.to_keep))
-
+    topn = []
     for stage in range(len(n_stages)):
         n_samples = n_stages[stage][0]
         n_to_keep = n_stages[stage][1]
@@ -155,12 +155,12 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
                                         text_embeds, text_embed_idxs, args.batch_size, args.dtype, args.loss)
 
                 sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
+
                 print(f"\n sorted: {sorted_errors}")
                 min_err = max(sorted_errors.values())
-                sd_err = np.std(list(sorted_errors.values()))
+                sd_err = round(np.std(list(sorted_errors.values())), 4)
                 thresh_err = min_err - args.k * sd_err
                 best_idxs = [idx for idx, err in sorted_errors.items() if err >= thresh_err]
-                # best_idxs = list(sorted_errors.keys())[:int(0.5 * len(sorted_errors))]
 
                 child_nodes = []
                 for idx in best_idxs:
@@ -182,13 +182,15 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
                                 text_embeds, text_embed_idxs, args.batch_size, args.dtype, args.loss)
 
         sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
+        if n_to_keep == 1:
+            topn = list(sorted_errors.keys())[:5]
         remaining_prmpt_idxs = list(sorted_errors.keys())[:n_to_keep]
         print(f"\nSelected_nodes after iteration: {remaining_prmpt_idxs}")
 
     assert len(remaining_prmpt_idxs) == 1
     pred_idx = remaining_prmpt_idxs[0]
 
-    return pred_idx, data
+    return pred_idx, data, topn
 
 """
 
@@ -398,18 +400,19 @@ def main():
             x0 = vae.encode(img_input).latent_dist.mean
             x0 *= 0.18215
 
-        # Evaluateprobability of different classes and compute the prediction errors.
+        # Evaluate probability of different classes and compute the prediction errors.
 
         remaining_prmpt_idxs = [node_map[node] for node in remaining_prmpt_nodes]       
         start_time = time.time()
-        pred_idx, pred_errors = eval_prob_adaptive(unet, x0, text_embeddings, scheduler, args, idx_map, node_map, child_nodes, hier, remaining_prmpt_idxs, latent_size, all_noise)
+        pred_idx, pred_errors, topn = eval_prob_adaptive(unet, x0, text_embeddings, scheduler, args, idx_map, node_map, child_nodes, hier, remaining_prmpt_idxs, latent_size, all_noise)
         pred = prompts_df.classidx[pred_idx]
+        topn_preds = [prompts_df.classidx[idx] for idx in topn]
         print(f"prediction: {prompts_df.class_name[pred_idx]}")
         end_time = time.time()
         inf_time = end_time - start_time
 
         print(f"\nInference time: {inf_time:.2f} seconds \n\n\n")
-        torch.save(dict(errors=pred_errors, pred=pred, label=label, inf_time=inf_time), fname)
+        torch.save(dict(errors=pred_errors, pred=pred, label=label, inf_time=inf_time, topn=topn_preds), fname)
         if pred == label:
             correct += 1
         total += 1

@@ -135,6 +135,7 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
     visited_idxs = []
     t_evaluated = set()
     selected_nodes = []
+    topn = []
 
     n_stages = list(zip(args.n_samples, args.to_keep))
 
@@ -159,10 +160,7 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
                 min_err = max(sorted_errors.values())
                 sd_err = np.std(list(sorted_errors.values()))
                 thresh_err = min_err - 2*sd_err
-                best_idxs = list()
-                for k,v in sorted_errors.items():
-                    if v >= thresh_err:
-                        best_idxs.append(k) 
+                best_idxs = [idx for idx, err in sorted_errors.items() if err >= thresh_err]
                 # best_idxs = list(sorted_errors.keys())[:int(0.5 * len(sorted_errors))]
                 print(f"\n best_idxs: {best_idxs}")
 
@@ -172,12 +170,12 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
                         selected_nodes.append(idx)
                     else:
                         child_nodes += hier.traverse([idx_map[idx]['node']], depth=1)[1:]
-                        remaining_prmpt_idxs = [node_map[node] for node in child_nodes]        
+                        remaining_prmpt_idxs = [node_map[node] for node in child_nodes]
             remaining_prmpt_idxs = selected_nodes
             print(f"\nSelected_nodes after traversal: {remaining_prmpt_idxs}")
 
             continue
-
+        
         curr_t_to_eval = current_timesteps_eval(t_to_eval, n_samples, t_evaluated)
         visited_idxs, ts, noise_idxs, text_embed_idxs = get_indices(remaining_prmpt_idxs, curr_t_to_eval, t_evaluated, args.n_trials, visited_idxs)
 
@@ -187,21 +185,20 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
 
         sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
         print(f"\nsorted: {sorted_errors}")
+       
         min_err = max(sorted_errors.values())
         sd_err = np.std(list(sorted_errors.values()))
         thresh_err = min_err - 2*sd_err
-        best_idxs = list()
-        for k,v in sorted_errors.items():
-            if v >= thresh_err:
-                best_idxs.append(k) 
-                # best_idxs = list(sorted_errors.keys())[:int(0.5 * len(sorted_errors))]
+        best_idxs = [k for k, v in sorted_errors.items() if v >= thresh_err]
         remaining_prmpt_idxs = best_idxs
         print(f"\nSelected_nodes: {remaining_prmpt_idxs}")
+        # if len(remaining_prmpt_idxs) >= 5:
+        topn = remaining_prmpt_idxs
 
-    assert len(remaining_prmpt_idxs) == 1
+    # assert len(remaining_prmpt_idxs) == 1
     pred_idx = remaining_prmpt_idxs[0]
-    
-    return pred_idx, data
+
+    return pred_idx, data, topn
 
 """
 
@@ -294,6 +291,9 @@ def main():
 
     args = parser.parse_args()
     # assert len(args.to_keep) == len(args.n_samples)
+    # create dictionary of root_wnids
+    tree_roots = {'imagenet':'n00001740', 'cifar10':'n0000', 'cifar100':'n0000'}
+    args.root_wnid = tree_roots[args.dataset]
 
     # make run output folder
     name = f"v{args.version}_{args.n_trials}trials_"
@@ -415,14 +415,15 @@ def main():
 
         remaining_prmpt_idxs = [node_map[node] for node in remaining_prmpt_nodes]       
         start_time = time.time()
-        pred_idx, pred_errors = eval_prob_adaptive(unet, x0, text_embeddings, scheduler, args, idx_map, node_map, child_nodes, hier, remaining_prmpt_idxs, latent_size, all_noise)
+        pred_idx, pred_errors, topn = eval_prob_adaptive(unet, x0, text_embeddings, scheduler, args, idx_map, node_map, child_nodes, hier, remaining_prmpt_idxs, latent_size, all_noise)
         pred = prompts_df.classidx[pred_idx]
+        topn_preds = [prompts_df.classidx[idx] for idx in topn]
         print(f"prediction: {prompts_df.class_name[pred_idx]}")
         end_time = time.time()
         inf_time = end_time - start_time
 
         print(f"\nInference time: {inf_time:.2f} seconds \n\n\n")
-        torch.save(dict(errors=pred_errors, pred=pred, label=label, inf_time=inf_time), fname)
+        torch.save(dict(errors=pred_errors, pred=pred, label=label, inf_time=inf_time, topn=topn_preds), fname)
         if pred == label:
             correct += 1
         total += 1

@@ -148,6 +148,7 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, hier, idx_map
     visited_idxs = []
     t_evaluated = set()
     selected_nodes = []
+    topn = []
 
     n_stages = list(zip(args.n_samples, args.to_keep))
 
@@ -190,13 +191,16 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, hier, idx_map
                                 text_embeds, text_embed_idxs, args.batch_size, args.dtype, args.loss)
 
         sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
+
+        if n_to_keep <= 10:
+            topn = list(sorted_errors.keys())[:5]
         remaining_prmpt_idxs = list(sorted_errors.keys())[:n_to_keep]
-        print(f"length: {len(remaining_prmpt_idxs)}")
+        
 
     assert len(remaining_prmpt_idxs) == 1
     pred_idx = remaining_prmpt_idxs[0]
     
-    return pred_idx, data
+    return pred_idx, data, topn
 
 """
 
@@ -400,12 +404,13 @@ def main():
 
         # Evaluateprobability of different classes and compute the prediction errors.
         start_time = time.time()
-        pred_idx, pred_errors = eval_prob_adaptive(unet, x0, text_embeddings, scheduler, args, hier, idx_map, node_map, child_nodes, latent_size, all_noise)
+        pred_idx, pred_errors, topn = eval_prob_adaptive(unet, x0, text_embeddings, scheduler, args, hier, idx_map, node_map, child_nodes, latent_size, all_noise)
         pred = prompts_df.classidx[pred_idx]
+        topn_preds = [prompts_df.classidx[idx] for idx in topn]
         end_time = time.time()
         inf_time = end_time - start_time
 
-        torch.save(dict(errors=pred_errors, pred=pred, label=label, inf_time=inf_time), fname)
+        torch.save(dict(errors=pred_errors, pred=pred, label=label, inf_time=inf_time, topn=topn_preds), fname)
         if pred == label:
             correct += 1
         total += 1
