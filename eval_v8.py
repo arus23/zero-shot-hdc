@@ -42,6 +42,7 @@ def center_crop_resize(img, interpolation=InterpolationMode.BILINEAR):
     return transform(img)
 
 def get_nodemap(prompts_df):
+    # create a mapping between indices and nodes for faster access
     prmpt_idxs = list(range(len(prompts_df)))
     nodes_to_eval = prompts_df.node.tolist()
     assert len(prmpt_idxs) == len(nodes_to_eval)
@@ -153,6 +154,7 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
                 t_evaluated.update(curr_t_to_eval)
                 pred_errors = eval_error(unet, scheduler, latent, all_noise, ts, noise_idxs,
                                         text_embeds, text_embed_idxs, args.batch_size, args.dtype, args.loss)
+                print(f"predicted errors: {pred_errors}")
 
                 sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
 
@@ -182,8 +184,8 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
                                 text_embeds, text_embed_idxs, args.batch_size, args.dtype, args.loss)
 
         sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
-        if n_to_keep == 1:
-            topn = list(sorted_errors.keys())[:5]
+        if n_to_keep == 10:
+            topn = list(sorted_errors.keys())[:10]
         remaining_prmpt_idxs = list(sorted_errors.keys())[:n_to_keep]
         print(f"\nSelected_nodes after iteration: {remaining_prmpt_idxs}")
 

@@ -351,7 +351,7 @@ index,node,prompt,class_name,is_leaf,classidx
 349,n03482405,a photo of a hamper basket.,hamper basket,1,588
 350,n03343853,a photo of a firearm.,firearm,0,99999
 351,n02843684,a photo of a birdhouse.,birdhouse,1,448
-352,n03908618,a photo of a case.,case,1,709
+352,n03908618,a photo of a pencil case.,pencil case,1,709
 353,n01910747,a photo of a jellyfish.,jellyfish,1,107
 354,n02764044,a photo of a axe.,axe,0,99999
 355,n02879718,a photo of a bow.,bow,1,456
@@ -737,7 +737,7 @@ index,node,prompt,class_name,is_leaf,classidx
 735,n01616318,a photo of a vulture.,vulture,1,23
 736,n03000134,a photo of a chain-link fence.,chain-link fence,1,489
 737,n04086273,a photo of a revolver.,revolver,1,763
-738,n03884397,a photo of a panpipe.,panpipe,1,699
+738,n03884397,a photo of a pan flute or panpipe.,pan flute,1,699
 739,n04049405,a photo of a raincoat.,raincoat,0,99999
 740,n04266014,a photo of a space shuttle.,space shuttle,1,812
 741,n02374451,a photo of a horse.,horse,0,99999
@@ -883,7 +883,7 @@ index,node,prompt,class_name,is_leaf,classidx
 881,n02206856,a photo of a bee.,bee,1,309
 882,n02749479,a photo of a assault rifle.,assault rifle,1,413
 883,n02441942,a photo of a weasel.,weasel,1,356
-884,n04325704,a photo of a stole scraf.,stole scraf,1,824
+884,n04325704,a photo of a stole scarf.,stole scarf,1,824
 885,n03100346,a photo of a convertible sofa bed.,convertible sofa bed,0,99999
 886,n04509417,a photo of a unicycle.,unicycle,1,880
 887,n04346328,a photo of a stupa.,stupa,1,832
@@ -918,7 +918,7 @@ index,node,prompt,class_name,is_leaf,classidx
 916,n02134418,a photo of a sloth bear.,sloth bear,1,297
 917,n03218198,a photo of a dogsled.,dogsled,1,537
 918,n04252077,a photo of a snowmobile.,snowmobile,1,802
-919,n03680355,a photo of a Loafer show.,Loafer show,1,630
+919,n03680355,a photo of a Loafer shoe.,Loafer shoe,1,630
 920,n03692522,a photo of a jeweler's loupe.,jeweler's loupe,1,633
 921,n01629819,a photo of a fire salamander.,fire salamander,1,25
 922,n02807133,a photo of a bathing cap or swimming cap.,bathing cap or swimming cap,1,433
@@ -1200,7 +1200,7 @@ index,node,prompt,class_name,is_leaf,classidx
 1198,n02797295,a photo of a wheelbarrow.,wheelbarrow,1,428
 1199,n02096177,a photo of a cairn Terrier.,cairn Terrier,1,192
 1200,n02120505,a photo of a grey fox.,grey fox,1,280
-1201,n03895866,a photo of a passenger car.,passenger car,1,705
+1201,n03895866,a photo of a railroad car.,railroad car,1,705
 1202,n02410509,a photo of a bison.,bison,1,347
 1203,n02965300,a photo of a cargo ship.,cargo ship,0,99999
 1204,n03344393,a photo of a fireboat.,fireboat,1,554
@@ -1374,3 +1374,5 @@ index,node,prompt,class_name,is_leaf,classidx
 1372,n02028035,a photo of a common redshank wading bird.,common redshank wading bird,1,141
 1373,n02027492,a photo of a red-backed sandpiper dunlin bird.,red-backed sandpiper dunlin bird,1,140
 1374,n02095889,a photo of a Sealyham Terrier.,Sealyham Terrier,1,190
+1375,n04235860,a photo of a sleeping bag.,sleeping bag,1,797
+1376,n03598930,a photo of a jigsaw puzzle.,jigsaw puzzle,1,611

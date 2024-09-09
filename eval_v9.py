@@ -192,8 +192,8 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
         best_idxs = [k for k, v in sorted_errors.items() if v >= thresh_err]
         remaining_prmpt_idxs = best_idxs
         print(f"\nSelected_nodes: {remaining_prmpt_idxs}")
-        # if len(remaining_prmpt_idxs) >= 5:
-        topn = remaining_prmpt_idxs
+        if n_to_keep == 10:
+            topn = list(sorted_errors.keys())[:10]
 
     # assert len(remaining_prmpt_idxs) == 1
     pred_idx = remaining_prmpt_idxs[0]

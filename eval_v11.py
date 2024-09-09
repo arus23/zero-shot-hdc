@@ -14,7 +14,7 @@ import torchvision.transforms as torch_transforms
 from torchvision.transforms.functional import InterpolationMode
 from robustness.tools.breeds_helpers import ClassHierarchy
 
-# This version aims to make the evaluation dataset agnostic. Experiments are tested with cifar 10.
+# FINAL VERSION OF EVAL. K IS PRUNING RATIO.
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 INTERPOLATIONS = {
@@ -156,14 +156,7 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
                                         text_embeds, text_embed_idxs, args.batch_size, args.dtype, args.loss)
 
                 sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
-                print(f"\n sorted: {sorted_errors}")
                 best_idxs = list(sorted_errors.keys())[:int(args.k * len(sorted_errors))]
-                # min_err = max(sorted_errors.values())
-                # sd_err = np.std(list(sorted_errors.values()))
-                # thresh_err = min_err - 2*sd_err
-                # best_idxs = [idx for idx, err in sorted_errors.items() if err >= thresh_err]
-                # print(f"\n best_idxs: {best_idxs}")
-
 
                 child_nodes = []
                 for idx in best_idxs:
@@ -173,8 +166,6 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
                         child_nodes += hier.traverse([idx_map[idx]['node']], depth=1)[1:]
                         remaining_prmpt_idxs = [node_map[node] for node in child_nodes]
             remaining_prmpt_idxs = selected_nodes
-            print(f"\nSelected_nodes after traversal: {remaining_prmpt_idxs}")
-
             continue
 
         curr_t_to_eval = current_timesteps_eval(t_to_eval, n_samples, t_evaluated)
@@ -185,14 +176,12 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
                                 text_embeds, text_embed_idxs, args.batch_size, args.dtype, args.loss)
 
         sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
-        print(f"\nsorted: {sorted_errors}")
 
-        if n_to_keep <= 10:
-            topn = list(sorted_errors.keys())[:5]
+        if n_to_keep == 1:
+            topn = list(sorted_errors.keys())
         remaining_prmpt_idxs = list(sorted_errors.keys())[:n_to_keep]
-        print(f"\nSelected_nodes: {remaining_prmpt_idxs}")
 
-    # assert len(remaining_prmpt_idxs) == 1
+    assert len(remaining_prmpt_idxs) == 1
     pred_idx = remaining_prmpt_idxs[0]
 
     return pred_idx, data, topn
@@ -302,7 +291,7 @@ def main():
     if args.img_size != 512:
         name += f'_{args.img_size}'
     if args.extra is not None:
-        run_folder = osp.join(LOG_DIR, args.dataset + "_" +args.extra, name)
+        run_folder = osp.join(LOG_DIR, args.dataset + "_final_" +args.extra, name)
     else:
         run_folder = osp.join(LOG_DIR, args.dataset , name)
     os.makedirs(run_folder, exist_ok=True)
@@ -326,10 +315,8 @@ def main():
             remaining_prmpt_nodes += hier.traverse([node], depth=1)[1:] 
     else:
         remaining_prmpt_nodes = parent_nodes
-    print(f"rem_nodes: {remaining_prmpt_nodes}")
 
     # load pretrained models, get the components from models.py
-
     print("\nLoading pretrained models...")
     vae, tokenizer, text_encoder, unet, scheduler = get_sd_model(args)
     vae = vae.to(device)

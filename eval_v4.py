@@ -170,6 +170,7 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, hier, idx_map
 
                 sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
                 best_idxs = list(sorted_errors.keys())[:int(args.k * len(sorted_errors))]
+                # print(f"sorted: {sorted_errors}")
 
                 child_nodes = []
                 for idx in best_idxs:
@@ -179,7 +180,6 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, hier, idx_map
                         child_nodes += hier.traverse([idx_map[idx]['node']], depth=1)[1:]
                         remaining_prmpt_idxs = [node_map[node] for node in child_nodes]        
             remaining_prmpt_idxs = selected_nodes
-            print(f"length: {len(remaining_prmpt_idxs)}")
 
             continue
 
@@ -192,11 +192,10 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, hier, idx_map
 
         sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
 
-        if n_to_keep <= 10:
-            topn = list(sorted_errors.keys())[:5]
+        if n_to_keep == 1:
+            topn = list(sorted_errors.keys())
         remaining_prmpt_idxs = list(sorted_errors.keys())[:n_to_keep]
         
-
     assert len(remaining_prmpt_idxs) == 1
     pred_idx = remaining_prmpt_idxs[0]
     
@@ -391,6 +390,7 @@ def main():
                 total += 1
             continue
         image, label = target_dataset[i]
+        print(f"label: {label}")
 
         # disable gradient computation for eval
         with torch.no_grad():
@@ -406,6 +406,7 @@ def main():
         start_time = time.time()
         pred_idx, pred_errors, topn = eval_prob_adaptive(unet, x0, text_embeddings, scheduler, args, hier, idx_map, node_map, child_nodes, latent_size, all_noise)
         pred = prompts_df.classidx[pred_idx]
+        print(f"prediction: {prompts_df.class_name[pred_idx]}")
         topn_preds = [prompts_df.classidx[idx] for idx in topn]
         end_time = time.time()
         inf_time = end_time - start_time

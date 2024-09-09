@@ -11,13 +11,18 @@ def top_n_accuracy(topn, k):
     top_k_count = 0
 
     for correct, preds in topn.items():
-        topk = preds[:k]
-        if len(topk) < 3:
-            continue
-        if correct in topk:
-            top_k_count += 1
+        if len(preds) > 1:
+            for pred in preds:  
+                topk = pred[:k]
+                if correct in topk:
+                    top_k_count += 1
+                count += 1
+        else:
+            topk = preds[:k]
+            if correct in topk:
+                top_k_count += 1
         count += 1
-    print(f"topk count: {count}")
+    # print(f"topk count: {count}")
     return top_k_count/count
 
 def mean_per_class_acc(correct, labels):
@@ -60,7 +65,13 @@ def main():
         labels.append(data['label'])
         inf.append(data['inf_time'])
         if len(data) > 4:
-            topn[data['label']] = data['topn'][:5]
+
+            if data['label'] in topn:
+                topn[data['label']] += [data['topn']]
+            else:
+                topn[data['label']] = [data['topn']]            
+        # else:
+        #     print(f"{data['label']} : {data['pred']}")
 
     print(f"count (test images): {len(preds)}")
 
@@ -71,15 +82,14 @@ def main():
     correct = (preds == labels).sum().item()
     print(f'Top 1 acc: {correct / len(preds) * 100:.2f}%')
 
-    if len(data) > 4:
-        print(f'Top 3 acc: {top_n_accuracy(topn, 3) * 100:.2f}%')
-
-        print(f'Top 5 acc: {top_n_accuracy(topn, 5) * 100:.2f}%')
-
     print(f'Mean per class acc: {mean_per_class_acc(preds == labels, labels) * 100:.2f}%')
 
     print(f'Mean inference time: {inf.sum() / len(preds) :.2f} sec')
 
+    if len(data) > 4:
+        print(f'Top 3 acc: {top_n_accuracy(topn, 3) * 100:.2f}%')
+
+        print(f'Top 5 acc: {top_n_accuracy(topn, 5) * 100:.2f}%')
 
 if __name__ == '__main__':
     main()
