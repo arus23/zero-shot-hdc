@@ -415,7 +415,7 @@ index,node,prompt,class_name,is_leaf,classidx
 413,n02858304,a photo of a boat.,boat,0,99999
 414,dummy30,a photo of a cycle.,cycle,0,99999
 415,n01872401,a photo of a echidna or spiny anteater.,echidna or spiny anteater,1,102
-416,n01440764,a photo of a tench.,tench,1,0
+416,n01440764,a photo of a tench or doctor fish.,tench,1,0
 417,n01698640,a photo of a American alligator.,American alligator,1,50
 418,n04443257,a photo of a tobacco shop.,tobacco shop,1,860
 419,n02403003,a photo of a ox.,ox,1,345
@@ -439,7 +439,7 @@ index,node,prompt,class_name,is_leaf,classidx
 437,n01592084,a photo of a chickadee.,chickadee,1,19
 438,n01930112,a photo of a nematode.,nematode,1,111
 439,n02692877,a photo of a airship.,airship,1,405
-440,n01990800,a photo of a isopod.,isopod,1,126
+440,n01990800,a photo of a isopod bug.,isopod bug,1,126
 441,n03110669,a photo of a cornet.,cornet,1,513
 442,n03637318,a photo of a lampshade.,lampshade,1,619
 443,n03196324,a photo of a digital computer.,digital computer,0,99999
@@ -567,7 +567,7 @@ index,node,prompt,class_name,is_leaf,classidx
 565,n02469914,a photo of a primate.,primate,0,99999
 566,n04090263,a photo of a rifle.,rifle,1,764
 567,n03047690,a photo of a clog footwear.,clog footwear,1,502
-568,n01955084,a photo of a chiton.,chiton,1,116
+568,n01955084,a photo of a chiton marine mollusc.,chiton marine mollusc,1,116
 569,n03888605,a photo of a parallel gymnastic bars.,parallel gymnastic bars,1,702
 570,n03891251,a photo of a park bench.,park bench,1,703
 571,n03467517,a photo of a guitar.,guitar,0,99999
@@ -612,7 +612,7 @@ index,node,prompt,class_name,is_leaf,classidx
 610,n07753592,a photo of a banana.,banana,1,954
 611,n04141076,a photo of a saxophone.,saxophone,1,776
 612,n02534734,a photo of a salmon fish.,salmon fish,0,99999
-613,n01697457,a photo of a African Nile crocodile.,African Nile crocodile,1,49
+613,n01697457,a photo of a Nile crocodile or African Crocodile.,Nile crocodile,1,49
 614,n03494278,a photo of a harmonica or mouth organ.,harmonica or mouth organ,1,593
 615,n02509815,a photo of a lesser red panda.,lesser red panda,1,387
 616,n01558993,a photo of a American robin.,American robin,1,15
@@ -725,7 +725,7 @@ index,node,prompt,class_name,is_leaf,classidx
 723,n03134739,a photo of a croquet ball.,croquet ball,1,522
 724,n01629276,a photo of a salamander.,salamander,0,99999
 725,n04128499,a photo of a sailboat or sailing boat.,sailboat or sailing boat,0,99999
-726,n01871265,a photo of a tusker or elephant.,tusker,1,101
+726,n01871265,a photo of a tusker.,tusker,1,101
 727,n03791235,a photo of a automotive vehicle.,automotive vehicle,0,99999
 728,n02948072,a photo of a candle.,candle,1,470
 729,n01662784,a photo of a turtle.,turtle,0,99999
@@ -1001,7 +1001,7 @@ index,node,prompt,class_name,is_leaf,classidx
 999,n02109047,a photo of a Great Dane.,Great Dane,1,246
 1000,n02088364,a photo of a Beagle.,Beagle,1,162
 1001,n02093754,a photo of a Border Terrier.,Border Terrier,1,182
-1002,n01682714,a photo of a Carolina anole chameleon.,Carolina anole,1,40
+1002,n01682714,a photo of a Carolina anole chameleon.,Carolina anole chameleon,1,40
 1003,n02109525,a photo of a Saint Bernard or St. Bernard.,Saint Bernard or St. Bernard,1,247
 1004,n04467665,a photo of a trailer truck.,trailer truck,1,867
 1005,n02088238,a photo of a Basset Hound.,Basset Hound,1,161
@@ -1196,7 +1196,7 @@ index,node,prompt,class_name,is_leaf,classidx
 1194,n02097209,a photo of a Standard Schnauzer.,Standard Schnauzer,1,198
 1195,n02095727,a photo of a Welsh Terrier.,Welsh Terrier,0,99999
 1196,n01855032,a photo of a red-breasted merganser.,red-breasted merganser,1,98
-1197,n01756291,a photo of a sidewinder horned rattlesnake.,sidewinder horned rattlesnake,1,68
+1197,n01756291,a photo of a sidewinder rattlesnake.,sidewinder rattlesnake,1,68
 1198,n02095570,a photo of a Lakeland Terrier.,Lakeland Terrier,1,189
 1199,n02102040,a photo of a English springer Spaniel.,English springer Spaniel,1,217
 1200,n02093256,a photo of a Staffordshire Bull Terrier.,Staffordshire Bull Terrier,1,179

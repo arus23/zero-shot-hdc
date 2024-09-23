@@ -41,12 +41,6 @@ def center_crop_resize(img, interpolation=InterpolationMode.BILINEAR):
     transform = get_transform(interpolation=interpolation)
     return transform(img)
 
-def get_nodemap(prompts_df):
-    prmpt_idxs = list(range(len(prompts_df)))
-    nodes_to_eval = prompts_df.node.tolist()
-    assert len(prmpt_idxs) == len(nodes_to_eval)
-    return dict(zip(prmpt_idxs, nodes_to_eval))
-
 def get_indices(remaining_prmpt_idxs, curr_t_to_eval, t_evaluated, n_trials, visited):
     ts = []
     noise_idxs = []
@@ -309,12 +303,12 @@ def main():
     hier = ClassHierarchy(args.info_dir, args.root_wnid)
     idx_map, node_map, child_nodes = create_mapping(prompts_df)
     parent_nodes = hier.traverse([args.root_wnid], depth=1)[1:]
-    remaining_prmpt_nodes = []
+    nodes_to_visit = []
     if args.dataset == "imagenet":
         for node in parent_nodes:
-            remaining_prmpt_nodes += hier.traverse([node], depth=1)[1:] 
+            nodes_to_visit += hier.traverse([node], depth=1)[1:] 
     else:
-        remaining_prmpt_nodes = parent_nodes
+        nodes_to_visit = parent_nodes
 
     # load pretrained models, get the components from models.py
     print("\nLoading pretrained models...")
@@ -398,7 +392,7 @@ def main():
 
         # Evaluateprobability of different classes and compute the prediction errors.
 
-        remaining_prmpt_idxs = [node_map[node] for node in remaining_prmpt_nodes]       
+        remaining_prmpt_idxs = [node_map[node] for node in nodes_to_visit]       
         start_time = time.time()
         pred_idx, pred_errors, topn = eval_prob_adaptive(unet, x0, text_embeddings, scheduler, args, idx_map, node_map, child_nodes, hier, remaining_prmpt_idxs, latent_size, all_noise)
         pred = prompts_df.classidx[pred_idx]
