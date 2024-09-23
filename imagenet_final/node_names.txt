@@ -623,7 +623,7 @@ n01978287	Dungeness crab
 n01978455	rock crab 
 n01980166	fiddler crab or calling crab 
 n01981276	Alaskan red king crab
-n01990800	isopod bug
+n01990800	isopod
 n02159955	insect 
 n02164464	beetle 
 n02165105	tiger beetle 
@@ -659,7 +659,7 @@ n02317335	starfish
 n02321529	sea cucumber  
 n02319095	sea urchin  
 n01940736	mollusk or mollusc  
-n01955084	chiton marine mollusc
+n01955084	chiton
 n01943899	conch  
 n01944390	snail  
 n01945685	slug  
@@ -809,7 +809,7 @@ n02108089	Boxer Dog
 n02108422	Bull Mastiff  
 n02109047	Great Dane   
 n02109525	Saint Bernard or St. Bernard 
-n02109961	Eskimo husky Dog  
+n02109961	Eskimo Husky 
 n02108672	English Bulldog  
 n02108915	French Bulldog  
 n02108254	Mastiff  
@@ -947,7 +947,6 @@ n02017213	common European gallinule bird
 n02051845	pelican 
 n02058221	albatross 
 n01855672	goose 
-n01845132	water bird 
 n01846331	duck 
 n01847000	drake duck 
 n01855032	red-breasted merganser 
@@ -972,7 +971,7 @@ n02033041	dowitcher
 n02022684	shorebird or shore bird 
 n02025239	ruddy turnstone  
 n02056570	king penguin 
-n01601694	American dipper  
+n01601694	American Dipper  
 n01592084	chickadee 
 n01558993	American robin 
 n01560105	nightingale 
@@ -1023,7 +1022,7 @@ n01751748	sea snake
 n01727646	colubrid snake 
 n01728572	Carphophis or worm colubrid snake
 n01728920	ring-necked snake or ringneck colubrid snake
-n01729322	eastern hog-nosed snake or puff adder 
+n01729322	eastern hog-nosed snake
 n01729977	smooth green snake 
 n01734418	kingsnake or chain snake
 n01735189	garter snake 
@@ -1213,7 +1212,7 @@ n02808440	bathtub
 n02795169	barrel
 n02747177	trash can
 n02699494	altar
-n01871265	tusker 
+n01871265	tusker or elephant
 n02906734	broom 
 n02999410	chain 
 n03729826	matchstick

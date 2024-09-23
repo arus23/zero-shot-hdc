@@ -76,7 +76,7 @@ n04434932	tights or leotards
 n03710637	maillot
 n03047690	clog, geta, patten, sabot
 n04199027	shoe
-n03680355	Loafer show
+n03680355	Loafer shoe
 n04120489	running shoe
 n04133789	sandal
 n02872752	boot
@@ -175,7 +175,7 @@ n04310018	steam locomotive
 n04335435	tram, tramcar, trolley, trolley car
 n02959942	railroad car
 n03393912	freight car
-n03895866	passenger car, coach, carriage
+n03895866	railroad car, coach, carriage
 n02970849	cart
 n03538406	horse cart, horse-cart
 n03599486	jinrikisha or rickshaw
@@ -597,7 +597,7 @@ n04536866	violin, fiddle
 n04586932	wind instrument, wind
 n03840681	ocarina, sweet potato
 n03945615	pipe
-n03884397	panpipe, pandean pipe, syrinx
+n03884397	pan flute, pandean pipe, syrinx
 n03494278	harmonica or mouth organ, harp, mouth harp
 n03372029	flute, transverse flute
 n02804610	bassoon
@@ -1307,7 +1307,7 @@ dummy119	savings bank
 n03933933	pier 
 dummy773	support structure
 n03929660	plectrum
-n03908618	case 
+n03908618	pencil case 
 n03888257	parachute
 n04077734	rescue equipment
 n03874293	paddle wheel

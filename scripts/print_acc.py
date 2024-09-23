@@ -61,17 +61,18 @@ def main():
     topn = {}
     for f in tqdm(files):
         data = torch.load(osp.join(args.folder, f))
+        # print(f'file: {f}')
         preds.append(data['pred'])
         labels.append(data['label'])
         inf.append(data['inf_time'])
         if len(data) > 4:
-
+            print(f"{data['label']} : {data['topn'][:5]}")
             if data['label'] in topn:
                 topn[data['label']] += [data['topn']]
             else:
                 topn[data['label']] = [data['topn']]            
         # else:
-        #     print(f"{data['label']} : {data['pred']}")
+            # print(f"{data['label']} : {data['pred']}")
 
     print(f"count (test images): {len(preds)}")
 
