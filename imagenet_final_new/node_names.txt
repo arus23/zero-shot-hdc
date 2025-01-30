@@ -1,5 +1,6 @@
 n00001740	entity
 n00021939	non-living thing
+n03076708	object or item
 n03051540	clothing (apparel)
 n03419014	garment or clothing
 n04230808	skirt 
@@ -896,7 +897,7 @@ n02104365	Schipperke
 n02107142	Dobermann  
 n02107312	Miniature Pinscher Dog  
 n02110627	Affenpinscher Monkey Dog  
-n02088094	Afghan Setter 
+n02088094	Afghan Hound 
 n02088238	Basset Hound
 n02088364	Beagle
 n02088466	Bloodhound 
@@ -942,7 +943,6 @@ n01824575	coucal
 n01844917	aquatic bird 
 n02000954	wading bird 
 n01860187	black swan 
-n02021795	sea bird 
 n02017213	common European gallinule bird 
 n02051845	pelican 
 n02058221	albatross 

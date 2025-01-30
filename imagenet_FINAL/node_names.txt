@@ -1,5 +1,6 @@
 n00001740	entity
 n00021939	non-living thing
+n03076708	object 
 n03051540	clothing (apparel)
 n03419014	garment or clothing
 n04230808	skirt 
@@ -7,7 +8,7 @@ n03534580	hoopskirt
 n03770439	miniskirt 
 n03866082	overskirt 
 n04136333	sarong skirt
-n03594734	denim jeans pant
+n03594734	denim jeans 
 n02892767	bra 
 n03188531	diaper or nappy 
 n03595614	T-shirt 
@@ -24,15 +25,15 @@ n04350905	men's suit
 n03763968	military uniform 
 n03057021	coat 
 n03404251	fur coat 
-n03630383	lab or laboratory coat 
+n03630383	lab coat or laboratory coat 
 n04479046	trench coat 
 n04532106	vestment 
 n03980874	poncho 
 n03045698	cloak 
-n02669723	academic gown or robe 
+n02669723	academic gown
 n04097866	robe 
-n02667093	abaya robe
-n03617480	kimono robe
+n02667093	abaya 
+n03617480	kimono
 n03314378	face mask 
 n04229816	balaclava ski mask 
 n03724870	mask 
@@ -61,9 +62,9 @@ n04254777	sock
 n03026506	Christmas stocking 
 n03710637	maillot tights
 n03381126	footwear 
-n03047690	clog footwear
+n03047690	clogs
 n04199027	shoe 
-n03680355	Loafer shoe or slip-on shoe
+n03680355	slip-on shoe
 n04120489	running shoe 
 n04133789	sandal footwear
 n03124043	cowboy boot 
@@ -74,39 +75,37 @@ n03379051	football helmet
 n03929855	pickelhaube or spiked helmet 
 n03497657	hat 
 n02817516	military hat (bearskin or shako) 
-n02869837	poke bonnet hat 
+n02869837	poke bonnet
 n03124170	cowboy hat 
 n04259630	sombrero hat
 n02954340	cap  
 n02807133	swimming cap 
-n03787032	graduation cap or mortarboard 
+n03787032	graduation cap
 n04209133	shower cap 
 n04584207	wig  
 n03476684	hair clip  
-n03527444	gun holster  
+n03527444	holster  
 n04141327	scabbard  
-n03485794	handkerchief or hanky 
+n03485794	handkerchief 
 n03141823	crutch   
 n02773037	bag 
 n02769748	backpack or rucksack 
-n03709823	mailbag or messenger bag
+n03709823	messenger bag
 n03958227	plastic bag 
 n04026417	purse 
 n04507155	umbrella  
 n03490324	handwear  
 n03775071	mitten glove
-n04447443	toiletry or toilet articles
-n03113152	cosmetic 
-n03714235	makeup 
+n04447443	toiletry articles
+n03113152	cosmetic or makeup
 n03314780	face powder 
-n03676483	lipstick or lip rouge 
-n03128519	cream or ointment 
+n03676483	lipstick
 n04357314	sunscreen or sunblock 
 n03690938	lotion 
 n03916031	perfume 
 n03476991	hair spray 
 n02786058	Band Aid 
-n03100490	transport vehicle  
+n03100490	transport or vehicle  
 n04576211	wheeled vehicle   
 n03791235	automotive vehicle   
 n02958343	car or automobile   
@@ -157,9 +156,8 @@ n03393912	freight car  railroad
 n03895866	passenger coach railroad 
 n02970849	cart   
 n03538406	horse cart 
-n03599486	jinrikisha or rickshaw 
-n03868242	oxcart or bullock cart 
-n03484083	handcart or pushcart 
+n03599486	rickshaw 
+n03868242	bullock cart 
 n02797295	wheelbarrow 
 n04204347	shopping cart 
 dummy30	cycle   
@@ -190,15 +188,14 @@ n03947888	pirate ship
 n04606251	shipwreck  
 n03095699	container ship  
 n02687172	aircraft carrier  
-n03673027	ocean liner ship   
+n03673027	oceanliner   
 n04147183	schooner ship
 n04347754	submarine 
 n04235291	sled or sledge or sleigh   
 n02860847	bobsled or bobsleigh 
 n03218198	dogsled or Dog sleigh 
 n03405265	furnishing  
-n03405725	piece of furniture 
-n04379243	table 
+n03405725	furniture
 n03179701	desk 
 n03982430	pool table or billiard table (snooker) 
 n03201208	dining table 
@@ -239,8 +236,8 @@ n04033995	quilt or comforter
 n03636649	lamp  
 n04380533	table lamp 
 n03637318	lampshade  
-n03932670	piece of cloth 
-n03207743	dishrag or dishcloth
+n03932670	cloth 
+n03207743	dishcloth
 n04459362	towel 
 n02808304	bath towel 
 n03887697	paper towel 
@@ -307,9 +304,9 @@ n07892512	red wine
 n07930554	punch  
 n07932039	eggnog  
 n02913152	building 
-n03953416	place of worship or house of prayer 
-n03028079	church a place of worship
-n03788195	mosque a place of worship
+n03953416	place of worship
+n03028079	church
+n03788195	mosque
 n04346328	stupa monument
 n03032252	cinema or movie theater
 n04187547	shed 
@@ -317,21 +314,20 @@ n02727426	apiary or bee shed
 n02859443	boathouse 
 n02793495	barn 
 n03457902	greenhouse  
-n03697007	lumbermill or sawmill 
-n03748162	retail store or shop  
+n03697007	sawmill 
 n03461385	grocery store   
 n02776631	bakery  
 n02791270	barbershop 
-n02871525	bookshop or bookstore  
+n02871525	bookstore  
 n02927161	butcher shop   
-n03089624	confectionery or candy store 
+n03089624	candy store 
 n04200800	shoe shop 
 n04443257	tobacco shop 
 n04462240	toyshop 
 n03661043	library 
 n03956157	planetarium 
 n04005630	prison 
-n04081281	restaurant or eatery 
+n04081281	restaurant
 n02814860	beacon or lighthouse 
 n03042490	cliff dwelling 
 n04613696	yurt tent
@@ -340,16 +336,16 @@ n02980441	castle
 n02843684	birdhouse 
 n03877845	palace 
 n03781244	monastery 
-n03216828	dock or docking facility 
+n03216828	dock
 n03899768	patio or terrace 
-n02825657	bell cote or bell tower 
+n02825657	bell cote
 n04105068	roof or ceiling of building
 n03220513	dome 
 n04417672	thatched roof 
 n04435653	tile roof 
 n04523525	vaulted or arched ceiling 
 n04296562	stage 
-n04562935	water tower building
+n04562935	water tower
 n03240683	drilling offshore rig 
 n03388043	water fountain 
 n04217882	signboard 
@@ -379,21 +375,21 @@ n03930313	picket fence
 n04326547	stone wall 
 n04604644	snake-rail fence or split-rail fence 
 n04501370	turnstile gate 
-n09287968	geological formation a body of rock
-n09433442	shore a geological formation by water
-n09332890	lakeside or lakeshore a geological formation by water
-n09428293	seashore a geological formation by water
-n09288635	geyser a geological natural spring fountain
-n09246464	cliff a geological formation
-n09421951	sandbank or shoal a geological formation
-n09359803	mountain a geological formation
+n09287968	geological formation or a body of rock
+n09433442	shore
+n09332890	lakeside
+n09428293	seashore
+n09288635	geyser
+n09246464	cliff
+n09421951	sandbank or shoal
+n09359803	mountain
 n09193705	alp mountain 
-n09472597	volcano a geological formation
-n09399592	promontory or headland a geological formation
-n09256479	coral reef a geological formation
-n09468604	valley a geological formation
-n02729837	electric appliance 
-n03483316	hair dryer or hair drier  
+n09472597	volcano
+n09399592	promontory or headland
+n09256479	coral reef
+n09468604	valley
+n02729837	electric appliance or machine
+n03483316	hair dryer
 n03584829	clothes iron  
 n04179913	sewing machine 
 n04517823	vacuum cleaner  
@@ -401,14 +397,14 @@ n03271574	electric fan
 n04265275	space heater  
 n04330267	stove  
 n03649909	lawn mower  
-n03133878	Crock Pot  cooker
-n03207941	dishwasher or dishwashing machine  
+n03133878	Crock Pot 
+n03207941	dishwasher
 n04070727	refrigerator  
 n04554684	washer or washing machine  
 n03761084	microwave oven 
 n04442312	toaster
 n04542943	waffle iron
-n03297495	espresso maker or coffee maker
+n03297495	coffee machine
 n04111531	rotisserie
 n03278248	electronic appliance
 n02979186	cassette player   
@@ -423,7 +419,7 @@ n03902125	pay-phone
 n02992529	mobilephone or cellular telephone   
 n02757462	audio or sound system   
 n03584254	iPod   
-n03691459	loudspeaker   
+n03691459	music speaker   
 n04404412	television or TV   
 n04041544	wireless radio   
 n03759954	microphone   
@@ -436,13 +432,12 @@ n03485407	hand-held computer
 n03642806	laptop computer 
 n03832673	notebook computer 
 n04004767	printer   
-n04152593	CRT screen  display
+n04152593	CRT screen display
 n03085013	computer keyboard   
 n03602883	joystick   
 n03793489	computer mouse   
 n04074963	remote control   
 n04285146	sports equipment  
-n04571292	exercising weight   
 n02790996	barbell
 n03255030	dumbbell
 n03472232	gymnastic apparatus   
@@ -470,7 +465,7 @@ n04069434	reflex camera
 n04485082	camera tripod stand   
 n03657121	lens cap   
 n03733925	measuring instrument   
-n04118776	ruler measuring stick 
+n04118776	ruler
 n03841143	odometer  
 n04437953	timepiece or clock 
 n04355338	sundial  
@@ -489,7 +484,7 @@ n03706229	magnetic compass
 n02666196	abacus 
 n04044716	radio telescope 
 n03760671	microscope 
-n03692522	jeweler's loupe magnifying glass 
+n03692522	loupe magnifying glass 
 n02841315	binoculars or field glasses 
 n03800933	musical instrument 
 n03614532	keyboard instrument 
@@ -502,8 +497,8 @@ n03915437	percussion instrument
 n03017168	wind chime or bell chime 
 n03249569	drum 
 n03447721	gong or tam-tam 
-n03720891	maraca hand percussion 
-n03721384	marimba xylophone 
+n03720891	maraca
+n03721384	marimba  
 n04311174	steel drum 
 n04338517	stringed instrument 
 n02787622	banjo  
@@ -671,7 +666,6 @@ n01910747	jellyfish
 n01922303	worm 
 n01924916	flatworm or platyhelminth
 n01930112	nematode
-n01861778	mammal
 n01872401	echidna or spiny anteater 
 n01873310	duck-billed platypus 
 n02454379	armadillo 
@@ -694,20 +688,20 @@ n02504013	Asian elephant
 n02504458	African bush elephant 
 n02469914	primate 
 n02496913	lemur 
-n02497673	Madagascar ring-tailed lemur 
+n02497673	Ring-tailed lemur 
 n02500267	indri or indris lemur (babakato) 
 n02484322	monkey 
-n02490219	marmoset monkey 
-n02492035	white-headed capuchin monkey 
+n02490219	marmoset 
+n02492035	white-headed capuchin 
 n02492660	howler monkey 
 n02493509	titi monkey 
 n02493793	Geoffroy's spider monkey 
 n02494079	common squirrel monkey 
 n02484975	guenon monkey 
-n02486261	patas hussar monkey 
+n02486261	patas hussar 
 n02486410	baboon 
-n02487347	macaque monkey 
-n02488291	langur monkey
+n02487347	macaque 
+n02488291	langur
 n02488702	black-and-white colobus monkey 
 n02489166	proboscis monkey 
 n02470325	ape 
@@ -720,7 +714,7 @@ n02326432	hare
 n02324045	rabbit 
 n02325366	cottontail wood rabbit 
 n02328150	Angora rabbit 
-n02398521	hippopotamus or hippo 
+n02398521	hippopotamus
 n02437616	llama 
 n02437312	Arabian camel 
 n02355003	swine 
@@ -730,14 +724,13 @@ n02397096	warthog
 n02391049	zebra 
 n02389026	common sorrel horse 
 n02410509	bison  
-n02419796	antelope 
 n02422106	hartebeest 
 n02422699	impala (antelope) 
 n02423022	gazelle 
 n02411705	sheep 
 n02412080	ram or male sheep
 n02408429	Asiatic water buffalo or water ox (Old World buffalo) 
-n02415577	bighorn Rocky Mountain sheep 
+n02415577	bighorn sheep 
 n02417914	Alpine ibex 
 n02403003	ox 
 n02131653	bear 
@@ -770,13 +763,13 @@ n02123394	Persian cat
 n02123597	Siamese cat
 n02124075	Egyptian Mau 
 n02124623	wildcat
-n02125311	cougar or puma cat
+n02125311	cougar
 n02127052	lynx  
 n02083346	canine
 n02117135	hyena or hyaena   
 n02114100	wolf  
 n02114367	timber grey wolf  
-n02114548	Arctic white wolf  
+n02114548	Alaskan tundra wolf
 n02114712	red maned wolf  
 n02114855	coyote prairie wolf  
 n02118333	Fox  
@@ -879,7 +872,7 @@ n02099601	Golden Retriever
 n02099712	Labrador Retriever  
 n02099849	Chesapeake Bay Retriever  
 n02100236	German short-haired Pointer  
-n02100583	Hungarian Vizsla Pointer  
+n02100583	Vizsla  
 n02101388	Brittany Spaniel  
 n02101556	Clumber Spaniel  
 n02102318	Cocker Spaniel  
@@ -896,7 +889,7 @@ n02104365	Schipperke
 n02107142	Dobermann  
 n02107312	Miniature Pinscher Dog  
 n02110627	Affenpinscher Monkey Dog  
-n02088094	Afghan Setter 
+n02088094	Afghan Hound 
 n02088238	Basset Hound
 n02088364	Beagle
 n02088466	Bloodhound 
@@ -942,7 +935,6 @@ n01824575	coucal
 n01844917	aquatic bird 
 n02000954	wading bird 
 n01860187	black swan 
-n02021795	sea bird 
 n02017213	common European gallinule bird 
 n02051845	pelican 
 n02058221	albatross 
@@ -1003,8 +995,7 @@ n01661091	reptile
 n01698640	American alligator 
 n01697457	African Nile crocodile 
 n01674464	lizard 
-n01687665	agamid lizard 
-n01687978	agama lizard 
+n01687978	agama 
 n01688243	frilled-necked lizard 
 n01689811	alligator lizard 
 n01676755	iguanid lizard 
@@ -1019,7 +1010,6 @@ n01695060	Komodo dragon
 n01704323	triceratops dinosaur
 n01726692	snake 
 n01751748	sea snake 
-n01727646	colubrid snake 
 n01728572	Carphophis or worm colubrid snake
 n01728920	ring-necked snake or ringneck colubrid snake
 n01729322	eastern hog-nosed snake
@@ -1029,10 +1019,10 @@ n01735189	garter snake
 n01737021	water snake or Nerodia snake
 n01739381	vine snake or whip snake
 n01740131	night snake or Hypsiglena or rear-fanged snake
-n01752165	viper snake
+n01752165	viper
 n01753959	pit viper 
 n01753488	Saharan horned viper 
-n01748264	Indian cobra or spectacled cobra or naja naja
+n01748264	Indian cobra
 n01749939	green mamba 
 n01755581	eastern diamondback rattlesnake 
 n01756291	sidewinder rattlesnake 
@@ -1067,15 +1057,15 @@ n01491361	tiger shark
 n02526121	eel 
 n01440764	tench 
 n01443537	goldfish 
-n02534734	salmon fish
+n02534734	salmon
 n02536864	coho silver salmon 
 n02640242	sturgeon 
 n02641379	garfish
 n02655020	pufferfish or blowfish 
-n02607072	anemone (clown)  
-n02606052	rock beauty  
+n02607072	clown fish 
+n02606052	rock beauty fish
 n02643566	lionfish 
-n02514041	barracouta (snoek)  
+n02514041	snoek fish  
 n00017222	plant life
 n11669921	flower 
 n11939491	daisy flower
@@ -1098,7 +1088,7 @@ n09229709	bubble
 n07860988	dough
 n07802026	hay fodder
 n07565083	restaurant menu
-n07248320	book jacket  
+n07248320	dust jacket  
 n06785654	crossword puzzle 
 n06596364	comic book
 dummy104	computer 
@@ -1129,7 +1119,6 @@ n04336792	stretcher
 dummy230	source of illumination or lighting
 n04286575	spotlight
 n04277352	spindle 
-dummy677	stick
 n04275548	spider web
 n04264628	keyboard space bar
 n04258138	solar thermal collector
@@ -1138,7 +1127,6 @@ n04243546	slot machine
 n04238763	slide rule 
 n04235860	sleeping bag
 n04204238	shopping basket 
-dummy80	  basket 
 n04192698	shield  
 n04125021	safe  
 dummy700	box
@@ -1160,14 +1148,13 @@ n03929660	plectrum
 n03908618	case 
 n03888257	parachute   
 n03874293	paddle wheel
-n03873416	paddle  oar
-n03871628	product packet or packaging
+n03873416	paddle or oar
+n03871628	packaging
 n03868863	oxygen mask
 n03843555	oil filter 
 n03825788	baby pacifier 
 n02954938	cap
 n03803284	muzzle 
-n04081844	restraint or belt
 n03794056	mouse trap
 n03792972	tent
 n04191595	shelter
@@ -1179,7 +1166,7 @@ n03710193	mailbox
 n03658185	letter opener  
 n03627232	rope knot 
 n03598930	jigsaw puzzle  
-n03590841	carved pumpkin or jack-o-lantern 
+n03590841	carved pumpkin
 n03530642	honeycomb
 n03532672	hook
 n03498962	hatchet  
@@ -1192,27 +1179,27 @@ n03425413	gas pump
 n03355925	flagpole 
 n03291819	envelope
 n03250847	drumstick
-n03208938	hydraulic brake or brake system
+n03208938	disc brake
 n03127925	crate 
 n03126707	construction crane
 n03065424	spiral or coil
 n02978881	cassette
-n02971356	cardboard box / carton
+n02971356	cardboard box or carton
 n02974003	car wheel
-n02977058	automated teller machine or ATM machine
+n02977058	ATM machine
 n02965783	car mirror  
 n02966193	carousel
 n02948072	candle
 n02909870	bucket
 n02910353	buckle
-n02877765	bottle cap
+n02877765	metal bottle cap
 n02840245	ring binder 
 n02815834	beaker 
 n02808440	bathtub 
 n02795169	barrel
 n02747177	trash can
 n02699494	altar
-n01871265	tusker or elephant
+n01871265	tusker
 n02906734	broom 
 n02999410	chain 
 n03729826	matchstick
