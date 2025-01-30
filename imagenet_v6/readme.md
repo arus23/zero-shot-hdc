@@ -1,1 +1,0 @@
-this version has "a type of ---" included in the prompt
