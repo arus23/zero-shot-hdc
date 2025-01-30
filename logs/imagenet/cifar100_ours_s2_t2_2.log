@@ -1,0 +1,3763 @@
+Run folder: data/cifar100_strat_2t2_2/v2-0_1trials_10_5_1keep_50_100_500samples_l1
+Setting up dataset and prompts
+Files already downloaded and verified
+
+Loading pretrained models...
+
+Loading noise...
+
+Tokenizing text prompts and creating embeddings...
+
+Load subset to evaluate
+
+Evaluating predictions: 
+prediction: mountain
+
+Inference time: 59.11 seconds 
+
+
+
+prediction: tulip
+
+Inference time: 58.13 seconds 
+
+
+
+prediction: lawn_mower
+
+Inference time: 45.60 seconds 
+
+
+
+prediction: porcupine
+
+Inference time: 126.64 seconds 
+
+
+
+prediction: beetle
+
+Inference time: 98.27 seconds 
+
+
+
+prediction: sea
+
+Inference time: 63.98 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 75.83 seconds 
+
+
+
+prediction: crocodile
+
+Inference time: 84.71 seconds 
+
+
+
+prediction: rose
+
+Inference time: 33.90 seconds 
+
+
+
+prediction: porcupine
+
+Inference time: 95.99 seconds 
+
+
+
+prediction: hamster
+
+Inference time: 70.91 seconds 
+
+
+
+prediction: pear
+
+Inference time: 80.93 seconds 
+
+
+
+prediction: lobster
+
+Inference time: 114.14 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 69.39 seconds 
+
+
+
+prediction: bridge
+
+Inference time: 55.36 seconds 
+
+
+
+prediction: cloud
+
+Inference time: 40.93 seconds 
+
+
+
+prediction: pickup_truck
+
+Inference time: 81.32 seconds 
+
+
+
+prediction: willow_tree
+
+Inference time: 83.42 seconds 
+
+
+
+prediction: leopard
+
+Inference time: 70.26 seconds 
+
+
+
+prediction: snake
+
+Inference time: 75.25 seconds 
+
+
+
+prediction: castle
+
+Inference time: 26.36 seconds 
+
+
+
+prediction: lobster
+
+Inference time: 89.01 seconds 
+
+
+
+prediction: house
+
+Inference time: 31.36 seconds 
+
+
+
+prediction: beetle
+
+Inference time: 109.07 seconds 
+
+
+
+prediction: rocket
+
+Inference time: 36.39 seconds 
+
+
+
+prediction: lamp
+
+Inference time: 76.43 seconds 
+
+
+
+prediction: crocodile
+
+Inference time: 115.22 seconds 
+
+
+
+prediction: cockroach
+
+Inference time: 66.44 seconds 
+
+
+
+prediction: dinosaur
+
+Inference time: 115.28 seconds 
+
+
+
+prediction: rose
+
+Inference time: 44.49 seconds 
+
+
+
+prediction: house
+
+Inference time: 26.35 seconds 
+
+
+
+prediction: rabbit
+
+Inference time: 80.19 seconds 
+
+
+
+prediction: girl
+
+Inference time: 103.34 seconds 
+
+
+
+prediction: house
+
+Inference time: 40.73 seconds 
+
+
+
+prediction: wolf
+
+Inference time: 108.28 seconds 
+
+
+
+prediction: dolphin
+
+Inference time: 110.19 seconds 
+
+
+
+prediction: rabbit
+
+Inference time: 68.24 seconds 
+
+
+
+prediction: aquarium_fish
+
+Inference time: 40.08 seconds 
+
+
+
+prediction: possum
+
+Inference time: 67.66 seconds 
+
+
+
+prediction: castle
+
+Inference time: 30.71 seconds 
+
+
+
+prediction: lawn_mower
+
+Inference time: 37.58 seconds 
+
+
+
+prediction: cattle
+
+Inference time: 64.50 seconds 
+
+
+
+prediction: sweet_pepper
+
+Inference time: 50.13 seconds 
+
+
+
+prediction: house
+
+Inference time: 18.21 seconds 
+
+
+
+prediction: kangaroo
+
+Inference time: 49.54 seconds 
+
+
+
+prediction: wolf
+
+Inference time: 72.09 seconds 
+
+
+
+prediction: sea
+
+Inference time: 34.50 seconds 
+
+
+
+prediction: motorcycle
+
+Inference time: 31.36 seconds 
+
+
+
+prediction: orchid
+
+Inference time: 60.79 seconds 
+
+
+
+prediction: telephone
+
+Inference time: 86.50 seconds 
+
+
+
+prediction: telephone
+
+Inference time: 26.98 seconds 
+
+
+
+prediction: bee
+
+Inference time: 71.46 seconds 
+
+
+
+prediction: tank
+
+Inference time: 35.76 seconds 
+
+
+
+prediction: orange
+
+Inference time: 87.17 seconds 
+
+
+
+prediction: bottle
+
+Inference time: 74.10 seconds 
+
+
+
+prediction: chair
+
+Inference time: 32.01 seconds 
+
+
+
+prediction: worm
+
+Inference time: 25.12 seconds 
+
+
+
+prediction: bicycle
+
+Inference time: 47.68 seconds 
+
+
+
+prediction: butterfly
+
+Inference time: 43.90 seconds 
+
+
+
+prediction: pine_tree
+
+Inference time: 84.63 seconds 
+
+
+
+prediction: mouse
+
+Inference time: 69.61 seconds 
+
+
+
+prediction: sunflower
+
+Inference time: 58.32 seconds 
+
+
+
+prediction: camel
+
+Inference time: 67.09 seconds 
+
+
+
+prediction: dolphin
+
+Inference time: 94.05 seconds 
+
+
+
+prediction: sea
+
+Inference time: 39.53 seconds 
+
+
+
+prediction: cup
+
+Inference time: 30.76 seconds 
+
+
+
+prediction: streetcar
+
+Inference time: 45.16 seconds 
+
+
+
+prediction: rose
+
+Inference time: 112.86 seconds 
+
+
+
+prediction: plain
+
+Inference time: 26.37 seconds 
+
+
+
+prediction: skyscraper
+
+Inference time: 32.01 seconds 
+
+
+
+prediction: chimpanzee
+
+Inference time: 109.11 seconds 
+
+
+
+prediction: apple
+
+Inference time: 51.42 seconds 
+
+
+
+prediction: baby
+
+Inference time: 41.41 seconds 
+
+
+
+prediction: man
+
+Inference time: 52.04 seconds 
+
+
+
+prediction: camel
+
+Inference time: 41.41 seconds 
+
+
+
+prediction: lion
+
+Inference time: 39.53 seconds 
+
+
+
+prediction: wolf
+
+Inference time: 53.27 seconds 
+
+
+
+prediction: tiger
+
+Inference time: 43.92 seconds 
+
+
+
+prediction: wolf
+
+Inference time: 75.31 seconds 
+
+
+
+prediction: keyboard
+
+Inference time: 104.76 seconds 
+
+
+
+prediction: cup
+
+Inference time: 68.97 seconds 
+
+
+
+prediction: castle
+
+Inference time: 38.24 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 100.21 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 102.69 seconds 
+
+
+
+prediction: orange
+
+Inference time: 25.09 seconds 
+
+
+
+prediction: oak_tree
+
+Inference time: 63.23 seconds 
+
+
+
+prediction: lion
+
+Inference time: 46.99 seconds 
+
+
+
+prediction: house
+
+Inference time: 51.99 seconds 
+
+
+
+prediction: wolf
+
+Inference time: 74.59 seconds 
+
+
+
+prediction: plain
+
+Inference time: 75.24 seconds 
+
+
+
+prediction: cattle
+
+Inference time: 38.27 seconds 
+
+
+
+prediction: poppy
+
+Inference time: 97.77 seconds 
+
+
+
+prediction: rose
+
+Inference time: 48.29 seconds 
+
+
+
+prediction: television
+
+Inference time: 37.01 seconds 
+
+
+
+prediction: sweet_pepper
+
+Inference time: 80.26 seconds 
+
+
+
+prediction: dolphin
+
+Inference time: 95.28 seconds 
+
+
+
+prediction: poppy
+
+Inference time: 83.38 seconds 
+
+
+
+prediction: castle
+
+Inference time: 29.51 seconds 
+
+
+
+prediction: pickup_truck
+
+Inference time: 101.68 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 69.62 seconds 
+
+
+
+prediction: plain
+
+Inference time: 112.18 seconds 
+
+
+
+prediction: camel
+
+Inference time: 104.07 seconds 
+
+
+
+prediction: rabbit
+
+Inference time: 67.08 seconds 
+
+
+
+prediction: cockroach
+
+Inference time: 110.31 seconds 
+
+
+
+prediction: skyscraper
+
+Inference time: 59.56 seconds 
+
+
+
+prediction: orange
+
+Inference time: 56.44 seconds 
+
+
+
+prediction: bowl
+
+Inference time: 66.45 seconds 
+
+
+
+prediction: worm
+
+Inference time: 105.95 seconds 
+
+
+
+prediction: worm
+
+Inference time: 90.31 seconds 
+
+
+
+prediction: shark
+
+Inference time: 55.23 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 109.74 seconds 
+
+
+
+prediction: castle
+
+Inference time: 38.88 seconds 
+
+
+
+prediction: couch
+
+Inference time: 92.65 seconds 
+
+
+
+prediction: tank
+
+Inference time: 90.27 seconds 
+
+
+
+prediction: rose
+
+Inference time: 37.21 seconds 
+
+
+
+prediction: mountain
+
+Inference time: 49.85 seconds 
+
+
+
+prediction: palm_tree
+
+Inference time: 85.18 seconds 
+
+
+
+prediction: lion
+
+Inference time: 32.85 seconds 
+
+
+
+prediction: cup
+
+Inference time: 46.70 seconds 
+
+
+
+prediction: orange
+
+Inference time: 91.44 seconds 
+
+
+
+prediction: otter
+
+Inference time: 88.92 seconds 
+
+
+
+prediction: boy
+
+Inference time: 57.40 seconds 
+
+
+
+prediction: wolf
+
+Inference time: 75.04 seconds 
+
+
+
+prediction: lawn_mower
+
+Inference time: 39.15 seconds 
+
+
+
+prediction: snake
+
+Inference time: 75.70 seconds 
+
+
+
+prediction: tulip
+
+Inference time: 64.98 seconds 
+
+
+
+prediction: rabbit
+
+Inference time: 55.51 seconds 
+
+
+
+prediction: oak_tree
+
+Inference time: 64.37 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 90.22 seconds 
+
+
+
+prediction: wolf
+
+Inference time: 56.79 seconds 
+
+
+
+prediction: dinosaur
+
+Inference time: 110.38 seconds 
+
+
+
+prediction: telephone
+
+Inference time: 45.44 seconds 
+
+
+
+prediction: porcupine
+
+Inference time: 110.38 seconds 
+
+
+
+prediction: crocodile
+
+Inference time: 90.17 seconds 
+
+
+
+prediction: tractor
+
+Inference time: 45.47 seconds 
+
+
+
+prediction: lion
+
+Inference time: 54.26 seconds 
+
+
+
+prediction: bowl
+
+Inference time: 62.47 seconds 
+
+
+
+prediction: butterfly
+
+Inference time: 113.54 seconds 
+
+
+
+prediction: whale
+
+Inference time: 93.36 seconds 
+
+
+
+prediction: wolf
+
+Inference time: 78.19 seconds 
+
+
+
+prediction: whale
+
+Inference time: 100.26 seconds 
+
+
+
+prediction: lizard
+
+Inference time: 93.38 seconds 
+
+
+
+prediction: butterfly
+
+Inference time: 93.36 seconds 
+
+
+
+prediction: willow_tree
+
+Inference time: 72.50 seconds 
+
+
+
+prediction: skyscraper
+
+Inference time: 56.75 seconds 
+
+
+
+prediction: castle
+
+Inference time: 66.87 seconds 
+
+
+
+prediction: fox
+
+Inference time: 49.85 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 95.81 seconds 
+
+
+
+prediction: couch
+
+Inference time: 26.51 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 105.93 seconds 
+
+
+
+prediction: rose
+
+Inference time: 77.58 seconds 
+
+
+
+prediction: mouse
+
+Inference time: 76.28 seconds 
+
+
+
+prediction: wardrobe
+
+Inference time: 41.64 seconds 
+
+
+
+prediction: shark
+
+Inference time: 57.40 seconds 
+
+
+
+prediction: bear
+
+Inference time: 100.22 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 83.83 seconds 
+
+
+
+prediction: bus
+
+Inference time: 66.23 seconds 
+
+
+
+prediction: pear
+
+Inference time: 51.76 seconds 
+
+
+
+prediction: porcupine
+
+Inference time: 110.36 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 89.52 seconds 
+
+
+
+prediction: poppy
+
+Inference time: 37.23 seconds 
+
+
+
+prediction: couch
+
+Inference time: 42.27 seconds 
+
+
+
+prediction: shark
+
+Inference time: 27.78 seconds 
+
+
+
+prediction: snake
+
+Inference time: 100.86 seconds 
+
+
+
+prediction: leopard
+
+Inference time: 101.53 seconds 
+
+
+
+prediction: mouse
+
+Inference time: 64.35 seconds 
+
+
+
+prediction: dinosaur
+
+Inference time: 105.35 seconds 
+
+
+
+prediction: oak_tree
+
+Inference time: 73.70 seconds 
+
+
+
+prediction: trout
+
+Inference time: 43.39 seconds 
+
+
+
+prediction: rabbit
+
+Inference time: 75.97 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 75.93 seconds 
+
+
+
+prediction: snake
+
+Inference time: 69.10 seconds 
+
+
+
+prediction: orange
+
+Inference time: 44.61 seconds 
+
+
+
+prediction: kangaroo
+
+Inference time: 62.17 seconds 
+
+
+
+prediction: bee
+
+Inference time: 84.16 seconds 
+
+
+
+prediction: oak_tree
+
+Inference time: 54.02 seconds 
+
+
+
+prediction: table
+
+Inference time: 36.47 seconds 
+
+
+
+prediction: bus
+
+Inference time: 37.72 seconds 
+
+
+
+prediction: chair
+
+Inference time: 43.98 seconds 
+
+
+
+prediction: chimpanzee
+
+Inference time: 68.43 seconds 
+
+
+
+prediction: rose
+
+Inference time: 70.91 seconds 
+
+
+
+prediction: rose
+
+Inference time: 87.87 seconds 
+
+
+
+prediction: crocodile
+
+Inference time: 92.27 seconds 
+
+
+
+prediction: table
+
+Inference time: 26.38 seconds 
+
+
+
+prediction: bed
+
+Inference time: 35.15 seconds 
+
+
+
+prediction: pear
+
+Inference time: 53.99 seconds 
+
+
+
+prediction: couch
+
+Inference time: 96.08 seconds 
+
+
+
+prediction: pear
+
+Inference time: 56.51 seconds 
+
+
+
+prediction: orange
+
+Inference time: 71.56 seconds 
+
+
+
+prediction: snake
+
+Inference time: 107.98 seconds 
+
+
+
+prediction: couch
+
+Inference time: 26.39 seconds 
+
+
+
+prediction: orange
+
+Inference time: 30.16 seconds 
+
+
+
+prediction: couch
+
+Inference time: 26.38 seconds 
+
+
+
+prediction: cloud
+
+Inference time: 73.41 seconds 
+
+
+
+prediction: leopard
+
+Inference time: 53.35 seconds 
+
+
+
+prediction: pine_tree
+
+Inference time: 84.09 seconds 
+
+
+
+prediction: fox
+
+Inference time: 38.30 seconds 
+
+
+
+prediction: sea
+
+Inference time: 37.01 seconds 
+
+
+
+prediction: tiger
+
+Inference time: 61.47 seconds 
+
+
+
+prediction: orchid
+
+Inference time: 66.52 seconds 
+
+
+
+prediction: wolf
+
+Inference time: 67.78 seconds 
+
+
+
+prediction: bottle
+
+Inference time: 25.76 seconds 
+
+
+
+prediction: bottle
+
+Inference time: 37.66 seconds 
+
+
+
+prediction: seal
+
+Inference time: 83.42 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 105.44 seconds 
+
+
+
+prediction: television
+
+Inference time: 26.38 seconds 
+
+
+
+prediction: bridge
+
+Inference time: 41.42 seconds 
+
+
+
+prediction: snake
+
+Inference time: 64.01 seconds 
+
+
+
+prediction: tiger
+
+Inference time: 52.10 seconds 
+
+
+
+prediction: pear
+
+Inference time: 59.66 seconds 
+
+
+
+prediction: lion
+
+Inference time: 47.11 seconds 
+
+
+
+prediction: motorcycle
+
+Inference time: 54.00 seconds 
+
+
+
+prediction: plain
+
+Inference time: 67.78 seconds 
+
+
+
+prediction: dolphin
+
+Inference time: 85.37 seconds 
+
+
+
+prediction: mountain
+
+Inference time: 65.28 seconds 
+
+
+
+prediction: palm_tree
+
+Inference time: 54.62 seconds 
+
+
+
+prediction: chimpanzee
+
+Inference time: 53.35 seconds 
+
+
+
+prediction: man
+
+Inference time: 54.00 seconds 
+
+
+
+prediction: shark
+
+Inference time: 37.08 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 116.18 seconds 
+
+
+
+prediction: tank
+
+Inference time: 40.21 seconds 
+
+
+
+prediction: bee
+
+Inference time: 87.90 seconds 
+
+
+
+prediction: lizard
+
+Inference time: 109.88 seconds 
+
+
+
+prediction: chair
+
+Inference time: 26.41 seconds 
+
+
+
+prediction: kangaroo
+
+Inference time: 87.86 seconds 
+
+
+
+prediction: oak_tree
+
+Inference time: 83.50 seconds 
+
+
+
+prediction: snail
+
+Inference time: 94.81 seconds 
+
+
+
+prediction: orchid
+
+Inference time: 20.76 seconds 
+
+
+
+prediction: dinosaur
+
+Inference time: 79.11 seconds 
+
+
+
+prediction: mouse
+
+Inference time: 95.45 seconds 
+
+
+
+prediction: flatfish
+
+Inference time: 79.14 seconds 
+
+
+
+prediction: crocodile
+
+Inference time: 96.06 seconds 
+
+
+
+prediction: apple
+
+Inference time: 69.71 seconds 
+
+
+
+prediction: bowl
+
+Inference time: 59.67 seconds 
+
+
+
+prediction: lamp
+
+Inference time: 126.16 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 84.06 seconds 
+
+
+
+prediction: rose
+
+Inference time: 47.72 seconds 
+
+
+
+prediction: train
+
+Inference time: 36.41 seconds 
+
+
+
+prediction: pine_tree
+
+Inference time: 62.09 seconds 
+
+
+
+prediction: mouse
+
+Inference time: 60.24 seconds 
+
+
+
+prediction: lawn_mower
+
+Inference time: 34.56 seconds 
+
+
+
+prediction: telephone
+
+Inference time: 41.45 seconds 
+
+
+
+prediction: keyboard
+
+Inference time: 31.43 seconds 
+
+
+
+prediction: bottle
+
+Inference time: 77.26 seconds 
+
+
+
+prediction: flatfish
+
+Inference time: 101.11 seconds 
+
+
+
+prediction: willow_tree
+
+Inference time: 62.79 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 125.64 seconds 
+
+
+
+prediction: rose
+
+Inference time: 51.56 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 87.91 seconds 
+
+
+
+prediction: lamp
+
+Inference time: 46.48 seconds 
+
+
+
+prediction: sea
+
+Inference time: 55.29 seconds 
+
+
+
+prediction: dolphin
+
+Inference time: 104.30 seconds 
+
+
+
+prediction: house
+
+Inference time: 54.01 seconds 
+
+
+
+prediction: skyscraper
+
+Inference time: 23.89 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 87.31 seconds 
+
+
+
+prediction: television
+
+Inference time: 54.06 seconds 
+
+
+
+prediction: dolphin
+
+Inference time: 108.07 seconds 
+
+
+
+prediction: tulip
+
+Inference time: 77.30 seconds 
+
+
+
+prediction: motorcycle
+
+Inference time: 24.55 seconds 
+
+
+
+prediction: apple
+
+Inference time: 54.07 seconds 
+
+
+
+prediction: mountain
+
+Inference time: 58.46 seconds 
+
+
+
+prediction: man
+
+Inference time: 61.59 seconds 
+
+
+
+prediction: mountain
+
+Inference time: 59.08 seconds 
+
+
+
+prediction: wardrobe
+
+Inference time: 24.55 seconds 
+
+
+
+prediction: maple_tree
+
+Inference time: 59.74 seconds 
+
+
+
+prediction: dolphin
+
+Inference time: 81.11 seconds 
+
+
+
+prediction: house
+
+Inference time: 25.18 seconds 
+
+
+
+prediction: lawn_mower
+
+Inference time: 62.22 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 88.63 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 83.58 seconds 
+
+
+
+prediction: kangaroo
+
+Inference time: 76.64 seconds 
+
+
+
+prediction: tulip
+
+Inference time: 77.28 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 100.53 seconds 
+
+
+
+prediction: sweet_pepper
+
+Inference time: 52.81 seconds 
+
+
+
+prediction: chair
+
+Inference time: 32.06 seconds 
+
+
+
+prediction: beetle
+
+Inference time: 55.97 seconds 
+
+
+
+prediction: skyscraper
+
+Inference time: 26.43 seconds 
+
+
+
+prediction: lion
+
+Inference time: 58.47 seconds 
+
+
+
+prediction: wardrobe
+
+Inference time: 108.73 seconds 
+
+
+
+prediction: castle
+
+Inference time: 66.00 seconds 
+
+
+
+prediction: bed
+
+Inference time: 40.88 seconds 
+
+
+
+prediction: lion
+
+Inference time: 62.24 seconds 
+
+
+
+prediction: chimpanzee
+
+Inference time: 76.68 seconds 
+
+
+
+prediction: lamp
+
+Inference time: 32.71 seconds 
+
+
+
+prediction: boy
+
+Inference time: 55.33 seconds 
+
+
+
+prediction: baby
+
+Inference time: 35.88 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 123.20 seconds 
+
+
+
+prediction: dolphin
+
+Inference time: 65.37 seconds 
+
+
+
+prediction: forest
+
+Inference time: 65.41 seconds 
+
+
+
+prediction: rose
+
+Inference time: 66.04 seconds 
+
+
+
+prediction: apple
+
+Inference time: 49.67 seconds 
+
+
+
+prediction: clock
+
+Inference time: 59.10 seconds 
+
+
+
+prediction: lizard
+
+Inference time: 122.60 seconds 
+
+
+
+prediction: poppy
+
+Inference time: 71.03 seconds 
+
+
+
+prediction: clock
+
+Inference time: 35.87 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 120.70 seconds 
+
+
+
+prediction: camel
+
+Inference time: 64.15 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 67.89 seconds 
+
+
+
+prediction: willow_tree
+
+Inference time: 72.92 seconds 
+
+
+
+prediction: seal
+
+Inference time: 135.77 seconds 
+
+
+
+prediction: keyboard
+
+Inference time: 57.20 seconds 
+
+
+
+prediction: skyscraper
+
+Inference time: 48.40 seconds 
+
+
+
+prediction: orchid
+
+Inference time: 46.54 seconds 
+
+
+
+prediction: bottle
+
+Inference time: 22.68 seconds 
+
+
+
+prediction: crocodile
+
+Inference time: 85.51 seconds 
+
+
+
+prediction: chair
+
+Inference time: 42.14 seconds 
+
+
+
+prediction: orange
+
+Inference time: 51.58 seconds 
+
+
+
+prediction: baby
+
+Inference time: 50.95 seconds 
+
+
+
+prediction: orange
+
+Inference time: 80.46 seconds 
+
+
+
+prediction: rabbit
+
+Inference time: 74.19 seconds 
+
+
+
+prediction: motorcycle
+
+Inference time: 40.89 seconds 
+
+
+
+prediction: elephant
+
+Inference time: 101.82 seconds 
+
+
+
+prediction: leopard
+
+Inference time: 50.93 seconds 
+
+
+
+prediction: pickup_truck
+
+Inference time: 35.85 seconds 
+
+
+
+prediction: dinosaur
+
+Inference time: 54.04 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 92.35 seconds 
+
+
+
+prediction: snake
+
+Inference time: 52.83 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 112.51 seconds 
+
+
+
+prediction: aquarium_fish
+
+Inference time: 51.54 seconds 
+
+
+
+prediction: whale
+
+Inference time: 104.95 seconds 
+
+
+
+prediction: chimpanzee
+
+Inference time: 57.20 seconds 
+
+
+
+prediction: plain
+
+Inference time: 64.11 seconds 
+
+
+
+prediction: aquarium_fish
+
+Inference time: 57.82 seconds 
+
+
+
+prediction: lizard
+
+Inference time: 79.20 seconds 
+
+
+
+prediction: bus
+
+Inference time: 32.74 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 93.07 seconds 
+
+
+
+prediction: motorcycle
+
+Inference time: 50.30 seconds 
+
+
+
+prediction: sea
+
+Inference time: 55.32 seconds 
+
+
+
+prediction: skyscraper
+
+Inference time: 26.44 seconds 
+
+
+
+prediction: sea
+
+Inference time: 50.95 seconds 
+
+
+
+prediction: mountain
+
+Inference time: 39.65 seconds 
+
+
+
+prediction: bee
+
+Inference time: 85.50 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 147.09 seconds 
+
+
+
+prediction: leopard
+
+Inference time: 75.42 seconds 
+
+
+
+prediction: oak_tree
+
+Inference time: 84.18 seconds 
+
+
+
+prediction: snake
+
+Inference time: 115.66 seconds 
+
+
+
+prediction: hamster
+
+Inference time: 73.54 seconds 
+
+
+
+prediction: cup
+
+Inference time: 138.91 seconds 
+
+
+
+prediction: wolf
+
+Inference time: 72.95 seconds 
+
+
+
+prediction: snake
+
+Inference time: 79.82 seconds 
+
+
+
+prediction: bottle
+
+Inference time: 19.51 seconds 
+
+
+
+prediction: cockroach
+
+Inference time: 74.13 seconds 
+
+
+
+prediction: leopard
+
+Inference time: 118.83 seconds 
+
+
+
+prediction: dolphin
+
+Inference time: 126.94 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 77.97 seconds 
+
+
+
+prediction: rose
+
+Inference time: 74.80 seconds 
+
+
+
+prediction: baby
+
+Inference time: 21.40 seconds 
+
+
+
+prediction: pear
+
+Inference time: 73.50 seconds 
+
+
+
+prediction: pickup_truck
+
+Inference time: 29.57 seconds 
+
+
+
+prediction: rose
+
+Inference time: 34.61 seconds 
+
+
+
+prediction: tank
+
+Inference time: 64.76 seconds 
+
+
+
+prediction: orchid
+
+Inference time: 47.80 seconds 
+
+
+
+prediction: television
+
+Inference time: 67.89 seconds 
+
+
+
+prediction: train
+
+Inference time: 45.29 seconds 
+
+
+
+prediction: camel
+
+Inference time: 66.04 seconds 
+
+
+
+prediction: sunflower
+
+Inference time: 40.29 seconds 
+
+
+
+prediction: tractor
+
+Inference time: 39.03 seconds 
+
+
+
+prediction: elephant
+
+Inference time: 52.84 seconds 
+
+
+
+prediction: crocodile
+
+Inference time: 62.87 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 113.19 seconds 
+
+
+
+prediction: can
+
+Inference time: 36.49 seconds 
+
+
+
+prediction: bed
+
+Inference time: 20.78 seconds 
+
+
+
+prediction: beetle
+
+Inference time: 65.40 seconds 
+
+
+
+prediction: willow_tree
+
+Inference time: 106.26 seconds 
+
+
+
+prediction: beetle
+
+Inference time: 88.65 seconds 
+
+
+
+prediction: poppy
+
+Inference time: 60.34 seconds 
+
+
+
+prediction: dolphin
+
+Inference time: 100.57 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 120.70 seconds 
+
+
+
+prediction: sea
+
+Inference time: 92.99 seconds 
+
+
+
+prediction: bee
+
+Inference time: 62.86 seconds 
+
+
+
+prediction: bus
+
+Inference time: 45.91 seconds 
+
+
+
+prediction: man
+
+Inference time: 57.20 seconds 
+
+
+
+prediction: cloud
+
+Inference time: 65.36 seconds 
+
+
+
+prediction: aquarium_fish
+
+Inference time: 44.02 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 99.95 seconds 
+
+
+
+prediction: elephant
+
+Inference time: 47.16 seconds 
+
+
+
+prediction: seal
+
+Inference time: 84.21 seconds 
+
+
+
+prediction: maple_tree
+
+Inference time: 55.34 seconds 
+
+
+
+prediction: oak_tree
+
+Inference time: 79.22 seconds 
+
+
+
+prediction: butterfly
+
+Inference time: 81.07 seconds 
+
+
+
+prediction: lion
+
+Inference time: 76.65 seconds 
+
+
+
+prediction: mouse
+
+Inference time: 70.44 seconds 
+
+
+
+prediction: keyboard
+
+Inference time: 32.71 seconds 
+
+
+
+prediction: wolf
+
+Inference time: 94.28 seconds 
+
+
+
+prediction: motorcycle
+
+Inference time: 28.94 seconds 
+
+
+
+prediction: wolf
+
+Inference time: 65.37 seconds 
+
+
+
+prediction: bus
+
+Inference time: 37.74 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 108.11 seconds 
+
+
+
+prediction: mountain
+
+Inference time: 94.21 seconds 
+
+
+
+prediction: plate
+
+Inference time: 75.35 seconds 
+
+
+
+prediction: pine_tree
+
+Inference time: 91.00 seconds 
+
+
+
+prediction: camel
+
+Inference time: 72.15 seconds 
+
+
+
+prediction: aquarium_fish
+
+Inference time: 82.78 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 94.16 seconds 
+
+
+
+prediction: pear
+
+Inference time: 84.20 seconds 
+
+
+
+prediction: butterfly
+
+Inference time: 55.35 seconds 
+
+
+
+prediction: cockroach
+
+Inference time: 93.65 seconds 
+
+
+
+prediction: plain
+
+Inference time: 59.69 seconds 
+
+
+
+prediction: bed
+
+Inference time: 50.89 seconds 
+
+
+
+prediction: baby
+
+Inference time: 34.59 seconds 
+
+
+
+prediction: sweet_pepper
+
+Inference time: 39.64 seconds 
+
+
+
+prediction: motorcycle
+
+Inference time: 30.19 seconds 
+
+
+
+prediction: crocodile
+
+Inference time: 101.80 seconds 
+
+
+
+prediction: lion
+
+Inference time: 32.72 seconds 
+
+
+
+prediction: lawn_mower
+
+Inference time: 23.92 seconds 
+
+
+
+prediction: oak_tree
+
+Inference time: 45.27 seconds 
+
+
+
+prediction: seal
+
+Inference time: 93.04 seconds 
+
+
+
+prediction: wardrobe
+
+Inference time: 55.32 seconds 
+
+
+
+prediction: wolf
+
+Inference time: 55.95 seconds 
+
+
+
+prediction: lion
+
+Inference time: 76.06 seconds 
+
+
+
+prediction: orange
+
+Inference time: 70.46 seconds 
+
+
+
+prediction: turtle
+
+Inference time: 86.76 seconds 
+
+
+
+prediction: porcupine
+
+Inference time: 100.53 seconds 
+
+
+
+prediction: table
+
+Inference time: 86.75 seconds 
+
+
+
+prediction: girl
+
+Inference time: 46.52 seconds 
+
+
+
+prediction: streetcar
+
+Inference time: 52.18 seconds 
+
+
+
+prediction: telephone
+
+Inference time: 77.93 seconds 
+
+
+
+prediction: boy
+
+Inference time: 38.36 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 118.75 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 60.96 seconds 
+
+
+
+prediction: bicycle
+
+Inference time: 40.24 seconds 
+
+
+
+prediction: whale
+
+Inference time: 82.29 seconds 
+
+
+
+prediction: lizard
+
+Inference time: 121.18 seconds 
+
+
+
+prediction: willow_tree
+
+Inference time: 121.14 seconds 
+
+
+
+prediction: worm
+
+Inference time: 66.57 seconds 
+
+
+
+prediction: cockroach
+
+Inference time: 80.37 seconds 
+
+
+
+prediction: wolf
+
+Inference time: 56.54 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 137.58 seconds 
+
+
+
+prediction: bicycle
+
+Inference time: 45.26 seconds 
+
+
+
+prediction: road
+
+Inference time: 65.93 seconds 
+
+
+
+prediction: bear
+
+Inference time: 63.44 seconds 
+
+
+
+prediction: rose
+
+Inference time: 31.43 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 88.53 seconds 
+
+
+
+prediction: sunflower
+
+Inference time: 64.70 seconds 
+
+
+
+prediction: tulip
+
+Inference time: 53.39 seconds 
+
+
+
+prediction: cockroach
+
+Inference time: 93.58 seconds 
+
+
+
+prediction: aquarium_fish
+
+Inference time: 38.96 seconds 
+
+
+
+prediction: castle
+
+Inference time: 35.82 seconds 
+
+
+
+prediction: dolphin
+
+Inference time: 100.47 seconds 
+
+
+
+prediction: man
+
+Inference time: 75.37 seconds 
+
+
+
+prediction: lobster
+
+Inference time: 42.73 seconds 
+
+
+
+prediction: poppy
+
+Inference time: 60.91 seconds 
+
+
+
+prediction: cloud
+
+Inference time: 55.26 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 121.19 seconds 
+
+
+
+prediction: mushroom
+
+Inference time: 96.03 seconds 
+
+
+
+prediction: rose
+
+Inference time: 70.32 seconds 
+
+
+
+prediction: lawn_mower
+
+Inference time: 91.04 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 65.94 seconds 
+
+
+
+prediction: hamster
+
+Inference time: 67.16 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 110.48 seconds 
+
+
+
+prediction: camel
+
+Inference time: 58.40 seconds 
+
+
+
+prediction: kangaroo
+
+Inference time: 76.58 seconds 
+
+
+
+prediction: aquarium_fish
+
+Inference time: 48.98 seconds 
+
+
+
+prediction: fox
+
+Inference time: 52.11 seconds 
+
+
+
+prediction: flatfish
+
+Inference time: 90.39 seconds 
+
+
+
+prediction: telephone
+
+Inference time: 19.49 seconds 
+
+
+
+prediction: hamster
+
+Inference time: 67.78 seconds 
+
+
+
+prediction: cockroach
+
+Inference time: 107.91 seconds 
+
+
+
+prediction: sunflower
+
+Inference time: 47.73 seconds 
+
+
+
+prediction: bed
+
+Inference time: 44.56 seconds 
+
+
+
+prediction: skyscraper
+
+Inference time: 90.97 seconds 
+
+
+
+prediction: bus
+
+Inference time: 56.49 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 68.42 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 110.44 seconds 
+
+
+
+prediction: willow_tree
+
+Inference time: 74.67 seconds 
+
+
+
+prediction: girl
+
+Inference time: 26.40 seconds 
+
+
+
+prediction: chair
+
+Inference time: 69.70 seconds 
+
+
+
+prediction: wolf
+
+Inference time: 52.12 seconds 
+
+
+
+prediction: apple
+
+Inference time: 91.59 seconds 
+
+
+
+prediction: butterfly
+
+Inference time: 48.96 seconds 
+
+
+
+prediction: crocodile
+
+Inference time: 81.59 seconds 
+
+
+
+prediction: television
+
+Inference time: 57.13 seconds 
+
+
+
+prediction: plain
+
+Inference time: 69.02 seconds 
+
+
+
+prediction: lizard
+
+Inference time: 72.16 seconds 
+
+
+
+prediction: bicycle
+
+Inference time: 49.63 seconds 
+
+
+
+prediction: whale
+
+Inference time: 110.44 seconds 
+
+
+
+prediction: sunflower
+
+Inference time: 78.45 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 107.94 seconds 
+
+
+
+prediction: bicycle
+
+Inference time: 38.93 seconds 
+
+
+
+prediction: lawn_mower
+
+Inference time: 38.30 seconds 
+
+
+
+prediction: bear
+
+Inference time: 76.52 seconds 
+
+
+
+prediction: ray
+
+Inference time: 109.78 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 88.42 seconds 
+
+
+
+prediction: bottle
+
+Inference time: 34.53 seconds 
+
+
+
+prediction: rose
+
+Inference time: 38.92 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 89.75 seconds 
+
+
+
+prediction: sunflower
+
+Inference time: 80.36 seconds 
+
+
+
+prediction: table
+
+Inference time: 48.36 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 92.93 seconds 
+
+
+
+prediction: sea
+
+Inference time: 53.38 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 84.76 seconds 
+
+
+
+prediction: palm_tree
+
+Inference time: 57.15 seconds 
+
+
+
+prediction: bed
+
+Inference time: 20.76 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 81.66 seconds 
+
+
+
+prediction: camel
+
+Inference time: 68.49 seconds 
+
+
+
+prediction: willow_tree
+
+Inference time: 106.16 seconds 
+
+
+
+prediction: turtle
+
+Inference time: 73.45 seconds 
+
+
+
+prediction: dinosaur
+
+Inference time: 71.58 seconds 
+
+
+
+prediction: orange
+
+Inference time: 64.68 seconds 
+
+
+
+prediction: mouse
+
+Inference time: 147.49 seconds 
+
+
+
+prediction: lizard
+
+Inference time: 121.85 seconds 
+
+
+
+prediction: boy
+
+Inference time: 40.22 seconds 
+
+
+
+prediction: cloud
+
+Inference time: 111.74 seconds 
+
+
+
+prediction: whale
+
+Inference time: 90.45 seconds 
+
+
+
+prediction: wolf
+
+Inference time: 119.38 seconds 
+
+
+
+prediction: tiger
+
+Inference time: 58.51 seconds 
+
+
+
+prediction: baby
+
+Inference time: 41.59 seconds 
+
+
+
+prediction: house
+
+Inference time: 23.97 seconds 
+
+
+
+prediction: road
+
+Inference time: 61.09 seconds 
+
+
+
+prediction: raccoon
+
+Inference time: 84.38 seconds 
+
+
+
+prediction: mouse
+
+Inference time: 95.71 seconds 
+
+
+
+prediction: trout
+
+Inference time: 59.20 seconds 
+
+
+
+prediction: telephone
+
+Inference time: 110.74 seconds 
+
+
+
+prediction: lizard
+
+Inference time: 103.82 seconds 
+
+
+
+prediction: cattle
+
+Inference time: 41.56 seconds 
+
+
+
+prediction: snail
+
+Inference time: 82.46 seconds 
+
+
+
+prediction: palm_tree
+
+Inference time: 79.28 seconds 
+
+
+
+prediction: chair
+
+Inference time: 32.10 seconds 
+
+
+
+prediction: whale
+
+Inference time: 112.03 seconds 
+
+
+
+prediction: kangaroo
+
+Inference time: 62.34 seconds 
+
+
+
+prediction: worm
+
+Inference time: 115.17 seconds 
+
+
+
+prediction: sea
+
+Inference time: 34.03 seconds 
+
+
+
+prediction: trout
+
+Inference time: 61.11 seconds 
+
+
+
+prediction: bowl
+
+Inference time: 49.75 seconds 
+
+
+
+prediction: ray
+
+Inference time: 100.73 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 82.49 seconds 
+
+
+
+prediction: skyscraper
+
+Inference time: 63.60 seconds 
+
+
+
+prediction: train
+
+Inference time: 35.91 seconds 
+
+
+
+prediction: butterfly
+
+Inference time: 84.99 seconds 
+
+
+
+prediction: chair
+
+Inference time: 65.50 seconds 
+
+
+
+prediction: rose
+
+Inference time: 71.17 seconds 
+
+
+
+prediction: castle
+
+Inference time: 35.28 seconds 
+
+
+
+prediction: seal
+
+Inference time: 100.08 seconds 
+
+
+
+prediction: porcupine
+
+Inference time: 91.94 seconds 
+
+
+
+prediction: lion
+
+Inference time: 84.35 seconds 
+
+
+
+prediction: telephone
+
+Inference time: 18.29 seconds 
+
+
+
+prediction: skyscraper
+
+Inference time: 54.78 seconds 
+
+
+
+prediction: cup
+
+Inference time: 56.65 seconds 
+
+
+
+prediction: shark
+
+Inference time: 63.54 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 72.92 seconds 
+
+
+
+prediction: caterpillar
+
+Inference time: 86.09 seconds 
+
+
+
+prediction: cup
+
+Inference time: 27.07 seconds 
+
+
+
+prediction: fox
+
+Inference time: 54.09 seconds 
+
+
+
+prediction: aquarium_fish
+
+Inference time: 27.73 seconds 
+
+
+
+prediction: possum
+
+Inference time: 78.70 seconds 
+
+
+
+prediction: bowl
+
+Inference time: 47.86 seconds 
+
+
+
+prediction: sunflower
+
+Inference time: 75.57 seconds 
+
+
+
+prediction: willow_tree
+
+Inference time: 81.82 seconds 
+
+
+
+prediction: palm_tree
+
+Inference time: 66.75 seconds 
+
+
+
+prediction: castle
+
+Inference time: 56.06 seconds 
+
+
+
+prediction: camel
+
+Inference time: 49.77 seconds 
+
+
+
+prediction: dinosaur
+
+Inference time: 61.11 seconds 
+
+
+
+prediction: snake
+
+Inference time: 57.36 seconds 
+
+
+
+prediction: elephant
+
+Inference time: 76.19 seconds 
+
+
+
+prediction: bee
+
+Inference time: 87.47 seconds 
+
+
+
+prediction: poppy
+
+Inference time: 125.95 seconds 
+
+
+
+prediction: house
+
+Inference time: 32.14 seconds 
+
+
+
+prediction: elephant
+
+Inference time: 61.08 seconds 
+
+
+
+prediction: lobster
+
+Inference time: 61.04 seconds 
+
+
+
+prediction: pickup_truck
+
+Inference time: 45.31 seconds 
+
+
+
+prediction: wolf
+
+Inference time: 49.75 seconds 
+
+
+
+prediction: chair
+
+Inference time: 32.12 seconds 
+
+
+
+prediction: couch
+
+Inference time: 39.68 seconds 
+
+
+
+prediction: castle
+
+Inference time: 39.66 seconds 
+
+
+
+prediction: chimpanzee
+
+Inference time: 89.33 seconds 
+
+
+
+prediction: cattle
+
+Inference time: 57.27 seconds 
+
+
+
+prediction: chair
+
+Inference time: 32.10 seconds 
+
+
+
+prediction: crocodile
+
+Inference time: 99.39 seconds 
+
+
+
+prediction: lobster
+
+Inference time: 89.29 seconds 
+
+
+
+prediction: raccoon
+
+Inference time: 93.61 seconds 
+
+
+
+prediction: mouse
+
+Inference time: 71.01 seconds 
+
+
+
+prediction: mouse
+
+Inference time: 106.76 seconds 
+
+
+
+prediction: couch
+
+Inference time: 95.49 seconds 
+
+
+
+prediction: mushroom
+
+Inference time: 33.98 seconds 
+
+
+
+prediction: couch
+
+Inference time: 29.58 seconds 
+
+
+
+prediction: apple
+
+Inference time: 71.03 seconds 
+
+
+
+prediction: sea
+
+Inference time: 43.99 seconds 
+
+
+
+prediction: bus
+
+Inference time: 38.34 seconds 
+
+
+
+prediction: bear
+
+Inference time: 65.37 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 70.39 seconds 
+
+
+
+prediction: baby
+
+Inference time: 32.70 seconds 
+
+
+
+prediction: baby
+
+Inference time: 30.80 seconds 
+
+
+
+prediction: trout
+
+Inference time: 57.81 seconds 
+
+
+
+prediction: porcupine
+
+Inference time: 73.58 seconds 
+
+
+
+prediction: chair
+
+Inference time: 32.11 seconds 
+
+
+
+prediction: bee
+
+Inference time: 80.56 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 112.60 seconds 
+
+
+
+prediction: pine_tree
+
+Inference time: 78.63 seconds 
+
+
+
+prediction: bus
+
+Inference time: 80.50 seconds 
+
+
+
+prediction: bed
+
+Inference time: 15.13 seconds 
+
+
+
+prediction: possum
+
+Inference time: 72.92 seconds 
+
+
+
+prediction: snail
+
+Inference time: 106.87 seconds 
+
+
+
+prediction: chimpanzee
+
+Inference time: 70.40 seconds 
+
+
+
+prediction: woman
+
+Inference time: 55.92 seconds 
+
+
+
+prediction: pickup_truck
+
+Inference time: 72.22 seconds 
+
+
+
+prediction: orchid
+
+Inference time: 35.86 seconds 
+
+
+
+prediction: couch
+
+Inference time: 32.71 seconds 
+
+
+
+prediction: woman
+
+Inference time: 43.38 seconds 
+
+
+
+prediction: willow_tree
+
+Inference time: 130.67 seconds 
+
+
+
+prediction: bridge
+
+Inference time: 61.60 seconds 
+
+
+
+prediction: chair
+
+Inference time: 29.56 seconds 
+
+
+
+prediction: baby
+
+Inference time: 80.41 seconds 
+
+
+
+prediction: mouse
+
+Inference time: 81.61 seconds 
+
+
+
+prediction: beaver
+
+Inference time: 109.31 seconds 
+
+
+
+prediction: cloud
+
+Inference time: 40.87 seconds 
+
+
+
+prediction: seal
+
+Inference time: 85.46 seconds 
+
+
+
+prediction: snake
+
+Inference time: 75.42 seconds 
+
+
+
+prediction: flatfish
+
+Inference time: 47.77 seconds 
+
+
+
+prediction: maple_tree
+
+Inference time: 152.03 seconds 
+
+
+
+prediction: worm
+
+Inference time: 65.98 seconds 
+
+
+
+prediction: cockroach
+
+Inference time: 75.43 seconds 
+
+
+
+prediction: lawn_mower
+
+Inference time: 39.64 seconds 
+
+
+
+prediction: crocodile
+
+Inference time: 148.31 seconds 
+
+
+
+prediction: castle
+
+Inference time: 35.22 seconds 
+
+
+
+prediction: porcupine
+
+Inference time: 135.71 seconds 
+
+
+
+prediction: worm
+
+Inference time: 79.76 seconds 
+
+
+
+prediction: telephone
+
+Inference time: 28.92 seconds 
+
+
+
+prediction: apple
+
+Inference time: 53.38 seconds 
+
+
+
+prediction: orange
+
+Inference time: 47.76 seconds 
+
+
+
+prediction: apple
+
+Inference time: 42.12 seconds 
+
+
+
+prediction: sunflower
+
+Inference time: 63.43 seconds 
+
+
+
+prediction: leopard
+
+Inference time: 81.62 seconds 
+
+
+
+prediction: beetle
+
+Inference time: 97.34 seconds 
+
+
+
+prediction: rose
+
+Inference time: 69.10 seconds 
+
+
+
+prediction: squirrel
+
+Inference time: 101.74 seconds 
+
+
+

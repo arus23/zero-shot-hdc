@@ -1,0 +1,19 @@
+Run folder: data/cifar100_strat_1t2_k2_2/v2-0_1trials_10_5_1keep_50_100_500samples_l1
+Setting up dataset and prompts
+Files already downloaded and verified
+
+Loading pretrained models...
+
+Loading noise...
+
+Tokenizing text prompts and creating embeddings...
+
+Load subset to evaluate
+
+Evaluating predictions: 
+prediction: castle
+
+Inference time: 46.56 seconds 
+
+
+

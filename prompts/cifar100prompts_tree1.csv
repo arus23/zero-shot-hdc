@@ -1,0 +1,119 @@
+index,node,prompt,class_name,is_leaf,classidx
+0,n0001,a blurry photo of a animal.,animal,0,99999
+1,n0002,a blurry photo of a aquatic mammal.,aquatic mammal,0,99999
+2,n0003,a blurry photo of a fish.,fish,0,99999
+3,n0004,a blurry photo of a insect.,insect,0,99999
+4,n0005,a blurry photo of a reptile.,reptile,0,99999
+5,n0006,a blurry photo of a plant life.,plant life,0,99999
+6,n0007,a blurry photo of a flower.,flower,0,99999
+7,n0008,a blurry photo of a tree.,tree,0,99999
+8,n0009,a blurry photo of a food.,food,0,99999
+9,n0010,a blurry photo of a fruit.,fruit,0,99999
+10,n0011,a blurry photo of a vegetable.,vegetable,0,99999
+11,n0012,a blurry photo of a electronic appliance.,electronic appliance,0,99999
+12,n0013,a blurry photo of a furniture.,furniture,0,99999
+13,n0014,a blurry photo of a human or person.,person,0,99999
+14,n0015,a blurry photo of a vehicle.,vehicle,0,99999
+15,n1000,a blurry photo of a food container.,utensil,0,99999
+16,n1001,a blurry photo of a building.,building,0,99999
+17,n0033,a blurry photo of a apple.,apple,1,0
+18,n0018,a blurry photo of a aquarium fish.,aquarium_fish,1,1
+19,n0094,a blurry photo of a baby.,baby,1,2
+20,n0054,a blurry photo of a bear.,bear,1,3
+21,n1310,a blurry photo of a beaver.,beaver,1,4
+22,n0044,a blurry photo of a bed.,bed,1,5
+23,n0049,a blurry photo of a bee.,bee,1,6
+24,n0050,a blurry photo of a beetle.,beetle,1,7
+25,n0107,a blurry photo of a bicycle.,bicycle,1,8
+26,n0028,a blurry photo of a bottle.,bottle,1,9
+27,n0029,a blurry photo of a bowl.,bowl,1,10
+28,n0095,a blurry photo of a boy.,boy,1,11
+29,n0084,a blurry photo of a bridge.,bridge,1,12
+30,n0108,a blurry photo of a bus.,bus,1,13
+31,n0051,a blurry photo of a butterfly.,butterfly,1,14
+32,n0059,a blurry photo of a camel.,camel,1,15
+33,n0030,a blurry photo of a can.,can,1,16
+34,n0085,a blurry photo of a castle.,castle,1,17
+35,n0052,a blurry photo of a caterpillar.,caterpillar,1,18
+36,n0060,a blurry photo of a cattle.,cattle,1,19
+37,n0045,a blurry photo of a chair.,chair,1,20
+38,n0061,a blurry photo of a chimpanzee.,chimpanzee,1,21
+39,n0039,a blurry photo of a clock.,clock,1,22
+40,n0089,a blurry photo of a cloud.,cloud,1,23
+41,n0053,a blurry photo of a cockroach.,cockroach,1,24
+42,n0046,a blurry photo of a couch.,couch,1,25
+43,n0069,a blurry photo of a crab.,crab,1,26
+44,n0074,a blurry photo of a crocodile.,crocodile,1,27
+45,n0031,a blurry photo of a cup.,cup,1,28
+46,n0075,a blurry photo of a dinosaur.,dinosaur,1,29
+47,n1410,a blurry photo of a dolphin.,dolphin,1,30
+48,n0062,a blurry photo of a elephant.,elephant,1,31
+49,n0019,a blurry photo of a flatfish.,flatfish,1,32
+50,n0090,a blurry photo of a forest.,forest,1,33
+51,n0064,a blurry photo of a fox.,fox,1,34
+52,n0096,a blurry photo of a girl.,girl,1,35
+53,n0079,a blurry photo of a hamster.,hamster,1,36
+54,n0086,a blurry photo of a house.,house,1,37
+55,n0063,a blurry photo of a kangaroo.,kangaroo,1,38
+56,n0040,a blurry photo of a keyboard.,keyboard,1,39
+57,n0041,a blurry photo of a lamp.,lamp,1,40
+58,n0112,a blurry photo of a lawn mower.,lawn_mower,1,41
+59,n0055,a blurry photo of a leopard.,leopard,1,42
+60,n0056,a blurry photo of a lion.,lion,1,43
+61,n0076,a blurry photo of a lizard.,lizard,1,44
+62,n0070,a blurry photo of a lobster.,lobster,1,45
+63,n0097,a blurry photo of a man.,man,1,46
+64,n0102,a blurry photo of a maple tree.,maple_tree,1,47
+65,n0109,a blurry photo of a motorcycle.,motorcycle,1,48
+66,n0091,a blurry photo of a mountain.,mountain,1,49
+67,n0080,a blurry photo of a mouse.,mouse,1,50
+68,n0034,a blurry photo of a mushroom.,mushroom,1,51
+69,n0103,a blurry photo of a oak tree.,oak_tree,1,52
+70,n0035,a blurry photo of a orange.,orange,1,53
+71,n0023,a blurry photo of a orchid.,orchid,1,54
+72,n1150,a blurry photo of a otter.,otter,1,55
+73,n0104,a blurry photo of a palm tree.,palm_tree,1,56
+74,n0036,a blurry photo of a pear.,pear,1,57
+75,n0110,a blurry photo of a pickup truck.,pickup_truck,1,58
+76,n0105,a blurry photo of a pine tree.,pine_tree,1,59
+77,n0092,a blurry photo of a plain.,plain,1,60
+78,n0032,a blurry photo of a plate.,plate,1,61
+79,n0024,a blurry photo of a poppy.,poppy,1,62
+80,n0065,a blurry photo of a porcupine.,porcupine,1,63
+81,n0066,a blurry photo of a possum.,possum,1,64
+82,n0081,a blurry photo of a rabbit.,rabbit,1,65
+83,n0067,a blurry photo of a raccoon.,raccoon,1,66
+84,n0020,a blurry photo of a ray.,ray,1,67
+85,n0087,a blurry photo of a road.,road,1,68
+86,n0113,a blurry photo of a rocket.,rocket,1,69
+87,n0025,a blurry photo of a rose.,rose,1,70
+88,n0093,a blurry photo of a sea.,sea,1,71
+89,n0161,a blurry photo of a seal.,seal,1,72
+90,n0021,a blurry photo of a shark.,shark,1,73
+91,n0082,a blurry photo of a shrew.,shrew,1,74
+92,n0068,a blurry photo of a skunk.,skunk,,75
+93,n0088,a blurry photo of a skyscraper.,skyscraper,1,76
+94,n0071,a blurry photo of a snail.,snail,1,77
+95,n0077,a blurry photo of a snake.,snake,1,78
+96,n0072,a blurry photo of a spider.,spider,1,79
+97,n0083,a blurry photo of a squirrel.,squirrel,1,80
+98,n0114,a blurry photo of a streetcar.,streetcar,1,81
+99,n0026,a blurry photo of a sunflower.,sunflower,1,82
+101,n0037,a blurry photo of a sweet pepper.,sweet_pepper,1,83
+101,n0047,a blurry photo of a table.,table,1,84
+102,n0115,a blurry photo of a tank.,tank,1,85
+103,n0042,a blurry photo of a telephone.,telephone,1,86
+104,n0043,a blurry photo of a television.,television,1,87
+105,n0057,a blurry photo of a tiger.,tiger,1,88
+106,n0116,a blurry photo of a tractor.,tractor,1,89
+107,n0111,a blurry photo of a train.,train,1,90
+108,n0022,a blurry photo of a trout.,trout,1,91
+109,n0027,a blurry photo of a tulip.,tulip,1,92
+110,n0078,a blurry photo of a turtle.,turtle,1,93
+111,n0048,a blurry photo of a wardrobe.,wardrobe,1,94
+112,n0017,a blurry photo of a whale.,whale,1,95
+113,n0106,a blurry photo of a willow tree.,willow_tree,1,96
+114,n0058,a blurry photo of a wolf.,wolf,1,97
+115,n0100,a blurry photo of a woman.,woman,1,98
+116,n0073,a blurry photo of a worm.,worm,1,99
+117,n0117,a blurry photo of a outdoor.,outdoor,0,99999

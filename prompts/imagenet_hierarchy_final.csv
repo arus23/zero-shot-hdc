@@ -432,7 +432,7 @@ index,node,prompt,class_name,is_leaf,classidx
 430,n04243546,a photo of a slot machine.,slot machine,1,800
 431,n02443114,a photo of a European polecat.,European polecat,1,358
 432,n07714571,a photo of a head cabbage.,head cabbage,1,936
-433,n01530575,a photo of a brambling.,brambling,1,10
+433,n01530575,a photo of a brambling or mountain finch.,brambling,1,10
 434,n03014705,a photo of a storage chest.,storage chest,1,492
 435,n03902125,a photo of a pay-phone.,pay-phone,1,707
 436,n02389026,a photo of a common sorrel horse.,common sorrel horse,1,339
@@ -475,10 +475,10 @@ index,node,prompt,class_name,is_leaf,classidx
 473,n03584254,a photo of a iPod.,iPod,1,605
 474,n13054560,a photo of a bolete mushroom.,bolete mushroom,1,997
 475,n03196217,a photo of a digital clock.,digital clock,1,530
-476,n02231487,a photo of a walking stick insect.,walking stick insect,1,313
+476,n02231487,a photo of a stick insect.,stick insect,1,313
 477,n02226429,a photo of a grasshopper.,grasshopper,1,311
 478,n03344393,a photo of a fireboat.,fireboat,1,554
-479,n01873310,a photo of a duck-billed platypus.,duck-billed platypus,1,103
+479,n01873310,a photo of a platypus.,platypus,1,103
 480,n03461385,a photo of a grocery store.,grocery store,1,582
 481,n03942813,a photo of a ping-pong ball.,ping-pong ball,1,722
 482,n04209239,a photo of a shower curtain.,shower curtain,1,794
@@ -532,7 +532,7 @@ index,node,prompt,class_name,is_leaf,classidx
 530,n01828970,a photo of a bee eater.,bee eater,1,92
 531,n02219486,a photo of a ant.,ant,1,310
 532,n02782093,a photo of a hot air balloon.,hot air balloon,1,417
-533,n02669723,a photo of a academic gown or robe.,academic gown or robe,1,400
+533,n02669723,a photo of a academic gown.,academic gown,1,400
 534,n03001627,a photo of a chair.,chair,0,99999
 535,n02787622,a photo of a banjo.,banjo,1,420
 536,n01943899,a photo of a conch.,conch,1,112
@@ -612,7 +612,7 @@ index,node,prompt,class_name,is_leaf,classidx
 610,n07753592,a photo of a banana.,banana,1,954
 611,n04141076,a photo of a saxophone.,saxophone,1,776
 612,n02534734,a photo of a salmon fish.,salmon fish,0,99999
-613,n01697457,a photo of a African Nile crocodile.,African Nile crocodile,1,49
+613,n01697457,a photo of a Nile crocodile or common crocodile.,Nile crocodile,1,49
 614,n03494278,a photo of a harmonica or mouth organ.,harmonica or mouth organ,1,593
 615,n02509815,a photo of a lesser red panda.,lesser red panda,1,387
 616,n01558993,a photo of a American robin.,American robin,1,15
@@ -652,7 +652,7 @@ index,node,prompt,class_name,is_leaf,classidx
 650,n03947888,a photo of a pirate ship.,pirate ship,1,724
 651,n04328186,a photo of a stopwatch.,stopwatch,1,826
 652,n02691156,a photo of a airplane or aeroplane.,airplane or aeroplane,0,99999
-653,n02641379,a photo of a garfish.,garfish,1,395
+653,n02641379,a photo of a gar fish.,gar fish,1,395
 654,n02454379,a photo of a armadillo.,armadillo,1,363
 655,n04370456,a photo of a sweatshirt.,sweatshirt,1,841
 656,n02124623,a photo of a wildcat.,wildcat,0,99999
@@ -674,7 +674,7 @@ index,node,prompt,class_name,is_leaf,classidx
 672,n11939491,a photo of a daisy flower.,daisy flower,1,985
 673,n02514041,a photo of a barracouta (snoek).,barracouta (snoek),1,389
 674,n02441942,a photo of a weasel.,weasel,1,356
-675,n02607072,a photo of a anemone (clown).,anemone (clown),1,393
+675,n02607072,a photo of a clown fish.,clownfish,1,393
 676,n03928116,a photo of a piano or pianoforte.,piano or pianoforte,0,99999
 677,n03124043,a photo of a cowboy boot.,cowboy boot,1,514
 678,n04379243,a photo of a table.,table,0,99999
@@ -705,7 +705,7 @@ index,node,prompt,class_name,is_leaf,classidx
 703,n03724870,a photo of a mask.,mask,1,643
 704,n02951358,a photo of a canoe boat.,canoe boat,1,472
 705,n03028079,a photo of a church a place of worship.,church a place of worship,1,497
-706,n02268443,a photo of a dragonfly or devil's darning needle insect.,dragonfly or devil's darning needle insect,1,319
+706,n02268443,a photo of a dragonfly.,dragonfly,1,319
 707,n04584207,a photo of a wig.,wig,1,903
 708,n02672831,a photo of a piano accordion.,piano accordion,1,401
 709,n01601694,a photo of a American Dipper.,American dipper,1,20
@@ -716,10 +716,10 @@ index,node,prompt,class_name,is_leaf,classidx
 714,n03673027,a photo of a ocean liner ship.,ocean liner ship,1,628
 715,n01976957,a photo of a crab.,crab,0,99999
 716,n02137549,a photo of a mongoose.,mongoose,1,298
-717,n02606052,a photo of a rock beauty.,rock beauty,1,392
+717,n02606052,a photo of a rock beauty fish.,rock beauty fish,1,392
 718,n09428293,a photo of a seashore a geological formation by water.,seashore a geological formation by water,1,978
 719,n04447861,a photo of a toilet seat.,toilet seat,1,861
-720,n02727426,a photo of a apiary or bee shed.,apiary or bee shed,1,410
+720,n02727426,a photo of a apiary.,,1,410
 721,n03394916,a photo of a French horn.,French horn,1,566
 722,n01950731,a photo of a sea slug.,sea slug,1,115
 723,n03134739,a photo of a croquet ball.,croquet ball,1,522
@@ -732,7 +732,7 @@ index,node,prompt,class_name,is_leaf,classidx
 730,n02398521,a photo of a hippopotamus or hippo.,hippopotamus or hippo,1,344
 731,n01945685,a photo of a slug.,slug,1,114
 732,n01833805,a photo of a hummingbird.,hummingbird,1,94
-733,n02018795,a photo of a bustard bird.,bustard bird,1,138
+733,n02018795,a photo of a bustard.,bustard,1,138
 734,n01667778,a photo of a terrapin turtle.,terrapin turtle,1,36
 735,n01632777,a photo of a axolotl.,axolotl,1,29
 736,n02834778,a photo of a bicycle or bike.,bicycle or bike,0,99999
@@ -742,12 +742,12 @@ index,node,prompt,class_name,is_leaf,classidx
 740,n01774384,a photo of a southern black widow.,southern black widow,1,75
 741,n07716906,a photo of a spaghetti squash.,spaghetti squash,1,940
 742,n02361337,a photo of a marmot squirell.,marmot squirell,1,336
-743,n02017213,a photo of a common European gallinule bird.,common European gallinule bird,1,136
+743,n02017213,a photo of a common gallinule bird.,common European gallinule bird,1,136
 744,n02423022,a photo of a gazelle.,gazelle,1,353
 745,n01773157,a photo of a yellow garden spider.,yellow garden spider,1,72
 746,n03045698,a photo of a cloak.,cloak,1,501
 747,n02704792,a photo of a amphibious vehicle.,amphibious vehicle,1,408
-748,n01494475,a photo of a hammerhead shark.,hammerhead shark,1,4
+748,n01494475,a photo of a Hammerhead shark.,hammerhead shark,1,4
 749,n03617480,a photo of a kimono robe.,kimono robe,1,614
 750,n02134084,a photo of a polar bear.,polar bear,1,296
 751,n02325366,a photo of a cottontail wood rabbit.,cottontail wood rabbit,1,330
@@ -808,7 +808,7 @@ index,node,prompt,class_name,is_leaf,classidx
 806,n03124170,a photo of a cowboy hat.,cowboy hat,1,515
 807,n04259630,a photo of a sombrero hat.,sombrero hat,1,808
 808,n02470325,a photo of a ape.,ape,0,99999
-809,n01608432,a photo of a kite bird.,kite bird,1,21
+809,n01608432,a photo of a kite (bird of prey).,kite bird,1,21
 810,n01728920,a photo of a ring-necked snake or ringneck colubrid snake.,ring-necked snake or ringneck colubrid snake,1,53
 811,n01820546,a photo of a lorikeet.,lorikeet,1,90
 812,n02168699,a photo of a long-horned beetle.,long-horned beetle,1,303
@@ -835,7 +835,7 @@ index,node,prompt,class_name,is_leaf,classidx
 833,n01498041,a photo of a stingray.,stingray,1,6
 834,n02808304,a photo of a bath towel.,bath towel,1,434
 835,n02328150,a photo of a Angora rabbit.,Angora rabbit,1,332
-836,n01798484,a photo of a prairie grouse chicken.,prairie grouse chicken,1,83
+836,n01798484,a photo of a prairie grouse.,prairie grouse,1,83
 837,n03982430,a photo of a pool table or billiard table (snooker).,pool table or billiard table (snooker),1,736
 838,n02012849,a photo of a crane bird.,crane bird,1,134
 839,n01641577,a photo of a American bullfrog.,American bullfrog,1,30
@@ -845,7 +845,7 @@ index,node,prompt,class_name,is_leaf,classidx
 843,n01739381,a photo of a vine snake or whip snake.,vine snake or whip snake,1,59
 844,n03929855,a photo of a pickelhaube or spiked helmet.,pickelhaube or spiked helmet,1,715
 845,n01824575,a photo of a coucal.,coucal,1,91
-846,n01774750,a photo of a tarantula.,tarantula,1,76
+846,n01774750,a photo of a tarantula spider.,tarantula,1,76
 847,n04252077,a photo of a snowmobile.,snowmobile,1,802
 848,n03272010,a photo of a electric guitar.,electric guitar,1,546
 849,n01742172,a photo of a boa constrictor.,boa constrictor,1,61
@@ -880,11 +880,11 @@ index,node,prompt,class_name,is_leaf,classidx
 878,n03478589,a photo of a half track vehicle.,half track vehicle,1,586
 879,n04209133,a photo of a shower cap.,shower cap,1,793
 880,n01978455,a photo of a rock crab.,rock crab,1,119
-881,n02084071,a photo of a Dog.,Dog,0,99999
+881,n02084071,a photo of a dog.,dog,0,99999
 882,n02123045,a photo of a tabby cat.,tabby cat,1,281
 883,n02869837,a photo of a poke bonnet hat.,poke bonnet hat,1,452
 884,n02865351,a photo of a bolo tie.,bolo tie,1,451
-885,n02114712,a photo of a red maned wolf.,red maned wolf,1,271
+885,n02114712,a photo of a red wolf or maned wolf.,red wolf,1,271
 886,n02018207,a photo of a American coot.,American coot,1,137
 887,n04483307,a photo of a trimaran boat.,trimaran boat,1,871
 888,n02123159,a photo of a tiger cat or Oncilla.,tiger cat or Oncilla,1,282
@@ -898,7 +898,7 @@ index,node,prompt,class_name,is_leaf,classidx
 896,n03476991,a photo of a hair spray.,hair spray,1,585
 897,n01694178,a photo of a chameleon.,chameleon,1,47
 898,n03630383,a photo of a lab or laboratory coat.,lab or laboratory coat,1,617
-899,n01695060,a photo of a Komodo dragon.,Komodo dragon,1,48
+899,n01695060,a photo of a Komodo Dragon.,Komodo dragon,1,48
 900,n01845132,a photo of a water bird.,water bird,0,99999
 901,n01883070,a photo of a wombat.,wombat,1,106
 902,n01491361,a photo of a tiger shark.,tiger shark,1,3
@@ -970,7 +970,7 @@ index,node,prompt,class_name,is_leaf,classidx
 968,n03787032,a photo of a graduation cap or mortarboard.,graduation cap or mortarboard,1,667
 969,n01795545,a photo of a black grouse.,black grouse,1,80
 970,n04532106,a photo of a vestment.,vestment,1,887
-971,n02667093,a photo of a abaya robe.,abaya robe,1,399
+971,n02667093,a photo of a abaya.,abaya,1,399
 972,n04428191,a photo of a threshing machine.,threshing machine,1,856
 973,n04065272,a photo of a recreational vehicle or RV vehicle.,recreational vehicle or RV vehicle,1,757
 974,n01616318,a photo of a vulture.,vulture,1,23
@@ -1002,7 +1002,7 @@ index,node,prompt,class_name,is_leaf,classidx
 1000,n02088364,a photo of a Beagle.,Beagle,1,162
 1001,n02093754,a photo of a Border Terrier.,Border Terrier,1,182
 1002,n01682714,a photo of a Carolina anole chameleon.,Carolina anole,1,40
-1003,n02109525,a photo of a Saint Bernard or St. Bernard.,Saint Bernard or St. Bernard,1,247
+1003,n02109525,a photo of a St. Bernard.,St. Bernard,1,247
 1004,n04467665,a photo of a trailer truck.,trailer truck,1,867
 1005,n02088238,a photo of a Basset Hound.,Basset Hound,1,161
 1006,n01846331,a photo of a duck.,duck,0,99999
@@ -1032,7 +1032,7 @@ index,node,prompt,class_name,is_leaf,classidx
 1030,n02107574,a photo of a Greater Swiss Mountain Dog.,Greater Swiss Mountain Dog,1,238
 1031,n04252225,a photo of a snowplow or snowplough.,snowplow or snowplough,1,803
 1032,n02797295,a photo of a wheelbarrow.,wheelbarrow,1,428
-1033,n02108422,a photo of a Bull Mastiff.,Bull Mastiff,1,243
+1033,n02108422,a photo of a Bullmastiff.,Bullmastiff,1,243
 1034,n02487347,a photo of a macaque monkey.,macaque monkey,1,373
 1035,n02174001,a photo of a rhinoceros beetle.,rhinoceros beetle,1,306
 1036,n03444034,a photo of a go-kart.,go-kart,1,573
@@ -1076,7 +1076,7 @@ index,node,prompt,class_name,is_leaf,classidx
 1074,n02002724,a photo of a black stork.,black stork,1,128
 1075,n02091244,a photo of a Ibizan Houndor Ibizan Podenco.,Ibizan Houndor Ibizan Podenco,1,173
 1076,n02494079,a photo of a common squirrel monkey.,common squirrel monkey,1,382
-1077,n01687978,a photo of a agama lizard.,agama lizard,1,42
+1077,n01687978,a photo of a agama.,agama,1,42
 1078,n02056570,a photo of a king penguin.,king penguin,1,145
 1079,n02009229,a photo of a little blue heron.,little blue heron,1,131
 1080,n02026059,a photo of a sandpiper wading bird.,sandpiper wading bird,0,99999
@@ -1092,14 +1092,14 @@ index,node,prompt,class_name,is_leaf,classidx
 1090,n03417042,a photo of a garbage truck.,garbage truck,1,569
 1091,n03393912,a photo of a freight car  railroad.,freight car  railroad,1,565
 1092,n02094433,a photo of a Yorkshire Terrier.,Yorkshire Terrier,1,187
-1093,n02105412,a photo of a Kelpie.,Kelpie,1,227
+1093,n02105412,a photo of a Australian Kelpie Sheepdog.,Kelpie,1,227
 1094,n03345487,a photo of a fire engine.,fire engine,1,555
 1095,n02097298,a photo of a Scottish Terrier.,Scottish Terrier,1,199
 1096,n02071294,a photo of a killer whale or orca.,killer whale or orca,1,148
 1097,n02480495,a photo of a orangutan.,orangutan,1,365
 1098,n03785016,a photo of a moped  cycle.,moped  cycle,1,665
 1099,n02108254,a photo of a Mastiff.,Mastiff,0,99999
-1100,n02100583,a photo of a Hungarian Vizsla Pointer.,Hungarian Vizsla Pointer,1,211
+1100,n02100583,a photo of a Vizsla.,Vizsla,1,211
 1101,n02497673,a photo of a Madagascar ring-tailed lemur.,Madagascar ring-tailed lemur,1,383
 1102,n02096585,a photo of a Boston Terrier.,Boston Terrier,1,195
 1103,n02105855,a photo of a Shetland Sheepdog.,Shetland Sheepdog,1,230
@@ -1152,12 +1152,12 @@ index,node,prompt,class_name,is_leaf,classidx
 1150,n02099267,a photo of a Flat-Coated Retriever.,Flat-Coated Retriever,1,205
 1151,n02104029,a photo of a Kuvasz.,Kuvasz,1,222
 1152,n03676483,a photo of a lipstick or lip rouge.,lipstick or lip rouge,1,629
-1153,n02116738,a photo of a African hunting Dog.,African hunting Dog,1,275
+1153,n02116738,a photo of a African wild dog.,African wild dog,1,275
 1154,n02105641,a photo of a Old English Sheepdog or bobtail.,Old English Sheepdog or bobtail,1,229
 1155,n02108000,a photo of a EntleBucher Sennenhund or Entlebucher Mountain Dog.,EntleBucher Sennenhund or Entlebucher Mountain Dog,1,241
 1156,n01664065,a photo of a loggerhead sea turtle.,loggerhead sea turtle,1,33
 1157,n03977966,a photo of a police van.,police van,1,734
-1158,n02101388,a photo of a Brittany Spaniel.,Brittany Spaniel,1,215
+1158,n02101388,a photo of a Brittany Spaniel or Breton Spaniel.,Brittany Spaniel,1,215
 1159,n02104365,a photo of a Schipperke.,Schipperke,1,223
 1160,n02492660,a photo of a howler monkey.,howler monkey,1,379
 1161,n02094114,a photo of a Norfolk Terrier.,Norfolk Terrier,1,185
@@ -1167,7 +1167,7 @@ index,node,prompt,class_name,is_leaf,classidx
 1165,n02100877,a photo of a Irish red Setter.,Irish red Setter,1,213
 1166,n02111500,a photo of a Great Pyrenees Dog.,Great Pyrenees Dog,1,257
 1167,n02490219,a photo of a marmoset monkey.,marmoset monkey,1,377
-1168,n02105251,a photo of a Briard or Berger de Brie French Dog.,Briard or Berger de Brie French Dog,1,226
+1168,n02105251,a photo of a Briard or Berger de Brie or French Shepherd Dog.,Briard or Berger de Brie French Dog,1,226
 1169,n02493793,a photo of a Geoffroy's spider monkey.,Geoffroy's spider monkey,1,381
 1170,n04487081,a photo of a trolleybus.,trolleybus,1,874
 1171,n02099601,a photo of a Golden Retriever.,Golden Retriever,1,207
@@ -1176,9 +1176,9 @@ index,node,prompt,class_name,is_leaf,classidx
 1174,n02058221,a photo of a albatross.,albatross,1,146
 1175,n02110958,a photo of a Pug.,Pug,1,254
 1176,n02089078,a photo of a Black-and-tan Coonhound.,Black-and-tan Coonhound,1,165
-1177,n02106382,a photo of a Bouvier des Flandres Dog.,Bouvier des Flandres Dog,1,233
-1178,n02111129,a photo of a Leonberger Dog.,Leonberger Dog,1,255
-1179,n02088094,a photo of a Afghan Setter.,Afghan Setter,1,160
+1177,n02106382,a photo of a Bouvier des Flandres dog.,Bouvier des Flandres dog,1,233
+1178,n02111129,a photo of a Leonberger.,Leonberger,1,255
+1179,n02088094,a photo of a Afghan Hound.,Afghan Hound,1,160
 1180,n02112018,a photo of a Pomeranian.,Pomeranian,1,259
 1181,n02113624,a photo of a Toy Poodle.,Toy Poodle,1,265
 1182,n02108551,a photo of a Tibetan Mastiff.,Tibetan Mastiff,1,244
@@ -1190,13 +1190,13 @@ index,node,prompt,class_name,is_leaf,classidx
 1188,n02108915,a photo of a French Bulldog.,French Bulldog,1,245
 1189,n02113023,a photo of a Pembroke Welsh Corgi.,Pembroke Welsh Corgi,1,263
 1190,n02112137,a photo of a Chow Chow.,Chow Chow,1,260
-1191,n02105056,a photo of a Groenendael Dog.,Groenendael Dog,1,224
-1192,n01847000,a photo of a drake duck.,drake duck,1,97
+1191,n02105056,a photo of a Groenendael or Belgian Shepherd or Belgian Sheepdog.,Groenendael Dog,1,224
+1192,n01847000,a photo of a duck.,duck,1,97
 1193,n02028035,a photo of a common redshank wading bird.,common redshank wading bird,1,141
 1194,n02097209,a photo of a Standard Schnauzer.,Standard Schnauzer,1,198
 1195,n02095727,a photo of a Welsh Terrier.,Welsh Terrier,0,99999
 1196,n01855032,a photo of a red-breasted merganser.,red-breasted merganser,1,98
-1197,n01756291,a photo of a sidewinder horned rattlesnake.,sidewinder horned rattlesnake,1,68
+1197,n01756291,a photo of a sidewinder rattlesnake.,sidewinder rattlesnake,1,68
 1198,n02095570,a photo of a Lakeland Terrier.,Lakeland Terrier,1,189
 1199,n02102040,a photo of a English springer Spaniel.,English springer Spaniel,1,217
 1200,n02093256,a photo of a Staffordshire Bull Terrier.,Staffordshire Bull Terrier,1,179

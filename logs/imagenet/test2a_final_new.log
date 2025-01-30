@@ -1,0 +1,1551 @@
+Started run at: 1728386249.19 seconds
+Run folder: data/imagenet_final_test1a_new/v2-0_1trials_250_50_10_1keep_50_100_500_1000samples
+Setting up dataset and prompts
+
+Loading pretrained models...
+
+Loading noise...
+
+Tokenizing text prompts and creating embeddings...
+
+Load subset to evaluate
+
+Evaluating predictions: 
+Skipping 0
+Skipping 16
+Skipping 32
+Skipping 48
+Skipping 64
+Skipping 80
+Skipping 96
+Skipping 112
+Skipping 128
+Skipping 144
+Skipping 160
+Skipping 176
+Skipping 192
+Skipping 208
+Skipping 224
+Skipping 240
+Skipping 256
+Skipping 272
+Skipping 288
+Skipping 304
+Skipping 320
+Skipping 336
+Skipping 352
+Skipping 368
+Skipping 384
+Skipping 400
+Skipping 416
+Skipping 432
+Skipping 448
+Skipping 464
+Skipping 480
+Skipping 496
+Skipping 512
+Skipping 528
+Skipping 544
+Skipping 560
+Skipping 576
+Skipping 592
+Skipping 608
+Skipping 624
+Skipping 640
+Skipping 656
+Skipping 672
+Skipping 688
+Skipping 704
+Skipping 720
+Skipping 736
+Skipping 752
+Skipping 768
+Skipping 784
+Skipping 800
+Skipping 816
+Skipping 832
+Skipping 848
+Skipping 864
+Skipping 880
+Skipping 896
+Skipping 912
+Skipping 928
+Skipping 944
+Skipping 960
+Skipping 976
+Skipping 992
+Skipping 1008
+Skipping 1024
+Skipping 1040
+Skipping 1056
+Skipping 1072
+Skipping 1088
+Skipping 1104
+Skipping 1120
+Skipping 1136
+Skipping 1152
+Skipping 1168
+Skipping 1184
+Skipping 1200
+Skipping 1216
+Skipping 1232
+Skipping 1248
+Skipping 1264
+Skipping 1280
+Skipping 1296
+Skipping 1312
+Skipping 1328
+Skipping 1344
+Skipping 1360
+Skipping 1376
+Skipping 1392
+Skipping 1408
+Skipping 1424
+Skipping 1440
+Skipping 1456
+Skipping 1472
+Skipping 1488
+Skipping 1504
+Skipping 1520
+Skipping 1536
+Skipping 1552
+Skipping 1568
+Skipping 1584
+Skipping 1600
+Skipping 1616
+Skipping 1632
+Skipping 1648
+Skipping 1664
+Skipping 1680
+Skipping 1696
+Skipping 1712
+Skipping 1728
+Skipping 1744
+Skipping 1760
+Skipping 1776
+Skipping 1792
+Skipping 1808
+Skipping 1824
+Skipping 1840
+Skipping 1856
+Skipping 1872
+Skipping 1888
+Skipping 1904
+Skipping 1920
+Skipping 1936
+Skipping 1952
+Skipping 1968
+Skipping 1984
+Skipping 2000
+Skipping 2016
+Skipping 2032
+Skipping 2048
+Skipping 2064
+Skipping 2080
+Skipping 2096
+Skipping 2112
+Skipping 2128
+Skipping 2144
+Skipping 2160
+Skipping 2176
+Skipping 2192
+Skipping 2208
+Skipping 2224
+Skipping 2240
+Skipping 2256
+Skipping 2272
+Skipping 2288
+Skipping 2304
+Skipping 2320
+Skipping 2336
+Skipping 2352
+Skipping 2368
+Skipping 2384
+Skipping 2400
+Skipping 2416
+Skipping 2432
+Skipping 2448
+Skipping 2464
+Skipping 2480
+Skipping 2496
+Skipping 2512
+Skipping 2528
+Skipping 2544
+Skipping 2560
+Skipping 2576
+Skipping 2592
+Skipping 2608
+Skipping 2624
+Skipping 2640
+Skipping 2656
+Skipping 2672
+Skipping 2688
+Skipping 2704
+Skipping 2720
+Skipping 2736
+Skipping 2752
+Skipping 2768
+Skipping 2784
+Skipping 2800
+Skipping 2816
+Skipping 2832
+Skipping 2848
+Skipping 2864
+Skipping 2880
+Skipping 2896
+Skipping 2912
+Skipping 2928
+Skipping 2944
+Skipping 2960
+Skipping 2976
+Skipping 2992
+Skipping 3008
+Skipping 3024
+Skipping 3040
+Skipping 3056
+Skipping 3072
+Skipping 3088
+Skipping 3104
+Skipping 3120
+Skipping 3136
+Skipping 3152
+Skipping 3168
+Skipping 3184
+Skipping 3200
+Skipping 3216
+Skipping 3232
+Skipping 3248
+Skipping 3264
+Skipping 3280
+Skipping 3296
+Skipping 3312
+Skipping 3328
+Skipping 3344
+Skipping 3360
+Skipping 3376
+Skipping 3392
+Skipping 3408
+Skipping 3424
+Skipping 3440
+Skipping 3456
+Skipping 3472
+Skipping 3488
+Skipping 3504
+Skipping 3520
+Skipping 3536
+Skipping 3552
+Skipping 3568
+Skipping 3584
+Skipping 3600
+Skipping 3616
+Skipping 3632
+Skipping 3648
+Skipping 3664
+Skipping 3680
+Skipping 3696
+Skipping 3712
+Skipping 3728
+Skipping 3744
+Skipping 3760
+Skipping 3776
+Skipping 3792
+Skipping 3808
+Skipping 3824
+Skipping 3840
+Skipping 3856
+Skipping 3872
+Skipping 3888
+Skipping 3904
+Skipping 3920
+Skipping 3936
+Skipping 3952
+Skipping 3968
+Skipping 3984
+Skipping 4000
+Skipping 4016
+Skipping 4032
+Skipping 4048
+Skipping 4064
+Skipping 4080
+Skipping 4096
+Skipping 4112
+Skipping 4128
+Skipping 4144
+Skipping 4160
+Skipping 4176
+Skipping 4192
+Skipping 4208
+Skipping 4224
+Skipping 4240
+Skipping 4256
+Skipping 4272
+Skipping 4288
+Skipping 4304
+Skipping 4320
+Skipping 4336
+Skipping 4352
+Skipping 4368
+Skipping 4384
+Skipping 4400
+Skipping 4416
+Skipping 4432
+Skipping 4448
+Skipping 4464
+Skipping 4480
+Skipping 4496
+Skipping 4512
+Skipping 4528
+Skipping 4544
+Skipping 4560
+Skipping 4576
+Skipping 4592
+Skipping 4608
+Skipping 4624
+Skipping 4640
+Skipping 4656
+Skipping 4672
+Skipping 4688
+Skipping 4704
+Skipping 4720
+Skipping 4736
+Skipping 4752
+Skipping 4768
+Skipping 4784
+Skipping 4800
+Skipping 4816
+Skipping 4832
+Skipping 4848
+Skipping 4864
+Skipping 4880
+Skipping 4896
+Skipping 4912
+Skipping 4928
+Skipping 4944
+Skipping 4960
+Skipping 4976
+Skipping 4992
+Skipping 5008
+Skipping 5024
+Skipping 5040
+Skipping 5056
+Skipping 5072
+Skipping 5088
+Skipping 5104
+Skipping 5120
+Skipping 5136
+Skipping 5152
+Skipping 5168
+Skipping 5184
+Skipping 5200
+Skipping 5216
+Skipping 5232
+Skipping 5248
+Skipping 5264
+Skipping 5280
+Skipping 5296
+Skipping 5312
+Skipping 5328
+Skipping 5344
+Skipping 5360
+Skipping 5376
+Skipping 5392
+Skipping 5408
+Skipping 5424
+Skipping 5440
+Skipping 5456
+Skipping 5472
+Skipping 5488
+Skipping 5504
+Skipping 5520
+Skipping 5536
+Skipping 5552
+Skipping 5568
+Skipping 5584
+Skipping 5600
+Skipping 5616
+Skipping 5632
+Skipping 5648
+Skipping 5664
+Skipping 5680
+Skipping 5696
+Skipping 5712
+Skipping 5728
+Skipping 5744
+Skipping 5760
+Skipping 5776
+Skipping 5792
+Skipping 5808
+Skipping 5824
+Skipping 5840
+Skipping 5856
+Skipping 5872
+Skipping 5888
+Skipping 5904
+Skipping 5920
+Skipping 5936
+Skipping 5952
+Skipping 5968
+Skipping 5984
+Skipping 6000
+Skipping 6016
+Skipping 6032
+Skipping 6048
+Skipping 6064
+Skipping 6080
+Skipping 6096
+Skipping 6112
+Skipping 6128
+Skipping 6144
+Skipping 6160
+Skipping 6176
+Skipping 6192
+Skipping 6208
+Skipping 6224
+Skipping 6240
+Skipping 6256
+Skipping 6272
+Skipping 6288
+Skipping 6304
+Skipping 6320
+Skipping 6336
+Skipping 6352
+Skipping 6368
+Skipping 6384
+Skipping 6400
+Skipping 6416
+Skipping 6432
+Skipping 6448
+Skipping 6464
+Skipping 6480
+Skipping 6496
+Skipping 6512
+Skipping 6528
+Skipping 6544
+Skipping 6560
+Skipping 6576
+Skipping 6592
+Skipping 6608
+Skipping 6624
+Skipping 6640
+Skipping 6656
+Skipping 6672
+Skipping 6688
+Skipping 6704
+Skipping 6720
+Skipping 6736
+Skipping 6752
+Skipping 6768
+Skipping 6784
+Skipping 6800
+Skipping 6816
+Skipping 6832
+Skipping 6848
+Skipping 6864
+Skipping 6880
+Skipping 6896
+Skipping 6912
+Skipping 6928
+Skipping 6944
+Skipping 6960
+Skipping 6976
+Skipping 6992
+Skipping 7008
+Skipping 7024
+Skipping 7040
+Skipping 7056
+Skipping 7072
+Skipping 7088
+Skipping 7104
+Skipping 7120
+Skipping 7136
+Skipping 7152
+Skipping 7168
+Skipping 7184
+Skipping 7200
+Skipping 7216
+Skipping 7232
+Skipping 7248
+Skipping 7264
+Skipping 7280
+Skipping 7296
+Skipping 7312
+Skipping 7328
+Skipping 7344
+Skipping 7360
+Skipping 7376
+Skipping 7392
+Skipping 7408
+Skipping 7424
+Skipping 7440
+Skipping 7456
+Skipping 7472
+Skipping 7488
+Skipping 7504
+Skipping 7520
+Skipping 7536
+Skipping 7552
+Skipping 7568
+Skipping 7584
+Skipping 7600
+Skipping 7616
+Skipping 7632
+Skipping 7648
+Skipping 7664
+Skipping 7680
+Skipping 7696
+Skipping 7712
+Skipping 7728
+Skipping 7744
+Skipping 7760
+Skipping 7776
+Skipping 7792
+Skipping 7808
+Skipping 7824
+Skipping 7840
+Skipping 7856
+Skipping 7872
+Skipping 7888
+Skipping 7904
+Skipping 7920
+Skipping 7936
+Skipping 7952
+Skipping 7968
+Skipping 7984
+Skipping 8000
+Skipping 8016
+Skipping 8032
+Skipping 8048
+Skipping 8064
+Skipping 8080
+Skipping 8096
+Skipping 8112
+Skipping 8128
+Skipping 8144
+Skipping 8160
+Skipping 8176
+Skipping 8192
+Skipping 8208
+Skipping 8224
+Skipping 8240
+Skipping 8256
+Skipping 8272
+Skipping 8288
+Skipping 8304
+Skipping 8320
+Skipping 8336
+Skipping 8352
+Skipping 8368
+Skipping 8384
+Skipping 8400
+Skipping 8416
+Skipping 8432
+Skipping 8448
+Skipping 8464
+Skipping 8480
+Skipping 8496
+Skipping 8512
+Skipping 8528
+Skipping 8544
+Skipping 8560
+Skipping 8576
+Skipping 8592
+Skipping 8608
+Skipping 8624
+Skipping 8640
+Skipping 8656
+Skipping 8672
+Skipping 8688
+Skipping 8704
+Skipping 8720
+Skipping 8736
+Skipping 8752
+Skipping 8768
+Skipping 8784
+Skipping 8800
+Skipping 8816
+Skipping 8832
+Skipping 8848
+Skipping 8864
+Skipping 8880
+Skipping 8896
+Skipping 8912
+Skipping 8928
+Skipping 8944
+Skipping 8960
+Skipping 8976
+Skipping 8992
+Skipping 9008
+Skipping 9024
+Skipping 9040
+Skipping 9056
+Skipping 9072
+Skipping 9088
+Skipping 9104
+Skipping 9120
+Skipping 9136
+Skipping 9152
+Skipping 9168
+Skipping 9184
+Skipping 9200
+Skipping 9216
+Skipping 9232
+Skipping 9248
+Skipping 9264
+Skipping 9280
+Skipping 9296
+Skipping 9312
+Skipping 9328
+Skipping 9344
+Skipping 9360
+Skipping 9376
+Skipping 9392
+Skipping 9408
+Skipping 9424
+Skipping 9440
+Skipping 9456
+Skipping 9472
+Skipping 9488
+Skipping 9504
+Skipping 9520
+Skipping 9536
+Skipping 9552
+Skipping 9568
+Skipping 9584
+Skipping 9600
+Skipping 9616
+Skipping 9632
+Skipping 9648
+Skipping 9664
+Skipping 9680
+Skipping 9696
+Skipping 9712
+Skipping 9728
+Skipping 9744
+Skipping 9760
+Skipping 9776
+Skipping 9792
+Skipping 9808
+Skipping 9824
+Skipping 9840
+Skipping 9856
+Skipping 9872
+Skipping 9888
+Skipping 9904
+Skipping 9920
+Skipping 9936
+Skipping 9952
+Skipping 9968
+Skipping 9984
+Skipping 10000
+Skipping 10016
+Skipping 10032
+Skipping 10048
+Skipping 10064
+Skipping 10080
+Skipping 10096
+Skipping 10112
+Skipping 10128
+Skipping 10144
+Skipping 10160
+Skipping 10176
+Skipping 10192
+Skipping 10208
+Skipping 10224
+Skipping 10240
+Skipping 10256
+Skipping 10272
+Skipping 10288
+Skipping 10304
+Skipping 10320
+Skipping 10336
+Skipping 10352
+Skipping 10368
+Skipping 10384
+Skipping 10400
+Skipping 10416
+Skipping 10432
+Skipping 10448
+Skipping 10464
+Skipping 10480
+Skipping 10496
+Skipping 10512
+Skipping 10528
+Skipping 10544
+Skipping 10560
+Skipping 10576
+Skipping 10592
+Skipping 10608
+Skipping 10624
+Skipping 10640
+Skipping 10656
+Skipping 10672
+Skipping 10688
+Skipping 10704
+Skipping 10720
+Skipping 10736
+Skipping 10752
+Skipping 10768
+Skipping 10784
+Skipping 10800
+Skipping 10816
+Skipping 10832
+Skipping 10848
+Skipping 10864
+Skipping 10880
+Skipping 10896
+Skipping 10912
+Skipping 10928
+Skipping 10944
+Skipping 10960
+Skipping 10976
+Skipping 10992
+Skipping 11008
+Skipping 11024
+Skipping 11040
+Skipping 11056
+Skipping 11072
+Skipping 11088
+Skipping 11104
+Skipping 11120
+Skipping 11136
+Skipping 11152
+Skipping 11168
+Skipping 11184
+Skipping 11200
+Skipping 11216
+Skipping 11232
+Skipping 11248
+Skipping 11264
+Skipping 11280
+Skipping 11296
+Skipping 11312
+Skipping 11328
+Skipping 11344
+Skipping 11360
+Skipping 11376
+Skipping 11392
+Skipping 11408
+Skipping 11424
+Skipping 11440
+Skipping 11456
+Skipping 11472
+Skipping 11488
+Skipping 11504
+Skipping 11520
+Skipping 11536
+Skipping 11552
+Skipping 11568
+Skipping 11584
+Skipping 11600
+Skipping 11616
+Skipping 11632
+Skipping 11648
+Skipping 11664
+Skipping 11680
+Skipping 11696
+Skipping 11712
+Skipping 11728
+Skipping 11744
+Skipping 11760
+Skipping 11776
+Skipping 11792
+Skipping 11808
+Skipping 11824
+Skipping 11840
+Skipping 11856
+Skipping 11872
+Skipping 11888
+Skipping 11904
+Skipping 11920
+Skipping 11936
+Skipping 11952
+Skipping 11968
+Skipping 11984
+Skipping 12000
+Skipping 12016
+Skipping 12032
+Skipping 12048
+Skipping 12064
+Skipping 12080
+Skipping 12096
+Skipping 12112
+Skipping 12128
+Skipping 12144
+Skipping 12160
+Skipping 12176
+Skipping 12192
+Skipping 12208
+Skipping 12224
+Skipping 12240
+Skipping 12256
+Skipping 12272
+Skipping 12288
+Skipping 12304
+Skipping 12320
+Skipping 12336
+Skipping 12352
+Skipping 12368
+Skipping 12384
+Skipping 12400
+Skipping 12416
+Skipping 12432
+Skipping 12448
+Skipping 12464
+Skipping 12480
+Skipping 12496
+Skipping 12512
+Skipping 12528
+Skipping 12544
+Skipping 12560
+Skipping 12576
+Skipping 12592
+Skipping 12608
+Skipping 12624
+Skipping 12640
+Skipping 12656
+Skipping 12672
+Skipping 12688
+Skipping 12704
+Skipping 12720
+Skipping 12736
+Skipping 12752
+Skipping 12768
+Skipping 12784
+Skipping 12800
+Skipping 12816
+Skipping 12832
+Skipping 12848
+Skipping 12864
+Skipping 12880
+Skipping 12896
+Skipping 12912
+Skipping 12928
+Skipping 12944
+Skipping 12960
+Skipping 12976
+Skipping 12992
+Skipping 13008
+Skipping 13024
+Skipping 13040
+Skipping 13056
+Skipping 13072
+Skipping 13088
+Skipping 13104
+Skipping 13120
+Skipping 13136
+Skipping 13152
+Skipping 13168
+Skipping 13184
+Skipping 13200
+Skipping 13216
+Skipping 13232
+Skipping 13248
+Skipping 13264
+Skipping 13280
+Skipping 13296
+Skipping 13312
+Skipping 13328
+Skipping 13344
+Skipping 13360
+Skipping 13376
+Skipping 13392
+Skipping 13408
+Skipping 13424
+Skipping 13440
+Skipping 13456
+Skipping 13472
+Skipping 13488
+Skipping 13504
+Skipping 13520
+Skipping 13536
+Skipping 13552
+Skipping 13568
+Skipping 13584
+Skipping 13600
+Skipping 13616
+Skipping 13632
+Skipping 13648
+Skipping 13664
+Skipping 13680
+Skipping 13696
+Skipping 13712
+Skipping 13728
+Skipping 13744
+Skipping 13760
+Skipping 13776
+Skipping 13792
+Skipping 13808
+Skipping 13824
+Skipping 13840
+Skipping 13856
+Skipping 13872
+Skipping 13888
+Skipping 13904
+Skipping 13920
+Skipping 13936
+
+label: 279
+prediction: Arctic White Fox
+
+Inference time: 1320.18 seconds 
+
+
+
+
+label: 279
+prediction: Arctic White Fox
+
+Inference time: 903.67 seconds 
+
+
+
+
+label: 279
+prediction: Arctic White Fox
+
+Inference time: 1148.64 seconds 
+
+
+
+
+label: 280
+prediction: Dhole
+
+Inference time: 1195.09 seconds 
+
+
+
+
+label: 280
+prediction: Red Fox
+
+Inference time: 1243.11 seconds 
+
+
+
+
+label: 280
+prediction: Grey Fox or Gray Fox
+
+Inference time: 884.29 seconds 
+
+
+
+
+label: 280
+prediction: Grey Fox or Gray Fox
+
+Inference time: 1166.80 seconds 
+
+
+
+
+label: 281
+prediction: Persian cat
+
+Inference time: 1092.14 seconds 
+
+
+
+
+label: 281
+prediction: tabby cat
+
+Inference time: 1268.26 seconds 
+
+
+
+
+label: 281
+prediction: tabby cat
+
+Inference time: 1280.98 seconds 
+
+
+
+
+label: 282
+prediction: tiger
+
+Inference time: 835.22 seconds 
+
+
+
+
+label: 282
+prediction: tiger
+
+Inference time: 1323.44 seconds 
+
+
+
+
+label: 282
+prediction: tiger
+
+Inference time: 1047.59 seconds 
+
+
+
+
+label: 283
+prediction: Persian cat
+
+Inference time: 1165.42 seconds 
+
+
+
+
+label: 283
+prediction: Persian cat
+
+Inference time: 1218.90 seconds 
+
+
+
+
+label: 283
+prediction: Persian cat
+
+Inference time: 1296.74 seconds 
+
+
+
+
+label: 284
+prediction: Siamese cat
+
+Inference time: 1235.27 seconds 
+
+
+
+
+label: 284
+prediction: Siamese cat
+
+Inference time: 1072.43 seconds 
+
+
+
+
+label: 284
+prediction: Siamese cat
+
+Inference time: 1214.24 seconds 
+
+
+
+
+label: 285
+prediction: Persian cat
+
+Inference time: 1177.13 seconds 
+
+
+
+
+label: 285
+prediction: Siamese cat
+
+Inference time: 789.78 seconds 
+
+
+
+
+label: 285
+prediction: tabby cat
+
+Inference time: 1349.23 seconds 
+
+
+
+
+label: 286
+prediction: cougar or puma cat
+
+Inference time: 858.91 seconds 
+
+
+
+
+label: 286
+prediction: cougar or puma cat
+
+Inference time: 871.30 seconds 
+
+
+
+
+label: 286
+prediction: cougar or puma cat
+
+Inference time: 1074.86 seconds 
+
+
+
+
+label: 287
+prediction: lynx
+
+Inference time: 1268.13 seconds 
+
+
+
+
+label: 287
+prediction: cougar or puma cat
+
+Inference time: 1211.45 seconds 
+
+
+
+
+label: 287
+prediction: lynx
+
+Inference time: 1315.71 seconds 
+
+
+
+
+label: 288
+prediction: web site
+
+Inference time: 1040.96 seconds 
+
+
+
+
+label: 288
+prediction: snow leopard
+
+Inference time: 1263.52 seconds 
+
+
+
+
+label: 288
+prediction: leopard
+
+Inference time: 1109.05 seconds 
+
+
+
+
+label: 288
+prediction: leopard
+
+Inference time: 1020.08 seconds 
+
+
+
+
+label: 289
+prediction: snow leopard
+
+Inference time: 1258.64 seconds 
+
+
+
+
+label: 289
+prediction: snow leopard
+
+Inference time: 1192.62 seconds 
+
+
+
+
+label: 289
+prediction: snow leopard
+
+Inference time: 851.41 seconds 
+
+
+
+
+label: 290
+prediction: leopard
+
+Inference time: 841.26 seconds 
+
+
+
+
+label: 290
+prediction: jaguar
+
+Inference time: 1168.23 seconds 
+
+
+
+
+label: 290
+prediction: jaguar
+
+Inference time: 1232.22 seconds 
+
+
+
+
+label: 291
+prediction: lion
+
+Inference time: 1108.06 seconds 
+
+
+
+
+label: 291
+prediction: lion
+
+Inference time: 750.53 seconds 
+
+
+
+
+label: 291
+prediction: cougar or puma cat
+
+Inference time: 1039.92 seconds 
+
+
+
+
+label: 292
+prediction: tiger
+
+Inference time: 868.82 seconds 
+
+
+
+
+label: 292
+prediction: web site
+
+Inference time: 891.59 seconds 
+
+
+
+
+label: 292
+prediction: tiger shark
+
+Inference time: 947.70 seconds 
+
+
+
+
+label: 293
+prediction: cheetah
+
+Inference time: 1084.59 seconds 
+
+
+
+
+label: 293
+prediction: cheetah
+
+Inference time: 1092.55 seconds 
+
+
+
+
+label: 293
+prediction: cheetah
+
+Inference time: 973.01 seconds 
+
+
+
+
+label: 294
+prediction: brown bear
+
+Inference time: 823.40 seconds 
+
+
+
+
+label: 294
+prediction: brown bear
+
+Inference time: 1266.61 seconds 
+
+
+
+
+label: 294
+prediction: brown bear
+
+Inference time: 1262.74 seconds 
+
+
+
+
+label: 295
+prediction: Tibetan Mastiff
+
+Inference time: 1219.80 seconds 
+
+
+
+
+label: 295
+prediction: American black bear
+
+Inference time: 1303.03 seconds 
+
+
+
+
+label: 295
+prediction: American black bear
+
+Inference time: 1239.08 seconds 
+
+
+
+
+label: 296
+prediction: polar bear
+
+Inference time: 1166.50 seconds 
+
+
+
+
+label: 296
+prediction: polar bear
+
+Inference time: 1225.92 seconds 
+
+
+
+
+label: 296
+prediction: polar bear
+
+Inference time: 1281.92 seconds 
+
+
+
+
+label: 296
+prediction: polar bear
+
+Inference time: 1172.22 seconds 
+
+
+
+
+label: 297
+prediction: sloth bear
+
+Inference time: 652.64 seconds 
+
+
+
+
+label: 297
+prediction: sloth bear
+
+Inference time: 1180.59 seconds 
+
+
+
+
+label: 297
+prediction: sloth bear
+
+Inference time: 877.56 seconds 
+
+
+
+
+label: 298
+prediction: mongoose
+
+Inference time: 1141.83 seconds 
+
+
+
+
+label: 298
+prediction: mongoose
+
+Inference time: 610.35 seconds 
+
+
+
+
+label: 298
+prediction: mongoose
+
+Inference time: 1248.31 seconds 
+
+
+
+
+label: 299
+prediction: meerkat
+
+Inference time: 654.36 seconds 
+
+
+
+
+label: 299
+prediction: meerkat
+
+Inference time: 1113.53 seconds 
+
+
+
+
+label: 299
+prediction: meerkat
+
+Inference time: 1273.74 seconds 
+
+
+
+
+label: 300
+prediction: crayfish or crawfish
+
+Inference time: 820.33 seconds 
+
+
+
+
+label: 300
+prediction: tiger beetle
+
+Inference time: 1103.78 seconds 
+
+
+
+
+label: 300
+prediction: tiger beetle
+
+Inference time: 955.74 seconds 
+
+
+
+
+label: 301
+prediction: ladybug or ladybird beetle
+
+Inference time: 831.13 seconds 
+
+
+
+
+label: 301
+prediction: ladybug or ladybird beetle
+
+Inference time: 914.76 seconds 
+
+
+
+
+label: 301
+prediction: ladybug or ladybird beetle
+
+Inference time: 869.80 seconds 
+
+
+
+
+label: 302
+prediction: ground beetle
+
+Inference time: 877.91 seconds 
+
+
+
+
+label: 302
+prediction: tiger beetle
+
+Inference time: 884.56 seconds 
+
+
+
+
+label: 302
+prediction: cockroach
+
+Inference time: 522.57 seconds 
+
+
+
+
+label: 303
+prediction: leaf beetle
+
+Inference time: 970.40 seconds 
+
+
+
+
+label: 303
+prediction: long-horned beetle
+
+Inference time: 1019.33 seconds 
+
+
+
+
+label: 303
+prediction: tiger beetle
+
+Inference time: 888.47 seconds 
+
+
+
+
+label: 304
+prediction: cloak
+
+Inference time: 601.21 seconds 
+
+
+
+
+label: 304
+prediction: ladybug or ladybird beetle
+
+Inference time: 857.72 seconds 
+
+
+
+
+label: 304
+prediction: leaf beetle
+
+Inference time: 1027.81 seconds 
+
+
+
+
+label: 304
+prediction: ladybug or ladybird beetle
+
+Inference time: 811.00 seconds 
+
+
+
+
+label: 305
+prediction: dung beetle
+
+Inference time: 1012.12 seconds 
+
+
+
+
+label: 305

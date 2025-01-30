@@ -19,6 +19,9 @@ def get_target_dataset(name: str, train=False, transform=None, target_transform=
     if name == "cifar10":
         dataset = datasets.CIFAR10(root=DATASET_ROOT, train=train, transform=transform,
                                    target_transform=target_transform, download=True)
+    elif name == "cifar100":
+        dataset = datasets.CIFAR100(root=DATASET_ROOT, train=train, transform=transform,
+                                   target_transform=target_transform, download=True)
     elif name == "stl10":
         dataset = datasets.STL10(root=DATASET_ROOT, split="train" if train else "test", transform=transform,
                                  target_transform=target_transform, download=True)
@@ -52,10 +55,6 @@ def get_target_dataset(name: str, train=False, transform=None, target_transform=
             fn.split("/")[-1].split(".")[0]: lab
             for fn, lab in zip(dataset._image_files, dataset._labels)
         }
-        # dataset.file_to_class = {
-        #     fn.split("/")[-1].split(".")[0]: lab
-        #     for fn, lab in zip(dataset._image_files, dataset._labels)
-        # }
 
     elif name == "food":
         dataset = datasets.Food101(root=DATASET_ROOT, split="train" if train else "test", transform=transform,
@@ -97,7 +96,7 @@ def get_target_dataset(name: str, train=False, transform=None, target_transform=
     else:
         raise ValueError(f"Dataset {name} not supported.")
 
-    if name in {'mnist', 'cifar10', 'stl10', 'aircraft'}:
+    if name in {'mnist', 'cifar100', 'stl10', 'aircraft'}:
         dataset.file_to_class = {
             str(idx): dataset[idx][1]
             for idx in range(len(dataset))

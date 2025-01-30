@@ -150,7 +150,15 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
                                         text_embeds, text_embed_idxs, args.batch_size, args.dtype, args.loss)
 
                 sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
-                best_idxs = list(sorted_errors.keys())[:int(args.k * len(sorted_errors))]
+                
+                if args.strat == 1:
+                    best_idxs = list(sorted_errors.keys())[:int(args.k * len(sorted_errors))]
+                else:
+                    min_err = max(sorted_errors.values())
+                    sd_err = np.std(list(sorted_errors.values()))
+                    thresh_err = min_err - 2*sd_err
+                    best_idxs = [idx for idx, err in sorted_errors.items() if err >= thresh_err]
+                    # print(f"Best: {best_idxs}")
 
                 child_nodes = []
                 for idx in best_idxs:
@@ -173,8 +181,10 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
 
         if n_to_keep == 1:
             topn = list(sorted_errors.keys())
+        if len(remaining_prmpt_idxs) < 1:
+            break
         remaining_prmpt_idxs = list(sorted_errors.keys())[:n_to_keep]
-
+        
     assert len(remaining_prmpt_idxs) == 1
     pred_idx = remaining_prmpt_idxs[0]
 
@@ -235,8 +245,6 @@ def eval_error(unet, scheduler, latent, all_noise, ts, noise_idxs,
 
 
 def main():
-    main_start_time = time.time()
-    print(f"Started run at: {main_start_time:.2f} seconds")
     parser = argparse.ArgumentParser()
 
     # dataset args
@@ -262,15 +270,15 @@ def main():
     parser.add_argument('--load_stats', action='store_true', help='Load saved stats to compute acc')
     parser.add_argument('--loss', type=str, default='l2', choices=('l1', 'l2', 'huber'), help='Type of loss to use')
     parser.add_argument('--info_dir', type=str, default='/imagenet_class_hierarchy/modified/', help='Imagenet hierarchy directory')
-    parser.add_argument('--k', type=float, default=0.5, help='percentage of prompts to consider')
-    parser.add_argument('--root_wnid', type=str, default='n00001740', help='root_wnid of the tree')
+    parser.add_argument('--strat', type=int, default=1, help='Inference Strategy')
+    parser.add_argument('--k', type=float, default=0.5, help='Pruning Ratio')
+    parser.add_argument('--root_wnid', type=str, default='n00001740', help='root_wnid of the tree for other datasets')
 
     # args for adaptively choosing which classes to continue trying
     parser.add_argument('--to_keep', nargs='+', type=int, required=True)
     parser.add_argument('--n_samples', nargs='+', type=int, required=True)
 
     args = parser.parse_args()
-    # assert len(args.to_keep) == len(args.n_samples)
 
     # make run output folder
     name = f"v{args.version}_{args.n_trials}trials_"
@@ -285,7 +293,7 @@ def main():
     if args.img_size != 512:
         name += f'_{args.img_size}'
     if args.extra is not None:
-        run_folder = osp.join(LOG_DIR, args.dataset + "_final_" +args.extra, name)
+        run_folder = osp.join(LOG_DIR, args.dataset +"_strat_" +str(args.strat) +args.extra, name)
     else:
         run_folder = osp.join(LOG_DIR, args.dataset , name)
     os.makedirs(run_folder, exist_ok=True)
@@ -303,12 +311,19 @@ def main():
     hier = ClassHierarchy(args.info_dir, args.root_wnid)
     idx_map, node_map, child_nodes = create_mapping(prompts_df)
     parent_nodes = hier.traverse([args.root_wnid], depth=1)[1:]
-    nodes_to_visit = []
+    remaining_prmpt_nodes = []
     if args.dataset == "imagenet":
         for node in parent_nodes:
-            nodes_to_visit += hier.traverse([node], depth=1)[1:] 
+            remaining_prmpt_nodes += hier.traverse([node], depth=1)[1:] 
     else:
-        nodes_to_visit = parent_nodes
+        remaining_prmpt_nodes = parent_nodes
+
+    if args.strat == 1  and args.k > 1:
+        print("Pruning Ratio for Strategy 1: {0.4, 0.5}")
+        exit()
+    elif args.strat ==2  and args.k < 1:
+        print("Pruning Ratio for Strategy 2: {2}")
+        exit()
 
     # load pretrained models, get the components from models.py
     print("\nLoading pretrained models...")
@@ -378,7 +393,6 @@ def main():
                 total += 1
             continue
         image, label = target_dataset[i]
-        print(f"\nlabel: {label}")
 
         # disable gradient computation for eval
         with torch.no_grad():
@@ -392,7 +406,8 @@ def main():
 
         # Evaluateprobability of different classes and compute the prediction errors.
 
-        remaining_prmpt_idxs = [node_map[node] for node in nodes_to_visit]       
+        remaining_prmpt_idxs = [node_map[node] for node in remaining_prmpt_nodes]       
+
         start_time = time.time()
         pred_idx, pred_errors, topn = eval_prob_adaptive(unet, x0, text_embeddings, scheduler, args, idx_map, node_map, child_nodes, hier, remaining_prmpt_idxs, latent_size, all_noise)
         pred = prompts_df.classidx[pred_idx]
@@ -400,8 +415,8 @@ def main():
         print(f"prediction: {prompts_df.class_name[pred_idx]}")
         end_time = time.time()
         inf_time = end_time - start_time
-
         print(f"\nInference time: {inf_time:.2f} seconds \n\n\n")
+
         torch.save(dict(errors=pred_errors, pred=pred, label=label, inf_time=inf_time, topn=topn_preds), fname)
         if pred == label:
             correct += 1

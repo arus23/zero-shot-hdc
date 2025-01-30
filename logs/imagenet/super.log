@@ -1,0 +1,2919 @@
+Run folder: data/cifar100_strat_1_super/v2-0_1trials_10_5_1keep_50_100_500samples_l1
+Setting up dataset and prompts
+Files already downloaded and verified
+
+Loading pretrained models...
+
+Loading noise...
+
+Tokenizing text prompts and creating embeddings...
+
+Load subset to evaluate
+
+Evaluating predictions: 
+
+image_label: 49
+sorted: {1: tensor(-0.1488), 117: tensor(-0.1488), 0: tensor(-0.1488), 16: tensor(-0.1489), 13: tensor(-0.1489), 4: tensor(-0.1489), 6: tensor(-0.1489), 7: tensor(-0.1489), 3: tensor(-0.1489), 5: tensor(-0.1490), 8: tensor(-0.1491), 14: tensor(-0.1491), 11: tensor(-0.1491), 15: tensor(-0.1491), 12: tensor(-0.1492)}
+1: aquatic mammal
+117: natural outdoor scnee
+0: animal
+16: building
+13: person
+4: reptile
+6: flower
+7: tree
+3: insect
+5: plant life
+8: food
+14: vehicle
+11: electronic appliance
+15: utensil
+12: furniture
+prediction: aquatic mammal
+
+Inference time: 46.46 seconds 
+
+
+
+
+image_label: 92
+sorted: {6: tensor(-0.1469), 8: tensor(-0.1469), 15: tensor(-0.1469), 3: tensor(-0.1470), 5: tensor(-0.1470), 0: tensor(-0.1471), 12: tensor(-0.1472), 4: tensor(-0.1473), 7: tensor(-0.1473), 1: tensor(-0.1473), 16: tensor(-0.1473), 13: tensor(-0.1473), 11: tensor(-0.1473), 14: tensor(-0.1474), 117: tensor(-0.1475)}
+6: flower
+8: food
+15: utensil
+3: insect
+5: plant life
+0: animal
+12: furniture
+4: reptile
+7: tree
+1: aquatic mammal
+16: building
+13: person
+11: electronic appliance
+14: vehicle
+117: natural outdoor scnee
+prediction: flower
+
+Inference time: 40.36 seconds 
+
+
+
+
+image_label: 41
+sorted: {12: tensor(-0.1282), 11: tensor(-0.1282), 14: tensor(-0.1282), 13: tensor(-0.1283), 8: tensor(-0.1284), 1: tensor(-0.1284), 0: tensor(-0.1284), 7: tensor(-0.1284), 117: tensor(-0.1284), 16: tensor(-0.1284), 15: tensor(-0.1284), 3: tensor(-0.1285), 4: tensor(-0.1286), 5: tensor(-0.1286), 6: tensor(-0.1286)}
+12: furniture
+11: electronic appliance
+14: vehicle
+13: person
+8: food
+1: aquatic mammal
+0: animal
+7: tree
+117: natural outdoor scnee
+16: building
+15: utensil
+3: insect
+4: reptile
+5: plant life
+6: flower
+prediction: animal
+
+Inference time: 40.65 seconds 
+
+
+
+
+image_label: 75
+sorted: {6: tensor(-0.1648), 5: tensor(-0.1649), 1: tensor(-0.1649), 7: tensor(-0.1650), 0: tensor(-0.1650), 3: tensor(-0.1650), 4: tensor(-0.1650), 117: tensor(-0.1651), 16: tensor(-0.1653), 11: tensor(-0.1654), 14: tensor(-0.1655), 13: tensor(-0.1655), 8: tensor(-0.1655), 12: tensor(-0.1655), 15: tensor(-0.1656)}
+6: flower
+5: plant life
+1: aquatic mammal
+7: tree
+0: animal
+3: insect
+4: reptile
+117: natural outdoor scnee
+16: building
+11: electronic appliance
+14: vehicle
+13: person
+8: food
+12: furniture
+15: utensil
+prediction: flower
+
+Inference time: 40.85 seconds 
+
+
+
+
+image_label: 7
+sorted: {1: tensor(-0.1634), 3: tensor(-0.1634), 0: tensor(-0.1635), 4: tensor(-0.1636), 15: tensor(-0.1636), 6: tensor(-0.1637), 11: tensor(-0.1637), 8: tensor(-0.1637), 13: tensor(-0.1638), 5: tensor(-0.1639), 12: tensor(-0.1639), 14: tensor(-0.1640), 7: tensor(-0.1641), 16: tensor(-0.1641), 117: tensor(-0.1641)}
+1: aquatic mammal
+3: insect
+0: animal
+4: reptile
+15: utensil
+6: flower
+11: electronic appliance
+8: food
+13: person
+5: plant life
+12: furniture
+14: vehicle
+7: tree
+16: building
+117: natural outdoor scnee
+prediction: aquatic mammal
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 71
+sorted: {117: tensor(-0.1342), 16: tensor(-0.1342), 1: tensor(-0.1342), 3: tensor(-0.1343), 7: tensor(-0.1343), 5: tensor(-0.1343), 0: tensor(-0.1343), 6: tensor(-0.1343), 13: tensor(-0.1344), 4: tensor(-0.1344), 8: tensor(-0.1345), 15: tensor(-0.1346), 14: tensor(-0.1346), 12: tensor(-0.1346), 11: tensor(-0.1347)}
+117: natural outdoor scnee
+16: building
+1: aquatic mammal
+3: insect
+7: tree
+5: plant life
+0: animal
+6: flower
+13: person
+4: reptile
+8: food
+15: utensil
+14: vehicle
+12: furniture
+11: electronic appliance
+prediction: natural outdoor scnee
+
+Inference time: 40.93 seconds 
+
+
+
+
+image_label: 50
+sorted: {3: tensor(-0.1495), 1: tensor(-0.1495), 0: tensor(-0.1496), 4: tensor(-0.1496), 8: tensor(-0.1500), 6: tensor(-0.1500), 13: tensor(-0.1501), 5: tensor(-0.1501), 7: tensor(-0.1502), 11: tensor(-0.1502), 15: tensor(-0.1502), 16: tensor(-0.1502), 14: tensor(-0.1503), 117: tensor(-0.1503), 12: tensor(-0.1503)}
+3: insect
+1: aquatic mammal
+0: animal
+4: reptile
+8: food
+6: flower
+13: person
+5: plant life
+7: tree
+11: electronic appliance
+15: utensil
+16: building
+14: vehicle
+117: natural outdoor scnee
+12: furniture
+prediction: insect
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 27
+sorted: {1: tensor(-0.1449), 0: tensor(-0.1450), 117: tensor(-0.1450), 4: tensor(-0.1451), 7: tensor(-0.1452), 13: tensor(-0.1452), 12: tensor(-0.1452), 16: tensor(-0.1453), 3: tensor(-0.1453), 8: tensor(-0.1453), 15: tensor(-0.1453), 5: tensor(-0.1454), 14: tensor(-0.1454), 11: tensor(-0.1455), 6: tensor(-0.1456)}
+1: aquatic mammal
+0: animal
+117: natural outdoor scnee
+4: reptile
+7: tree
+13: person
+12: furniture
+16: building
+3: insect
+8: food
+15: utensil
+5: plant life
+14: vehicle
+11: electronic appliance
+6: flower
+prediction: animal
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 70
+sorted: {6: tensor(-0.1650), 5: tensor(-0.1651), 3: tensor(-0.1652), 117: tensor(-0.1653), 8: tensor(-0.1654), 15: tensor(-0.1654), 0: tensor(-0.1654), 7: tensor(-0.1654), 12: tensor(-0.1654), 11: tensor(-0.1655), 16: tensor(-0.1656), 4: tensor(-0.1656), 14: tensor(-0.1657), 1: tensor(-0.1657), 13: tensor(-0.1657)}
+6: flower
+5: plant life
+3: insect
+117: natural outdoor scnee
+8: food
+15: utensil
+0: animal
+7: tree
+12: furniture
+11: electronic appliance
+16: building
+4: reptile
+14: vehicle
+1: aquatic mammal
+13: person
+prediction: flower
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 24
+sorted: {3: tensor(-0.1463), 1: tensor(-0.1464), 0: tensor(-0.1465), 4: tensor(-0.1465), 13: tensor(-0.1468), 7: tensor(-0.1469), 6: tensor(-0.1469), 5: tensor(-0.1470), 11: tensor(-0.1470), 16: tensor(-0.1471), 8: tensor(-0.1471), 12: tensor(-0.1471), 117: tensor(-0.1471), 15: tensor(-0.1471), 14: tensor(-0.1472)}
+3: insect
+1: aquatic mammal
+0: animal
+4: reptile
+13: person
+7: tree
+6: flower
+5: plant life
+11: electronic appliance
+16: building
+8: food
+12: furniture
+117: natural outdoor scnee
+15: utensil
+14: vehicle
+prediction: aquatic mammal
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 36
+sorted: {0: tensor(-0.1577), 1: tensor(-0.1577), 4: tensor(-0.1579), 13: tensor(-0.1582), 3: tensor(-0.1583), 14: tensor(-0.1583), 11: tensor(-0.1584), 8: tensor(-0.1584), 6: tensor(-0.1584), 16: tensor(-0.1584), 117: tensor(-0.1584), 7: tensor(-0.1584), 5: tensor(-0.1585), 15: tensor(-0.1585), 12: tensor(-0.1585)}
+0: animal
+1: aquatic mammal
+4: reptile
+13: person
+3: insect
+14: vehicle
+11: electronic appliance
+8: food
+6: flower
+16: building
+117: natural outdoor scnee
+7: tree
+5: plant life
+15: utensil
+12: furniture
+prediction: animal
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 32
+sorted: {1: tensor(-0.1571), 3: tensor(-0.1571), 4: tensor(-0.1571), 0: tensor(-0.1572), 5: tensor(-0.1574), 11: tensor(-0.1574), 13: tensor(-0.1574), 14: tensor(-0.1574), 16: tensor(-0.1575), 6: tensor(-0.1575), 15: tensor(-0.1575), 12: tensor(-0.1575), 7: tensor(-0.1575), 117: tensor(-0.1575), 8: tensor(-0.1575)}
+1: aquatic mammal
+3: insect
+4: reptile
+0: animal
+5: plant life
+11: electronic appliance
+13: person
+14: vehicle
+16: building
+6: flower
+15: utensil
+12: furniture
+7: tree
+117: natural outdoor scnee
+8: food
+prediction: insect
+
+Inference time: 40.93 seconds 
+
+
+
+
+image_label: 45
+sorted: {0: tensor(-0.1634), 4: tensor(-0.1634), 1: tensor(-0.1634), 3: tensor(-0.1635), 6: tensor(-0.1635), 5: tensor(-0.1636), 7: tensor(-0.1636), 13: tensor(-0.1637), 11: tensor(-0.1637), 12: tensor(-0.1638), 8: tensor(-0.1638), 16: tensor(-0.1639), 14: tensor(-0.1639), 15: tensor(-0.1639), 117: tensor(-0.1639)}
+0: animal
+4: reptile
+1: aquatic mammal
+3: insect
+6: flower
+5: plant life
+7: tree
+13: person
+11: electronic appliance
+12: furniture
+8: food
+16: building
+14: vehicle
+15: utensil
+117: natural outdoor scnee
+prediction: animal
+
+Inference time: 40.93 seconds 
+
+
+
+
+image_label: 80
+sorted: {1: tensor(-0.1553), 0: tensor(-0.1554), 4: tensor(-0.1558), 3: tensor(-0.1559), 6: tensor(-0.1561), 8: tensor(-0.1561), 11: tensor(-0.1562), 117: tensor(-0.1562), 7: tensor(-0.1562), 12: tensor(-0.1562), 5: tensor(-0.1562), 15: tensor(-0.1563), 13: tensor(-0.1563), 14: tensor(-0.1563), 16: tensor(-0.1564)}
+1: aquatic mammal
+0: animal
+4: reptile
+3: insect
+6: flower
+8: food
+11: electronic appliance
+117: natural outdoor scnee
+7: tree
+12: furniture
+5: plant life
+15: utensil
+13: person
+14: vehicle
+16: building
+prediction: aquatic mammal
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 12
+sorted: {16: tensor(-0.1454), 14: tensor(-0.1456), 13: tensor(-0.1457), 11: tensor(-0.1457), 8: tensor(-0.1457), 15: tensor(-0.1457), 12: tensor(-0.1457), 7: tensor(-0.1457), 6: tensor(-0.1458), 117: tensor(-0.1458), 5: tensor(-0.1458), 3: tensor(-0.1459), 4: tensor(-0.1459), 0: tensor(-0.1460), 1: tensor(-0.1461)}
+16: building
+14: vehicle
+13: person
+11: electronic appliance
+8: food
+15: utensil
+12: furniture
+7: tree
+6: flower
+117: natural outdoor scnee
+5: plant life
+3: insect
+4: reptile
+0: animal
+1: aquatic mammal
+prediction: building
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 23
+sorted: {16: tensor(-0.1325), 7: tensor(-0.1328), 117: tensor(-0.1329), 6: tensor(-0.1330), 13: tensor(-0.1330), 5: tensor(-0.1331), 14: tensor(-0.1331), 8: tensor(-0.1331), 15: tensor(-0.1331), 0: tensor(-0.1331), 11: tensor(-0.1332), 12: tensor(-0.1332), 3: tensor(-0.1333), 1: tensor(-0.1334), 4: tensor(-0.1334)}
+16: building
+7: tree
+117: natural outdoor scnee
+6: flower
+13: person
+5: plant life
+14: vehicle
+8: food
+15: utensil
+0: animal
+11: electronic appliance
+12: furniture
+3: insect
+1: aquatic mammal
+4: reptile
+prediction: building
+
+Inference time: 40.89 seconds 
+
+
+
+
+image_label: 58
+sorted: {14: tensor(-0.1551), 0: tensor(-0.1555), 117: tensor(-0.1555), 16: tensor(-0.1556), 13: tensor(-0.1556), 3: tensor(-0.1556), 4: tensor(-0.1557), 7: tensor(-0.1557), 8: tensor(-0.1557), 6: tensor(-0.1557), 12: tensor(-0.1558), 1: tensor(-0.1558), 11: tensor(-0.1558), 5: tensor(-0.1558), 15: tensor(-0.1559)}
+14: vehicle
+0: animal
+117: natural outdoor scnee
+16: building
+13: person
+3: insect
+4: reptile
+7: tree
+8: food
+6: flower
+12: furniture
+1: aquatic mammal
+11: electronic appliance
+5: plant life
+15: utensil
+prediction: vehicle
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 96
+sorted: {117: tensor(-0.1402), 7: tensor(-0.1403), 3: tensor(-0.1404), 8: tensor(-0.1404), 6: tensor(-0.1404), 0: tensor(-0.1405), 5: tensor(-0.1405), 4: tensor(-0.1406), 12: tensor(-0.1406), 15: tensor(-0.1406), 16: tensor(-0.1407), 14: tensor(-0.1407), 11: tensor(-0.1407), 13: tensor(-0.1408), 1: tensor(-0.1408)}
+117: natural outdoor scnee
+7: tree
+3: insect
+8: food
+6: flower
+0: animal
+5: plant life
+4: reptile
+12: furniture
+15: utensil
+16: building
+14: vehicle
+11: electronic appliance
+13: person
+1: aquatic mammal
+prediction: natural outdoor scnee
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 42
+sorted: {0: tensor(-0.1602), 1: tensor(-0.1603), 4: tensor(-0.1605), 7: tensor(-0.1605), 5: tensor(-0.1606), 6: tensor(-0.1606), 117: tensor(-0.1606), 3: tensor(-0.1607), 13: tensor(-0.1607), 11: tensor(-0.1608), 12: tensor(-0.1608), 16: tensor(-0.1608), 8: tensor(-0.1608), 14: tensor(-0.1609), 15: tensor(-0.1609)}
+0: animal
+1: aquatic mammal
+4: reptile
+7: tree
+5: plant life
+6: flower
+117: natural outdoor scnee
+3: insect
+13: person
+11: electronic appliance
+12: furniture
+16: building
+8: food
+14: vehicle
+15: utensil
+prediction: animal
+
+Inference time: 40.93 seconds 
+
+
+
+
+image_label: 86
+sorted: {11: tensor(-0.1584), 4: tensor(-0.1585), 3: tensor(-0.1585), 0: tensor(-0.1585), 1: tensor(-0.1585), 14: tensor(-0.1586), 8: tensor(-0.1586), 12: tensor(-0.1586), 15: tensor(-0.1586), 16: tensor(-0.1586), 13: tensor(-0.1586), 6: tensor(-0.1588), 5: tensor(-0.1588), 117: tensor(-0.1590), 7: tensor(-0.1591)}
+11: electronic appliance
+4: reptile
+3: insect
+0: animal
+1: aquatic mammal
+14: vehicle
+8: food
+12: furniture
+15: utensil
+16: building
+13: person
+6: flower
+5: plant life
+117: natural outdoor scnee
+7: tree
+prediction: electronic appliance
+
+Inference time: 40.93 seconds 
+
+
+
+
+image_label: 37
+sorted: {16: tensor(-0.1558), 11: tensor(-0.1562), 117: tensor(-0.1563), 7: tensor(-0.1563), 15: tensor(-0.1563), 0: tensor(-0.1563), 13: tensor(-0.1564), 12: tensor(-0.1564), 8: tensor(-0.1564), 4: tensor(-0.1564), 3: tensor(-0.1564), 6: tensor(-0.1564), 5: tensor(-0.1565), 14: tensor(-0.1565), 1: tensor(-0.1567)}
+16: building
+11: electronic appliance
+117: natural outdoor scnee
+7: tree
+15: utensil
+0: animal
+13: person
+12: furniture
+8: food
+4: reptile
+3: insect
+6: flower
+5: plant life
+14: vehicle
+1: aquatic mammal
+prediction: building
+
+Inference time: 40.93 seconds 
+
+
+
+
+image_label: 45
+sorted: {0: tensor(-0.1331), 4: tensor(-0.1331), 1: tensor(-0.1332), 5: tensor(-0.1333), 7: tensor(-0.1333), 8: tensor(-0.1333), 3: tensor(-0.1333), 16: tensor(-0.1335), 12: tensor(-0.1335), 6: tensor(-0.1335), 11: tensor(-0.1335), 15: tensor(-0.1336), 117: tensor(-0.1336), 13: tensor(-0.1336), 14: tensor(-0.1337)}
+0: animal
+4: reptile
+1: aquatic mammal
+5: plant life
+7: tree
+8: food
+3: insect
+16: building
+12: furniture
+6: flower
+11: electronic appliance
+15: utensil
+117: natural outdoor scnee
+13: person
+14: vehicle
+prediction: animal
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 37
+sorted: {16: tensor(-0.1418), 14: tensor(-0.1420), 117: tensor(-0.1420), 7: tensor(-0.1421), 8: tensor(-0.1421), 3: tensor(-0.1421), 15: tensor(-0.1421), 0: tensor(-0.1421), 11: tensor(-0.1422), 6: tensor(-0.1422), 12: tensor(-0.1422), 5: tensor(-0.1422), 13: tensor(-0.1423), 4: tensor(-0.1423), 1: tensor(-0.1425)}
+16: building
+14: vehicle
+117: natural outdoor scnee
+7: tree
+8: food
+3: insect
+15: utensil
+0: animal
+11: electronic appliance
+6: flower
+12: furniture
+5: plant life
+13: person
+4: reptile
+1: aquatic mammal
+prediction: building
+
+Inference time: 40.89 seconds 
+
+
+
+
+image_label: 90
+sorted: {117: tensor(-0.1447), 0: tensor(-0.1448), 14: tensor(-0.1448), 3: tensor(-0.1449), 7: tensor(-0.1449), 6: tensor(-0.1450), 5: tensor(-0.1450), 8: tensor(-0.1450), 4: tensor(-0.1451), 13: tensor(-0.1451), 16: tensor(-0.1451), 15: tensor(-0.1452), 1: tensor(-0.1452), 11: tensor(-0.1453), 12: tensor(-0.1453)}
+117: natural outdoor scnee
+0: animal
+14: vehicle
+3: insect
+7: tree
+6: flower
+5: plant life
+8: food
+4: reptile
+13: person
+16: building
+15: utensil
+1: aquatic mammal
+11: electronic appliance
+12: furniture
+prediction: natural outdoor scnee
+
+Inference time: 40.89 seconds 
+
+
+
+
+image_label: 69
+sorted: {7: tensor(-0.1382), 16: tensor(-0.1383), 117: tensor(-0.1383), 13: tensor(-0.1383), 0: tensor(-0.1384), 6: tensor(-0.1384), 14: tensor(-0.1384), 4: tensor(-0.1385), 5: tensor(-0.1386), 11: tensor(-0.1386), 3: tensor(-0.1386), 8: tensor(-0.1386), 15: tensor(-0.1386), 1: tensor(-0.1386), 12: tensor(-0.1387)}
+7: tree
+16: building
+117: natural outdoor scnee
+13: person
+0: animal
+6: flower
+14: vehicle
+4: reptile
+5: plant life
+11: electronic appliance
+3: insect
+8: food
+15: utensil
+1: aquatic mammal
+12: furniture
+prediction: building
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 40
+sorted: {0: tensor(-0.1340), 3: tensor(-0.1341), 13: tensor(-0.1341), 12: tensor(-0.1341), 11: tensor(-0.1342), 8: tensor(-0.1342), 7: tensor(-0.1342), 15: tensor(-0.1342), 16: tensor(-0.1342), 4: tensor(-0.1342), 5: tensor(-0.1343), 14: tensor(-0.1343), 1: tensor(-0.1344), 117: tensor(-0.1344), 6: tensor(-0.1345)}
+0: animal
+3: insect
+13: person
+12: furniture
+11: electronic appliance
+8: food
+7: tree
+15: utensil
+16: building
+4: reptile
+5: plant life
+14: vehicle
+1: aquatic mammal
+117: natural outdoor scnee
+6: flower
+prediction: furniture
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 27
+sorted: {0: tensor(-0.1478), 117: tensor(-0.1479), 6: tensor(-0.1479), 3: tensor(-0.1479), 14: tensor(-0.1479), 7: tensor(-0.1479), 5: tensor(-0.1479), 4: tensor(-0.1479), 13: tensor(-0.1479), 12: tensor(-0.1480), 1: tensor(-0.1480), 16: tensor(-0.1480), 11: tensor(-0.1480), 8: tensor(-0.1481), 15: tensor(-0.1481)}
+0: animal
+117: natural outdoor scnee
+6: flower
+3: insect
+14: vehicle
+7: tree
+5: plant life
+4: reptile
+13: person
+12: furniture
+1: aquatic mammal
+16: building
+11: electronic appliance
+8: food
+15: utensil
+prediction: animal
+
+Inference time: 40.89 seconds 
+
+
+
+
+image_label: 18
+sorted: {0: tensor(-0.1249), 4: tensor(-0.1250), 3: tensor(-0.1250), 13: tensor(-0.1250), 12: tensor(-0.1251), 15: tensor(-0.1251), 8: tensor(-0.1252), 14: tensor(-0.1252), 11: tensor(-0.1252), 6: tensor(-0.1252), 7: tensor(-0.1252), 1: tensor(-0.1252), 5: tensor(-0.1253), 16: tensor(-0.1253), 117: tensor(-0.1254)}
+0: animal
+4: reptile
+3: insect
+13: person
+12: furniture
+15: utensil
+8: food
+14: vehicle
+11: electronic appliance
+6: flower
+7: tree
+1: aquatic mammal
+5: plant life
+16: building
+117: natural outdoor scnee
+prediction: insect
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 55
+sorted: {0: tensor(-0.1250), 4: tensor(-0.1252), 1: tensor(-0.1252), 12: tensor(-0.1255), 3: tensor(-0.1255), 5: tensor(-0.1255), 13: tensor(-0.1255), 6: tensor(-0.1256), 8: tensor(-0.1256), 14: tensor(-0.1256), 117: tensor(-0.1257), 7: tensor(-0.1257), 11: tensor(-0.1258), 15: tensor(-0.1258), 16: tensor(-0.1259)}
+0: animal
+4: reptile
+1: aquatic mammal
+12: furniture
+3: insect
+5: plant life
+13: person
+6: flower
+8: food
+14: vehicle
+117: natural outdoor scnee
+7: tree
+11: electronic appliance
+15: utensil
+16: building
+prediction: animal
+
+Inference time: 40.88 seconds 
+
+
+
+
+image_label: 54
+sorted: {6: tensor(-0.1625), 5: tensor(-0.1626), 3: tensor(-0.1629), 8: tensor(-0.1629), 117: tensor(-0.1629), 7: tensor(-0.1629), 15: tensor(-0.1630), 0: tensor(-0.1631), 11: tensor(-0.1631), 4: tensor(-0.1631), 12: tensor(-0.1632), 1: tensor(-0.1632), 13: tensor(-0.1632), 16: tensor(-0.1632), 14: tensor(-0.1633)}
+6: flower
+5: plant life
+3: insect
+8: food
+117: natural outdoor scnee
+7: tree
+15: utensil
+0: animal
+11: electronic appliance
+4: reptile
+12: furniture
+1: aquatic mammal
+13: person
+16: building
+14: vehicle
+prediction: flower
+
+Inference time: 40.88 seconds 
+
+
+
+
+image_label: 37
+sorted: {16: tensor(-0.1661), 11: tensor(-0.1664), 8: tensor(-0.1665), 15: tensor(-0.1665), 12: tensor(-0.1666), 14: tensor(-0.1666), 117: tensor(-0.1666), 3: tensor(-0.1666), 13: tensor(-0.1667), 0: tensor(-0.1667), 7: tensor(-0.1667), 4: tensor(-0.1667), 6: tensor(-0.1668), 5: tensor(-0.1668), 1: tensor(-0.1669)}
+16: building
+11: electronic appliance
+8: food
+15: utensil
+12: furniture
+14: vehicle
+117: natural outdoor scnee
+3: insect
+13: person
+0: animal
+7: tree
+4: reptile
+6: flower
+5: plant life
+1: aquatic mammal
+prediction: building
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 36
+sorted: {0: tensor(-0.1528), 1: tensor(-0.1530), 3: tensor(-0.1530), 5: tensor(-0.1531), 4: tensor(-0.1532), 6: tensor(-0.1533), 117: tensor(-0.1533), 8: tensor(-0.1534), 7: tensor(-0.1534), 15: tensor(-0.1535), 12: tensor(-0.1536), 11: tensor(-0.1536), 13: tensor(-0.1538), 16: tensor(-0.1538), 14: tensor(-0.1540)}
+0: animal
+1: aquatic mammal
+3: insect
+5: plant life
+4: reptile
+6: flower
+117: natural outdoor scnee
+8: food
+7: tree
+15: utensil
+12: furniture
+11: electronic appliance
+13: person
+16: building
+14: vehicle
+prediction: animal
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 35
+sorted: {13: tensor(-0.1403), 4: tensor(-0.1406), 3: tensor(-0.1406), 0: tensor(-0.1407), 8: tensor(-0.1407), 11: tensor(-0.1407), 1: tensor(-0.1408), 6: tensor(-0.1408), 14: tensor(-0.1410), 15: tensor(-0.1410), 12: tensor(-0.1411), 16: tensor(-0.1412), 5: tensor(-0.1412), 7: tensor(-0.1413), 117: tensor(-0.1415)}
+13: person
+4: reptile
+3: insect
+0: animal
+8: food
+11: electronic appliance
+1: aquatic mammal
+6: flower
+14: vehicle
+15: utensil
+12: furniture
+16: building
+5: plant life
+7: tree
+117: natural outdoor scnee
+prediction: person
+
+Inference time: 40.93 seconds 
+
+
+
+
+image_label: 37
+sorted: {16: tensor(-0.1394), 7: tensor(-0.1398), 117: tensor(-0.1399), 14: tensor(-0.1400), 11: tensor(-0.1400), 12: tensor(-0.1400), 3: tensor(-0.1400), 0: tensor(-0.1400), 15: tensor(-0.1401), 13: tensor(-0.1401), 8: tensor(-0.1401), 4: tensor(-0.1401), 5: tensor(-0.1402), 6: tensor(-0.1402), 1: tensor(-0.1404)}
+16: building
+7: tree
+117: natural outdoor scnee
+14: vehicle
+11: electronic appliance
+12: furniture
+3: insect
+0: animal
+15: utensil
+13: person
+8: food
+4: reptile
+5: plant life
+6: flower
+1: aquatic mammal
+prediction: building
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 27
+sorted: {5: tensor(-0.1487), 1: tensor(-0.1487), 0: tensor(-0.1487), 4: tensor(-0.1487), 7: tensor(-0.1488), 6: tensor(-0.1488), 117: tensor(-0.1488), 13: tensor(-0.1489), 3: tensor(-0.1489), 11: tensor(-0.1491), 16: tensor(-0.1491), 8: tensor(-0.1492), 15: tensor(-0.1492), 12: tensor(-0.1492), 14: tensor(-0.1493)}
+5: plant life
+1: aquatic mammal
+0: animal
+4: reptile
+7: tree
+6: flower
+117: natural outdoor scnee
+13: person
+3: insect
+11: electronic appliance
+16: building
+8: food
+15: utensil
+12: furniture
+14: vehicle
+prediction: aquatic mammal
+
+Inference time: 40.89 seconds 
+
+
+
+
+image_label: 73
+sorted: {1: tensor(-0.1667), 117: tensor(-0.1668), 4: tensor(-0.1668), 5: tensor(-0.1668), 7: tensor(-0.1669), 0: tensor(-0.1669), 6: tensor(-0.1669), 3: tensor(-0.1669), 16: tensor(-0.1671), 14: tensor(-0.1671), 11: tensor(-0.1671), 8: tensor(-0.1671), 12: tensor(-0.1672), 13: tensor(-0.1672), 15: tensor(-0.1672)}
+1: aquatic mammal
+117: natural outdoor scnee
+4: reptile
+5: plant life
+7: tree
+0: animal
+6: flower
+3: insect
+16: building
+14: vehicle
+11: electronic appliance
+8: food
+12: furniture
+13: person
+15: utensil
+prediction: aquatic mammal
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 65
+sorted: {0: tensor(-0.1711), 1: tensor(-0.1712), 4: tensor(-0.1712), 3: tensor(-0.1715), 6: tensor(-0.1715), 5: tensor(-0.1716), 8: tensor(-0.1717), 7: tensor(-0.1717), 117: tensor(-0.1717), 15: tensor(-0.1717), 11: tensor(-0.1718), 13: tensor(-0.1718), 16: tensor(-0.1718), 14: tensor(-0.1718), 12: tensor(-0.1719)}
+0: animal
+1: aquatic mammal
+4: reptile
+3: insect
+6: flower
+5: plant life
+8: food
+7: tree
+117: natural outdoor scnee
+15: utensil
+11: electronic appliance
+13: person
+16: building
+14: vehicle
+12: furniture
+prediction: animal
+
+Inference time: 40.88 seconds 
+
+
+
+
+image_label: 91
+sorted: {1: tensor(-0.1314), 0: tensor(-0.1315), 8: tensor(-0.1318), 4: tensor(-0.1319), 15: tensor(-0.1320), 3: tensor(-0.1320), 7: tensor(-0.1321), 14: tensor(-0.1321), 12: tensor(-0.1321), 13: tensor(-0.1321), 5: tensor(-0.1321), 11: tensor(-0.1322), 16: tensor(-0.1322), 6: tensor(-0.1322), 117: tensor(-0.1323)}
+1: aquatic mammal
+0: animal
+8: food
+4: reptile
+15: utensil
+3: insect
+7: tree
+14: vehicle
+12: furniture
+13: person
+5: plant life
+11: electronic appliance
+16: building
+6: flower
+117: natural outdoor scnee
+prediction: aquatic mammal
+
+Inference time: 40.89 seconds 
+
+
+
+
+image_label: 64
+sorted: {0: tensor(-0.1484), 1: tensor(-0.1486), 4: tensor(-0.1487), 3: tensor(-0.1488), 13: tensor(-0.1490), 11: tensor(-0.1490), 117: tensor(-0.1490), 7: tensor(-0.1490), 12: tensor(-0.1490), 6: tensor(-0.1491), 8: tensor(-0.1491), 15: tensor(-0.1491), 16: tensor(-0.1491), 5: tensor(-0.1491), 14: tensor(-0.1492)}
+0: animal
+1: aquatic mammal
+4: reptile
+3: insect
+13: person
+11: electronic appliance
+117: natural outdoor scnee
+7: tree
+12: furniture
+6: flower
+8: food
+15: utensil
+16: building
+5: plant life
+14: vehicle
+prediction: animal
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 17
+sorted: {117: tensor(-0.1507), 16: tensor(-0.1508), 7: tensor(-0.1509), 0: tensor(-0.1509), 3: tensor(-0.1509), 6: tensor(-0.1509), 13: tensor(-0.1510), 8: tensor(-0.1510), 11: tensor(-0.1511), 15: tensor(-0.1511), 14: tensor(-0.1511), 4: tensor(-0.1512), 12: tensor(-0.1512), 5: tensor(-0.1513), 1: tensor(-0.1515)}
+117: natural outdoor scnee
+16: building
+7: tree
+0: animal
+3: insect
+6: flower
+13: person
+8: food
+11: electronic appliance
+15: utensil
+14: vehicle
+4: reptile
+12: furniture
+5: plant life
+1: aquatic mammal
+prediction: building
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 41
+sorted: {16: tensor(-0.1557), 14: tensor(-0.1557), 117: tensor(-0.1557), 12: tensor(-0.1558), 11: tensor(-0.1558), 13: tensor(-0.1558), 15: tensor(-0.1558), 8: tensor(-0.1558), 3: tensor(-0.1558), 0: tensor(-0.1558), 6: tensor(-0.1560), 7: tensor(-0.1560), 4: tensor(-0.1560), 1: tensor(-0.1561), 5: tensor(-0.1561)}
+16: building
+14: vehicle
+117: natural outdoor scnee
+12: furniture
+11: electronic appliance
+13: person
+15: utensil
+8: food
+3: insect
+0: animal
+6: flower
+7: tree
+4: reptile
+1: aquatic mammal
+5: plant life
+prediction: natural outdoor scnee
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 19
+sorted: {0: tensor(-0.1152), 15: tensor(-0.1155), 11: tensor(-0.1157), 13: tensor(-0.1157), 1: tensor(-0.1157), 3: tensor(-0.1159), 14: tensor(-0.1159), 8: tensor(-0.1160), 4: tensor(-0.1160), 12: tensor(-0.1160), 16: tensor(-0.1161), 6: tensor(-0.1162), 7: tensor(-0.1162), 5: tensor(-0.1166), 117: tensor(-0.1166)}
+0: animal
+15: utensil
+11: electronic appliance
+13: person
+1: aquatic mammal
+3: insect
+14: vehicle
+8: food
+4: reptile
+12: furniture
+16: building
+6: flower
+7: tree
+5: plant life
+117: natural outdoor scnee
+prediction: animal
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 83
+sorted: {8: tensor(-0.1160), 15: tensor(-0.1160), 11: tensor(-0.1164), 12: tensor(-0.1164), 5: tensor(-0.1166), 4: tensor(-0.1167), 0: tensor(-0.1167), 14: tensor(-0.1167), 3: tensor(-0.1167), 1: tensor(-0.1168), 6: tensor(-0.1168), 13: tensor(-0.1169), 7: tensor(-0.1169), 117: tensor(-0.1170), 16: tensor(-0.1170)}
+8: food
+15: utensil
+11: electronic appliance
+12: furniture
+5: plant life
+4: reptile
+0: animal
+14: vehicle
+3: insect
+1: aquatic mammal
+6: flower
+13: person
+7: tree
+117: natural outdoor scnee
+16: building
+prediction: food
+
+Inference time: 40.88 seconds 
+
+
+
+
+image_label: 37
+sorted: {16: tensor(-0.1382), 117: tensor(-0.1382), 7: tensor(-0.1385), 12: tensor(-0.1385), 15: tensor(-0.1385), 0: tensor(-0.1385), 8: tensor(-0.1386), 11: tensor(-0.1386), 3: tensor(-0.1386), 6: tensor(-0.1387), 5: tensor(-0.1387), 14: tensor(-0.1387), 13: tensor(-0.1388), 4: tensor(-0.1388), 1: tensor(-0.1390)}
+16: building
+117: natural outdoor scnee
+7: tree
+12: furniture
+15: utensil
+0: animal
+8: food
+11: electronic appliance
+3: insect
+6: flower
+5: plant life
+14: vehicle
+13: person
+4: reptile
+1: aquatic mammal
+prediction: building
+
+Inference time: 40.87 seconds 
+
+
+
+
+image_label: 65
+sorted: {0: tensor(-0.1233), 3: tensor(-0.1236), 6: tensor(-0.1236), 1: tensor(-0.1237), 4: tensor(-0.1237), 7: tensor(-0.1237), 5: tensor(-0.1237), 13: tensor(-0.1237), 117: tensor(-0.1238), 8: tensor(-0.1238), 15: tensor(-0.1239), 16: tensor(-0.1239), 12: tensor(-0.1240), 11: tensor(-0.1240), 14: tensor(-0.1241)}
+0: animal
+3: insect
+6: flower
+1: aquatic mammal
+4: reptile
+7: tree
+5: plant life
+13: person
+117: natural outdoor scnee
+8: food
+15: utensil
+16: building
+12: furniture
+11: electronic appliance
+14: vehicle
+prediction: animal
+
+Inference time: 40.88 seconds 
+
+
+
+
+image_label: 97
+sorted: {0: tensor(-0.1512), 1: tensor(-0.1514), 4: tensor(-0.1517), 3: tensor(-0.1518), 6: tensor(-0.1519), 13: tensor(-0.1519), 11: tensor(-0.1520), 14: tensor(-0.1521), 15: tensor(-0.1521), 8: tensor(-0.1522), 5: tensor(-0.1522), 12: tensor(-0.1522), 117: tensor(-0.1523), 16: tensor(-0.1523), 7: tensor(-0.1523)}
+0: animal
+1: aquatic mammal
+4: reptile
+3: insect
+6: flower
+13: person
+11: electronic appliance
+14: vehicle
+15: utensil
+8: food
+5: plant life
+12: furniture
+117: natural outdoor scnee
+16: building
+7: tree
+prediction: animal
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 95
+sorted: {1: tensor(-0.1317), 7: tensor(-0.1317), 0: tensor(-0.1318), 117: tensor(-0.1318), 16: tensor(-0.1318), 13: tensor(-0.1319), 12: tensor(-0.1320), 5: tensor(-0.1321), 3: tensor(-0.1321), 15: tensor(-0.1321), 4: tensor(-0.1321), 6: tensor(-0.1321), 14: tensor(-0.1321), 8: tensor(-0.1321), 11: tensor(-0.1322)}
+1: aquatic mammal
+7: tree
+0: animal
+117: natural outdoor scnee
+16: building
+13: person
+12: furniture
+5: plant life
+3: insect
+15: utensil
+4: reptile
+6: flower
+14: vehicle
+8: food
+11: electronic appliance
+prediction: aquatic mammal
+
+Inference time: 40.93 seconds 
+
+
+
+
+image_label: 48
+sorted: {14: tensor(-0.1712), 12: tensor(-0.1716), 11: tensor(-0.1717), 0: tensor(-0.1718), 6: tensor(-0.1718), 4: tensor(-0.1718), 15: tensor(-0.1718), 8: tensor(-0.1718), 13: tensor(-0.1719), 16: tensor(-0.1719), 3: tensor(-0.1719), 5: tensor(-0.1719), 117: tensor(-0.1719), 1: tensor(-0.1719), 7: tensor(-0.1721)}
+14: vehicle
+12: furniture
+11: electronic appliance
+0: animal
+6: flower
+4: reptile
+15: utensil
+8: food
+13: person
+16: building
+3: insect
+5: plant life
+117: natural outdoor scnee
+1: aquatic mammal
+7: tree
+prediction: vehicle
+
+Inference time: 40.94 seconds 
+
+
+
+
+image_label: 54
+sorted: {6: tensor(-0.1598), 3: tensor(-0.1601), 5: tensor(-0.1601), 117: tensor(-0.1603), 7: tensor(-0.1604), 0: tensor(-0.1604), 8: tensor(-0.1604), 4: tensor(-0.1605), 11: tensor(-0.1605), 1: tensor(-0.1606), 12: tensor(-0.1606), 16: tensor(-0.1606), 13: tensor(-0.1606), 15: tensor(-0.1606), 14: tensor(-0.1607)}
+6: flower
+3: insect
+5: plant life
+117: natural outdoor scnee
+7: tree
+0: animal
+8: food
+4: reptile
+11: electronic appliance
+1: aquatic mammal
+12: furniture
+16: building
+13: person
+15: utensil
+14: vehicle
+prediction: flower
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 86
+sorted: {0: tensor(-0.1417), 13: tensor(-0.1418), 3: tensor(-0.1418), 7: tensor(-0.1418), 15: tensor(-0.1418), 11: tensor(-0.1418), 6: tensor(-0.1418), 4: tensor(-0.1418), 14: tensor(-0.1419), 16: tensor(-0.1419), 1: tensor(-0.1419), 8: tensor(-0.1419), 5: tensor(-0.1419), 117: tensor(-0.1419), 12: tensor(-0.1419)}
+0: animal
+13: person
+3: insect
+7: tree
+15: utensil
+11: electronic appliance
+6: flower
+4: reptile
+14: vehicle
+16: building
+1: aquatic mammal
+8: food
+5: plant life
+117: natural outdoor scnee
+12: furniture
+prediction: electronic appliance
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 86
+sorted: {11: tensor(-0.1336), 15: tensor(-0.1339), 13: tensor(-0.1339), 8: tensor(-0.1340), 12: tensor(-0.1340), 0: tensor(-0.1341), 14: tensor(-0.1342), 7: tensor(-0.1342), 117: tensor(-0.1343), 5: tensor(-0.1343), 3: tensor(-0.1343), 6: tensor(-0.1345), 16: tensor(-0.1345), 1: tensor(-0.1345), 4: tensor(-0.1345)}
+11: electronic appliance
+15: utensil
+13: person
+8: food
+12: furniture
+0: animal
+14: vehicle
+7: tree
+117: natural outdoor scnee
+5: plant life
+3: insect
+6: flower
+16: building
+1: aquatic mammal
+4: reptile
+prediction: electronic appliance
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 6
+sorted: {6: tensor(-0.1814), 5: tensor(-0.1816), 3: tensor(-0.1817), 0: tensor(-0.1817), 117: tensor(-0.1818), 1: tensor(-0.1818), 7: tensor(-0.1819), 4: tensor(-0.1819), 8: tensor(-0.1819), 11: tensor(-0.1820), 13: tensor(-0.1821), 15: tensor(-0.1821), 14: tensor(-0.1822), 16: tensor(-0.1822), 12: tensor(-0.1822)}
+6: flower
+5: plant life
+3: insect
+0: animal
+117: natural outdoor scnee
+1: aquatic mammal
+7: tree
+4: reptile
+8: food
+11: electronic appliance
+13: person
+15: utensil
+14: vehicle
+16: building
+12: furniture
+prediction: flower
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 85
+sorted: {0: tensor(-0.1598), 3: tensor(-0.1599), 117: tensor(-0.1599), 4: tensor(-0.1599), 7: tensor(-0.1600), 1: tensor(-0.1600), 14: tensor(-0.1600), 6: tensor(-0.1601), 5: tensor(-0.1602), 13: tensor(-0.1603), 11: tensor(-0.1603), 16: tensor(-0.1603), 8: tensor(-0.1603), 12: tensor(-0.1603), 15: tensor(-0.1604)}
+0: animal
+3: insect
+117: natural outdoor scnee
+4: reptile
+7: tree
+1: aquatic mammal
+14: vehicle
+6: flower
+5: plant life
+13: person
+11: electronic appliance
+16: building
+8: food
+12: furniture
+15: utensil
+prediction: natural outdoor scnee
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 53
+sorted: {6: tensor(-0.1106), 15: tensor(-0.1106), 3: tensor(-0.1107), 0: tensor(-0.1107), 7: tensor(-0.1108), 13: tensor(-0.1108), 8: tensor(-0.1108), 11: tensor(-0.1109), 16: tensor(-0.1109), 5: tensor(-0.1109), 12: tensor(-0.1110), 1: tensor(-0.1110), 4: tensor(-0.1110), 14: tensor(-0.1110), 117: tensor(-0.1113)}
+6: flower
+15: utensil
+3: insect
+0: animal
+7: tree
+13: person
+8: food
+11: electronic appliance
+16: building
+5: plant life
+12: furniture
+1: aquatic mammal
+4: reptile
+14: vehicle
+117: natural outdoor scnee
+prediction: flower
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 9
+sorted: {12: tensor(-0.1497), 8: tensor(-0.1497), 15: tensor(-0.1497), 11: tensor(-0.1499), 117: tensor(-0.1500), 14: tensor(-0.1501), 7: tensor(-0.1501), 5: tensor(-0.1501), 16: tensor(-0.1502), 0: tensor(-0.1502), 13: tensor(-0.1502), 4: tensor(-0.1502), 3: tensor(-0.1502), 1: tensor(-0.1503), 6: tensor(-0.1503)}
+12: furniture
+8: food
+15: utensil
+11: electronic appliance
+117: natural outdoor scnee
+14: vehicle
+7: tree
+5: plant life
+16: building
+0: animal
+13: person
+4: reptile
+3: insect
+1: aquatic mammal
+6: flower
+prediction: utensil
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 20
+sorted: {12: tensor(-0.1408), 11: tensor(-0.1419), 13: tensor(-0.1419), 14: tensor(-0.1419), 15: tensor(-0.1420), 117: tensor(-0.1420), 8: tensor(-0.1420), 3: tensor(-0.1421), 4: tensor(-0.1421), 6: tensor(-0.1421), 0: tensor(-0.1422), 5: tensor(-0.1422), 7: tensor(-0.1422), 16: tensor(-0.1422), 1: tensor(-0.1423)}
+12: furniture
+11: electronic appliance
+13: person
+14: vehicle
+15: utensil
+117: natural outdoor scnee
+8: food
+3: insect
+4: reptile
+6: flower
+0: animal
+5: plant life
+7: tree
+16: building
+1: aquatic mammal
+prediction: furniture
+
+Inference time: 40.89 seconds 
+
+
+
+
+image_label: 99
+sorted: {4: tensor(-0.1449), 0: tensor(-0.1449), 15: tensor(-0.1450), 8: tensor(-0.1450), 3: tensor(-0.1451), 11: tensor(-0.1451), 1: tensor(-0.1451), 13: tensor(-0.1451), 12: tensor(-0.1451), 16: tensor(-0.1452), 14: tensor(-0.1452), 7: tensor(-0.1452), 6: tensor(-0.1453), 5: tensor(-0.1453), 117: tensor(-0.1454)}
+4: reptile
+0: animal
+15: utensil
+8: food
+3: insect
+11: electronic appliance
+1: aquatic mammal
+13: person
+12: furniture
+16: building
+14: vehicle
+7: tree
+6: flower
+5: plant life
+117: natural outdoor scnee
+prediction: reptile
+
+Inference time: 40.89 seconds 
+
+
+
+
+image_label: 8
+sorted: {14: tensor(-0.1519), 0: tensor(-0.1519), 8: tensor(-0.1519), 11: tensor(-0.1520), 3: tensor(-0.1520), 15: tensor(-0.1520), 4: tensor(-0.1520), 12: tensor(-0.1520), 117: tensor(-0.1521), 13: tensor(-0.1521), 1: tensor(-0.1521), 16: tensor(-0.1523), 6: tensor(-0.1523), 7: tensor(-0.1524), 5: tensor(-0.1524)}
+14: vehicle
+0: animal
+8: food
+11: electronic appliance
+3: insect
+15: utensil
+4: reptile
+12: furniture
+117: natural outdoor scnee
+13: person
+1: aquatic mammal
+16: building
+6: flower
+7: tree
+5: plant life
+prediction: food
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 14
+sorted: {3: tensor(-0.1463), 0: tensor(-0.1471), 6: tensor(-0.1472), 4: tensor(-0.1473), 1: tensor(-0.1475), 13: tensor(-0.1477), 11: tensor(-0.1477), 5: tensor(-0.1477), 15: tensor(-0.1478), 8: tensor(-0.1478), 12: tensor(-0.1478), 7: tensor(-0.1481), 16: tensor(-0.1481), 14: tensor(-0.1482), 117: tensor(-0.1484)}
+3: insect
+0: animal
+6: flower
+4: reptile
+1: aquatic mammal
+13: person
+11: electronic appliance
+5: plant life
+15: utensil
+8: food
+12: furniture
+7: tree
+16: building
+14: vehicle
+117: natural outdoor scnee
+prediction: insect
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 23
+sorted: {117: tensor(-0.1414), 5: tensor(-0.1415), 7: tensor(-0.1415), 6: tensor(-0.1415), 3: tensor(-0.1415), 0: tensor(-0.1416), 4: tensor(-0.1416), 13: tensor(-0.1416), 16: tensor(-0.1417), 14: tensor(-0.1417), 8: tensor(-0.1417), 1: tensor(-0.1417), 11: tensor(-0.1418), 15: tensor(-0.1418), 12: tensor(-0.1418)}
+117: natural outdoor scnee
+5: plant life
+7: tree
+6: flower
+3: insect
+0: animal
+4: reptile
+13: person
+16: building
+14: vehicle
+8: food
+1: aquatic mammal
+11: electronic appliance
+15: utensil
+12: furniture
+prediction: natural outdoor scnee
+
+Inference time: 40.94 seconds 
+
+
+
+
+image_label: 74
+sorted: {1: tensor(-0.1498), 0: tensor(-0.1499), 4: tensor(-0.1499), 3: tensor(-0.1501), 117: tensor(-0.1501), 6: tensor(-0.1501), 5: tensor(-0.1502), 7: tensor(-0.1502), 14: tensor(-0.1504), 13: tensor(-0.1504), 8: tensor(-0.1505), 16: tensor(-0.1505), 11: tensor(-0.1505), 12: tensor(-0.1506), 15: tensor(-0.1506)}
+1: aquatic mammal
+0: animal
+4: reptile
+3: insect
+117: natural outdoor scnee
+6: flower
+5: plant life
+7: tree
+14: vehicle
+13: person
+8: food
+16: building
+11: electronic appliance
+12: furniture
+15: utensil
+prediction: aquatic mammal
+
+Inference time: 40.93 seconds 
+
+
+
+
+image_label: 82
+sorted: {6: tensor(-0.1447), 13: tensor(-0.1448), 0: tensor(-0.1448), 11: tensor(-0.1448), 5: tensor(-0.1448), 7: tensor(-0.1449), 3: tensor(-0.1449), 16: tensor(-0.1449), 15: tensor(-0.1449), 8: tensor(-0.1449), 117: tensor(-0.1450), 4: tensor(-0.1450), 12: tensor(-0.1450), 14: tensor(-0.1451), 1: tensor(-0.1451)}
+6: flower
+13: person
+0: animal
+11: electronic appliance
+5: plant life
+7: tree
+3: insect
+16: building
+15: utensil
+8: food
+117: natural outdoor scnee
+4: reptile
+12: furniture
+14: vehicle
+1: aquatic mammal
+prediction: flower
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 15
+sorted: {0: tensor(-0.1615), 1: tensor(-0.1615), 8: tensor(-0.1618), 4: tensor(-0.1618), 13: tensor(-0.1619), 14: tensor(-0.1619), 16: tensor(-0.1619), 3: tensor(-0.1619), 15: tensor(-0.1619), 6: tensor(-0.1620), 11: tensor(-0.1620), 117: tensor(-0.1620), 12: tensor(-0.1621), 7: tensor(-0.1621), 5: tensor(-0.1622)}
+0: animal
+1: aquatic mammal
+8: food
+4: reptile
+13: person
+14: vehicle
+16: building
+3: insect
+15: utensil
+6: flower
+11: electronic appliance
+117: natural outdoor scnee
+12: furniture
+7: tree
+5: plant life
+prediction: animal
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 30
+sorted: {1: tensor(-0.1405), 0: tensor(-0.1407), 7: tensor(-0.1408), 4: tensor(-0.1408), 13: tensor(-0.1409), 117: tensor(-0.1409), 16: tensor(-0.1410), 6: tensor(-0.1410), 8: tensor(-0.1410), 5: tensor(-0.1410), 3: tensor(-0.1411), 12: tensor(-0.1411), 15: tensor(-0.1411), 11: tensor(-0.1412), 14: tensor(-0.1413)}
+1: aquatic mammal
+0: animal
+7: tree
+4: reptile
+13: person
+117: natural outdoor scnee
+16: building
+6: flower
+8: food
+5: plant life
+3: insect
+12: furniture
+15: utensil
+11: electronic appliance
+14: vehicle
+prediction: aquatic mammal
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 71
+sorted: {117: tensor(-0.1358), 16: tensor(-0.1360), 13: tensor(-0.1360), 4: tensor(-0.1360), 0: tensor(-0.1360), 1: tensor(-0.1360), 7: tensor(-0.1360), 5: tensor(-0.1361), 3: tensor(-0.1361), 14: tensor(-0.1361), 12: tensor(-0.1361), 11: tensor(-0.1362), 6: tensor(-0.1362), 8: tensor(-0.1362), 15: tensor(-0.1363)}
+117: natural outdoor scnee
+16: building
+13: person
+4: reptile
+0: animal
+1: aquatic mammal
+7: tree
+5: plant life
+3: insect
+14: vehicle
+12: furniture
+11: electronic appliance
+6: flower
+8: food
+15: utensil
+prediction: natural outdoor scnee
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 28
+sorted: {5: tensor(-0.1578), 15: tensor(-0.1578), 8: tensor(-0.1579), 12: tensor(-0.1579), 7: tensor(-0.1579), 6: tensor(-0.1580), 11: tensor(-0.1580), 16: tensor(-0.1580), 117: tensor(-0.1581), 3: tensor(-0.1581), 13: tensor(-0.1581), 0: tensor(-0.1582), 4: tensor(-0.1582), 14: tensor(-0.1583), 1: tensor(-0.1583)}
+5: plant life
+15: utensil
+8: food
+12: furniture
+7: tree
+6: flower
+11: electronic appliance
+16: building
+117: natural outdoor scnee
+3: insect
+13: person
+0: animal
+4: reptile
+14: vehicle
+1: aquatic mammal
+prediction: utensil
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 81
+sorted: {7: tensor(-0.1743), 16: tensor(-0.1743), 117: tensor(-0.1743), 14: tensor(-0.1744), 8: tensor(-0.1744), 6: tensor(-0.1744), 11: tensor(-0.1745), 5: tensor(-0.1745), 15: tensor(-0.1745), 12: tensor(-0.1745), 13: tensor(-0.1745), 0: tensor(-0.1746), 3: tensor(-0.1746), 4: tensor(-0.1748), 1: tensor(-0.1750)}
+7: tree
+16: building
+117: natural outdoor scnee
+14: vehicle
+8: food
+6: flower
+11: electronic appliance
+5: plant life
+15: utensil
+12: furniture
+13: person
+0: animal
+3: insect
+4: reptile
+1: aquatic mammal
+prediction: natural outdoor scnee
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 26
+sorted: {3: tensor(-0.1583), 6: tensor(-0.1584), 0: tensor(-0.1584), 1: tensor(-0.1584), 4: tensor(-0.1586), 7: tensor(-0.1587), 5: tensor(-0.1587), 13: tensor(-0.1587), 117: tensor(-0.1588), 8: tensor(-0.1588), 16: tensor(-0.1588), 14: tensor(-0.1589), 11: tensor(-0.1589), 15: tensor(-0.1590), 12: tensor(-0.1590)}
+3: insect
+6: flower
+0: animal
+1: aquatic mammal
+4: reptile
+7: tree
+5: plant life
+13: person
+117: natural outdoor scnee
+8: food
+16: building
+14: vehicle
+11: electronic appliance
+15: utensil
+12: furniture
+prediction: flower
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 96
+sorted: {117: tensor(-0.1222), 7: tensor(-0.1223), 0: tensor(-0.1225), 8: tensor(-0.1226), 6: tensor(-0.1226), 12: tensor(-0.1226), 14: tensor(-0.1226), 15: tensor(-0.1226), 13: tensor(-0.1226), 3: tensor(-0.1226), 5: tensor(-0.1227), 16: tensor(-0.1227), 11: tensor(-0.1227), 4: tensor(-0.1227), 1: tensor(-0.1229)}
+117: natural outdoor scnee
+7: tree
+0: animal
+8: food
+6: flower
+12: furniture
+14: vehicle
+15: utensil
+13: person
+3: insect
+5: plant life
+16: building
+11: electronic appliance
+4: reptile
+1: aquatic mammal
+prediction: natural outdoor scnee
+
+Inference time: 40.89 seconds 
+
+
+
+
+image_label: 76
+sorted: {16: tensor(-0.1357), 7: tensor(-0.1362), 3: tensor(-0.1362), 117: tensor(-0.1363), 14: tensor(-0.1363), 0: tensor(-0.1363), 8: tensor(-0.1363), 6: tensor(-0.1364), 4: tensor(-0.1364), 5: tensor(-0.1364), 13: tensor(-0.1365), 12: tensor(-0.1365), 15: tensor(-0.1366), 1: tensor(-0.1366), 11: tensor(-0.1367)}
+16: building
+7: tree
+3: insect
+117: natural outdoor scnee
+14: vehicle
+0: animal
+8: food
+6: flower
+4: reptile
+5: plant life
+13: person
+12: furniture
+15: utensil
+1: aquatic mammal
+11: electronic appliance
+prediction: building
+
+Inference time: 40.86 seconds 
+
+
+
+
+image_label: 21
+sorted: {0: tensor(-0.1551), 1: tensor(-0.1552), 13: tensor(-0.1552), 4: tensor(-0.1553), 7: tensor(-0.1553), 3: tensor(-0.1554), 11: tensor(-0.1554), 5: tensor(-0.1555), 117: tensor(-0.1555), 6: tensor(-0.1555), 14: tensor(-0.1556), 16: tensor(-0.1556), 12: tensor(-0.1557), 8: tensor(-0.1557), 15: tensor(-0.1558)}
+0: animal
+1: aquatic mammal
+13: person
+4: reptile
+7: tree
+3: insect
+11: electronic appliance
+5: plant life
+117: natural outdoor scnee
+6: flower
+14: vehicle
+16: building
+12: furniture
+8: food
+15: utensil
+prediction: animal
+
+Inference time: 40.88 seconds 
+
+
+
+
+image_label: 0
+sorted: {15: tensor(-0.1221), 8: tensor(-0.1221), 11: tensor(-0.1222), 12: tensor(-0.1223), 5: tensor(-0.1224), 7: tensor(-0.1224), 0: tensor(-0.1224), 14: tensor(-0.1224), 6: tensor(-0.1224), 3: tensor(-0.1224), 13: tensor(-0.1225), 117: tensor(-0.1225), 4: tensor(-0.1226), 16: tensor(-0.1227), 1: tensor(-0.1228)}
+15: utensil
+8: food
+11: electronic appliance
+12: furniture
+5: plant life
+7: tree
+0: animal
+14: vehicle
+6: flower
+3: insect
+13: person
+117: natural outdoor scnee
+4: reptile
+16: building
+1: aquatic mammal
+prediction: food
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 2
+sorted: {0: tensor(-0.1608), 13: tensor(-0.1608), 11: tensor(-0.1608), 15: tensor(-0.1608), 4: tensor(-0.1608), 8: tensor(-0.1609), 12: tensor(-0.1609), 1: tensor(-0.1610), 7: tensor(-0.1610), 117: tensor(-0.1610), 3: tensor(-0.1611), 6: tensor(-0.1611), 14: tensor(-0.1612), 5: tensor(-0.1613), 16: tensor(-0.1613)}
+0: animal
+13: person
+11: electronic appliance
+15: utensil
+4: reptile
+8: food
+12: furniture
+1: aquatic mammal
+7: tree
+117: natural outdoor scnee
+3: insect
+6: flower
+14: vehicle
+5: plant life
+16: building
+prediction: animal
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 46
+sorted: {13: tensor(-0.1460), 14: tensor(-0.1463), 8: tensor(-0.1464), 11: tensor(-0.1464), 0: tensor(-0.1465), 12: tensor(-0.1465), 4: tensor(-0.1465), 3: tensor(-0.1465), 16: tensor(-0.1466), 1: tensor(-0.1467), 15: tensor(-0.1467), 117: tensor(-0.1467), 7: tensor(-0.1468), 6: tensor(-0.1468), 5: tensor(-0.1470)}
+13: person
+14: vehicle
+8: food
+11: electronic appliance
+0: animal
+12: furniture
+4: reptile
+3: insect
+16: building
+1: aquatic mammal
+15: utensil
+117: natural outdoor scnee
+7: tree
+6: flower
+5: plant life
+prediction: person
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 15
+sorted: {0: tensor(-0.1611), 1: tensor(-0.1612), 4: tensor(-0.1615), 6: tensor(-0.1616), 3: tensor(-0.1617), 5: tensor(-0.1617), 117: tensor(-0.1618), 7: tensor(-0.1618), 8: tensor(-0.1618), 16: tensor(-0.1619), 12: tensor(-0.1619), 13: tensor(-0.1619), 11: tensor(-0.1619), 15: tensor(-0.1620), 14: tensor(-0.1621)}
+0: animal
+1: aquatic mammal
+4: reptile
+6: flower
+3: insect
+5: plant life
+117: natural outdoor scnee
+7: tree
+8: food
+16: building
+12: furniture
+13: person
+11: electronic appliance
+15: utensil
+14: vehicle
+prediction: animal
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 43
+sorted: {0: tensor(-0.1669), 1: tensor(-0.1671), 117: tensor(-0.1673), 8: tensor(-0.1673), 4: tensor(-0.1674), 3: tensor(-0.1674), 12: tensor(-0.1674), 6: tensor(-0.1674), 5: tensor(-0.1675), 14: tensor(-0.1675), 11: tensor(-0.1676), 7: tensor(-0.1676), 16: tensor(-0.1676), 15: tensor(-0.1677), 13: tensor(-0.1677)}
+0: animal
+1: aquatic mammal
+117: natural outdoor scnee
+8: food
+4: reptile
+3: insect
+12: furniture
+6: flower
+5: plant life
+14: vehicle
+11: electronic appliance
+7: tree
+16: building
+15: utensil
+13: person
+prediction: animal
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 19
+sorted: {0: tensor(-0.1557), 1: tensor(-0.1561), 13: tensor(-0.1562), 4: tensor(-0.1563), 12: tensor(-0.1563), 3: tensor(-0.1563), 11: tensor(-0.1564), 15: tensor(-0.1564), 16: tensor(-0.1564), 7: tensor(-0.1565), 8: tensor(-0.1565), 6: tensor(-0.1565), 5: tensor(-0.1565), 117: tensor(-0.1565), 14: tensor(-0.1565)}
+0: animal
+1: aquatic mammal
+13: person
+4: reptile
+12: furniture
+3: insect
+11: electronic appliance
+15: utensil
+16: building
+7: tree
+8: food
+6: flower
+5: plant life
+117: natural outdoor scnee
+14: vehicle
+prediction: animal
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 88
+sorted: {0: tensor(-0.1775), 1: tensor(-0.1778), 4: tensor(-0.1780), 3: tensor(-0.1782), 117: tensor(-0.1782), 5: tensor(-0.1782), 6: tensor(-0.1782), 7: tensor(-0.1784), 8: tensor(-0.1784), 14: tensor(-0.1784), 11: tensor(-0.1785), 12: tensor(-0.1785), 16: tensor(-0.1785), 15: tensor(-0.1786), 13: tensor(-0.1786)}
+0: animal
+1: aquatic mammal
+4: reptile
+3: insect
+117: natural outdoor scnee
+5: plant life
+6: flower
+7: tree
+8: food
+14: vehicle
+11: electronic appliance
+12: furniture
+16: building
+15: utensil
+13: person
+prediction: animal
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 88
+sorted: {0: tensor(-0.1510), 1: tensor(-0.1511), 4: tensor(-0.1512), 3: tensor(-0.1513), 117: tensor(-0.1513), 6: tensor(-0.1513), 11: tensor(-0.1513), 5: tensor(-0.1513), 13: tensor(-0.1514), 7: tensor(-0.1514), 16: tensor(-0.1514), 8: tensor(-0.1514), 14: tensor(-0.1515), 12: tensor(-0.1515), 15: tensor(-0.1515)}
+0: animal
+1: aquatic mammal
+4: reptile
+3: insect
+117: natural outdoor scnee
+6: flower
+11: electronic appliance
+5: plant life
+13: person
+7: tree
+16: building
+8: food
+14: vehicle
+12: furniture
+15: utensil
+prediction: animal
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 39
+sorted: {8: tensor(-0.1516), 15: tensor(-0.1516), 12: tensor(-0.1516), 11: tensor(-0.1516), 0: tensor(-0.1516), 4: tensor(-0.1516), 16: tensor(-0.1517), 13: tensor(-0.1517), 1: tensor(-0.1517), 3: tensor(-0.1518), 14: tensor(-0.1519), 5: tensor(-0.1519), 117: tensor(-0.1520), 6: tensor(-0.1520), 7: tensor(-0.1522)}
+8: food
+15: utensil
+12: furniture
+11: electronic appliance
+0: animal
+4: reptile
+16: building
+13: person
+1: aquatic mammal
+3: insect
+14: vehicle
+5: plant life
+117: natural outdoor scnee
+6: flower
+7: tree
+prediction: electronic appliance
+
+Inference time: 40.93 seconds 
+
+
+
+
+image_label: 28
+sorted: {12: tensor(-0.1189), 15: tensor(-0.1189), 11: tensor(-0.1190), 8: tensor(-0.1190), 0: tensor(-0.1192), 13: tensor(-0.1192), 5: tensor(-0.1192), 4: tensor(-0.1193), 6: tensor(-0.1193), 7: tensor(-0.1193), 1: tensor(-0.1194), 3: tensor(-0.1194), 117: tensor(-0.1195), 16: tensor(-0.1195), 14: tensor(-0.1196)}
+12: furniture
+15: utensil
+11: electronic appliance
+8: food
+0: animal
+13: person
+5: plant life
+4: reptile
+6: flower
+7: tree
+1: aquatic mammal
+3: insect
+117: natural outdoor scnee
+16: building
+14: vehicle
+prediction: utensil
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 17
+sorted: {117: tensor(-0.1469), 5: tensor(-0.1471), 6: tensor(-0.1471), 7: tensor(-0.1471), 3: tensor(-0.1472), 1: tensor(-0.1472), 16: tensor(-0.1472), 4: tensor(-0.1473), 0: tensor(-0.1473), 8: tensor(-0.1474), 13: tensor(-0.1474), 11: tensor(-0.1474), 14: tensor(-0.1474), 15: tensor(-0.1475), 12: tensor(-0.1475)}
+117: natural outdoor scnee
+5: plant life
+6: flower
+7: tree
+3: insect
+1: aquatic mammal
+16: building
+4: reptile
+0: animal
+8: food
+13: person
+11: electronic appliance
+14: vehicle
+15: utensil
+12: furniture
+prediction: natural outdoor scnee
+
+Inference time: 40.89 seconds 
+
+
+
+
+image_label: 4
+sorted: {1: tensor(-0.1710), 0: tensor(-0.1712), 4: tensor(-0.1713), 117: tensor(-0.1714), 3: tensor(-0.1715), 6: tensor(-0.1715), 16: tensor(-0.1716), 5: tensor(-0.1716), 7: tensor(-0.1716), 8: tensor(-0.1718), 13: tensor(-0.1718), 14: tensor(-0.1719), 11: tensor(-0.1719), 12: tensor(-0.1719), 15: tensor(-0.1720)}
+1: aquatic mammal
+0: animal
+4: reptile
+117: natural outdoor scnee
+3: insect
+6: flower
+16: building
+5: plant life
+7: tree
+8: food
+13: person
+14: vehicle
+11: electronic appliance
+12: furniture
+15: utensil
+prediction: aquatic mammal
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 42
+sorted: {1: tensor(-0.1543), 0: tensor(-0.1543), 4: tensor(-0.1544), 3: tensor(-0.1545), 11: tensor(-0.1548), 6: tensor(-0.1549), 12: tensor(-0.1549), 8: tensor(-0.1549), 13: tensor(-0.1550), 15: tensor(-0.1550), 5: tensor(-0.1551), 14: tensor(-0.1551), 117: tensor(-0.1551), 7: tensor(-0.1552), 16: tensor(-0.1552)}
+1: aquatic mammal
+0: animal
+4: reptile
+3: insect
+11: electronic appliance
+6: flower
+12: furniture
+8: food
+13: person
+15: utensil
+5: plant life
+14: vehicle
+117: natural outdoor scnee
+7: tree
+16: building
+prediction: aquatic mammal
+
+Inference time: 40.89 seconds 
+
+
+
+
+image_label: 53
+sorted: {8: tensor(-0.1360), 3: tensor(-0.1361), 15: tensor(-0.1361), 11: tensor(-0.1362), 6: tensor(-0.1362), 4: tensor(-0.1362), 5: tensor(-0.1363), 12: tensor(-0.1363), 14: tensor(-0.1364), 13: tensor(-0.1364), 7: tensor(-0.1365), 0: tensor(-0.1365), 1: tensor(-0.1365), 16: tensor(-0.1366), 117: tensor(-0.1366)}
+8: food
+3: insect
+15: utensil
+11: electronic appliance
+6: flower
+4: reptile
+5: plant life
+12: furniture
+14: vehicle
+13: person
+7: tree
+0: animal
+1: aquatic mammal
+16: building
+117: natural outdoor scnee
+prediction: food
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 47
+sorted: {7: tensor(-0.1557), 117: tensor(-0.1559), 5: tensor(-0.1560), 6: tensor(-0.1561), 16: tensor(-0.1562), 0: tensor(-0.1563), 8: tensor(-0.1564), 3: tensor(-0.1564), 12: tensor(-0.1564), 11: tensor(-0.1565), 1: tensor(-0.1565), 4: tensor(-0.1565), 14: tensor(-0.1565), 15: tensor(-0.1565), 13: tensor(-0.1567)}
+7: tree
+117: natural outdoor scnee
+5: plant life
+6: flower
+16: building
+0: animal
+8: food
+3: insect
+12: furniture
+11: electronic appliance
+1: aquatic mammal
+4: reptile
+14: vehicle
+15: utensil
+13: person
+prediction: tree
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 43
+sorted: {0: tensor(-0.1458), 1: tensor(-0.1463), 3: tensor(-0.1466), 13: tensor(-0.1467), 8: tensor(-0.1467), 4: tensor(-0.1468), 11: tensor(-0.1468), 6: tensor(-0.1468), 14: tensor(-0.1468), 15: tensor(-0.1469), 117: tensor(-0.1469), 5: tensor(-0.1470), 7: tensor(-0.1470), 12: tensor(-0.1470), 16: tensor(-0.1471)}
+0: animal
+1: aquatic mammal
+3: insect
+13: person
+8: food
+4: reptile
+11: electronic appliance
+6: flower
+14: vehicle
+15: utensil
+117: natural outdoor scnee
+5: plant life
+7: tree
+12: furniture
+16: building
+prediction: animal
+
+Inference time: 40.94 seconds 
+
+
+
+
+image_label: 81
+sorted: {16: tensor(-0.1553), 11: tensor(-0.1554), 8: tensor(-0.1555), 6: tensor(-0.1555), 12: tensor(-0.1555), 3: tensor(-0.1555), 117: tensor(-0.1555), 5: tensor(-0.1556), 15: tensor(-0.1556), 14: tensor(-0.1556), 7: tensor(-0.1556), 4: tensor(-0.1556), 0: tensor(-0.1556), 1: tensor(-0.1557), 13: tensor(-0.1557)}
+16: building
+11: electronic appliance
+8: food
+6: flower
+12: furniture
+3: insect
+117: natural outdoor scnee
+5: plant life
+15: utensil
+14: vehicle
+7: tree
+4: reptile
+0: animal
+1: aquatic mammal
+13: person
+prediction: building
+
+Inference time: 40.93 seconds 
+
+
+
+
+image_label: 8
+sorted: {117: tensor(-0.1555), 13: tensor(-0.1557), 7: tensor(-0.1557), 0: tensor(-0.1558), 16: tensor(-0.1558), 4: tensor(-0.1559), 14: tensor(-0.1559), 3: tensor(-0.1560), 15: tensor(-0.1560), 8: tensor(-0.1560), 6: tensor(-0.1560), 11: tensor(-0.1561), 12: tensor(-0.1561), 5: tensor(-0.1561), 1: tensor(-0.1562)}
+117: natural outdoor scnee
+13: person
+7: tree
+0: animal
+16: building
+4: reptile
+14: vehicle
+3: insect
+15: utensil
+8: food
+6: flower
+11: electronic appliance
+12: furniture
+5: plant life
+1: aquatic mammal
+prediction: natural outdoor scnee
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 47
+sorted: {117: tensor(-0.1437), 16: tensor(-0.1437), 7: tensor(-0.1438), 13: tensor(-0.1439), 0: tensor(-0.1439), 14: tensor(-0.1439), 15: tensor(-0.1440), 8: tensor(-0.1440), 3: tensor(-0.1440), 11: tensor(-0.1440), 4: tensor(-0.1441), 12: tensor(-0.1441), 6: tensor(-0.1441), 5: tensor(-0.1442), 1: tensor(-0.1443)}
+117: natural outdoor scnee
+16: building
+7: tree
+13: person
+0: animal
+14: vehicle
+15: utensil
+8: food
+3: insect
+11: electronic appliance
+4: reptile
+12: furniture
+6: flower
+5: plant life
+1: aquatic mammal
+prediction: natural outdoor scnee
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 19
+sorted: {0: tensor(-0.1361), 1: tensor(-0.1368), 4: tensor(-0.1371), 3: tensor(-0.1371), 13: tensor(-0.1372), 6: tensor(-0.1375), 8: tensor(-0.1376), 7: tensor(-0.1376), 11: tensor(-0.1376), 5: tensor(-0.1377), 15: tensor(-0.1377), 12: tensor(-0.1378), 14: tensor(-0.1378), 117: tensor(-0.1378), 16: tensor(-0.1379)}
+0: animal
+1: aquatic mammal
+4: reptile
+3: insect
+13: person
+6: flower
+8: food
+7: tree
+11: electronic appliance
+5: plant life
+15: utensil
+12: furniture
+14: vehicle
+117: natural outdoor scnee
+16: building
+prediction: animal
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 62
+sorted: {6: tensor(-0.1390), 5: tensor(-0.1393), 3: tensor(-0.1394), 7: tensor(-0.1396), 117: tensor(-0.1396), 8: tensor(-0.1397), 0: tensor(-0.1397), 4: tensor(-0.1397), 1: tensor(-0.1398), 13: tensor(-0.1399), 11: tensor(-0.1399), 14: tensor(-0.1399), 12: tensor(-0.1400), 16: tensor(-0.1400), 15: tensor(-0.1400)}
+6: flower
+5: plant life
+3: insect
+7: tree
+117: natural outdoor scnee
+8: food
+0: animal
+4: reptile
+1: aquatic mammal
+13: person
+11: electronic appliance
+14: vehicle
+12: furniture
+16: building
+15: utensil
+prediction: flower
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 70
+sorted: {6: tensor(-0.1703), 5: tensor(-0.1705), 0: tensor(-0.1706), 7: tensor(-0.1706), 3: tensor(-0.1707), 117: tensor(-0.1707), 1: tensor(-0.1707), 8: tensor(-0.1707), 4: tensor(-0.1707), 15: tensor(-0.1708), 12: tensor(-0.1708), 13: tensor(-0.1708), 16: tensor(-0.1709), 11: tensor(-0.1709), 14: tensor(-0.1709)}
+6: flower
+5: plant life
+0: animal
+7: tree
+3: insect
+117: natural outdoor scnee
+1: aquatic mammal
+8: food
+4: reptile
+15: utensil
+12: furniture
+13: person
+16: building
+11: electronic appliance
+14: vehicle
+prediction: flower
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 87
+sorted: {11: tensor(-0.1424), 12: tensor(-0.1425), 15: tensor(-0.1426), 0: tensor(-0.1426), 8: tensor(-0.1426), 13: tensor(-0.1426), 7: tensor(-0.1426), 16: tensor(-0.1427), 6: tensor(-0.1427), 5: tensor(-0.1427), 3: tensor(-0.1428), 4: tensor(-0.1428), 1: tensor(-0.1429), 117: tensor(-0.1429), 14: tensor(-0.1430)}
+11: electronic appliance
+12: furniture
+15: utensil
+0: animal
+8: food
+13: person
+7: tree
+16: building
+6: flower
+5: plant life
+3: insect
+4: reptile
+1: aquatic mammal
+117: natural outdoor scnee
+14: vehicle
+prediction: electronic appliance
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 92
+sorted: {5: tensor(-0.1737), 6: tensor(-0.1737), 8: tensor(-0.1739), 0: tensor(-0.1739), 1: tensor(-0.1739), 7: tensor(-0.1739), 117: tensor(-0.1739), 3: tensor(-0.1740), 4: tensor(-0.1740), 11: tensor(-0.1740), 12: tensor(-0.1740), 15: tensor(-0.1740), 13: tensor(-0.1741), 16: tensor(-0.1742), 14: tensor(-0.1742)}
+5: plant life
+6: flower
+8: food
+0: animal
+1: aquatic mammal
+7: tree
+117: natural outdoor scnee
+3: insect
+4: reptile
+11: electronic appliance
+12: furniture
+15: utensil
+13: person
+16: building
+14: vehicle
+prediction: flower
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 55
+sorted: {1: tensor(-0.1451), 4: tensor(-0.1452), 0: tensor(-0.1453), 3: tensor(-0.1453), 6: tensor(-0.1455), 117: tensor(-0.1455), 8: tensor(-0.1455), 7: tensor(-0.1455), 13: tensor(-0.1456), 5: tensor(-0.1456), 12: tensor(-0.1457), 14: tensor(-0.1457), 15: tensor(-0.1457), 11: tensor(-0.1457), 16: tensor(-0.1459)}
+1: aquatic mammal
+4: reptile
+0: animal
+3: insect
+6: flower
+117: natural outdoor scnee
+8: food
+7: tree
+13: person
+5: plant life
+12: furniture
+14: vehicle
+15: utensil
+11: electronic appliance
+16: building
+prediction: aquatic mammal
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 62
+sorted: {6: tensor(-0.1633), 117: tensor(-0.1634), 5: tensor(-0.1635), 3: tensor(-0.1636), 7: tensor(-0.1636), 16: tensor(-0.1637), 0: tensor(-0.1638), 14: tensor(-0.1639), 1: tensor(-0.1639), 4: tensor(-0.1639), 8: tensor(-0.1639), 13: tensor(-0.1639), 15: tensor(-0.1639), 11: tensor(-0.1640), 12: tensor(-0.1641)}
+6: flower
+117: natural outdoor scnee
+5: plant life
+3: insect
+7: tree
+16: building
+0: animal
+14: vehicle
+1: aquatic mammal
+4: reptile
+8: food
+13: person
+15: utensil
+11: electronic appliance
+12: furniture
+prediction: natural outdoor scnee
+
+Inference time: 40.89 seconds 
+
+
+
+
+image_label: 17
+sorted: {16: tensor(-0.1448), 0: tensor(-0.1449), 4: tensor(-0.1450), 3: tensor(-0.1451), 117: tensor(-0.1452), 13: tensor(-0.1452), 6: tensor(-0.1452), 14: tensor(-0.1452), 7: tensor(-0.1452), 8: tensor(-0.1453), 11: tensor(-0.1453), 1: tensor(-0.1453), 12: tensor(-0.1454), 15: tensor(-0.1454), 5: tensor(-0.1455)}
+16: building
+0: animal
+4: reptile
+3: insect
+117: natural outdoor scnee
+13: person
+6: flower
+14: vehicle
+7: tree
+8: food
+11: electronic appliance
+1: aquatic mammal
+12: furniture
+15: utensil
+5: plant life
+prediction: building
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 58
+sorted: {14: tensor(-0.1586), 13: tensor(-0.1589), 16: tensor(-0.1589), 0: tensor(-0.1590), 15: tensor(-0.1591), 3: tensor(-0.1591), 4: tensor(-0.1591), 12: tensor(-0.1592), 8: tensor(-0.1592), 7: tensor(-0.1592), 11: tensor(-0.1593), 6: tensor(-0.1593), 117: tensor(-0.1593), 1: tensor(-0.1593), 5: tensor(-0.1594)}
+14: vehicle
+13: person
+16: building
+0: animal
+15: utensil
+3: insect
+4: reptile
+12: furniture
+8: food
+7: tree
+11: electronic appliance
+6: flower
+117: natural outdoor scnee
+1: aquatic mammal
+5: plant life
+prediction: vehicle
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 64
+sorted: {0: tensor(-0.1416), 1: tensor(-0.1416), 4: tensor(-0.1417), 3: tensor(-0.1419), 8: tensor(-0.1423), 13: tensor(-0.1423), 6: tensor(-0.1423), 14: tensor(-0.1423), 11: tensor(-0.1424), 15: tensor(-0.1424), 12: tensor(-0.1424), 5: tensor(-0.1424), 7: tensor(-0.1425), 16: tensor(-0.1425), 117: tensor(-0.1426)}
+0: animal
+1: aquatic mammal
+4: reptile
+3: insect
+8: food
+13: person
+6: flower
+14: vehicle
+11: electronic appliance
+15: utensil
+12: furniture
+5: plant life
+7: tree
+16: building
+117: natural outdoor scnee
+prediction: animal
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 60
+sorted: {117: tensor(-0.1393), 0: tensor(-0.1395), 5: tensor(-0.1396), 6: tensor(-0.1396), 7: tensor(-0.1396), 3: tensor(-0.1396), 1: tensor(-0.1397), 4: tensor(-0.1397), 16: tensor(-0.1400), 13: tensor(-0.1400), 14: tensor(-0.1401), 8: tensor(-0.1401), 12: tensor(-0.1401), 11: tensor(-0.1401), 15: tensor(-0.1403)}
+117: natural outdoor scnee
+0: animal
+5: plant life
+6: flower
+7: tree
+3: insect
+1: aquatic mammal
+4: reptile
+16: building
+13: person
+14: vehicle
+8: food
+12: furniture
+11: electronic appliance
+15: utensil
+prediction: natural outdoor scnee
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 13
+sorted: {8: tensor(-0.1706), 16: tensor(-0.1706), 11: tensor(-0.1706), 14: tensor(-0.1707), 0: tensor(-0.1707), 6: tensor(-0.1707), 12: tensor(-0.1707), 15: tensor(-0.1707), 7: tensor(-0.1707), 117: tensor(-0.1707), 4: tensor(-0.1707), 5: tensor(-0.1707), 3: tensor(-0.1707), 13: tensor(-0.1707), 1: tensor(-0.1709)}
+8: food
+16: building
+11: electronic appliance
+14: vehicle
+0: animal
+6: flower
+12: furniture
+15: utensil
+7: tree
+117: natural outdoor scnee
+4: reptile
+5: plant life
+3: insect
+13: person
+1: aquatic mammal
+prediction: animal
+
+Inference time: 40.93 seconds 
+
+
+
+
+image_label: 65
+sorted: {0: tensor(-0.1565), 1: tensor(-0.1566), 4: tensor(-0.1568), 3: tensor(-0.1570), 6: tensor(-0.1571), 13: tensor(-0.1571), 8: tensor(-0.1571), 7: tensor(-0.1571), 11: tensor(-0.1572), 5: tensor(-0.1572), 15: tensor(-0.1572), 12: tensor(-0.1572), 16: tensor(-0.1573), 14: tensor(-0.1573), 117: tensor(-0.1574)}
+0: animal
+1: aquatic mammal
+4: reptile
+3: insect
+6: flower
+13: person
+8: food
+7: tree
+11: electronic appliance
+5: plant life
+15: utensil
+12: furniture
+16: building
+14: vehicle
+117: natural outdoor scnee
+prediction: animal
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 24
+sorted: {3: tensor(-0.1397), 13: tensor(-0.1402), 4: tensor(-0.1402), 6: tensor(-0.1403), 5: tensor(-0.1403), 0: tensor(-0.1403), 1: tensor(-0.1403), 11: tensor(-0.1405), 15: tensor(-0.1405), 8: tensor(-0.1405), 7: tensor(-0.1405), 117: tensor(-0.1406), 14: tensor(-0.1406), 12: tensor(-0.1407), 16: tensor(-0.1408)}
+3: insect
+13: person
+4: reptile
+6: flower
+5: plant life
+0: animal
+1: aquatic mammal
+11: electronic appliance
+15: utensil
+8: food
+7: tree
+117: natural outdoor scnee
+14: vehicle
+12: furniture
+16: building
+prediction: insect
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 12
+sorted: {16: tensor(-0.1623), 117: tensor(-0.1624), 7: tensor(-0.1625), 6: tensor(-0.1625), 0: tensor(-0.1625), 4: tensor(-0.1626), 3: tensor(-0.1626), 13: tensor(-0.1626), 1: tensor(-0.1626), 5: tensor(-0.1626), 14: tensor(-0.1626), 11: tensor(-0.1627), 15: tensor(-0.1627), 8: tensor(-0.1627), 12: tensor(-0.1627)}
+16: building
+117: natural outdoor scnee
+7: tree
+6: flower
+0: animal
+4: reptile
+3: insect
+13: person
+1: aquatic mammal
+5: plant life
+14: vehicle
+11: electronic appliance
+15: utensil
+8: food
+12: furniture
+prediction: building
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 10
+sorted: {8: tensor(-0.1518), 15: tensor(-0.1521), 11: tensor(-0.1523), 5: tensor(-0.1523), 6: tensor(-0.1525), 12: tensor(-0.1525), 3: tensor(-0.1527), 7: tensor(-0.1527), 0: tensor(-0.1528), 13: tensor(-0.1529), 117: tensor(-0.1529), 14: tensor(-0.1529), 1: tensor(-0.1530), 4: tensor(-0.1530), 16: tensor(-0.1531)}
+8: food
+15: utensil
+11: electronic appliance
+5: plant life
+6: flower
+12: furniture
+3: insect
+7: tree
+0: animal
+13: person
+117: natural outdoor scnee
+14: vehicle
+1: aquatic mammal
+4: reptile
+16: building
+prediction: food
+
+Inference time: 40.93 seconds 
+
+
+
+
+image_label: 10
+sorted: {12: tensor(-0.1469), 8: tensor(-0.1470), 15: tensor(-0.1471), 14: tensor(-0.1471), 6: tensor(-0.1472), 11: tensor(-0.1472), 13: tensor(-0.1474), 0: tensor(-0.1475), 5: tensor(-0.1475), 117: tensor(-0.1475), 7: tensor(-0.1476), 3: tensor(-0.1476), 16: tensor(-0.1476), 1: tensor(-0.1478), 4: tensor(-0.1478)}
+12: furniture
+8: food
+15: utensil
+14: vehicle
+6: flower
+11: electronic appliance
+13: person
+0: animal
+5: plant life
+117: natural outdoor scnee
+7: tree
+3: insect
+16: building
+1: aquatic mammal
+4: reptile
+prediction: furniture
+
+Inference time: 40.94 seconds 
+
+
+
+
+image_label: 83
+sorted: {0: tensor(-0.1603), 6: tensor(-0.1603), 1: tensor(-0.1603), 3: tensor(-0.1604), 8: tensor(-0.1604), 11: tensor(-0.1604), 15: tensor(-0.1604), 4: tensor(-0.1604), 5: tensor(-0.1605), 14: tensor(-0.1605), 117: tensor(-0.1606), 16: tensor(-0.1606), 12: tensor(-0.1606), 13: tensor(-0.1606), 7: tensor(-0.1606)}
+0: animal
+6: flower
+1: aquatic mammal
+3: insect
+8: food
+11: electronic appliance
+15: utensil
+4: reptile
+5: plant life
+14: vehicle
+117: natural outdoor scnee
+16: building
+12: furniture
+13: person
+7: tree
+prediction: flower
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 27
+sorted: {3: tensor(-0.1379), 4: tensor(-0.1379), 1: tensor(-0.1380), 0: tensor(-0.1380), 6: tensor(-0.1381), 11: tensor(-0.1382), 5: tensor(-0.1382), 8: tensor(-0.1383), 12: tensor(-0.1383), 14: tensor(-0.1383), 15: tensor(-0.1383), 13: tensor(-0.1383), 7: tensor(-0.1384), 117: tensor(-0.1385), 16: tensor(-0.1387)}
+3: insect
+4: reptile
+1: aquatic mammal
+0: animal
+6: flower
+11: electronic appliance
+5: plant life
+8: food
+12: furniture
+14: vehicle
+15: utensil
+13: person
+7: tree
+117: natural outdoor scnee
+16: building
+prediction: insect
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 73
+sorted: {1: tensor(-0.1371), 4: tensor(-0.1374), 0: tensor(-0.1375), 5: tensor(-0.1376), 8: tensor(-0.1376), 3: tensor(-0.1376), 6: tensor(-0.1376), 117: tensor(-0.1377), 15: tensor(-0.1377), 12: tensor(-0.1378), 14: tensor(-0.1378), 13: tensor(-0.1378), 11: tensor(-0.1378), 7: tensor(-0.1378), 16: tensor(-0.1380)}
+1: aquatic mammal
+4: reptile
+0: animal
+5: plant life
+8: food
+3: insect
+6: flower
+117: natural outdoor scnee
+15: utensil
+12: furniture
+14: vehicle
+13: person
+11: electronic appliance
+7: tree
+16: building
+prediction: aquatic mammal
+
+Inference time: 40.90 seconds 
+
+
+
+
+image_label: 51
+sorted: {0: tensor(-0.1835), 1: tensor(-0.1836), 4: tensor(-0.1836), 117: tensor(-0.1836), 3: tensor(-0.1837), 6: tensor(-0.1837), 15: tensor(-0.1837), 7: tensor(-0.1837), 5: tensor(-0.1837), 12: tensor(-0.1838), 8: tensor(-0.1838), 11: tensor(-0.1838), 14: tensor(-0.1839), 13: tensor(-0.1839), 16: tensor(-0.1839)}
+0: animal
+1: aquatic mammal
+4: reptile
+117: natural outdoor scnee
+3: insect
+6: flower
+15: utensil
+7: tree
+5: plant life
+12: furniture
+8: food
+11: electronic appliance
+14: vehicle
+13: person
+16: building
+prediction: animal
+
+Inference time: 40.89 seconds 
+
+
+
+
+image_label: 17
+sorted: {0: tensor(-0.1353), 3: tensor(-0.1353), 117: tensor(-0.1353), 7: tensor(-0.1354), 13: tensor(-0.1355), 4: tensor(-0.1355), 6: tensor(-0.1355), 16: tensor(-0.1355), 11: tensor(-0.1356), 14: tensor(-0.1357), 8: tensor(-0.1357), 15: tensor(-0.1357), 12: tensor(-0.1357), 5: tensor(-0.1358), 1: tensor(-0.1359)}
+0: animal
+3: insect
+117: natural outdoor scnee
+7: tree
+13: person
+4: reptile
+6: flower
+16: building
+11: electronic appliance
+14: vehicle
+8: food
+15: utensil
+12: furniture
+5: plant life
+1: aquatic mammal
+prediction: animal
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 20
+sorted: {12: tensor(-0.1355), 0: tensor(-0.1360), 3: tensor(-0.1360), 11: tensor(-0.1361), 15: tensor(-0.1362), 4: tensor(-0.1362), 6: tensor(-0.1362), 1: tensor(-0.1362), 5: tensor(-0.1363), 7: tensor(-0.1363), 16: tensor(-0.1363), 8: tensor(-0.1363), 13: tensor(-0.1363), 14: tensor(-0.1364), 117: tensor(-0.1365)}
+12: furniture
+0: animal
+3: insect
+11: electronic appliance
+15: utensil
+4: reptile
+6: flower
+1: aquatic mammal
+5: plant life
+7: tree
+16: building
+8: food
+13: person
+14: vehicle
+117: natural outdoor scnee
+prediction: furniture
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 86
+sorted: {16: tensor(-0.1057), 12: tensor(-0.1058), 11: tensor(-0.1058), 14: tensor(-0.1058), 13: tensor(-0.1058), 15: tensor(-0.1059), 8: tensor(-0.1059), 0: tensor(-0.1060), 117: tensor(-0.1060), 3: tensor(-0.1061), 7: tensor(-0.1061), 1: tensor(-0.1061), 4: tensor(-0.1062), 5: tensor(-0.1063), 6: tensor(-0.1063)}
+16: building
+12: furniture
+11: electronic appliance
+14: vehicle
+13: person
+15: utensil
+8: food
+0: animal
+117: natural outdoor scnee
+3: insect
+7: tree
+1: aquatic mammal
+4: reptile
+5: plant life
+6: flower
+prediction: vehicle
+
+Inference time: 40.93 seconds 
+
+
+
+
+image_label: 70
+sorted: {6: tensor(-0.1555), 5: tensor(-0.1557), 3: tensor(-0.1558), 117: tensor(-0.1559), 7: tensor(-0.1560), 0: tensor(-0.1560), 1: tensor(-0.1560), 4: tensor(-0.1561), 11: tensor(-0.1561), 8: tensor(-0.1562), 12: tensor(-0.1563), 15: tensor(-0.1563), 13: tensor(-0.1563), 16: tensor(-0.1564), 14: tensor(-0.1564)}
+6: flower
+5: plant life
+3: insect
+117: natural outdoor scnee
+7: tree
+0: animal
+1: aquatic mammal
+4: reptile
+11: electronic appliance
+8: food
+12: furniture
+15: utensil
+13: person
+16: building
+14: vehicle
+prediction: flower
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 49
+sorted: {117: tensor(-0.1527), 8: tensor(-0.1527), 16: tensor(-0.1528), 15: tensor(-0.1528), 12: tensor(-0.1528), 11: tensor(-0.1529), 14: tensor(-0.1529), 0: tensor(-0.1529), 13: tensor(-0.1529), 7: tensor(-0.1529), 1: tensor(-0.1529), 5: tensor(-0.1529), 4: tensor(-0.1530), 6: tensor(-0.1530), 3: tensor(-0.1531)}
+117: natural outdoor scnee
+8: food
+16: building
+15: utensil
+12: furniture
+11: electronic appliance
+14: vehicle
+0: animal
+13: person
+7: tree
+1: aquatic mammal
+5: plant life
+4: reptile
+6: flower
+3: insect
+prediction: natural outdoor scnee
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 56
+sorted: {7: tensor(-0.1633), 117: tensor(-0.1634), 5: tensor(-0.1636), 16: tensor(-0.1636), 6: tensor(-0.1638), 8: tensor(-0.1640), 0: tensor(-0.1640), 4: tensor(-0.1641), 14: tensor(-0.1641), 3: tensor(-0.1641), 1: tensor(-0.1641), 13: tensor(-0.1642), 15: tensor(-0.1642), 11: tensor(-0.1643), 12: tensor(-0.1644)}
+7: tree
+117: natural outdoor scnee
+5: plant life
+16: building
+6: flower
+8: food
+0: animal
+4: reptile
+14: vehicle
+3: insect
+1: aquatic mammal
+13: person
+15: utensil
+11: electronic appliance
+12: furniture
+prediction: tree
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 43
+sorted: {0: tensor(-0.1356), 1: tensor(-0.1365), 4: tensor(-0.1367), 13: tensor(-0.1371), 11: tensor(-0.1374), 3: tensor(-0.1374), 16: tensor(-0.1375), 14: tensor(-0.1375), 7: tensor(-0.1376), 117: tensor(-0.1377), 6: tensor(-0.1379), 8: tensor(-0.1380), 12: tensor(-0.1380), 15: tensor(-0.1380), 5: tensor(-0.1383)}
+0: animal
+1: aquatic mammal
+4: reptile
+13: person
+11: electronic appliance
+3: insect
+16: building
+14: vehicle
+7: tree
+117: natural outdoor scnee
+6: flower
+8: food
+12: furniture
+15: utensil
+5: plant life
+prediction: animal
+
+Inference time: 40.91 seconds 
+
+
+
+
+image_label: 28
+sorted: {15: tensor(-0.1570), 11: tensor(-0.1572), 6: tensor(-0.1573), 8: tensor(-0.1574), 12: tensor(-0.1574), 5: tensor(-0.1574), 7: tensor(-0.1576), 16: tensor(-0.1576), 14: tensor(-0.1577), 4: tensor(-0.1578), 13: tensor(-0.1578), 117: tensor(-0.1578), 0: tensor(-0.1579), 1: tensor(-0.1579), 3: tensor(-0.1579)}
+15: utensil
+11: electronic appliance
+6: flower
+8: food
+12: furniture
+5: plant life
+7: tree
+16: building
+14: vehicle
+4: reptile
+13: person
+117: natural outdoor scnee
+0: animal
+1: aquatic mammal
+3: insect
+prediction: utensil
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 17
+sorted: {16: tensor(-0.1459), 3: tensor(-0.1460), 8: tensor(-0.1460), 15: tensor(-0.1461), 4: tensor(-0.1461), 0: tensor(-0.1461), 11: tensor(-0.1461), 117: tensor(-0.1461), 5: tensor(-0.1462), 13: tensor(-0.1462), 6: tensor(-0.1462), 7: tensor(-0.1462), 12: tensor(-0.1463), 14: tensor(-0.1463), 1: tensor(-0.1464)}
+16: building
+3: insect
+8: food
+15: utensil
+4: reptile
+0: animal
+11: electronic appliance
+117: natural outdoor scnee
+5: plant life
+13: person
+6: flower
+7: tree
+12: furniture
+14: vehicle
+1: aquatic mammal
+prediction: building
+
+Inference time: 40.92 seconds 
+
+
+
+
+image_label: 74
+sorted: {1: tensor(-0.1696), 0: tensor(-0.1696), 4: tensor(-0.1697), 3: tensor(-0.1698), 117: tensor(-0.1700), 5: tensor(-0.1700), 6: tensor(-0.1701), 7: tensor(-0.1701), 13: tensor(-0.1703), 8: tensor(-0.1703), 16: tensor(-0.1703), 14: tensor(-0.1704), 12: tensor(-0.1704), 15: tensor(-0.1704), 11: tensor(-0.1705)}
+1: aquatic mammal
+0: animal
+4: reptile
+3: insect
+117: natural outdoor scnee
+5: plant life
+6: flower
+7: tree
+13: person
+8: food
+16: building
+14: vehicle
+12: furniture
+15: utensil
+11: electronic appliance
+prediction: aquatic mammal
+
+Inference time: 40.93 seconds 
+
+
+
+
+image_label: 46
