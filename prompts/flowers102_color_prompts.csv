@@ -1,0 +1,110 @@
+index,node,prompt,class_name,is_leaf,classidx
+0,n0000,a photo of a ancestor class.,ancestor_class,0,99999
+1,n0002,a photo of a red ginger flower.,red_ginger,1,0
+2,n0003,a photo of a red or orange flower.,orange,0,99999
+3,n0004,a photo of a orange dahlia flower.,orange_dahlia,1,1
+4,n0005,a photo of a yellow flower.,yellow,0,99999
+5,n0006,a photo of a pink yellow dahlia flower.,pink_yellow_dahlia,1,2
+6,n0007,a photo of a yellow iris flower.,yellow_iris,1,3
+7,n0008,a photo of a pink flower.,pink,0,99999
+8,n0009,a photo of a pink primrose flower.,pink_primrose,1,4
+9,n0010,a photo of a purple flower.,purple,0,99999
+10,n0011,a photo of a purple coneflower.,purple_coneflower,1,5
+11,n0012,a photo of a white flower.,white,0,99999
+12,n0013,a photo of a giant white arum lily flower.,giant_white_arum_lily,1,6
+13,n0014,a photo of a multicolor flower.,multicolor,0,99999
+14,n0015,a photo of a alpine sea holly flower.,alpine_sea_holly,1,7
+15,n0016,a photo of a buttercup flower.,buttercup,1,8
+16,n0017,a photo of a fire lily flower.,fire_lily,1,9
+17,n0018,a photo of a anthurium flower.,anthurium,1,10
+18,n0019,a photo of a californian poppy flower.,californian_poppy,1,11
+19,n0020,a photo of a foxglove flower.,foxglove,1,12
+20,n0021,a photo of a artichoke flower.,artichoke,1,13
+21,n0022,a photo of a camellia flower.,camellia,1,14
+22,n0023,a photo of a frangipani flower.,frangipani,1,15
+23,n0024,a photo of a azalea flower.,azalea,1,16
+24,n0025,a photo of a canna lily flower.,canna_lily,1,17
+25,n0026,a photo of a fritillary flower.,fritillary,1,18
+26,n0027,a photo of a ball moss flower.,ball_moss,1,19
+27,n0028,a photo of a canterbury bells flower.,canterbury_bells,1,20
+28,n0029,a photo of a garden phlox flower.,garden_phlox,1,21
+29,n0030,a photo of a balloon flower.,balloon_flower,1,22
+30,n0031,a photo of a cape flower.,cape_flower,1,23
+31,n0032,a photo of a gaura flower.,gaura,1,24
+32,n0033,a photo of a barbeton daisy flower.,barbeton_daisy,1,25
+33,n0034,a photo of a carnation flower.,carnation,1,26
+34,n0035,a photo of a gazania flower.,gazania,1,27
+35,n0036,a photo of a bearded iris flower.,bearded_iris,1,28
+36,n0037,a photo of a cautleya spicata flower.,cautleya_spicata,1,29
+37,n0038,a photo of a geranium flower.,geranium,1,30
+38,n0039,a photo of a bee balm flower.,bee_balm,1,31
+39,n0040,a photo of a clematis flower.,clematis,1,32
+40,n0041,a photo of a bird of paradise flower.,bird_of_paradise,1,33
+41,n0042,a photo of a colts foot flower.,colts_foot,1,34
+42,n0043,a photo of a globe thistle flower.,globe_thistle,1,35
+43,n0044,a photo of a bishop of llandaff flower.,bishop_of_llandaff,1,36
+44,n0045,a photo of a columbine flower.,columbine,1,37
+45,n0046,a photo of a globe flower.,globe_flower,1,38
+46,n0047,a photo of a black eyed susan flower.,black_eyed_susan,1,39
+47,n0048,a photo of a common dandelion flower.,common_dandelion,1,40
+48,n0049,a photo of a grape hyacinth flower.,grape_hyacinth,1,41
+49,n0050,a photo of a blackberry lily flower.,blackberry_lily,1,42
+50,n0051,a photo of a corn poppy flower.,corn_poppy,1,43
+51,n0052,a photo of a great masterwort flower.,great_masterwort,1,44
+52,n0053,a photo of a blanket flower flower.,blanket_flower,1,45
+53,n0054,a photo of a cyclamen flower.,cyclamen,1,46
+54,n0055,a photo of a hard leaved pocket orchid flower.,hard_leaved_pocket_orchid,1,47
+55,n0056,a photo of a bolero deep blue flower.,bolero_deep_blue,1,48
+56,n0057,a photo of a daffodil flower.,daffodil,1,49
+57,n0058,a photo of a hibiscus flower.,hibiscus,1,50
+58,n0059,a photo of a bougainvillea flower.,bougainvillea,1,51
+59,n0060,a photo of a desert rose flower.,desert_rose,1,52
+60,n0061,a photo of a hippeastrum flower.,hippeastrum,1,53
+61,n0062,a photo of a bromelia flower.,bromelia,1,54
+62,n0063,a photo of a english marigold flower.,english_marigold,1,55
+63,n0064,a photo of a japanese anemone flower.,japanese_anemone,1,56
+64,n0065,a photo of a king protea flower.,king_protea,1,57
+65,n0066,a photo of a peruvian lily flower.,peruvian_lily,1,58
+66,n0067,a photo of a stemless gentian flower.,stemless_gentian,1,59
+67,n0068,a photo of a lenten rose flower.,lenten_rose,1,60
+68,n0069,a photo of a petunia flower.,petunia,1,61
+69,n0070,a photo of a sunflower flower.,sunflower,1,62
+70,n0071,a photo of a lotus flower.,lotus,1,63
+71,n0072,a photo of a pincushion flower flower.,pincushion_flower,1,64
+72,n0073,a photo of a sweet pea flower.,sweet_pea,1,65
+73,n0074,a photo of a love in the mist flower.,love_in_the_mist,1,66
+74,n0075,a photo of a sweet william flower.,sweet_william,1,67
+75,n0076,a photo of a magnolia flower.,magnolia,1,68
+76,n0077,a photo of a sword lily flower.,sword_lily,1,69
+77,n0078,a photo of a mallow flower.,mallow,1,70
+78,n0079,a photo of a poinsettia flower.,poinsettia,1,71
+79,n0080,a photo of a thorn apple flower.,thorn_apple,1,72
+80,n0081,a photo of a marigold flower.,marigold,1,73
+81,n0082,a photo of a primula flower.,primula,1,74
+82,n0083,a photo of a tiger lily flower.,tiger_lily,1,75
+83,n0084,a photo of a mexican aster flower.,mexican_aster,1,76
+84,n0085,a photo of a prince of wales feathers flower.,prince_of_wales_feathers,1,77
+85,n0086,a photo of a toad lily flower.,toad_lily,1,78
+86,n0087,a photo of a mexican petunia flower.,mexican_petunia,1,79
+87,n0088,a photo of a tree mallow flower.,tree_mallow,1,80
+88,n0089,a photo of a monkshood flower.,monkshood,1,81
+89,n0090,a photo of a tree poppy flower.,tree_poppy,1,82
+90,n0091,a photo of a moon orchid flower.,moon_orchid,1,83
+91,n0092,a photo of a rose flower.,rose,1,84
+92,n0093,a photo of a trumpet creeper flower.,trumpet_creeper,1,85
+93,n0094,a photo of a morning glory flower.,morning_glory,1,86
+94,n0095,a photo of a ruby lipped cattleya flower.,ruby_lipped_cattleya,1,87
+95,n0096,a photo of a wallflower flower.,wallflower,1,88
+96,n0097,a photo of a siam tulip flower.,siam_tulip,1,89
+97,n0098,a photo of a water lily flower.,water_lily,1,90
+98,n0099,a photo of a osteospermum flower.,osteospermum,1,91
+99,n0100,a photo of a silverbush flower.,silverbush,1,92
+100,n0101,a photo of a watercress flower.,watercress,1,93
+101,n0102,a photo of a oxeye daisy flower.,oxeye_daisy,1,94
+102,n0103,a photo of a snapdragon flower.,snapdragon,1,95
+103,n0104,a photo of a wild pansy flower.,wild_pansy,1,96
+104,n0105,a photo of a passion flower flower.,passion_flower,1,97
+105,n0106,a photo of a spear thistle flower.,spear_thistle,1,98
+106,n0107,a photo of a windflower flower.,windflower,1,99
+107,n0108,a photo of a pelargonium flower.,pelargonium,1,100
+108,n0109,a photo of a spring crocus flower.,spring_crocus,1,101

@@ -125,4 +125,5 @@ Mean per class acc: 60.57%
 Mean inference time: 55.44 sec
 Top 1 acc: 60.66%
 Top 3 acc: 54.10%
+Top 2 acc: 50.00%
 Top 5 acc: 56.56%

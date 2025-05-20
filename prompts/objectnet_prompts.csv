@@ -1,0 +1,121 @@
+index,node,prompt,class_name,is_leaf,classidx
+0,n0000,"a photo of a ancestor class.",ancestor_class,0,99999
+1,n0001,"a photo of a alarm clock."",alarm_clock,1,0
+2,n0002,"a photo of a backpack.",backpack,1,1
+3,n0003,"a photo of a banana.",banana,1,2
+4,n0004,"a photo of a band aid.",band_aid,1,3
+5,n0005,"a photo of a basket.",basket,1,4
+6,n0006,"a photo of a beer bottle.",beer_bottle,1,5
+7,n0007,"a photo of a bench.",bench,1,6
+8,n0008,"a photo of a bicycle.",bicycle,1,7
+9,n0009,"a photo of a binder (closed).",binder_closed,1,8
+10,n0010,"a photo of a bottle cap.",bottle_cap,1,9
+11,n0011,"a photo of a bread loaf.",bread_loaf,1,10
+12,n0012,"a photo of a broom.",broom,1,11
+13,n0013,"a photo of a bucket.",bucket,1,12
+14,n0014,"a photo of a butcher's knife.",butchers_knife,1,13
+15,n0015,"a photo of a can opener.",can_opener,1,14     
+16,n0016,"a photo of a candle.",candle,1,15
+17,n0017,"a photo of a cellphone.",cellphone,1,16
+18,n0018,"a photo of a chair.",chair,1,17
+19,n0019,"a photo of a clothes hamper.",clothes_hamper,1,18
+20,n0020,"a photo of a coffee/french press.",coffee_french_press,1,19
+21,n0021,"a photo of a combination lock.",combination_lock,1,20
+22,n0022,"a photo of a computer mouse.",computer_mouse,1,21  
+23,n0023,"a photo of a desk lamp.",desk_lamp,1,22
+24,n0024,"a photo of a doormat.",doormat,1,23
+25,n0025,"a photo of a dress.",dress,1,24
+26,n0026,"a photo of a dress shoe (men).",dress_shoe_men,1,25
+27,n0027,"a photo of a drill.",drill,1,26
+28,n0028,"a photo of a drinking cup.",drinking_cup,1,27
+29,n0029,"a photo of a drying rack for plates.",drying_rack_for_dishes,1,28
+30,n0030,"a photo of a envelope.",envelope,1,29
+31,n0031,"a photo of a fan.",fan,1,30
+32,n0032,"a photo of a frying pan.",frying_pan,1,31
+33,n0033,"a photo of a bath towel.",full_sized_towel,1,32
+34,n0034,"a photo of a hair dryer.",hair_dryer,1,33
+35,n0035,"a photo of a hammer.",hammer,1,34
+36,n0036,"a photo of a dishrag or hand towel.",hand_towel_or_rag,1,35
+37,n0037,"a photo of a helmet.",helmet,1,36
+38,n0038,"a photo of a iron (for clothes).",iron_for_clothes,1,37
+39,n0039,"a photo of a jeans.",jeans,1,38
+40,n0040,"a photo of a keyboard.",keyboard,1,39
+41,n0041,"a photo of a ladle.",ladle,1,40
+42,n0042,"a photo of a lampshade.",lampshade,1,41
+43,n0043,"a photo of a laptop (open).",laptop_open,1,42
+44,n0044,"a photo of a lemon.",lemon,1,43
+45,n0045,"a photo of a letter opener.",letter_opener,1,44
+46,n0046,"a photo of a lighter.",lighter,1,45
+47,n0047,"a photo of a lipstick.",lipstick,1,46
+48,n0048,"a photo of a match.",match,1,47
+49,n0049,"a photo of a measuring cup.",measuring_cup,1,48
+50,n0050,"a photo of a microwave.",microwave,1,49
+51,n0051,"a photo of a mixing / salad bowl.",mixing_salad_bowl,1,50
+52,n0052,"a photo of a monitor.",monitor,1,51
+53,n0053,"a photo of a mug.",mug,1,52
+54,n0054,"a photo of a nail (fastener).",nail_fastener,1,53
+55,n0055,"a photo of a necklace.",necklace,1,54
+56,n0056,"a photo of a orange.",orange,1,55
+57,n0057,"a photo of a padlock.",padlock,1,56
+58,n0058,"a photo of a paintbrush.",paintbrush,1,57
+59,n0059,"a photo of a paper towel.",paper_towel,1,58
+60,n0060,"a photo of a pen.",pen,1,59
+61,n0061,"a photo of a pill bottle.",pill_bottle,1,60
+62,n0062,"a photo of a pillow.",pillow,1,61
+63,n0063,"a photo of a pitcher.",pitcher,1,62
+64,n0064,"a photo of a plastic bag.",plastic_bag,1,63
+65,n0065,"a photo of a plate.",plate,1,64
+66,n0066,"a photo of a plunger.",plunger,1,65
+67,n0067,"a photo of a pop can.",pop_can,1,66
+68,n0068,"a photo of a portable heater.",portable_heater,1,67
+69,n0069,"a photo of a printer.",printer,1,68
+70,n0070,"a photo of a remote control.",remote_control,1,69
+71,n0071,"a photo of a ruler.",ruler,1,70
+72,n0072,"a photo of a running shoe.",running_shoe,1,71
+73,n0073,"a photo of a safety pin.",safety_pin,1,72
+74,n0074,"a photo of a salt shaker.",salt_shaker,1,73
+75,n0075,"a photo of a sandal.",sandal,1,74
+76,n0076,"a photo of a screw.",screw,1,75
+77,n0077,"a photo of a shovel.",shovel,1,76
+78,n0078,"a photo of a skirt.",skirt,1,77
+79,n0079,"a photo of a sleeping bag.",sleeping_bag,1,78
+80,n0080,"a photo of a soap dispenser.",soap_dispenser,1,79
+81,n0081,"a photo of a sock.",sock,1,80
+82,n0082,"a photo of a soup bowl.",soup_bowl,1,81
+83,n0083,"a photo of a spatula.",spatula,1,82
+84,n0084,"a photo of a speaker.",speaker,1,83
+85,n0085,"a photo of a still camera.",still_camera,1,84
+86,n0086,"a photo of a strainer.",strainer,1,85
+87,n0087,"a photo of a stuffed animal.",stuffed_animal,1,86
+88,n0088,"a photo of a suit jacket.",suit_jacket,1,87
+89,n0089,"a photo of a sunglasses.",sunglasses,1,88
+90,n0090,"a photo of a sweater.",sweater,1,89
+91,n0091,"a photo of a swimming trunks.",swimming_trunks,1,90
+92,n0092,"a photo of a t-shirt.",t-shirt,1,91
+93,n0093,"a photo of a teapot.",teapot,1,92
+94,n0094,"a photo of a tennis racket.",tennis_racket,1,93
+95,n0095,"a photo of a tie.",tie,1,94
+96,n0096,"a photo of a toaster.",toaster,1,95
+97,n0097,"a photo of a toilet paper roll.",toilet_paper_roll,1,96
+98,n0098,"a photo of a trash bin.",trash_bin,1,97
+99,n0099,"a photo of a tray.",tray,1,98
+100,n0100,"a photo of a tv.",tv,1,99
+101,n0101,"a photo of a umbrella.",umbrella,1,100
+102,n0102,"a photo of a vacuum cleaner.",vacuum_cleaner,1,101
+103,n0103,"a photo of a vase.",vase,1,102
+104,n0104,"a photo of a wallet.",wallet,1,103
+105,n0105,"a photo of a watch.",watch,1,104
+106,n0106,"a photo of a water bottle.",water_bottle,1,105
+107,n0107,"a photo of a weight (exercise).",weight_exercise,1,106
+108,n0108,"a photo of a weight scale.",weight_scale,1,107
+109,n0109,"a photo of a wheel.",wheel,1,108
+110,n0110,"a photo of a whistle.",whistle,1,109
+111,n0111,"a photo of a wine bottle.",wine_bottle,1,110
+112,n0112,"a photo of a winter glove.",winter_glove,1,111
+113,n0113,"a photo of a wok.",wok,1,112
+114,n0114,"a photo of a food or fruit.",fruit,0,99999
+115,n0115,"a photo of a clothes.",clothes,0,99999
+116,n0116,"a photo of a electrical or electronic appliance.",electronic_appliance,0,99999
+117,n0117,"a photo of a object.",object,0,99999
+118,n0118,"a photo of a kitchen appliance.",kitchen_appliance,0,99999
+119,n0119,"a photo of a furniture.",furniture,0,99999

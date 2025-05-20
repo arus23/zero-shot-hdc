@@ -1,1 +1,9 @@
-data/
+# Ignore data directories
+/data/
+/logs/
+/diffusion_class_env.sqsh
+/shell_scripts/
+/hdc_*.sh
+/old_eval/
+/prompts/old_cifar_prompts/
+/prompts/cifar10_prompts/

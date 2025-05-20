@@ -566,7 +566,7 @@ Inference time: 40.89 seconds
 
 image_label: 90
 sorted: {117: tensor(-0.1447), 0: tensor(-0.1448), 14: tensor(-0.1448), 3: tensor(-0.1449), 7: tensor(-0.1449), 6: tensor(-0.1450), 5: tensor(-0.1450), 8: tensor(-0.1450), 4: tensor(-0.1451), 13: tensor(-0.1451), 16: tensor(-0.1451), 15: tensor(-0.1452), 1: tensor(-0.1452), 11: tensor(-0.1453), 12: tensor(-0.1453)}
-117: natural outdoor scnee
+117: natural outdoor scene
 0: animal
 14: vehicle
 3: insect
@@ -627,7 +627,7 @@ sorted: {0: tensor(-0.1340), 3: tensor(-0.1341), 13: tensor(-0.1341), 12: tensor
 5: plant life
 14: vehicle
 1: aquatic mammal
-117: natural outdoor scnee
+117: natural outdoor scene
 6: flower
 prediction: furniture
 
@@ -639,7 +639,7 @@ Inference time: 40.90 seconds
 image_label: 27
 sorted: {0: tensor(-0.1478), 117: tensor(-0.1479), 6: tensor(-0.1479), 3: tensor(-0.1479), 14: tensor(-0.1479), 7: tensor(-0.1479), 5: tensor(-0.1479), 4: tensor(-0.1479), 13: tensor(-0.1479), 12: tensor(-0.1480), 1: tensor(-0.1480), 16: tensor(-0.1480), 11: tensor(-0.1480), 8: tensor(-0.1481), 15: tensor(-0.1481)}
 0: animal
-117: natural outdoor scnee
+117: natural outdoor scene
 6: flower
 3: insect
 14: vehicle

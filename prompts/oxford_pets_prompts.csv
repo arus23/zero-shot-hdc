@@ -1,0 +1,41 @@
+index,node,prompt,class_name,is_leaf,classidx
+0,n0000,"a photo of a ancestor class.",ancestor_class,0,99999
+1,n0001,"a photo of a cat, a type of pet.",cat,0,99999
+2,n0002,"a photo of a abyssinian cat, a type of cat.",abyssinian,1,0
+3,n0003,"a photo of a bengal cat, a type of cat.",bengal,1,5
+4,n0004,"a photo of a birman cat, a type of cat.",birman,1,6
+5,n0005,"a photo of a bombay cat, a type of cat.",bombay,1,7
+6,n0006,"a photo of a british shorthair cat, a type of cat.",british_shorthair,1,9
+7,n0007,"a photo of a egyptian mau cat, a type of cat.",egyptian_mau,1,11
+8,n0008,"a photo of a maine coon cat, a type of cat.",maine_coon,1,20
+9,n0009,"a photo of a persian cat, a type of cat.",persian,1,23
+10,n0010,"a photo of a ragdoll cat, a type of cat.",ragdoll,1,26
+11,n0011,"a photo of a russian blue cat, a type of cat.",russian_blue,1,27
+12,n0012,"a photo of a siamese cat, a type of cat.",siamese,1,32
+13,n0013,"a photo of a sphynx cat, a type of cat.",sphynx,1,33
+14,n0014,"a photo of a dog, a type of pet.",dog,0,99999
+15,n0015,"a photo of a american bulldog, a type of dog.",american_bulldog,1,1
+16,n0016,"a photo of a american pit bull terrier dog, a type of dog.",american_pit_bull_terrier,1,2
+17,n0017,"a photo of a basset hound dog, a type of dog.",basset_hound,1,3
+18,n0018,"a photo of a beagle dog, a type of dog.",beagle,1,4
+19,n0019,"a photo of a boxer dog, a type of dog.",boxer,1,8
+20,n0020,"a photo of a chihuahua dog, a type of dog.",chihuahua,1,10
+21,n0021,"a photo of a english cocker spaniel dog, a type of dog.",english_cocker_spaniel,1,12
+22,n0022,"a photo of a english setter dog, a type of dog.",english_setter,1,13
+23,n0023,"a photo of a german shorthaired dog, a type of dog.",german_shorthaired,1,14
+24,n0024,"a photo of a great pyrenees dog, a type of dog.",great_pyrenees,1,15
+25,n0025,"a photo of a havanese dog, a type of dog.",havanese,1,16
+26,n0026,"a photo of a japanese chin dog, a type of dog.",japanese_chin,1,17
+27,n0027,"a photo of a keeshond dog, a type of dog.",keeshond,1,18
+28,n0028,"a photo of a leonberger dog, a type of dog.",leonberger,1,19
+29,n0029,"a photo of a miniature pinscher dog, a type of dog.",miniature_pinscher,1,21
+30,n0030,"a photo of a newfoundland dog, a type of dog.",newfoundland,1,22
+31,n0031,"a photo of a pomeranian dog, a type of dog.",pomeranian,1,24
+32,n0032,"a photo of a pug dog, a type of dog.",pug,1,25
+33,n0033,"a photo of a saint bernard dog, a type of dog.",saint_bernard,1,28
+34,n0034,"a photo of a samoyed dog, a type of dog.",samoyed,1,29
+35,n0035,"a photo of a scottish terrier dog, a type of dog.",scottish_terrier,1,30
+36,n0036,"a photo of a shiba inu dog, a type of dog.",shiba_inu,1,31
+37,n0037,"a photo of a staffordshire bull terrier dog, a type of dog.",staffordshire_bull_terrier,1,34
+38,n0038,"a photo of a wheaten terrier dog, a type of dog.",wheaten_terrier,1,35
+39,n0039,"a photo of a yorkshire terrier dog, a type of dog.",yorkshire_terrier,1,36
