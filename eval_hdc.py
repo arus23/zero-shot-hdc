@@ -150,7 +150,6 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
                                         text_embeds, text_embed_idxs, args.batch_size, args.dtype, args.loss)
 
                 sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
-                print(f"Stage_0 Best: {sorted_errors}")
                 
                 if args.strat == 1:
                     best_idxs = list(sorted_errors.keys())[:int(args.k * len(sorted_errors))]
@@ -168,7 +167,6 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
                         child_nodes += hier.traverse([idx_map[idx]['node']], depth=1)[1:]
                         remaining_prmpt_idxs = [node_map[node] for node in child_nodes]
             remaining_prmpt_idxs = selected_nodes
-            print("Selected nodes: ", selected_nodes)
             continue
 
         curr_t_to_eval = current_timesteps_eval(t_to_eval, n_samples, t_evaluated)
@@ -179,12 +177,11 @@ def eval_prob_adaptive(unet, latent, text_embeds, scheduler, args, idx_map, node
                                 text_embeds, text_embed_idxs, args.batch_size, args.dtype, args.loss)
 
         sorted_errors = get_errors(remaining_prmpt_idxs, pred_errors, text_embed_idxs, ts, data)
-        print(f"Stage n Best: {sorted_errors}")
 
         if n_to_keep == 1:
             topn = list(sorted_errors.keys())
-        if len(remaining_prmpt_idxs) < 1:
-            break
+        # if len(remaining_prmpt_idxs) < 1:
+        #     break
         remaining_prmpt_idxs = list(sorted_errors.keys())[:n_to_keep]
         
     assert len(remaining_prmpt_idxs) == 1
@@ -250,7 +247,7 @@ def main():
     parser = argparse.ArgumentParser()
 
     # dataset args
-    parser.add_argument('--dataset', type=str, default='pets',
+    parser.add_argument('--dataset', type=str, default='imagenet',
                         choices=['pets', 'flowers', 'stl10', 'mnist', 'cifar10', 'food', 'caltech101', 'imagenet',
                                  'objectnet', 'aircraft', 'cifar100'], help='Dataset to use')
     parser.add_argument('--split', type=str, default='test', choices=['train', 'test'], help='Name of split')
@@ -286,6 +283,7 @@ def main():
     name = f"v{args.version}_{args.n_trials}trials_"
     name += '_'.join(map(str, args.to_keep)) + 'keep_'
     name += '_'.join(map(str, args.n_samples)) + 'samples'
+    name += f'_s{args.strategy}'
     if args.interpolation != 'bicubic':
         name += f'_{args.interpolation}'
     if args.loss == 'l1':
@@ -295,7 +293,7 @@ def main():
     if args.img_size != 512:
         name += f'_{args.img_size}'
     if args.extra is not None:
-        run_folder = osp.join(LOG_DIR, args.extra + args.dataset +"_s_" +str(args.strat) , name)
+        run_folder = osp.join(LOG_DIR, args.dataset +"_" +args.extra, name)
     else:
         run_folder = osp.join(LOG_DIR, args.dataset , name)
     os.makedirs(run_folder, exist_ok=True)
@@ -310,22 +308,24 @@ def main():
     target_dataset = get_target_dataset(args.dataset, train=args.split == 'train', transform=transform)
     prompts_df = pd.read_csv(args.prompt_path)
     
+    print("Setting up the hierarchy")
     hier = ClassHierarchy(args.info_dir, args.root_wnid)
     idx_map, node_map, child_nodes = create_mapping(prompts_df)
     parent_nodes = hier.traverse([args.root_wnid], depth=1)[1:]
     remaining_prmpt_nodes = []
+    
+    # For imagenet, HDC begins at level 3
     if args.dataset == "imagenet":
         for node in parent_nodes:
             remaining_prmpt_nodes += hier.traverse([node], depth=1)[1:] 
     else:
         remaining_prmpt_nodes = parent_nodes
-        print("Remaining nodes: ", remaining_prmpt_nodes)
 
     if args.strat == 1  and args.k > 1:
-        print("Pruning Ratio for Strategy 1: {0.4, 0.5}")
+        print("Pruning Ratio for Strategy 1: [0.25, 1.0]")
         exit()
     elif args.strat ==2  and args.k < 1:
-        print("Pruning Ratio for Strategy 2: {2}")
+        print("Pruning Ratio for Strategy 2: [1.0, 2.0]")
         exit()
 
     # load pretrained models, get the components from models.py
@@ -396,7 +396,7 @@ def main():
                 total += 1
             continue
         image, label = target_dataset[i]
-        print(f"Evaluating {i} with label {label}")
+        # print(f"Evaluating {i} with label {label}")
 
         # disable gradient computation for eval
         with torch.no_grad():
@@ -415,10 +415,10 @@ def main():
         pred_idx, pred_errors, topn = eval_prob_adaptive(unet, x0, text_embeddings, scheduler, args, idx_map, node_map, child_nodes, hier, remaining_prmpt_idxs, latent_size, all_noise)
         pred = prompts_df.classidx[pred_idx]
         topn_preds = [prompts_df.classidx[idx] for idx in topn]
-        print(f"prediction: {prompts_df.class_name[pred_idx]}")
+        # print(f"prediction: {prompts_df.class_name[pred_idx]}")
         end_time = time.time()
         inf_time = end_time - start_time
-        print(f"\nInference time: {inf_time:.2f} seconds \n\n\n")
+        # print(f"\nInference time: {inf_time:.2f} seconds \n\n\n")
 
         torch.save(dict(errors=pred_errors, pred=pred, label=label, inf_time=inf_time, topn=topn_preds), fname)
         if pred == label:
